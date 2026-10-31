@@ -1,0 +1,874 @@
+PhD A: OK, we're going.
+PhD D: Damn.
+Professor C: And uh Hans - uh, Hans - Guenter will be here, um, I think by next next Tuesday or so.
+PhD B: Oh, OK.
+PhD D: Mm - hmm.
+Professor C: So he's he's going to be here for about three weeks,
+PhD B: Oh! That's nice.
+PhD A: Just for a visit?
+Professor C: and, uh Uh, we'll see.
+PhD A: Huh.
+Professor C: We might might end up with some longer collaboration or something.
+PhD A: Cool.
+Professor C: So he's gonna look in on everything we're doing
+PhD D: Mm - hmm.
+Professor C: and give us his his thoughts. And so it'll be another another good person looking at things.
+PhD B: Oh. Hmm.
+Grad E: Th - that's his spectral subtraction group?
+Professor C: Yeah,
+Grad E: Is that right?
+Professor C: yeah.
+Grad E: Oh, OK. So I guess I should probably talk to him a bit too?
+Professor C: Oh, yeah. Yeah. Yeah. No, he'll be around for three weeks. He's, uh, um, very, very, easygoing, easy to talk to, and, uh, very interested in everything.
+PhD A: Really nice guy.
+Professor C: Yeah, yeah.
+PhD B: Yeah, we met him in Amsterdam.
+Professor C: Yeah, yeah, he's been here before.
+PhD B: Oh, OK.
+Professor C: I mean, he's he's he's he's
+PhD A: Wh - Back when I was a grad student he was here for a, uh, uh a year or n six months.
+PhD B: I haven't noticed him.
+Professor C: N nine months.
+PhD A: Something like that.
+Professor C: Something like that.
+PhD A: Yeah.
+Professor C: Yeah. Yeah. He's he's done a couple stays here.
+PhD B: Hmm.
+Professor C: Yeah.
+PhD A: So, um, I guess we got lots to catch up on. And we haven't met for a couple of weeks. We didn't meet last week, Morgan. Um, I went around and talked to everybody, and it seemed like they they had some new results but rather than them coming up and telling me I figured we should just wait a week and they can tell both you know, all of us. So, um, why don't we why don't we start with you, Dave, and then, um, we can go on.
+Grad E: Oh, OK.
+PhD A: So.
+Grad E: So, um, since we're looking at putting this, um mean log m magnitude spectral subtraction, um, into the SmartKom system, I I did a test seeing if, um, it would work using past only and plus the present to calculate the mean. So, I did a test, um, where I used twelve seconds from the past and the present frame to, um, calculate the mean. And
+PhD A: Twelve seconds Twelve twelve seconds back from the current frame, is that what you mean?
+Grad E: Uh Twelve seconds, um, counting back from the end of the current frame,
+PhD A: OK, OK.
+Grad E: yeah. So it was, um, twen I think it was twenty - one frames and that worked out to about twelve seconds.
+PhD A: Mm - hmm.
+Grad E: And compared to, um, do using a twelve second centered window, I think there was a drop in performance but it was just a slight drop.
+PhD A: Hmm!
+Professor C: Mm - hmm.
+Grad E: Is is that right?
+Professor C: Um, yeah, I mean, it was pretty it was pretty tiny. Yeah.
+Grad E: Uh - huh. So that was encouraging. And, um, that that um, that's encouraging for for the idea of using it in an interactive system like And, um, another issue I'm I'm thinking about is in the SmartKom system. So say twe twelve seconds in the earlier test seemed like a good length of time, but what happens if you have less than twelve seconds? And, um So I w bef before, um Back in May, I did some experiments using, say, two seconds, or four seconds, or six seconds. In those I trained the models using mean subtraction with the means calculated over two seconds, or four seconds, or six seconds. And, um, here, I was curious, what if I trained the models using twelve seconds but I f I gave it a situation where the test set I was subtracted using two seconds, or four seconds, or six seconds. And, um So I did that for about three different conditions. And, um I mean, I th I think it was, um, four se I think I think it was, um, something like four seconds and, um, six seconds, and eight seconds. Something like that. And it seems like it it it hurts compared to if you actually train the models using th that same length of time but it it doesn't hurt that much. Um, u usually less than point five percent, although I think I did see one where it was a point eight percent or so rise in word error rate. But this is, um, w where, um, even if I train on the, uh, model, and mean subtracted it with the same length of time as in the test, it the word error rate is around, um, ten percent or nine percent. So it doesn't seem like that big a d a difference.
+Professor C: But it but looking at it the other way, isn't it what you're saying that it didn't help you to have the longer time for training, if you were going to have a short time for
+Grad E: That that's true. Um,
+Professor C: I mean, why would you do it, if you knew that you were going to have short windows in testing.
+Grad E: Wa
+PhD A: Yeah, it seems like for your I mean, in normal situations you would never get twelve seconds of speech, right? I'm not e u
+PhD B: You need twelve seconds in the past to estimate, right? Or l or you're looking at six sec seconds in future and six in
+Professor C: Yeah.
+Grad E: Um, t twelve s
+Professor C: No, total.
+Grad E: N n uh For the test it's just twelve seconds in the past.
+PhD B: No, it's all Oh, OK.
+PhD A: Is this twelve seconds of uh, regardless of speech or silence? Or twelve seconds of speech?
+Grad E: Of of speech.
+PhD A: OK.
+PhD B: Mm - hmm.
+Professor C: The other thing, um, which maybe relates a little bit to something else we've talked about in terms of windowing and so on is, that, um, I wonder if you trained with twelve seconds, and then when you were two seconds in you used two seconds, and when you were four seconds in, you used four seconds, and when you were six and you basically build up to the twelve seconds. So that if you have very long utterances you have the best,
+Grad E: Yeah.
+Professor C: but if you have shorter utterances you use what you can.
+Grad E: Right. And that's actually what we're planning to do in
+Professor C: OK. Yeah.
+Grad E: But s so I g So I guess the que the question I was trying to get at with those experiments is, " does it matter what models you use? Does it matter how much time y you use to calculate the mean when you were, um, tra doing the training data? "
+Professor C: Right. But I mean the other thing is that that's I mean, the other way of looking at this, going back to, uh, mean cepstral subtraction versus RASTA kind of things, is that you could look at mean cepstral subtraction, especially the way you're doing it, uh, as being a kind of filter. And so, the other thing is just to design a filter. You know, basically you're you're you're doing a high - pass filter or a band - pass filter of some sort and and just design a filter. And then, you know, a filter will have a certain behavior and you loo can look at the start up behavior when you start up with nothing.
+Grad E: Mm - hmm.
+Professor C: And and, you know, it will, uh, if you have an IIR filter for instance, it will, um, uh, not behave in the steady - state way that you would like it to behave until you get a long enough period, but, um, uh, by just constraining yourself to have your filter be only a subtraction of the mean, you're kind of, you know, tying your hands behind your back because there's filters have all sorts of be temporal and spectral behaviors.
+Grad E: Mm - hmm.
+Professor C: And the only thing, you know, consistent that we know about is that you want to get rid of the very low frequency component.
+Grad E: Hmm.
+PhD B: But do you really want to calculate the mean? And you neglect all the silence regions or you just use everything that's twelve seconds, and
+Grad E: Um, you do you mean in my tests so far?
+PhD B: Ye - yeah.
+Grad E: Most of the silence has been cut out.
+PhD B: OK.
+Grad E: Just There's just inter - word silences.
+PhD B: Mm - hmm. And they are, like, pretty short. Shor
+Grad E: Pretty short.
+PhD B: Yeah, OK.
+Grad E: Yeah.
+PhD B: Yeah. Mm - hmm. So you really need a lot of speech to estimate the mean of it.
+Grad E: Well, if I only use six seconds, it still works pretty well.
+PhD B: Yeah. Yeah. Uh - huh.
+Grad E: I saw in my test before. I was trying twelve seconds cuz that was the best in my test before
+PhD B: OK.
+Grad E: and that increasing past twelve seconds didn't seem to help.
+PhD B: Hmm. Huh.
+Grad E: th um, yeah, I guess it's something I need to play with more to decide how to set that up for the SmartKom system. Like, may maybe if I trained on six seconds it would work better when I only had two seconds or four seconds, and
+Professor C: Yeah. Yeah. And, um
+Grad E: OK.
+Professor C: Yeah, and again, if you take this filtering perspective and if you essentially have it build up over time. I mean, if you computed means over two and then over four, and over six, essentially what you're getting at is a kind of, uh, ramp up of a filter anyway. And so you may may just want to think of it as a filter. But, uh, if you do that, then, um, in practice somebody using the SmartKom system, one would think if they're using it for a while, it means that their first utterance, instead of, you know, getting, uh, a forty percent error rate reduction, they'll get a uh, over what, uh, you'd get without this, uh, um, policy, uh, you get thirty percent. And then the second utterance that you give, they get the full you know, uh, full benefit of it if it's this ongoing thing.
+PhD A: Oh, so you you cache the utterances? That's how you get your, uh
+Professor C: Well, I'm saying in practice, yeah,
+Grad E: M
+PhD A: Ah. OK.
+Professor C: that's If somebody's using a system to ask for directions or something,
+PhD A: OK.
+Professor C: you know, they'll say something first. And and to begin with if it doesn't get them quite right, ma m maybe they'll come back and say, " excuse me? "
+PhD A: Mm - hmm.
+Professor C: uh, or some I mean it should have some policy like that anyway.
+PhD A: Mm - hmm.
+Professor C: And and, uh, uh, in any event they might ask a second question. And it's not like what he's doing doesn't, uh, improve things. It does improve things, just not as much as he would like. And so, uh, there's a higher probability of it making an error, uh, in the first utterance.
+PhD A: What would be really cool is if you could have uh, this probably users would never like this but if you had could have a system where, before they began to use it they had to introduce themselves, verbally.
+Professor C: Mm - hmm.
+PhD A: You know. " Hi, my name is so - and - so,
+Professor C: Yeah.
+PhD A: I'm from blah - blah - blah. " And you could use that initial speech to do all these adaptations and
+Professor C: Right.
+Grad E: Mm - hmm.
+Professor C: Oh, the other thing I guess which which, uh, I don't know much about as much as I should about the rest of the system but but, um, couldn't you, uh, if you if you sort of did a first pass I don't know what kind of, uh, uh, capability we have at the moment for for doing second passes on on, uh, uh, some kind of little small lattice, or a graph, or confusion network, or something. But if you did first pass with, um, the with either without the mean sub subtraction or with a a very short time one, and then, um, once you, uh, actually had the whole utterance in, if you did, um, the, uh, uh, longer time version then, based on everything that you had, um, and then at that point only used it to distinguish between, you know, top N, um, possible utterances or something, you you might it might not take very much time. I mean, I know in the large vocabulary stu uh, uh, systems, people were evaluating on in the past, some people really pushed everything in to make it in one pass but other people didn't and had multiple passes. And, um, the argument, um, against multiple passes was u u has often been " but we want to this to be r you know have a nice interactive response ". And the counterargument to that which, say, uh, BBN I think had, was " yeah, but our second responses are second, uh, passes and third passes are really, really fast ".
+PhD A: Mm - hmm.
+Professor C: So, um, if if your second pass takes a millisecond who cares? Um.
+Grad E: S so, um, the the idea of the second pass would be waiting till you have more recorded speech? Or?
+Professor C: Yeah, so if it turned out to be a problem, that you didn't have enough speech because you need a longer longer window to do this processing, then, uh, one tactic is you know, looking at the larger system and not just at the front - end stuff is to take in, um, the speech with some simpler mechanism or shorter time mechanism,
+Grad E: Mm - hmm.
+Professor C: um, do the best you can, and come up with some al possible alternates of what might have been said. And, uh, either in the form of an N - best list or in the form of a lattice, or or confusion network, or whatever.
+Grad E: Mm - hmm.
+Professor C: And then the decoding of that is much, much faster or can be much, much faster if it isn't a big bushy network. And you can decode that now with speech that you've actually processed using this longer time, uh, subtraction.
+Grad E: Mmm.
+Professor C: So I mean, it's it's common that people do this sort of thing where they do more things that are more complex or require looking over more time, whatever, in some kind of second pass.
+Grad E: Mm - hmm. OK.
+Professor C: um, and again, if the second pass is really, really fast Uh, another one I've heard of is is in in connected digit stuff, um, going back and l and through backtrace and finding regions that are considered to be a d a digit, but, uh, which have very low energy.
+Grad E: Mm - hmm. OK.
+Professor C: So, uh I mean, there's lots of things you can do in second passes, at all sorts of levels. Anyway, I'm throwing too many things out. But.
+PhD A: So is that, uh that it?
+Grad E: I guess that's it.
+PhD A: OK, uh, do you wanna go, Sunil?
+PhD B: Yep. Um, so, the last two weeks was, like So I've been working on that Wiener filtering. And, uh, found that, uh, s single like, I just do a s normal Wiener filtering, like the standard method of Wiener filtering. And that doesn't actually give me any improvement over like I mean, uh, b it actually improves over the baseline but it's not like it doesn't meet something like fifty percent or something. So, I've been playing with the v
+PhD A: Improves over the base line MFCC system? Yeah.
+PhD B: Yeah. Yeah. Yeah. So, um So that's The improvement is somewhere around, like, thirty percent over the baseline.
+Professor C: Is that using in combination with something else?
+PhD B: No, just just one stage Wiener filter
+Professor C: With with a
+PhD B: which is a standard Wiener filter.
+Professor C: No, no, but I mean in combination with our on - line normalization or with the LDA?
+PhD B: Yeah, yeah, yeah, yeah. So I just plug in the Wiener filtering.
+Professor C: Oh, OK.
+PhD B: I mean, in the s in our system, where
+PhD A: Oh, OK.
+PhD B: So, I di i di
+Professor C: So, does it g does that mean it gets worse? Or?
+PhD B: No. It actually improves over the baseline of not having a Wiener filter in the whole system. Like I have an LDA f LDA plus on - line normalization, and then I plug in the Wiener filter in that,
+Professor C: Yeah?
+PhD B: so it improves over not having the Wiener filter. So it improves but it it doesn't take it like be beyond like thirty percent over the baseline. So
+Professor C: But that's what I'm confused about, cuz I think I thought that our system was more like forty percent without the Wiener filtering.
+PhD B: No, it's like, uh,
+PhD D: Mmm.
+PhD A: Is this with the v new VAD?
+PhD B: well, these are not No, it's the old VAD. So my baseline was, uh, nine This is like w the baseline is ninety - five point six eight, and eighty - nine, and
+Professor C: So I mean, if you can do all these in word errors it's a lot a lot easier actually.
+PhD B: What was that? Sorry?
+Professor C: If you do all these in word error rates it's a lot easier, right?
+PhD B: Oh, OK, OK, OK. Errors, right, I don't have.
+Professor C: OK, cuz then you can figure out the percentages.
+PhD B: It's all accuracies.
+Professor C: Yeah.
+PhD D: The baseline is something similar to a w I mean, the t the the baseline that you are talking about is the MFCC baseline, right?
+PhD B: The t yeah, there are two baselines.
+PhD D: Or?
+PhD B: OK. So the baseline One baseline is MFCC baseline that When I said thirty percent improvement it's like MFCC baseline.
+PhD D: Mm - hmm.
+Professor C: So so so what's it start on? The MFCC baseline is is what? Is at what level?
+PhD B: It's the it's just the mel frequency and that's it.
+Professor C: No, what's what's the number?
+PhD B: Uh, so I I don't have that number here. OK, OK, OK, I have it here. Uh, it's the VAD plus the baseline actually. I'm talking about the the MFCC plus I do a frame dropping on it. So that's like the word error rate is like four point three. Like Ten point seven.
+Professor C: Four point three. What's ten point seven?
+PhD B: It's a medium misma OK, sorry. There's a well ma well matched, medium mismatched, and a high matched.
+Professor C: Ah.
+PhD B: So I don't have the like the
+Professor C: Yeah.
+PhD B: So
+Professor C: OK, four point three, ten point seven,
+PhD B: And forty forty.
+Professor C: and
+PhD B: Forty percent is the high mismatch.
+Professor C: OK.
+PhD B: And that becomes like four point three
+Professor C: Not changed.
+PhD B: Yeah, it's like ten point one. Still the same. And the high mismatch is like eighteen point five.
+Professor C: Eighteen point five.
+PhD B: Five.
+Professor C: And what were you just describing?
+PhD B: Oh, the one is this one is just the baseline plus the, uh, Wiener filter plugged into it.
+Professor C: But where's the, uh, on - line normalization and so on?
+PhD B: Oh, OK. So Sorry. So, with the with the on - line normalization, the performance was, um, ten OK, so it's like four point three. Uh, and again, that's the ba the ten point, uh, four and twenty point one. That was with on - line normalization and LDA. So the h well matched has like literally not changed by adding on - line or LDA on it. But the I mean, even the medium mismatch is pretty much the same. And the high mismatch was improved by twenty percent absolute.
+Professor C: OK, and what kind of number an and what are we talking about here?
+PhD B: It's the It - it's Italian.
+Professor C: Is this TI - digits
+PhD B: I'm talking about Italian,
+Professor C: or Italian?
+PhD B: yeah.
+Professor C: And what did So, what was the, um, uh, corresponding number, say, for, um, uh, the Alcatel system for instance?
+PhD B: Mmm.
+Professor C: Do you know?
+PhD D: Yeah, so it looks to be, um
+PhD B: You have it?
+PhD D: Yep, it's three point four, uh, eight point, uh, seven, and, uh, thirteen point seven.
+PhD B: Yep.
+Professor C: OK.
+PhD B: So Thanks.
+Professor C: OK.
+PhD D: Mm - hmm.
+Professor C: OK.
+PhD B: So, uh, this is the single stage Wiener filter, with The noise estimation was based on first ten frames.
+Professor C: Mm - hmm.
+PhD B: Actually I started with using the VAD to estimate the noise and then I found that it works it doesn't work for Finnish and Spanish because the VAD endpoints are not good to estimate the noise because it cuts into the speech sometimes, so I end up overestimating the noise and getting a worse result. So it works only for Italian by u for using a VAD to estimate noise.
+Professor C: Mm - hmm.
+PhD B: It works for Italian because the VAD was trained on Italian.
+Professor C: Mm - hmm.
+PhD B: So, uh so this was, uh And so this was giving um, this this was like not improving a lot on this baseline of not having the Wiener filter on it. And, so, uh, I ran this stuff with one more stage of Wiener filtering on it but the second time, what I did was I estimated the new Wiener filter based on the cleaned up speech, and did, uh, smoothing in the frequency to to reduce the variance
+Professor C: Mm - hmm.
+PhD B: I mean, I have I've I've observed there are, like, a lot of bumps in the frequency when I do this Wiener filtering which is more like a musical noise or something. And so by adding another stage of Wiener filtering, the results on the SpeechDat - Car was like, um So, I still don't have the word error rate. I'm sorry about it. But the overall improvement was like fifty - six point four six. This was again using ten frames of noise estimate and two stage of Wiener filtering. And the rest is like the LDA plu and the on - line normalization all remaining the same. Uh, so this was, like, compared to, uh, uh Fifty - seven is what you got by using the French Telecom system, right?
+PhD D: No, I don't think so.
+PhD B: Y i
+PhD D: Is it on Italian?
+PhD B: No, this is over the whole SpeechDat - Car. So
+PhD D: Oh, yeah, fifty - seven
+PhD B: point
+PhD D: Right.
+PhD B: Yeah, so the new the new Wiener filtering schema is like some fifty - six point four six which is like one percent still less than what you got using the French Telecom system.
+PhD D: Uh - huh. Mm - hmm.
+Professor C: But it's a pretty similar number in any event.
+PhD B: It's very similar.
+Professor C: Yeah. But again, you're you're more or less doing what they were doing, right?
+PhD B: It's it's different in a sense like I'm actually cleaning up the cleaned up spectrum which they're not doing. They're d what they're doing is, they have two stage stages of estimating the Wiener filter, but the final filter, what they do is they they take it to their time domain by doing an inverse Fourier transform.
+Professor C: Yeah.
+PhD B: And they filter the original signal using that fil filter,
+Professor C: Uh - huh.
+PhD B: which is like final filter is acting on the input noisy speech rather than on the cleaned up. So this is more like I'm doing Wiener filter twice, but the only thing is that the second time I'm actually smoothing the filter and then cleaning up the cleaned up spectrum first level. And so that that's that's what the difference is.
+Professor C: OK.
+PhD B: And actually I tried it on s the original clean I mean, the original spectrum where, like, I the second time I estimate the filter but actually clean up the noisy speech rather the c s first output of the first stage and that doesn't seems to be a giving, I mean, that much improvement. I I didn didn't run it for the whole case. And and what I t what I tried was, by using the same thing but Uh, so we actually found that the VAD is very, like, crucial. I mean, just by changing the VAD itself gives you the a lot of improvement
+Professor C: Mm - hmm.
+PhD B: by instead of using the current VAD, if you just take up the VAD output from the channel zero, when instead of using channel zero and channel one, because that was the p that was the reason why I was not getting a lot of improvement for estimating the noise. So I just used the channel zero VAD to estimate the noise so that it gives me some reliable mar markers for this noise estimation.
+Professor C: What's a channel zero VAD?
+PhD B: Um,
+Professor C: I'm I'm confused about that.
+PhD B: so, it's like
+PhD D: So it's the close - talking microphone.
+PhD B: Yeah, the close - talking without
+Professor C: Oh, oh, oh, oh.
+PhD B: So because the channel zero and channel one are like the same speech, but only w I mean, the same endpoints.
+PhD B: But the only thing is that the speech is very noisy for channel one, so you can actually use the output of the channel zero for channel one for the VAD. I mean, that's like a cheating method.
+Professor C: Right. I mean, so a are they going to pro What are they doing to do, do we know yet? about as far as what they're what the rules are going to be and what we can use?
+PhD D: Yeah, so actually I received a a new document, describing this.
+PhD B: Yeah, that's
+PhD D: And what they did finally is to, mmm, uh, not to align the utterances but to perform recognition, um, only on the close - talking microphone,
+PhD B: Which is the channel zero.
+PhD D: and to take the result of the recognition to get the boundaries uh, of speech.
+Professor C: So it's not like that's being done in one place or one time.
+PhD D: And
+Professor C: That's that's just a rule and we'd you you were permitted to do that. Is is that it?
+PhD D: Uh, I think they will send, um, files but we we don't Well, apparently
+Professor C: Oh, so they will send files so everybody will have the same boundaries to work with?
+PhD D: Yeah. Yeah.
+PhD B: But actually their alignment actually is not seems to be improving in like on all cases.
+Professor C: OK.
+PhD D: Oh, i Yeah, so what happened here is that, um, the overall improvement that they have with this method So Well, to be more precise, what they have is, they have these alignments and then they drop the beginning silence and and the end silence but they keep, uh, two hundred milliseconds before speech and two hundred after speech. And they keep the speech pauses also. Um, and the overall improvement over the MFCC baseline So, when they just, uh, add this frame dropping in addition it's r uh, forty percent, right?
+Professor C: Mm - hmm.
+PhD D: Fourteen percent, I mean.
+Professor C: Mm - hmm.
+PhD B: Yeah, which is
+PhD D: Um, which is, um, t which is the overall improvement. But in some cases it doesn't improve at all. Like, uh, y do you remember which case?
+Professor C: Mm - hmm.
+PhD B: It gives like negative Well, in in like some Italian and TI - digits,
+PhD D: Yeah, some @ @.
+PhD B: right?
+PhD D: Right.
+PhD B: Yeah. So by using the endpointed speech, actually it's worse than the baseline in some instances, which could be due to the word pattern.
+PhD D: Mmm. Yeah.
+Professor C: Yeah,
+PhD D: And Yeah, the other thing also is that fourteen percent is less than what you obtain using a real VAD.
+PhD B: Yeah, our neural net
+PhD D: So with without cheating like this.
+PhD B: Yeah, yeah.
+PhD D: So Uh So I think this shows that there is still work Uh, well, working on the VAD is still still important I think.
+Professor C: Yeah, c
+PhD D: Uh
+PhD A: Can I ask just a a high level question? Can you just say like one or two sentences about Wiener filtering and why why are people doing that?
+PhD B: Hmm.
+PhD A: What's what's the deal with that?
+PhD B: OK, so the Wiener filter, it's it's like it's like you try to minimize I mean, so the basic principle of Wiener filter is like you try to minimize the, uh, d uh, difference between the noisy signal and the clean signal if you have two channels. Like let's say you have a clean t signal and you have an additional channel where you know what is the noisy signal.
+PhD A: Mm - hmm.
+PhD B: And then you try to minimize the error between these two.
+PhD A: Mm - hmm.
+PhD B: So that's the basic principle. And you get you can do that I mean, if if you have only a c noisy signal, at a level which you, you w try to estimate the noise from the w assuming that the first few frames are noise or if you have a w voice activity detector, uh, you estimate the noise spectrum.
+PhD A: Mm - hmm.
+PhD B: And then you
+PhD A: Do you assume the noise is the same?
+PhD B: Yeah. in yeah, after the speech starts.
+PhD A: Uh - huh.
+PhD B: So but that's not the case in, uh, many many of our cases but it works reasonably well.
+PhD A: I see.
+PhD B: And and then you What you do is you, uh b fff. So again, I can write down some of these eq Oh, OK. Yeah. And then you do this uh, this is the transfer function of the Wiener filter, so " SF " is a clean speech spectrum, power spectrum
+PhD A: Mm - hmm.
+PhD B: And " N " is the noisy power spectrum. And so this is the transfer function.
+Professor C: Right
+PhD B: And,
+Professor C: actually, I guess
+PhD B: Yeah.
+Professor C: Yeah.
+PhD B: And then you multiply your noisy power spectrum with this. You get an estimate of the clean power spectrum.
+PhD A: I see. OK.
+PhD B: So but the thing is that you have to estimate the SF from the noisy spectrum, what you have. So you estimate the NF from the initial noise portions and then you subtract that from the current noisy spectrum to get an estimate of the SF. So sometimes that becomes zero because you do you don't have a true estimate of the noise. So the f filter will have like sometimes zeros in it
+PhD A: Mm - hmm.
+PhD B: because some frequency values will be zeroed out because of that. And that creates a lot of discontinuities across the spectrum because @ @ the filter. So, uh, so that's what that was just the first stage of Wiener filtering that I tried.
+PhD A: So is this, um, basically s uh, similar to just regular spectral subtraction?
+PhD B: It
+Professor C: It's all pretty related,
+PhD B: Yeah.
+Professor C: yeah. It's it's there's a di there's a whole class of techniques where you try in some sense to minimize the noise.
+PhD A: Uh - huh.
+Professor C: And it's typically a mean square sense, uh uh uh, i in in in some way. And, uh uh, spectral subtraction is is, uh uh, one approach to it.
+PhD A: Do people use the Wiener filtering in combination with the spectral subtraction typically, or is i are they sort of competing techniques?
+PhD B: Not seen. They are very s similar techniques.
+PhD A: Yeah. O oh, OK.
+PhD B: So it's like I haven't seen anybody using s Wiener filter with spectral subtraction.
+PhD D: Mm - hmm.
+PhD A: I see, I see.
+Professor C: I mean, in the long run you're doing the same thing
+PhD A: Mm - hmm.
+PhD B: Yeah.
+Professor C: but y but there you make different approximations, and in spectral subtraction, for instance, there's a a an estimation factor.
+PhD A: Mmm.
+Professor C: You sometimes will figure out what the noise is and you'll multiply that noise spectrum times some constant and subtract that rather than and sometimes people even though this really should be in the power domain, sometimes people s work in the magnitude domain because it it it works better.
+PhD A: Mm - hmm.
+Professor C: And, uh, uh, you know.
+PhD A: So why did you choose, uh, Wiener filtering over some other one of these other techniques?
+PhD B: Uh, the reason was, like, we had this choice of using spectral subtraction, Wiener filtering, and there was one more thing which I which I'm trying, is this sub space approach. So, Stephane is working on spectral subtraction.
+PhD A: Oh, OK.
+PhD B: So I picked up
+PhD A: So you're sort of trying @ @ them all.
+PhD B: Y Yeah,
+PhD A: Ah,
+PhD B: we just wanted to have a few noise production compensation techniques
+PhD A: I see. Oh, OK.
+PhD B: and then pick some from that
+PhD A: Mm - hmm.
+PhD B: pick one.
+Professor C: I m I mean yeah, I mean, there's Car - Carmen's working on another, on the vector Taylor series.
+PhD B: VA Yeah, VAD. w Yeah.
+Professor C: So they were just kind of trying to cover a bunch of different things with this task and see, you know, what are what are the issues for each of them.
+PhD A: Ah, OK. That makes sense.
+PhD B: Yeah.
+PhD A: Yeah. Mm - hmm. Mm - hmm.
+Professor C: Um.
+PhD A: Cool, thanks.
+PhD B: So so one of one of the things that I tried, like I said, was to remove those zeros in the fri filter by doing some smoothing of the filter.
+Professor C: Yeah.
+PhD A: Mm - hmm.
+PhD B: Like, you estimate the edge of square and then you do a f smoothing across the frequency so that those zeros get, like, flattened out.
+PhD A: Mm - hmm.
+PhD B: And that doesn't seems to be improving by trying it on the first time. So what I did was like I p did this and then you I plugged in the one more the same thing but with the smoothed filter the second time.
+PhD A: Mm - hmm.
+PhD B: And that seems to be working.
+PhD A: Mm - hmm.
+PhD B: So that's where I got like fifty - six point five percent improvement on SpeechDat - Car with that. And So the other thing what I tried was I used still the ten frames of noise estimate but I used this channel zero VAD to drop the frames. So I'm not still not estimating. And that has taken the performance to like sixty - seven percent in SpeechDat - Car, which is which which like sort of shows that by using a proper VAD you can just take it to further, better levels. And So.
+PhD A: So that's sort of like, you know, best - case performance?
+PhD B: Yeah, so far I've seen sixty - seven I mean, no, I haven't seen s like sixty - seven percent. And, uh, using the channel zero VAD to estimate the noise also seems to be improving but I don't have the results for all the cases with that. So I used channel zero VAD to estimate noise as a lesser 2 x frame, which is like, everywhere I use the channel zero VAD. And that seems to be the best combination, uh, rather than using a few frames to estimate and then drop a channel.
+Professor C: So I'm I'm still a little confused. Is that channel zero information going to be accessible during this test.
+PhD B: Nnn, no. This is just to test whether we can really improve by using a better VAD.
+Professor C: Mm - hmm.
+PhD B: So,
+Professor C: Mm - hmm.
+PhD B: I mean So this is like the noise compensation f is fixed
+PhD D: Mm - hmm.
+PhD B: but you make a better decision on the endpoints. That's, like seems to be
+Professor C: Mm - hmm.
+PhD B: so we c so I mean, which which means, like, by using this technique what we improve just the VAD
+Professor C: Yes.
+PhD B: we can just take the performance by another ten percent or better.
+Professor C: OK.
+PhD B: So, that that was just the, uh, reason for doing that experiment. And, w um Yeah, but this all these things, I have to still try it on the TI - digits, which is like I'm just running. And there seems to be not improving a a lot on the TI - digits, so I'm like investigating that, why it's not. And, um, um Well after that. So, uh so the other the other thing is like I've been I'm doing all this stuff on the power spectrum. So Tried this stuff on the mel as well mel and the magnitude, and mel magnitude, and all those things. But it seems to be the power spectrum seems to be getting the best result. So, one of one of reasons I thought like doing the averaging, after the filtering using the mel filter bank, that seems to be maybe helping rather than trying it on the mel filter ba filtered outputs.
+Professor C: Mm - hmm. Mm - hmm.
+PhD B: So just th
+Professor C: Ma Makes sense.
+PhD B: Yeah, th that's that's the only thing that I could think of why why it's giving improvement on the mel. And, yep. So that's it.
+Professor C: Uh, how about the subspace stuff?
+PhD B: Subspace, I'm I'm like that's still in a little bit in the back burner because I've been p putting a lot effort on this to make it work, on tuning things and other stuff.
+Professor C: OK.
+PhD B: So I was like going parallely but not much of improvement. I'm just have some skeletons ready, need some more time for it.
+Professor C: OK.
+PhD B: Mmm.
+PhD A: Tha - that it?
+PhD B: Yep. Yep.
+PhD A: Cool. Do you wanna go, Stephane?
+PhD D: Uh, yeah. So, I've been, uh, working still on the spectral subtraction. Um, So to r to remind you a little bit of of what I did before, is just to apply some spectral subtraction with an overestimation factor also to get, um, an estimate of the noise, uh, spectrum, and subtract this estimation of the noise spectrum from the, uh, signal spectrum, but subtracting more when the SNR is is, uh, low, which is a technique that it's often used.
+PhD A: " Subtracting more ", meaning?
+PhD D: So you overestimate the noise spectrum. You multiply the noise spectrum by a factor, uh, which depends on the SNR.
+PhD A: Oh, OK. I see.
+PhD D: So, above twenty DB, it's one, so you just subtract the noise.
+PhD A: Mm - hmm.
+PhD D: And then it's b Generally Well, I use, actually, a linear, uh, function of the SNR,
+PhD A: Mm - hmm.
+PhD D: which is bounded to, like, two or three, when the SNR is below zero DB.
+PhD A: Mm - hmm. Mm - hmm.
+PhD D: Um, doing just this, uh, either on the FFT bins or on the mel bands, um, t doesn't yield any improvement
+Professor C: Oh! Um, uh, what are you doing with negative, uh, powers?
+PhD D: o Yeah. So there is also a threshold, of course, because after subtraction you can have negative energies,
+PhD A: Mm - hmm.
+PhD D: and So what I I just do is to put, uh to to add to put the threshold first and then to add a small amount of noise, which right now is speech - shaped. Um
+PhD A: Speech - shaped?
+PhD D: Yeah, so it's a it has the overall overall energy, uh pow it has the overall power spectrum of speech. So with a bump around one kilohertz.
+PhD A: So when y when you talk about there being something less than zero after subtracting the noise, is that at a particular frequency bin?
+PhD D: i Uh - huh. Yeah.
+PhD A: OK.
+PhD D: There can be frequency bins with negative values.
+PhD A: And so when you say you're adding something that has the overall shape of speech, is that in a in a particular frequency bin? Or you're adding something across all the frequencies when you get these negatives?
+PhD D: For each frequencies I a I'm adding some, uh, noise, but the a the amount of the amount of noise I add is not the same for all the frequency bins.
+PhD A: Ah! OK. I gotcha. Right.
+PhD D: Uh. Right now I don't think if it makes sense to add something that's speech - shaped, because then you have silence portion that have some spectra similar to the sp the overall speech spectra.
+PhD A: Mm - hmm.
+PhD D: But Yeah. So this is something I can still work on,
+PhD A: So what does that mean?
+PhD D: but Hmm.
+PhD A: I'm trying to understand what it means when you do the spectral subtraction and you get a negative. It means that at that particular frequency range you subtracted more energy than there was actually
+PhD D: That means that Mm - hmm. Yeah. So so yeah, you have an an estimation of the noise spectrum, but sometimes, of course, it's as the noise is not perfectly stationary, sometimes this estimation can be, uh, too small, so you don't subtract enough. But sometimes it can be too large also. If if the noise, uh, energy in this particular frequency band drops for some reason.
+PhD A: Mm - hmm. Mm - hmm.
+PhD D: Mmm.
+PhD A: So in in an ideal word i world if the noise were always the same, then, when you subtracted it the worst that i you would get would be a zero. I mean, the lowest you would get would be a zero, cuz i if there was no other energy there you're just subtracting exactly the noise.
+Professor C: Right.
+PhD D: Mm - hmm,
+Professor C: Yep, there's all there's all sorts of, uh, deviations from the ideal here.
+PhD D: yeah.
+Professor C: I mean, for instance, you're you're talking about the signal and noise, um, at a particular point. And even if something is sort of stationary in ster terms of statistics, there's no guarantee that any particular instantiation or piece of it is exactly a particular number or bounded by a particular range.
+PhD D: Mm - hmm.
+Professor C: So, you're figuring out from some chunk of of of the signal what you think the noise is. Then you're subtracting that from another chunk,
+PhD A: Mm - hmm.
+Professor C: and there's absolutely no reason to think that you'd know that it wouldn't, uh, be negative in some places.
+PhD D: Mm - hmm. Hmm.
+Professor C: Uh, on the other hand that just means that in some sense you've made a mistake because you certainly have stra subtracted a bigger number than is due to the noise.
+PhD A: Mm - hmm.
+Professor C: Um Also, we speak the whole where all this stuff comes from is from an assumption that signal and noise are uncorrelated. And that certainly makes sense in s in in a statistical interpretation, that, you know, over, um, all possible realizations that they're uncorrelated
+PhD A: Mm - hmm.
+Professor C: or assuming, uh, ergodicity that i that i um, across time, uh, it's uncorrelated. But if you just look at a quarter second, uh, and you cross - multiply the two things, uh, you could very well, uh, end up with something that sums to something that's not zero. So in fact, the two signals could have some relation to one another. And so there's all sorts of deviations from ideal in this. And and given all that, you could definitely end up with something that's negative. But if down the road you're making use of something as if it is a power spectrum, um, then it can be bad to have something negative. Now, the other thing I wonder about actually is, what if you left it negative? What happens?
+PhD B: Is that the log?
+Professor C: I mean, because Um, are you taking the log before you add them up to the mel?
+PhD B: After that. No, after.
+Professor C: Right. So the thing is, I wonder how if you put your thresholds after that, I wonder how often you would end up with, uh with negative values.
+PhD B: But you will But you end up reducing some neighboring frequency bins @ @ in the average, right? When you add the negative to the positive value which is the true estimate.
+Professor C: Yeah. But nonetheless, uh, you know, these are it's another f kind of smoothing, right? that you're doing.
+PhD B: Yeah.
+Professor C: Right. So, you've done your best shot at figuring out what the noise should be, and now i then you've subtracted it off. And then after that, instead of instead of, uh, uh, leaving it as is and adding things adding up some neighbors, you artificially push it up.
+PhD B: Hmm.
+Professor C: Which is, you know, it's there's no particular reason that that's the right thing to do either, right?
+PhD B: Yeah, yeah.
+Professor C: So, um, uh, i in fact, what you'd be doing is saying, " well, we're d we're we're going to definitely diminish the effect of this frequency in this little frequency bin in the in the overall mel summation ". It's just a thought. I d I don't know if it would be
+PhD A: Sort of the opposite of that would be if if you find out you're going to get a negative number, you don't do the subtraction for that bin.
+PhD B: Yeah. Uh - huh. That is true.
+Professor C: Nnn, yeah,
+PhD D: Mm - hmm.
+Professor C: although
+PhD A: That would be almost the opposite, right? Instead of leaving it negative, you don't do it. If your if your subtraction's going to result in a negative number, you you don't do subtraction in that.
+Professor C: Yeah, but that means that in a situation where you thought that that the bin was almost entirely noise, you left it.
+PhD A: Yeah. Yeah, I'm just saying that's like the opposite.
+PhD B: We just
+Professor C: Uh.
+PhD B: Yeah.
+Professor C: Yeah.
+PhD A: Yeah.
+Professor C: Well, yeah that's that's the opposite,
+PhD D: Mm - hmm.
+Professor C: yeah.
+PhD D: And, yeah, some people also if it's a negative value they, uh, re - compute it using inter interpolation from the edges and bins.
+PhD B: For frames, frequency bins.
+Professor C: Yeah.
+PhD D: Well, there are different things that you can do.
+PhD A: Oh.
+Professor C: People can also, uh, reflect it back up and essentially do a full wave rectification instead of a instead of half wave.
+PhD A: Oh.
+Professor C: But it was just a thought that that it might be something to try.
+PhD D: Mm - hmm. Mm - hmm. Yep. Well, actually I tried, something else based on this, um, is to to put some smoothing, um, because it seems to to help or it seems to help the Wiener filtering
+Professor C: Mm - hmm.
+PhD D: and, mmm So what I did is, uh, some kind of nonlinear smoothing. Actually I have a recursion that computes Yeah, let me go back a little bit. Actually, when you do spectral subtraction you can, uh, find this this equivalent in the s in the spectral domain. You can uh compute, y you can say that d your spectral subtraction is a filter, um, and the gain of this filter is the, um, signal energy minus what you subtract, divided by the signal energy. And this is a gain that varies over time, and, you know, of course, uh, depending on the s on the noise spectrum and on the speech spectrum. And what happen actually is that during low SNR values, the gain is close to zero but it varies a lot. Mmm, and this this is the cause of musical noise and all these the the fact you we go below zero one frame and then you can have an energy that's above zero.
+Professor C: Mm - hmm.
+PhD D: And Mmm. So the smoothing is I did a smoothing actually on this gain, uh, trajectory. But it's the smoothing is nonlinear in the sense that I tried to not smooth if the gain is high, because in this case we know that, uh, the estimate of the gain is correct because we we are not close to to to zero, um, and to do more smoothing if the gain is low. Mmm. Um. Yeah. So, well, basically that's this idea, and it seems to give pretty good results, uh, although I've just just tested on Italian and Finnish. And on Italian it seems my result seems to be a little bit better than the Wiener filtering,
+PhD B: Mm - hmm. Yeah, the one you showed yesterday.
+PhD D: right?
+PhD B: Right?
+Professor C: Yeah.
+PhD D: Uh, I don't know if you have these improvement the detailed improvements for Italian, Finnish, and Spanish there
+PhD B: Fff. No, I don't have, for each,
+PhD D: or you have just have your own.
+PhD B: I I just just have the final number here.
+PhD D: Mm - hmm.
+Professor C: So these numbers he was giving before with the four point three, and the ten point one, and so forth, those were Italian, right?
+PhD B: Yeah, yeah, yeah. So so, no,
+Professor C: Yeah.
+PhD D: Uh
+PhD B: I actually didn't give you the number which is the final one,
+PhD D: uh, no, we've
+PhD B: which is, after two stages of Wiener filtering. I mean, that was I just well, like the overall improvement is like fifty - six point five. So,
+Professor C: Right.
+PhD D: Mm - hmm.
+PhD B: I mean, his number is still better than what I got in the two stages of Wiener filtering.
+PhD D: Yeah.
+Professor C: Right.
+PhD D: On Italian. But on Finnish it's a little bit worse, apparently.
+PhD B: Mm - hmm.
+PhD D: Um
+Professor C: But do you have numbers in terms of word error rates on on Italian? So just so you have some sense of reference?
+PhD D: Yeah. Uh, so, it's, uh, three point, uh, eight.
+Professor C: Uh - huh.
+PhD D: Am I right?
+PhD B: Oh, OK. Yeah, right, OK.
+PhD D: And then, uh, d uh, nine point, uh, one.
+Professor C: Mm - hmm.
+PhD D: And finally, uh, sixteen point five.
+Professor C: And this is, um, spectral subtraction plus what?
+PhD D: Plus plus nonlinear smoothing. Well, it's the system it's exactly the sys the same system as Sunil tried,
+Professor C: On - line normalization and LDA?
+PhD D: but
+Professor C: Yeah. Yeah.
+PhD D: Yeah. But instead of double stage Wiener filtering, it's it's this smoothed spectral subtraction. Um, yeah.
+PhD A: What is it the, um, France Telecom system uses
+Professor C: Right.
+PhD A: for Do they use spectral subtraction, or Wiener filtering, or?
+PhD B: They use spectral subtraction, right.
+PhD D: For what?
+PhD B: French Telecom.
+PhD D: It it's Wiener filtering,
+PhD B: Oh, it's it's Wiener filtering.
+PhD D: am I right?
+PhD A: Oh.
+PhD B: Sorry.
+PhD D: Well, it's some kind of Wiener filtering
+PhD B: Yeah, filtering. Yeah, it's not exactly Wiener filtering but some variant of Wiener filtering.
+PhD D: Yeah.
+PhD A: I see.
+PhD B: Yeah.
+Professor C: Yeah, plus, uh, I guess they have some sort of cepstral normalization, as well.
+PhD B: s They have like yeah, th the just noise compensation technique is a variant of Wiener filtering,
+PhD D: Mm - hmm.
+PhD B: plus they do some some smoothing techniques on the final filter. The th they actually do the filtering in the time domain.
+PhD A: Mmm.
+PhD D: Yeah.
+PhD A: Hmm.
+PhD B: So they would take this HF squared back, taking inverse Fourier transform. And they convolve the time domain signal with that.
+PhD A: Oh, I see.
+PhD B: And they do some smoothing on that final filter, impulse response.
+PhD A: Hmm.
+PhD D: But they also have two two different smoothing @ @.
+PhD B: I mean, I'm I'm @ @.
+PhD D: One in the time domain and one in the frequency domain by just taking the first, um, coefficients of the impulse response.
+PhD B: But.
+PhD D: So, basically it's similar. I mean, what you did, it's similar
+PhD B: It's similar in the smoothing and
+PhD D: because you have also two two kind of smoothing.
+PhD B: Yeah.
+PhD D: One in the time domain, and one in the frequency domain,
+PhD B: Yeah. The frequency domain.
+PhD D: yeah.
+PhD A: Does the smoothing in the time domain help
+PhD D: Um
+PhD A: Well, do you get this musical noise stuff with Wiener filtering or is that only with, uh, spectral subtraction?
+PhD B: No, you get it with Wiener filtering also.
+PhD D: Yeah.
+PhD A: Does the smoothing in the time domain help with that? Or some other smoothing?
+PhD B: Oh, no, you still end up with zeros in the s spectrum. Sometimes.
+PhD D: Yeah.
+PhD A: Hmm.
+Professor C: I mean, it's not clear that these musical noises hurt us in recognition.
+PhD A: Hmm.
+Professor C: We don't know if they do.
+PhD B: Yeah.
+Professor C: I mean, they they sound bad.
+PhD A: Mm - hmm.
+PhD B: Yeah, I know.
+Professor C: But we're not listening to it, usually.
+PhD D: Mm - hmm.
+PhD A: Hmm.
+PhD D: Uh, actually the the smoothing that I did do here reduced the musical noise. Well, it
+PhD B: Mm - hmm. Yeah, yeah,
+PhD D: Mmm.
+PhD B: the
+PhD D: Well, I cannot you cannot hear beca well, actually what I d did not say is that this is not in the FFT bins. This is in the mel frequency bands. Um So, it could be seen as a f a a smoothing in the frequency domain because I used, in ad mel bands in addition and then the other phase of smoothing in the time domain. Mmm. But, when you look at the spectrogram, if you don't have an any smoothing, you clearly see, like in silence portions, and at the beginning and end of speech, you see spots of high energy randomly distributed over the the spectrogram.
+PhD A: Mm - hmm. Mm - hmm.
+PhD D: Um
+PhD A: That's the musical noise?
+PhD D: Which is musical noise,
+PhD A: Mm - hmm.
+PhD D: yeah, if if it If you listen to it uh, if you do this in the FFT bins, then you have spots of energy randomly distributing. And if you f if you re - synthesize these spot sounds as, like, sounds,
+PhD A: Mm - hmm.
+PhD D: uh
+Professor C: Well, none of these systems, by the way, have I mean, y you both are are working with, um, our system that does not have the neural net,
+PhD D: And
+PhD B: Yep.
+Professor C: right?
+PhD B: Yeah.
+PhD D: Mm - hmm.
+Professor C: OK. So one would hope, presumably, that the neural net part of it would would improve things further as as they did before.
+PhD D: Yeah. Yeah. Um Yeah, although if if we, um, look at the result from the proposals, one of the reason, uh, the n system with the neural net was, um, more than well, around five percent better, is that it was much better on highly mismatched condition. I'm thinking, for instance, on the TI - digits trained on clean speech and tested on noisy speech.
+Professor C: Mm - hmm.
+PhD D: Uh, for this case, the system with the neural net was much better.
+Professor C: Mm - hmm.
+PhD D: But not much on the in the other cases.
+Professor C: Yeah.
+PhD D: And if we have no, uh, spectral subtraction or Wiener filtering, um, i the system is Uh, we thought the neural neural network is much better than before, even in these cases of high mismatch. So, maybe the neural net will help less but, um
+Professor C: Maybe.
+PhD A: Could you train a neural net to do spectral subtraction?
+Professor C: Yeah, it could do a nonlinear spectral subtraction
+PhD D: Mm - hmm.
+Professor C: but I don't know if it I mean, you have to figure out what your targets are.
+PhD A: Yeah, I was thinking if you had a clean version of the signal and and a noisy version, and your targets were the M F - uh, you know, whatever, frequency bins
+PhD D: Mm - hmm.
+Professor C: Right.
+PhD D: Mm - hmm.
+Professor C: Yeah, well, that's not so much spectral subtraction then,
+PhD D: Mm - hmm.
+Professor C: but but but it's but at any rate, yeah, people, uh
+PhD A: People do that?
+Professor C: y yeah, in fact, we had visitors here who did that I think when you were here ba way back when.
+PhD D: Mm - hmm.
+PhD A: Hmm.
+Professor C: Uh, people d done lots of experimentation over the years with training neural nets. And it's not a bad thing to do. It's another approach.
+PhD A: Hmm.
+Professor C: M I mean, it's it, um
+PhD D: Mm - hmm.
+Professor C: The objection everyone always raises, which has some truth to it is that, um, it's good for mapping from a particular noise to clean but then you get a different noise.
+PhD A: Mm - hmm.
+Professor C: And the experiments we saw that visitors did here showed that it there was at least some, um, gentleness to the degradation when you switched to different noises. It did seem to help. So that you're right, that's another another way to go.
+PhD A: How did it compare on I mean, for for good cases where it it uh, stuff that it was trained on? Did it do pretty well?
+Professor C: Oh, yeah, it did very well.
+PhD A: Mmm.
+Professor C: Yeah.
+PhD A: Mmm.
+Professor C: Um,
+PhD D: Mm - hmm.
+Professor C: but to some extent that's kind of what we're doing. I mean, we're not doing exactly that, we're not trying to generate good examples but by trying to do the best classifier you possibly can, for these little phonetic categories,
+PhD A: Mm - hmm. You could say it's sort of built in.
+Professor C: It's Yeah, it's kind of built into that.
+PhD A: Hmm.
+Professor C: And and that's why we have found that it it does help.
+PhD A: Mm - hmm.
+Professor C: Um so, um, yeah, I mean, we'll just have to try it. But I I would I would I would imagine that it will help some. I mean, it we'll just have to see whether it helps more or less the same, but I would imagine it would help some.
+PhD D: Mm - hmm.
+Professor C: So in any event, all of this I was just confirming that all of this was with a simpler system.
+PhD D: Yeah,
+Professor C: OK?
+PhD D: yeah. Um, Yeah, so this is th the, um Well, actually, this was kind of the first try with this spectral subtraction plus smoothing,
+Professor C: Mm - hmm.
+PhD D: and I was kind of excited by the result.
+Professor C: Mm - hmm.
+PhD D: Um, then I started to optimize the different parameters. And, uh, the first thing I tried to optimize is the, um, time constant of the smoothing. And it seems that the one that I chose for the first experiment was the optimal one, so uh,
+Professor C: It's amazing how often that happens.
+PhD D: Um, so this is the first thing. Um Yeah, another thing that I it's important to mention is, um, that this has a this has some additional latency. Um. Because when I do the smoothing, uh, it's a recursion that estimated the means, so of the g of the gain curve. And this is a filter that has some latency. And I noticed that it's better if we take into account this latency. So, instead o of using the current estimated mean to, uh, subtract the current frame, it's better to use an estimate that's some somewhere in the future. Um
+PhD A: And that's what causes the latency? OK.
+PhD B: You mean, the m the mean is computed o based on some frames in the future also?
+Professor C: Mm - hmm.
+PhD D: Yeah.
+PhD B: Or or no?
+PhD D: It's the recursion, so it's it's the center recursion, right?
+PhD B: Mm - hmm.
+PhD D: Um and the latency of this recursion is around fifty milliseconds.
+Professor C: One five?
+Professor C: One five? Five zero?
+PhD D: Five zero,
+Professor C: Five zero.
+PhD D: yeah.
+Professor C: Yeah.
+PhD D: Um,
+PhD B: I'm sorry,
+PhD D: mmm.
+PhD B: why why is that delay coming? Like, you estimate the mean?
+PhD D: Yeah, the mean estimation has some delay, right?
+PhD B: Oh, yeah.
+PhD D: I mean, the the filter that that estimates the mean has a time constant.
+PhD B: It isn't OK, so it's like it looks into the future also. OK.
+PhD D: Yeah.
+Professor C: What if you just look into the past?
+PhD D: It's, uh, not as good. It's not bad.
+Professor C: How m by how much?
+PhD D: Um, it helps a lot over the ba the baseline but, mmm
+Professor C: By how much?
+PhD D: it It's around three percent, um, relative.
+Professor C: Worse.
+PhD D: Yeah. Yeah. Um,
+Professor C: Hmm.
+PhD D: mmm So, uh
+Professor C: It's depending on how all this stuff comes out we may or may not be able to add any latency.
+PhD D: Yeah, but Yeah. So, yeah, it depends. Uh, y actually, it's it's l it's three percent. Right. Mmm. Yeah, b but I don't think we have to worry too much on that right now while you kno. Mm - hmm.
+Professor C: Um, s Yeah, I mean, I think the only thing is that
+PhD D: So
+Professor C: I would worry about it a little.
+PhD D: Mm - hmm.
+Professor C: Because if we completely ignore latency, and then we discover that we really have to do something about it, we're going to be find ourselves in a bind.
+PhD D: Mm - hmm.
+Professor C: So, um, you know, maybe you could make it twenty - five. You know what I mean?
+PhD D: Yeah.
+Professor C: Yeah, just, you know, just be be a little conservative
+PhD D: Oh yes.
+Professor C: because we may end up with this crunch where all of a sudden we have to cut the latency in half or something.
+PhD D: s Mm - hmm. Yeah.
+Professor C: OK.
+PhD D: Um. So, yeah, there are other things in the, um, algorithm that I didn't, uh, @ @ a lot yet,
+PhD A: Oh!
+PhD D: which
+PhD A: Sorry. A quick question just about the latency thing. If if there's another part of the system that causes a latency of a hundred milliseconds, is this an additive thing? Or c or is yours hidden in that?
+PhD D: Mm - hmm.
+PhD A: Uh
+PhD D: No, it's it's added.
+PhD A: It's additive. OK.
+PhD D: Mm - hmm.
+PhD B: We can OK. We can do something in parallel also, in some like some cases like, if you wanted to do voice activity detection.
+PhD A: Uh - huh.
+PhD B: And we can do that in parallel with some other filtering you can do.
+PhD D: Mmm.
+PhD B: So you can make a decision on that voice activity detection and then you decide whether you want to filter or not.
+PhD D: Yeah.
+PhD B: But by then you already have the sufficient samples to do the filtering.
+PhD A: Mm - hmm.
+PhD B: So So, sometimes you can do it anyway.
+PhD A: I mean, couldn't, uh I Couldn't you just also I mean, i if you know that the l the largest latency in the system is two hundred milliseconds, don't you couldn't you just buffer up that number of frames and then everything uses that buffer?
+PhD B: Yeah.
+PhD A: And that way it's not additive?
+Professor C: Well, in fact, everything is sent over in buffers cuz of isn't it the TCP buffer some?
+PhD B: You mean, the the data, the super frame or something?
+PhD D: Mm - hmm.
+Professor C: Yeah, yeah.
+PhD D: Yeah.
+PhD B: Yeah, but that has a variable latency because the last frame doesn't have any latency
+PhD D: Mm - hmm.
+PhD B: and first frame has a twenty framed latency. So you can't r rely on that latency all the time.
+Professor C: Yeah.
+PhD B: Because I mean the transmission over over the air interface is like a buffer.
+PhD D: Yeah.
+PhD B: Twenty frame
+PhD A: Yeah.
+PhD B: twenty four frames.
+PhD A: Yeah.
+PhD B: So But the only thing is that the first frame in that twenty - four frame buffer has a twenty - four frame latency. And the last frame doesn't have any latency.
+PhD A: Mm - hmm.
+PhD B: Because it just goes as
+PhD A: Yeah, I wasn't thinking of that one in particular
+PhD B: Yeah.
+PhD A: but more of, you know, if if there is some part of your system that has to buffer twenty frames, uh, can't the other parts of the system draw out of that buffer and therefore not add to the latency?
+Professor C: Yeah. Yeah. And and that's sort of one of the all of that sort of stuff is things that they're debating in their standards committee.
+PhD A: Oh! Hmm.
+PhD D: Mm - hmm. Yeah. So, um, there is uh, these parameters that I still have to to look at. Like, I played a little bit with this overestimation factor, uh, but I still have to to look more at this, um, at the level of noise I add after. Uh, I know that adding noise helped, um, the system just using spectral subtraction without smoothing, but I don't know right now if it's still important or not, and if the level I choose before is still the right one. Same thing for the shape of the the noise. Maybe it would be better to add just white noise instead of speech shaped noise.
+Professor C: That'd be more like the JRASTA thing in a sense. Yeah.
+PhD D: Mm - hmm. Um, yep. Uh, and another thing is to Yeah, for this I just use as noise estimate the mean, uh, spectrum of the first twenty frames of each utterance. I don't remember for this experiment what did you use for these two stage
+PhD B: I used ten just ten frames. Yeah, because
+PhD D: The ten frames?
+PhD B: I mean, the reason was like in TI - digits I don't have a lot. I had twenty frames most of the time.
+PhD D: Mm - hmm. Um. But, so what's this result you told me about, the fact that if you use more than ten frames you can improve by t
+PhD B: Well, that's that's using the channel zero. If I use a channel zero VAD to estimate the noise.
+PhD D: Oh, OK.
+PhD B: Which
+PhD D: But this is ten frames plus plus
+PhD B: Channel zero dropping.
+PhD D: channel
+PhD B: Hmm.
+PhD D: Uh, no, these results with two stage Wiener filtering is ten frames
+PhD B: t Oh, this
+PhD D: but possibly more. I mean, if channel one VAD gives you
+PhD B: f Yeah. Mm - hmm. Yeah.
+PhD D: Yeah. OK. Yeah, but in this experiment I did I didn't use any VAD. I just used the twenty first frame to estimate the noise. And So I expected it to be a little bit better, if, uh, I use more more frames. Um. OK, that's it for spectral subtraction. The second thing I was working on is to, um, try to look at noise estimation, mmm, and using some technique that doesn't need voice activity detection. Um, and for this I u simply used some code that, uh, I had from from Belgium, which is technique that, um, takes a bunch of frame, um, and for each frequency bands of this frame, takes a look at the minima of the energy. And then average these minima and take this as an an energy estimate of the noise for this particular frequency band. And there is something more to this actually. What is done is that, uh, these minima are computed, um, based on, um, high resolution spectra. So, I compute an FFT based on the long, uh, signal frame which is sixty - four millisecond
+PhD A: So you have one minimum for each frequency?
+PhD D: What what I what I d uh, I do actually, is to take a bunch of to take a tile on the spectrogram and this tile is five hundred milliseconds long and two hundred hertz wide.
+PhD A: Mmm.
+PhD D: And this tile Uh, in this tile appears, like, the harmonics if you have a voiced sound, because it's it's the FTT bins. And when you take the m the minima of of these this tile, when you don't have speech, these minima will give you some noise level estimate, If you have voiced speech, these minima will still give you some noise estimate because the minima are between the harmonics. And If you have other other kind of speech sounds then it's not the case, but if the time frame is long enough, uh, like s five hundred milliseconds seems to be long enough, you still have portions which, uh, are very close whi which minima are very close to the noise energy.
+Professor C: I'm confused. You said five hundred milliseconds
+PhD D: Mmm?
+Professor C: but you said sixty - four milliseconds. Which is which? What?
+PhD D: Sixty - four milliseconds is to compute the FFT, uh, bins.
+Professor C: Yeah,
+PhD D: The the FFT.
+Professor C: yeah.
+PhD D: Um, actually it's better to use sixty - four milliseconds because, um, if you use thirty milliseconds, then, uh, because of the this short windowing and at low pitch, uh, sounds, the harmonics are not, wha uh, correctly separated.
+Professor C: Mm - hmm.
+PhD D: So if you take these minima, it b they will overestimate the noise a lot.
+Professor C: So you take sixty - four millisecond F F Ts and then you average them over five hundred? Or? Uh, what do you do over five hundred?
+PhD D: So I take to I take a bunch of these sixty - four millisecond frame to cover five hundred milliseconds,
+Professor C: Ah. OK.
+PhD D: and then I look for the minima,
+PhD A: Mmm.
+Professor C: I see.
+PhD D: on the on on the bunch of uh fifty frames, right?
+Professor C: I see.
+PhD D: Mmm. So the interest of this is that, as y with this technique you can estimate u some reasonable noise spectra with only five hundred milliseconds of of signal, so if the the n the noise varies a lot, uh, you can track better track the noise,
+Professor C: Mm - hmm.
+PhD D: which is not the case if you rely on the voice activity detector. So even if there are no no speech pauses, you can track the noise level. The only requirement is that you must have, in these five hundred milliseconds segment, you must have voiced sound at least. Cuz this these will help you to to track the the noise level. Um. So what I did is just to simply replace the VAD - based, uh, noise estimate by this estimate, first on SpeechDat - Car Well, only on SpeechDat - Car actually. And it's, uh, slightly worse, like one percent relative compared to the VAD - based estimates. Um, I think the reason why it's not better, is that the SpeechDat - Car noises are all stationary. Um. So, u y y there really is no need to have something that's adaptive
+Professor C: Mm - hmm.
+PhD D: and Uh, well, they are mainly stationary. Um. But, I expect s maybe some improvement on TI - digits because, nnn, in this case the noises are all sometimes very variable. Uh, so I have to test it. Mmm.
+Professor C: But are you comparing with something e I'm I'm p s a little confused again, i it Uh, when you compare it with the V A D - based,
+PhD D: Mm - hmm.
+Professor C: VAD - Is this is this the?
+PhD D: It's It's the France - Telecom - based spectra, s uh, Wiener filtering and VAD. So it's their system but just I replace their noise estimate by this one.
+Professor C: Oh, you're not doing this with our system?
+PhD D: In i I'm not No, no. Yeah, it's our system but with just the Wiener filtering from their system. Right? Mmm.
+Professor C: OK.
+PhD D: Yeah. Actually, th the best system that we still have is, uh, our system but with their noise compensation scheme, right?
+Professor C: Right. But
+PhD D: So I'm trying to improve on this, and by by replacing their noise estimate by, uh, something that might be better.
+Professor C: OK. But the spectral subtraction scheme that you reported on also re requires a a noise estimate.
+PhD D: Yeah. Yeah.
+Professor C: Couldn't you try this for that?
+PhD D: But I di
+Professor C: Do you think it might help?
+PhD D: Not yet, because I did this in parallel,
+Professor C: I see,
+PhD D: and I was working on one and the other.
+Professor C: I see. Yeah.
+PhD D: Um,
+PhD B: Yeah.
+PhD D: Yeah, for for sure I will. I can try also, mmm, the spectral subtraction.
+PhD B: So I'm also using that n new noise estimate technique on this Wiener filtering what I'm trying.
+Professor C: OK.
+PhD B: So I I have, like, some experiments running, I don't have the results.
+PhD D: Mm - hmm.
+Professor C: Yeah.
+PhD B: So.
+Professor C: Yeah.
+PhD B: I don't estimate the f noise on the ten frames but use his estimate.
+Professor C: Yeah.
+PhD D: Mm - hmm. Um. Yeah. I, um, also implemented a sp um spectral whitening idea which is in the, um, Ericsson proposal. Uh, the idea is just to um, flatten the log, uh, spectrum, um, and to flatten it more if the the probability of silence is higher. So in this way, you can also reduce somewhat reduce the musical noise and you reduce the variability if you have different noise shapes, because the the spectrum becomes more flat in the silence portions. Um. Yeah. With this, no improvement, uh, but there are a lot of parameters that we can play with and, um Actually, this this could be seen as a soft version of the frame dropping because, um, you could just put the threshold and say that " below the threshold, I will flatten comp completely flatten the the spectrum ". And above this threshold, uh, keep the same spectrum. So it would be like frame dropping, because during the silence portions which are below the threshold of voice activity probability, uh, w you would have some kind of dummy frame which is a perfectly flat spectrum. And this, uh, whitening is something that's more soft because, um, you whiten you just, uh, have a function the whitening is a function of the speech probability, so it's not a hard decision.
+Professor C: Mm - hmm.
+PhD D: Um, so I think maybe it can be used together with frame dropping and when we are not sure about if it's speech or silence, well, maybe it has something do with this.
+Professor C: It's interesting. I mean, um, you know, in in JRASTA we were essentially adding in, uh, white uh, white noise dependent on our estimate of the noise.
+PhD D: Mm - hmm.
+Professor C: On the overall estimate of the noise. Uh, I think it never occurred to us to use a probability in there.
+PhD D: Mm - hmm.
+Professor C: You could imagine one that that that made use of where where the amount that you added in was, uh, a function of the probability of it being s speech or noise.
+PhD D: Mm - hmm. Mm - hmm. Yeah, w Yeah, right now it's a constant that just depending on the the noise spectrum.
+PhD B: There's
+Professor C: Yeah.
+PhD D: Mm - hmm. Mm - hmm.
+Professor C: Cuz that that brings in sort of powers of classifiers that we don't really have in, uh, this other estimate. So it could be it could be interesting.
+PhD D: Mm - hmm. Mm - hmm.
+Professor C: What what what point does the, uh, system stop recording? How much
+PhD A: It'll keep going till I guess when they run out of disk space,
+Professor C: It went a little long? I mean, disk
+PhD A: but I think we're OK.
+PhD D: So.
+Professor C: OK.
+PhD D: Yeah. Uh Yeah, so there are with this technique there are some I just did something exactly the same as as the Ericsson proposal but, um, the probability of speech is not computed the same way. And I think, i for yeah, for a lot of things, actually a g a good speech probability is important. Like for frame dropping you improve, like you can improve from ten percent as Sunil showed, if you use the channel zero speech probabilities.
+Professor C: Mm - hmm. Mm - hmm.
+PhD D: For this it might help, um
+Professor C: Mm - hmm.
+PhD D: S so, yeah. Uh, so yeah, the next thing I started to do is to, uh, try to develop a better voice activity detector. And, um I d um yeah, for this I think we can maybe try to train the neural network for voice activity detection on all the data that we have, including all the SpeechDat - Car data. Um And so I'm starting to obtain alignments on these databases. Um, and the way I mi I do that is that I just use the HTK system but I train it only on the close - talking microphone. And then I aligned I obtained the Viterbi alignment of the training utterances. Um It seems to be, uh i Actually what I observed is that for Italian it doesn't seem Th - there seems to be a problem.
+PhD B: No. So, it doesn't seems to help by their use of channel zero or channel one.
+PhD D: Well. Because What?
+PhD B: Uh, you mean their d the frame dropping, right? Yeah, it doesn't
+PhD D: Yeah. Yeah. So, u but actually the VAD was trained on Italian also,
+PhD B: Italian.
+PhD D: so Um, the c the current VAD that we have was trained on, uh, t SPINE, right?
+PhD B: TI - digits.
+PhD D: Italian, and TI - digits with noise and
+PhD D: Uh, yeah. And it seems to work on Italian but not on the Finnish and Spanish data. So, maybe one reason is that s s Finnish and Spanish noise are different. And actually we observed we listened to some of the utterances and sometimes for Finnish there is music in the recordings and strange things, right?
+PhD B: Yeah.
+PhD D: Um Yeah, so the idea was to train all the databases and obtain an alignment to train on these databases, and, um, also to, um, try different kind of features, uh, as input to the VAD network. And we came up with a bunch of features that we want to try like, um, the spectral slope, the, um, the degree o degree of voicing with the features that, uh, we started to develop with Carmen, um, e with, uh, the correlation between bands and different kind of features,
+PhD B: Yeah. Mm - hmm.
+PhD D: and Yeah.
+PhD B: The energy also.
+PhD D: The energy.
+PhD B: Yeah.
+Professor C: Yeah, right.
+PhD D: Yeah. Of course. Yeah.
+Professor C: OK. Well, Hans - Guenter will be here next week so I think he'll be interested in all all of these things. And, so.
+PhD D: Mm - hmm.
+Professor C: Mmm.
+PhD A: OK, shall we, uh, do digits?
+Professor C: Yeah.
+PhD A: Want to go ahead, Morgan?
+Professor C: Sure.
+PhD A: OK.

@@ -1,0 +1,5 @@
+.venv/
+__pycache__/
+action_item_model/
+rawdata/
+*.pyc

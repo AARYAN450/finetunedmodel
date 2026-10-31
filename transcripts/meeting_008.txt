@@ -1,0 +1,764 @@
+Grad C: Yeah, we had a long discussion about how much w how easy we want to make it for people to bleep things out. So Morgan wants to make it hard.
+PhD D: It it doesn't
+Grad C: Did did did it? I didn't even check yesterday whether it was moving.
+PhD D: It didn't move yesterday either when I started it.
+Grad C: So.
+PhD D: So I don't know if it doesn't like both of us
+Grad C: Channel three? Channel three?
+PhD D: You know, I discovered something yesterday on these, um, wireless ones.
+Grad B: Channel two.
+Grad C: Mm - hmm?
+PhD D: You can tell if it's picking up breath noise and stuff.
+Grad C: Yeah, it has a little indicator on it on the AF.
+PhD D: Mm - hmm. So if you yeah, if you breathe under breathe and then you see AF go off, then you know it's p picking up your mouth noise.
+PhD F: Oh, that's good. Cuz we have a lot of breath noises.
+Grad C: Yep. Test.
+PhD F: In fact, if you listen to just the channels of people not talking, it's like " @ @ ". It's very disgust
+Grad C: What? Did you see Hannibal recently or something?
+PhD F: Sorry. Exactly. It's very disconcerting. OK. So, um,
+PhD F: I was gonna try to get out of here, like, in half an hour, um, cuz I really appreciate people coming, and the main thing that I was gonna ask people to help with today is to give input on what kinds of database format we should use in starting to link up things like word transcripts and annotations of word transcripts, so anything that transcribers or discourse coders or whatever put in the signal, with time - marks for, like, words and phone boundaries and all the stuff we get out of the forced alignments and the recognizer. So, we have this, um I think a starting point is clearly the the channelized output of Dave Gelbart's program, which Don brought a copy of,
+Grad C: Yeah. Yeah, I'm I'm familiar with that. I mean, we I sort of already have developed an XML format for this sort of stuff.
+PhD F: um, which
+PhD D: Can I see it?
+Grad C: And so the only question is it the sort of thing that you want to use or not? Have you looked at that? I mean, I had a web page up.
+PhD F: Right. So,
+Grad C: So
+PhD F: I actually mostly need to be able to link up, or I it's it's a question both of what the representation is and
+Grad C: You mean, this I guess I am gonna be standing up and drawing on the board.
+PhD F: OK, yeah. So you should, definitely.
+Grad C: Um, so so it definitely had that as a concept. So tha it has a single time - line,
+PhD F: Mm - hmm.
+Grad C: and then you can have lots of different sections, each of which have I Ds attached to it, and then you can refer from other sections to those I Ds, if you want to. So that, um so that you start with with a time - line tag. " Time - line ". And then you have a bunch of times. I don't e I don't remember exactly what my notation was,
+PhD A: Oh, I remember seeing an example of this.
+Grad C: but it
+PhD F: Right, right.
+PhD A: Yeah.
+Grad C: Yeah, " T equals one point three two ", uh And then I I also had optional things like accuracy, and then " ID equals T one, uh, one seven ". And then, I also wanted to to be i to be able to not specify specifically what the time was and just have a stamp.
+PhD F: Right.
+Grad C: Yeah, so these are arbitrary, assigned by a program, not not by a user. So you have a whole bunch of those. And then somewhere la further down you might have something like an utterance tag which has " start equals T - seventeen, end equals T - eighteen ". So what that's saying is, we know it starts at this particular time. We don't know when it ends.
+PhD F: OK.
+Grad C: Right? But it ends at this T - eighteen, which may be somewhere else. We say there's another utterance. We don't know what the t time actually is but we know that it's the same time as this end time.
+PhD A: Mmm.
+Grad C: You know, thirty - eight, whatever you want.
+PhD A: So you're essentially defining a lattice.
+Grad C: OK. Yes, exactly.
+PhD A: Yeah.
+Grad C: And then, uh and then these also have I Ds. Right? So you could you could have some sort of other other tag later in the file that would be something like, um, oh, I don't know, uh, " noise - type equals door - slam ". You know? And then, uh, you could either say " time equals a particular time - mark " or you could do other sorts of references. So or or you might have a prosody " Prosody " right? D? T? D? T? T?
+PhD F: It's an O instead of an I, but the D is good.
+Grad C: You like the D? That's a good D.
+PhD F: Yeah.
+Grad C: Um, you know, so you could have some sort of type here, and then you could have, um the utterance that it's referring to could be U - seventeen or something like that.
+PhD F: OK. So, I mean, that seems that seems g great for all of the encoding of things with time and,
+Grad C: Oh, well.
+PhD F: um I I guess my question is more, uh, what d what do you do with, say, a forced alignment?
+PhD A: How - how
+PhD F: I mean you've got all these phone labels, and what do you do if you just conceptually, if you get, um, transcriptions where the words are staying but the time boundaries are changing, cuz you've got a new recognition output, or s sort of what's the, um, sequence of going from the waveforms that stay the same, the transcripts that may or may not change, and then the utterance which where the time boundaries that may or may not change?
+PhD A: Oh, that's That's actually very nicely handled here because you could you could all you'd have to change is the, um, time - stamps in the time - line without without, uh, changing the I Ds.
+PhD F: Um. And you'd be able to propagate all of the the information?
+Grad C: Right. That's, the who that's why you do that extra level of indirection. So that you can just change the time - line.
+PhD A: Except the time - line is gonna be huge. If you say
+Grad C: Yes.
+PhD F: Yeah,
+PhD A: suppose you have a phone - level alignment.
+PhD F: yeah, especially at the phone - level.
+PhD A: You'd have you'd have
+PhD F: The we we have phone - level backtraces.
+Grad C: Yeah, this I don't think I would do this for phone - level. I think for phone - level you want to use some sort of binary representation
+PhD F: Um
+Grad C: because it'll be too dense otherwise.
+PhD F: OK. So, if you were doing that and you had this sort of companion, uh, thing that gets called up for phone - level, uh, what would that look like?
+PhD A: Why
+Grad C: I would use just an existing an existing way of doing it.
+PhD F: How would you?
+PhD A: Mmm. But but why not use it for phone - level?
+PhD F: H h
+PhD A: It's just a matter of it's just a matter of it being bigger. But if you have you know, barring memory limitations, or uh I w I mean this is still the m
+Grad C: It's parsing limitations. I don't want to have this text file that you have to read in the whole thing to do something very simple for.
+PhD A: Oh, no. You would use it only for purposes where you actually want the phone - level information, I'd imagine.
+PhD F: So you could have some file that configures how much information you want in your in your XML or something.
+Grad C: Right. I mean, you'd y
+PhD F: Um,
+PhD A: You
+Grad C: I I am imagining you'd have multiple versions of this depending on the information that you want.
+PhD F: cuz th it does get very bush with Right.
+Grad C: Um, I'm just what I'm wondering is whether I think for word - level, this would be OK.
+PhD F: Yeah.
+Grad C: For word - level, it's alright.
+PhD F: Yeah. Definitely.
+PhD A: Mm - hmm.
+Grad C: For lower than word - level, you're talking about so much data that I just I don't know. I don't know if that
+PhD F: I mean, we actually have So, one thing that Don is doing, is we're we're running For every frame, you get a pitch value,
+PhD D: Lattices are big, too.
+PhD F: and not only one pitch value but different kinds of pitch values
+Grad C: Yeah, I mean, for something like that I would use P - file
+PhD F: depending on
+Grad C: or or any frame - level stuff I would use P - file.
+PhD F: Meaning?
+Grad C: Uh, that's a well, or something like it. It's ICS uh, ICSI has a format for frame - level representation of features. Um.
+PhD F: OK. That you could call that you would tie into this representation with like an ID.
+Grad C: Right. Right. Or or there's a there's a particular way in XML to refer to external resources.
+PhD F: And OK.
+Grad C: So you would say " refer to this external file ". Um, so that external file wouldn't be in
+PhD F: So that might that might work.
+PhD D: But what what's the advantage of doing that versus just putting it into this format?
+Grad C: More compact, which I think is is better.
+PhD D: Uh - huh.
+Grad C: I mean, if you did it at this
+PhD F: I mean these are long meetings and with for every frame,
+Grad C: You don't want to do it with that Anything at frame - level you had better encode binary
+PhD F: um
+Grad C: or it's gonna be really painful.
+PhD A: Or you just compre I mean, I like text formats. Um, b you can always, uh, G - zip them, and, um, you know, c decompress them on the fly if y if space is really a concern.
+PhD D: Yeah, I was thi I was thinking the advantage is that we can share this with other people.
+Grad C: Well, but if you're talking about one per frame, you're talking about gigabyte - size files. You're gonna actually run out of space in your filesystem for one file.
+PhD F: These are big files. These are really I mean
+Grad C: Right? Because you have a two - gigabyte limit on most O Ss.
+PhD A: Right, OK. I would say OK, so frame - level is probably not a good idea. But for phone - level stuff it's perfectly
+PhD F: And th it's
+PhD A: Like phones, or syllables, or anything like that.
+PhD F: Phones are every five frames though, so. Or something like that.
+PhD A: But but but most of the frames are actually not speech. So, you know, people don't v Look at it, words times the average The average number of phones in an English word is, I don't know, five maybe?
+PhD F: Yeah, but we actually
+PhD A: So, look at it, t number of words times five. That's not that not
+PhD F: Oh, so you mean pause phones take up a lot of the long pause phones.
+PhD A: Exactly.
+Grad C: Yep.
+PhD A: Yeah.
+PhD F: Yeah. OK. That's true. But you do have to keep them in there. Y yeah.
+Grad C: So I think it it's debatable whether you want to do phone - level in the same thing.
+PhD F: OK.
+Grad C: But I think, a anything at frame - level, even P - file, is too verbose.
+PhD F: OK. So
+Grad C: I would use something tighter than P - files.
+PhD F: Do you Are you familiar with it?
+Grad C: So.
+PhD F: I haven't seen this particular format,
+PhD A: I mean, I've I've used them.
+PhD F: but
+PhD A: I don't know what their structure is.
+PhD F: OK.
+PhD A: I've forgot what the str
+PhD D: But, wait a minute, P - file for each frame is storing a vector of cepstral or PLP values,
+Grad C: It's whatever you want, actually.
+PhD D: right? Right.
+Grad C: So that what's nice about the P - file It i Built into it is the concept of frames, utterances, sentences, that sort of thing, that structure. And then also attached to it is an arbitrary vector of values. And it can take different types.
+PhD F: Oh.
+Grad C: So it th they don't all have to be floats. You know, you can have integers and you can have doubles, and all that sort of stuff.
+PhD F: So that that sounds that sounds about what I w
+Grad C: Um. Right? And it has a header it has a header format that describes it to some extent. So, the only problem with it is it's actually storing the utterance numbers and the frame numbers in the file, even though they're always sequential. And so it does waste a lot of space.
+PhD A: Hmm.
+Grad C: But it's still a lot tighter than than ASCII. And we have a lot of tools already to deal with it.
+PhD F: You do? OK. Is there some documentation on this somewhere?
+Grad C: Yeah, there's a ton of it. Man - pages and, uh, source code, and me.
+PhD F: OK, great. So, I mean, that sounds good. I I was just looking for something I'm not a database person, but something sort of standard enough that, you know, if we start using this we can give it out, other people can work on it,
+Grad C: Yeah, it's not standard.
+PhD F: or Is it?
+Grad C: I mean, it's something that we developed at ICSI. But, uh
+PhD F: But it's been used here
+Grad C: But it's been used here
+PhD F: and people've
+Grad C: and and, you know, we have a well - configured system that you can distribute for free, and
+PhD D: I mean, it must be the equivalent of whatever you guys used to store feat your computed features in, right?
+PhD F: OK.
+PhD A: Yeah, th we have Actually, we we use a generalization of the the Sphere format.
+PhD D: Mmm.
+PhD A: Um, but Yeah, so there is something like that but it's, um, probably not as sophist
+Grad C: Well, what does H T K do for features?
+PhD D: And I think there's
+Grad C: Or does it even have a concept of features?
+PhD A: They ha it has its own I mean, Entropic has their own feature format that's called, like, S - SD or some so SF or something like that.
+PhD F: Yeah.
+Grad C: I'm just wondering, would it be worth while to use that instead?
+PhD D: Yeah.
+PhD A: Hmm?
+PhD F: Yeah. Th - this is exactly the kind of decision It's just whatever
+PhD D: But, I mean, people don't typically share this kind of stuff, right?
+PhD A: Right.
+Grad C: They generate their own.
+PhD D: I mean Yeah.
+PhD F: Actually, I I just you know, we we've done this stuff on prosodics and three or four places have asked for those prosodic files, and we just have an ASCII, uh, output of frame - by - frame.
+Grad C: Ah, right.
+PhD F: Which is fine, but it gets unwieldy to go in and and query these files with really huge files.
+Grad C: Right.
+PhD F: I mean, we could do it. I was just thinking if there's something that where all the frame values are
+Grad C: And a and again, if you have a if you have a two - hour - long meeting, that's gonna
+PhD F: Hmm? They're they're fair they're quite large.
+Grad C: Yeah, I mean, they'd be emo enormous.
+PhD F: And these are for ten - minute Switchboard conversations,
+Grad C: Right.
+PhD F: and So it's doable, it's just that you can only store a feature vector at frame - by - frame and it doesn't have any kind of,
+PhD D: Is is the sharing part of this a pretty important consideration
+PhD F: um
+PhD D: or does that just sort of, uh a nice thing to have?
+PhD F: I I don't know enough about what we're gonna do with the data. But I thought it would be good to get something that we can that other people can use or adopt for their own kinds of encoding. And just, I mean we have to use some we have to make some decision about what to do.
+Grad C: Yeah.
+PhD F: And especially for the prosody work, what what it ends up being is you get features from the signal, and of course those change every time your alignments change. So you re - run a recognizer, you want to recompute your features, um, and then keep the database up to date.
+Grad C: Right.
+PhD F: Or you change a word, or you change a utterance boundary segment, which is gonna happen a lot. And so I wanted something where all of this can be done in a elegant way and that if somebody wants to try something or compute something else, that it can be done flexibly. Um, it doesn't have to be pretty, it just has to be, you know, easy to use, and
+Grad C: Yeah, the other thing We should look at ATLAS, the NIST thing,
+PhD F: Oh.
+PhD A: Mmm.
+Grad C: and see if they have anything at that level.
+PhD F: Uh
+Grad C: I mean, I'm not sure what to do about this with ATLAS, because they chose a different route. I chose something that Th - there are sort of two choices. Your your file format can know about know that you're talking about language and speech, which is what I chose, and time, or your file format can just be a graph representation. And then the application has to impose the structure on top. So what it looked like ATLAS chose is, they chose the other way, which was their file format is just nodes and links, and you have to interpret what they mean yourself.
+PhD F: And why did you not choose that type of approach?
+Grad C: Uh, because I knew that we were doing speech, and I thought it was better if you're looking at a raw file to be t for the tags to say " it's an utterance ", as opposed to the tag to say " it's a link ".
+PhD F: OK. OK.
+Grad C: So, but
+PhD F: But other than that, are they compatible? I mean, you could sort of
+Grad C: Yeah, they're reasonably compatible.
+PhD F: I mean, you you could
+PhD D: You could probably translate between them.
+Grad C: Yep.
+PhD F: Yeah, that's w So,
+Grad C: So, well, the other thing is if we choose to use ATLAS, which maybe we should just do, we should just throw this out before we invest a lot of time in it.
+PhD F: OK. I don't So this is what the meeting's about,
+Grad C: Yeah.
+PhD F: just sort of how to Um, cuz we need to come up with a database like this just to do our work. And I actually don't care, as long as it's something useful to other people, what we choose.
+Grad C: Yeah.
+PhD F: So maybe it's maybe oth you know, if if you have any idea of how to choose, cuz I don't.
+Grad C: The only thing Yeah.
+PhD A: Do they already have tools?
+Grad C: I mean, I I chose this for a couple reasons. One of them is that it's easy to parse. You don't need a full XML parser. It's very easy to just write a Perl script to parse it.
+PhD A: As long as uh each tag is on one line.
+Grad C: Exactly. Exactly. Which I always do.
+PhD F: And you can have as much information in the tag as you want, right?
+Grad C: Well, I have it structured. Right? So each type tag has only particular items that it can take.
+PhD F: Can you But you can add to those structures if you
+Grad C: Sure. If you have more information. So what What NIST would say is that instead of doing this, you would say something like " link start equals, um, you know, some node ID,
+PhD F: Yeah. So
+Grad C: end equals some other node ID ", and then " type " would be " utterance ".
+PhD A: Hmm.
+Grad C: You know, so it's very similar.
+PhD F: So why would it be a a waste to do it this way if it's similar enough that we can always translate it?
+PhD D: It probably wouldn't be a waste. It would mean that at some point if we wanted to switch, we'd just have to translate everything.
+Grad C: Write a translator. But it se Since they are developing a big
+PhD F: But it but that sounds
+PhD D: But that's I don't think that's a big deal.
+PhD F: As long as it is
+Grad C: they're developing a big infrastructure. And so it seems to me that if if we want to use that, we might as well go directly to what they're doing, rather than
+PhD A: If we want to Do they already have something that's that would be useful for us in place?
+PhD D: Yeah. See, that's the question. I mean, how stable is their Are they ready to go,
+Grad C: The I looked at it
+PhD D: or?
+Grad C: The last time I looked at it was a while ago, probably a year ago, uh, when we first started talking about this.
+PhD D: Hmm.
+Grad C: And at that time at least it was still not very complete. And so, specifically they didn't have any external format representation at that time. They just had the sort of conceptual node uh, annotated transcription graph, which I really liked. And that's exactly what this stuff is based on. Since then, they've developed their own external file format, which is, uh, you know, this sort of s this sort of thing. Um, and apparently they've also developed a lot of tools, but I haven't looked at them. Maybe I should.
+PhD A: We should we should find out.
+PhD F: I mean, would the tools would the tools run on something like this, if you can translate them anyway?
+Grad C: Um, th what would would would what would worry me is that maybe we might miss a little detail
+PhD A: It's a hassle
+PhD F: I mean, that I guess it's a question that
+PhD A: if
+PhD F: uh, yeah.
+Grad C: that would make it very difficult to translate from one to the other.
+PhD F: OK.
+PhD A: I I think if it's conceptually close, and they already have or will have tools that everybody else will be using, I mean, it would be crazy to do something s you know, separate that
+PhD F: OK.
+Grad C: Yeah, we might as well. Yep.
+PhD F: Yeah.
+Grad C: So I'll I'll take a closer look at it.
+PhD F: Actually, so it's that that would really be the question, is just what you would feel is in the long run the best thing.
+Grad C: And Right.
+PhD F: Cuz once we start, sort of, doing this I don't we don't actually have enough time to probably have to rehash it out again
+Grad C: The Yep. The other thing the other way that I sort of established this was as easy translation to and from the Transcriber format.
+PhD F: and s Right.
+Grad C: Um,
+PhD F: Right.
+Grad C: but
+PhD F: I mean, I like this. This is sort of intuitively easy to actually r read,
+Grad C: Yep.
+PhD F: as easy it could as it could be. But, I suppose that as long as they have a type here that specifies " utt ", um,
+Grad C: It's almost the same.
+PhD F: it's yeah, close enough that
+Grad C: The the the the point is with this, though, is that you can't really add any supplementary information. Right? So if you suddenly decide that you want
+PhD F: You have to make a different type.
+Grad C: Yeah. You'd have to make a different type.
+PhD F: So Well, if you look at it and Um, I guess in my mind I don't know enough Jane would know better, about the types of annotations and and But I imagine that those are things that would well, you guys mentioned this, that could span any it could be in its own channel, it could span time boundaries of any type,
+Grad C: Right.
+PhD F: it could be instantaneous, things like that. Um, and then from the recognition side we have backtraces at the phone - level.
+Grad C: Right.
+PhD F: If if it can handle that, it could handle states or whatever. And then at the prosody - level we have frame sort of like cepstral feature files,
+Grad C: Yep.
+PhD F: uh, like these P - files or anything like that. And that's sort of the world of things that I And then we have the aligned channels, of course,
+Grad C: Right.
+PhD A: It seems to me you want to keep the frame - level stuff separate.
+PhD F: and Yeah.
+PhD A: And then
+PhD F: I I definitely agree and I wanted to find actually a f a nicer format or a maybe a more compact format than what we used before.
+Grad C: Right.
+PhD F: Just cuz you've got ten channels or whatever and two hours of a meeting. It's it's a lot of
+Grad C: Huge.
+PhD A: Now now how would you how would you represent, um, multiple speakers in this framework? Were You would just represent them as
+Grad C: Um,
+PhD A: You would have like a speaker tag or something?
+Grad C: there's a spea speaker tag up at the top which identifies them and then each utt the way I had it is each turn or each utterance, I don't even remember now, had a speaker ID tag attached to it.
+PhD A: Mm - hmm. OK.
+Grad C: And in this format you would have a different tag, which which would, uh, be linked to the link. So so somewhere else you would have another thing that would be,
+PhD F: Yeah.
+Grad C: um Let's see, would it be a node or a link? Um And so so this one would have, um, an ID is link link seventy - four or something like that.
+PhD A: Mm - hmm.
+Grad C: And then somewhere up here you would have a link that that, uh, you know, was referencing L - seventy - four and had speaker Adam.
+PhD A: Is i?
+Grad C: You know, or something like that.
+PhD F: Actually, it's the channel, I think, that
+PhD A: Well, channel or speaker or whatever.
+PhD F: I mean, w yeah, channel is what the channelized output out
+PhD A: It doesn't
+Grad C: This isn't quite right.
+PhD A: Right.
+Grad C: I have to look at it again.
+PhD F: Yeah, but
+PhD A: But but so how in the NIST format do we express a hierarchical relationship between, um, say, an utterance and the words within it? So how do you tell that these are the words that belong to that utterance?
+Grad C: Um, you would have another structure lower down than this that would be saying they're all belonging to this ID.
+PhD A: Mm - hmm.
+PhD D: So each thing refers to the utterance that it belongs to.
+Grad C: Right. And then each utterance could refer to a turn,
+PhD D: So it's it's not hi it's sort of bottom - up.
+Grad C: and each turn could refer to something higher up.
+PhD F: And what if you actually have So right now what you have as utterance, um, the closest thing that comes out of the channelized is the stuff between the segment boundaries that the transcribers put in or that Thilo put in, which may or may not actually be, like, a s it's usually not um, the beginning and end of a sentence, say.
+Grad C: Well, that's why I didn't call it " sentence ".
+PhD F: So, right. Um, so it's like a segment or something.
+Grad C: Yeah.
+PhD F: So, I mean, I assume this is possible, that if you have someone annotates the punctuation or whatever when they transcribe, you can say, you know, from for from the c beginning of the sentence to the end of the sentence, from the annotations, this is a unit, even though it never actually i It's only a unit by virtue of the annotations at the word - level.
+Grad C: Sure. I mean, so you would you would have yet another tag.
+PhD F: And then that would get a tag somehow.
+Grad C: You'd have another tag which says this is of type " sentence ".
+PhD F: OK. OK.
+Grad C: And, what
+PhD F: But it's just not overtly in the
+PhD A: OK.
+PhD F: Um, cuz this is exactly the kind of
+PhD A: So
+PhD F: I think that should be possible as long as the But, uh, what I don't understand is where the where in this type of file that would be expressed.
+Grad C: Right. You would have another tag somewhere. It's well, there're two ways of doing it.
+PhD F: S so it would just be floating before the sentence or floating after the sentence without a time - mark.
+Grad C: You could have some sort of link type type equals " sentence ", and ID is " S - whatever ". And then lower down you could have an utterance. So the type is " utterance " equals " utt ". And you could either say that No. I don't know
+PhD A: So here's the thing.
+Grad C: I take that back.
+PhD A: Um
+Grad C: Can you can you say that this is part of this,
+PhD F: See, cuz it's
+PhD A: Hhh.
+PhD F: it's
+PhD D: You would just have a r
+PhD F: S
+Grad C: or do you say this is part of this? I think
+PhD D: You would refer up to the sentence.
+PhD F: But they're
+PhD A: Well, the thing
+PhD F: they're actually overlapping each other, sort of.
+Grad C: So
+PhD A: the thing is that some something may be a part of one thing for one purpose and another thing of another purpose.
+Grad C: Right.
+PhD A: So f
+PhD F: You have to have another type then, I guess.
+PhD A: s Um, well, s let's let's ta so let's
+Grad C: Well, I think I'm I think w I had better look at it again
+PhD F: Yeah.
+PhD A: so
+Grad C: because I I'm
+PhD F: OK. OK.
+PhD A: y So for instance @ @ sup
+Grad C: There's one level there's one more level of indirection that I'm forgetting.
+PhD A: Suppose you have a word sequence and you have two different segmentations of that same word sequence. f Say, one segmentation is in terms of, um, you know, uh, sentences. And another segmentation is in terms of, um, I don't know, prosodic phrases. And let's say that they don't nest. So, you know, a prosodic phrase may cross two sentences or something.
+Grad C: Right.
+PhD A: I don't know if that's true or not but let's as
+PhD F: Well, it's definitely true with the segment.
+PhD A: Right.
+PhD F: That's what I exactly what I meant by the utterances versus the sentence could be sort of
+PhD A: Yeah. So, you want to be s you want to say this this word is part of that sentence and this prosodic phrase.
+PhD F: Yeah.
+PhD A: But the phrase is not part of the sentence
+PhD F: Yeah.
+PhD A: and neither is the sentence part of the phrase.
+PhD F: Right.
+Grad C: I I'm pretty sure that you can do that, but I'm forgetting the exact level of nesting.
+PhD A: So, you would have to have two different pointers from the word up one level up, one to the sent
+Grad C: So so what you would end up having is a tag saying " here's a word, and it starts here and it ends here ".
+PhD A: Right.
+Grad C: And then lower down you would say " here's a prosodic boundary and it has these words in it ". And lower down you'd have " here's a sentence,
+PhD A: Right.
+PhD F: An - Right.
+Grad C: and it has these words in it ".
+PhD F: So you would be able to go in and say, you know, " give me all the words in the bound in the prosodic phrase
+Grad C: Yep.
+PhD F: and give me all the words in the " Yeah.
+Grad C: So I think that's that would wor
+PhD F: Um, OK.
+Grad C: Let me look at it again.
+PhD A: Mm - hmm. The the o the other issue that you had was, how do you actually efficiently extract, um find and extract information in a structure of this type?
+PhD F: OK.
+Grad C: So.
+PhD F: That's good.
+PhD A: So you gave some examples like
+PhD F: Well, uh, and, I mean, you guys might I don't know if this is premature because I suppose once you get the representation you can do this, but the kinds of things I was worried about is,
+PhD A: No, that's not clear.
+PhD F: uh
+PhD A: I mean, yeah, you c sure you can do it,
+PhD F: Well, OK. So i if it
+PhD A: but can you do it sort of l l you know, it
+PhD F: I I mean, I can't do it, but I can um,
+PhD A: y y you gotta you gotta do this you you're gonna want to do this very quickly
+Grad C: Well
+PhD A: or else you'll spend all your time sort of searching through very complex data structures
+PhD F: Right. You'd need a p sort of a paradigm for how to do it. But an example would be " find all the cases in which Adam started to talk while Andreas was talking and his pitch was rising, Andreas's pitch ". That kind of thing.
+Grad C: Right. I mean, that's gonna be Is the rising pitch a feature, or is it gonna be in the same file?
+PhD F: Well, the rising pitch will never be hand - annotated. So the all the prosodic features are going to be automatically
+Grad C: But the I mean, that's gonna be hard regardless,
+PhD F: So they're gonna be in those
+Grad C: right? Because you're gonna have to write a program that goes through your feature file and looks for rising pitches.
+PhD A: Yeah.
+PhD F: So Right. So normally what we would do is we would say " what do we wanna assign rising pitch to? " Are we gonna assign it to words? Are we gonna just assign it to sort of when it's rising we have a begin - end rise representation? But suppose we dump out this file and we say, uh, for every word we just classify it as, w you know, rise or fall or neither?
+Grad C: OK. Well, in that case you would add that to this format
+PhD F: OK.
+Grad C: r
+PhD F: So we would basically be sort of, um, taking the format and enriching it with things that we wanna query in relation to the words that are already in the file,
+Grad C: Right.
+PhD F: and then querying it.
+PhD A: You want sort of a grep that's that works at the structural on the structural representation.
+PhD F: OK.
+Grad C: You have that. There's a standard again in XML, specifically for searching XML documents structured X - XML documents, where you can specify both the content and the structural position.
+PhD A: Yeah, but it's it's not clear that that's That's relative to the structure of the XML document,
+PhD F: If
+PhD A: not to the structure of what you're representing in the document.
+Grad C: You use it as a tool. You use it as a tool, not an end - user. It's not an end - user thing.
+PhD A: Right.
+Grad C: It's it's you would use that to build your tool to do that sort of search.
+PhD A: Right. Be Because here you're specifying a lattice.
+PhD F: Uh
+PhD A: So the underlying that's the underlying data structure. And you want to be able to search in that lattice.
+PhD F: But as long as the
+Grad C: It's a graph, but
+PhD A: That's different from searching through the text.
+PhD F: But it seems like as long as the features that
+Grad C: Well, no, no, no. The whole point is that the text and the lattice are isomorphic. They represent each other completely.
+PhD A: Um
+Grad C: So that I mean th
+PhD F: That's true if the features from your acoustics or whatever that are not explicitly in this are at the level of these types.
+PhD A: Hhh.
+PhD F: That that if you can do that
+Grad C: Yeah, but that's gonna be the trouble no matter what. Right? No matter what format you choose, you're gonna have the trou you're gonna have the difficulty of relating the the frame - level features
+PhD F: That's right. That's true. That's why I was trying to figure out what's the best format for this representation.
+Grad C: Yep.
+PhD F: And it's still gonna be
+PhD A: Hmm.
+PhD F: it's still gonna be, uh, not direct.
+Grad C: Right.
+PhD F: You know, it Or another example was, you know, uh, where in the language where in the word sequence are people interrupting? So, I guess that one's actually easier.
+PhD D: What about what about, um, the idea of using a relational database to, uh, store the information from the XML? So you would have XML basically would Uh, you you could use the XML to put the data in, and then when you get data out, you put it back in XML. So use XML as sort of the the transfer format,
+Grad C: Transfer.
+PhD D: uh, but then you store the data in the database, which allows you to do all kinds of good search things in there.
+Grad C: The, uh One of the things that ATLAS is doing is they're trying to define an API which is independent of the back store,
+PhD F: Huh.
+Grad C: so that, uh, you could define a single API and the the storage could be flat XML files or a database.
+PhD D: Mm - hmm.
+Grad C: My opinion on that is for the s sort of stuff that we're doing, I suspect it's overkill to do a full relational database, that, um, just a flat file and, uh, search tools I bet will be enough.
+PhD A: But
+Grad C: But that's the advantage of ATLAS, is that if we actually take decide to go that route completely and we program to their API, then if we wanted to add a database later it would be pretty easy.
+PhD D: Mm - hmm. Mm - hmm.
+PhD F: It seems like the kind of thing you'd do if I don't know, if people start adding all kinds of s bells and whistles to the data. And so that might be I mean, it'd be good for us to know to use a format where we know we can easily, um, input that to some database if other people are using it.
+Grad C: Yep.
+PhD F: Something like that.
+Grad C: I guess I'm just a little hesitant to try to go whole hog on sort of the the whole framework that that NIST is talking about, with ATLAS and a database and all that sort of stuff,
+PhD F: So
+Grad C: cuz it's a big learning curve, just to get going.
+PhD D: Hmm.
+PhD A: Hmm.
+Grad C: Whereas if we just do a flat file format, sure, it may not be as efficient but everyone can program in Perl and and use it.
+PhD F: OK.
+Grad C: Right?
+PhD A: But this is
+Grad C: So, as opposed to
+PhD A: I I'm still, um, not convinced that you can do much at all on the text on the flat file that that you know, the text representation. e Because the text representation is gonna be, uh, not reflecting the structure of of your words and annotations. It's just it's
+Grad C: Well, if it's not representing it, then how do you recover it? Of course it's representing it.
+PhD A: No. You you have to what you have to do is you have to basically
+Grad C: That's the whole point.
+PhD A: Y yeah. You can use Perl to read it in and construct a internal representation that is essentially a lattice. But, the and then
+Grad C: OK.
+PhD D: Yeah.
+Grad C: Well, that was a different point.
+PhD A: Right.
+Grad C: Right? So what I was saying is that
+PhD A: But that's what you'll have to do. Bec - be
+Grad C: For Perl if you want to just do Perl. If you wanted to use the structured XML query language, that's a different thing. And it's a set of tools that let you specify given the D - DDT DTD of the document, um, what sorts of structural searches you want to do. So you want to say that, you know, you're looking for, um, a tag within a tag within a particular tag that has this particular text in it, um, and, uh, refers to a particular value. And so the point isn't that an end - user, who is looking for a query like you specified, wouldn't program it in this language. What you would do is, someone would build a tool that used that as a library. So that they so that you wouldn't have to construct the internal representations yourself.
+PhD F: Is a See, I think the kinds of questions, at least in the next to the end of this year, are there may be a lot of different ones, but they'll all have a similar nature. They'll be looking at either a word - level prosodic, uh, an a value,
+Grad C: Mm - hmm.
+PhD F: like a continuous value, like the slope of something. But you know, we'll do something where we some kind of data reduction where the prosodic features are sort o uh, either at the word - level or at the segment - level,
+Grad C: Right.
+PhD F: or or something like that. They're not gonna be at the phone - level and they're no not gonna be at the frame - level when we get done with sort of giving them simpler shapes and things. And so the main thing is just being able Well, I guess, the two goals. Um, one that Chuck mentioned is starting out with something that we don't have to start over, that we don't have to throw away if other people want to extend it for other kinds of questions,
+Grad C: Right.
+PhD F: and being able to at least get enough, uh, information out on where we condition the location of features on information that's in the kind of file that you put up there. And that would that would do it,
+Grad C: Yeah. I think that there are quick and dirty solutions,
+PhD F: I mean, for me.
+Grad C: and then there are long - term, big - infrastructure solutions. And so we want to try to pick something that lets us do a little bit of both.
+PhD F: In the between, right. And especially that the representation doesn't have to be thrown away,
+Grad C: Um Right.
+PhD F: even if your tools change.
+Grad C: And so it seems to me that I mean, I have to look at it again to see whether it can really do what we want, but if we use the ATLAS external file representation, um, it seems like it's rich enough that you could do quick tools just as I said in Perl, and then later on if we choose to go up the learning curve, we can use the whole ATLAS inter infrastructure,
+PhD F: Yeah. I mean, that sounds good to me.
+Grad C: which has all that built in.
+PhD F: I I don't So if if you would l look at that and let us know what you think.
+Grad C: Sure.
+PhD F: I mean, I think we're sort of guinea pigs, cuz I I want to get the prosody work done but I don't want to waste time, you know, getting the
+PhD A: Oh, maybe
+PhD F: Yeah?
+PhD A: um
+Grad C: Well, I wouldn't wait for the formats, because anything you pick we'll be able to translate to another form.
+PhD A: Well Ma well, maybe you should actually look at it yourself too to get a sense of what it is you'll you'll be dealing with,
+PhD F: OK.
+PhD A: because, um, you know, Adam might have one opinion but you might have another, so
+Grad B: Yeah.
+PhD F: Yeah, definitely.
+PhD A: I think the more eyes look at this the better.
+PhD F: Especially if there's, e um you know, if someone can help with at least the the setup of the right
+Grad C: Hi, Jane.
+PhD F: Oh, hi.
+PhD A: Mmm.
+PhD F: the right representation, then, i you know, I hope it won't We don't actually need the whole full - blown thing to be ready,
+Grad C: Can you Oh, well.
+PhD F: so. Um, so maybe if you guys can look at it and sort of see what,
+Grad B: Yeah.
+Grad C: Sure.
+PhD F: um I think we're we're we're actually just
+Grad C: We're about done.
+PhD F: yeah,
+Grad B: Hmm.
+PhD F: wrapping up, but, um Yeah, sorry, it's a uh short meeting, but, um Well, I don't know. Is there anything else, like I mean that helps me a lot,
+Grad C: Well, I think the other thing we might want to look at is alternatives to P - file.
+PhD F: but
+Grad C: I mean, th the reason I like P - file is I'm already familiar with it, we have expertise here, and so if we pick something else, there's the learning - curve problem. But, I mean, it is just something we developed at ICSI.
+PhD A: Is there an is there an IP - API?
+Grad C: And so Yeah.
+PhD A: OK.
+Grad C: There's an API for it. And, uh,
+PhD A: There used to be a problem that they get too large,
+Grad C: a bunch of libraries, P - file utilities.
+PhD A: and so basically the uh the filesystem wouldn't
+Grad C: Well, that's gonna be a problem no matter what. You have the two - gigabyte limit on the filesystem size. And we definitely hit that with Broadcast News.
+PhD A: Maybe you could extend the API to, uh, support, uh, like splitting up, you know, conceptually one file into smaller files on disk so that you can essentially, you know, have arbitrarily long f
+Grad C: Yep. Most of the tools can handle that.
+PhD A: Yeah.
+Grad C: So that we didn't do it at the API - level. We did it at the t tool - level. That that most many of them can s you can specify several P - files and they'll just be done sequentially.
+PhD A: OK.
+Grad C: So.
+PhD F: So, I guess, yeah, if if you and Don can if you can show him the P - file stuff and see.
+Grad C: Sure.
+PhD F: So this would be like for the F - zero
+Grad B: True.
+Grad C: I mean, if you do " man P - file " or " apropos P - file ", you'll see a lot.
+Grad B: I've used the P - file, I think. I've looked at it at least, briefly, I think when we were doing s something.
+PhD A: What does the P stand for anyway?
+Grad C: I have no idea.
+Grad B: Oh, in there.
+Grad C: I didn't de I didn't develop it. You know, it was I think it was Dave Johnson. So it's all part of the Quicknet library. It has all the utilities for it.
+PhD A: No, P - files were around way before Quicknet. P - files were were around when w with, um, RAP.
+Grad C: Oh, were they?
+PhD D: Mm - hmm.
+PhD A: Right?
+PhD F: It's like the history of ICSI.
+PhD A: You worked with P - files.
+Grad C: Mm - hmm.
+PhD F: Like
+PhD D: No.
+PhD A: I worked with P - files.
+PhD F: Yeah?
+PhD D: I don't remember what the " P " is, though.
+PhD A: No.
+Grad C: But there are ni they're The Quicknet library has a bunch of things in it to handle P - files,
+PhD A: Yeah.
+Grad C: so it works pretty well.
+PhD F: And that isn't really, I guess, as important as the the main I don't know what you call it, the the main sort of word - level
+Grad C: Neither do I.
+PhD D: Probably stands for " Phil ". Phil Kohn.
+Grad C: It's a Phil file?
+PhD D: Yeah. That's my guess.
+PhD F: Huh. OK. Well, that's really useful. I mean, this is exactly the kind of thing that I wanted to settle. Um, so
+Grad C: Yeah, I've been meaning to look at the ATLAS stuff again anyway.
+PhD F: Great.
+Grad C: So, just keep
+PhD F: Yeah. I guess it's also sort of a political deci I mean, if if you feel like that's a community that would be good to tie into anyway, then it's sounds like it's worth doing.
+Grad C: Yeah, I think it it w
+PhD A: j I think there's
+Grad C: And, w uh, as I said, I what I did with this stuff I based it on theirs. It's just they hadn't actually come up with an external format yet. So now that they have come up with a format, it doesn't it seems pretty reasonable to use it.
+PhD A: Mmm.
+Grad C: But let me look at it again.
+PhD F: OK, great.
+Grad C: As I said, that
+PhD F: Cuz we actually can start
+Grad C: There's one level there's one more level of indirection and I'm just blanking on exactly how it works. I gotta look at it again.
+PhD F: I mean, we can start with, um, I guess, this input from Dave's, which you had printed out, the channelized input. Cuz he has all of the channels, you know, with the channels in the tag and stuff like that.
+Grad C: Yeah, I've seen it.
+PhD F: So that would be i directly,
+Grad C: Yep. Easy easy to map.
+PhD F: um Yeah. And so then it would just be a matter of getting making sure to handle the annotations that are, you know, not at the word - level and, um, t to import the
+Grad B: Where are those annotations coming from?
+PhD F: Well, right now, I g Jane would would
+Grad C: Mm - hmm.
+PhD F: Yeah.
+Postdoc E: Are you talking about the overlap a annotations?
+PhD F: Yeah, any kind of annotation that, like, isn't already there. Uh, you know, anything you can envision.
+Postdoc E: Yeah. So what I was imagining was um, so Dave says we can have unlimited numbers of green ribbons. And so put, uh, a a green ribbon on for an overlap code. And since we w we I I think it's important to remain flexible regarding the time bins for now. And so it's nice to have However, you know, you want to have it, uh, time time uh, located in the discourse. So, um, if we if we tie the overlap code to the first word in the overlap, then you'll have a time - marking. It won't it'll be independent of the time bins, however these e evolve, shrink, or whatever, increase, or Also, you could have different time bins for different purposes. And having it tied to the first word in an overlap segment is unique, uh, you know, anchored, clear. And it would just end up on a separate ribbon.
+Grad C: Right.
+Postdoc E: So the overlap coding is gonna be easy with respect to that. You look puzzled.
+PhD D: I I just I don't quite understand what these things are.
+Postdoc E: OK.
+PhD D: Uh.
+Postdoc E: What, the codes themselves?
+PhD D: Well, th overlap codes.
+Postdoc E: Or the?
+PhD D: I'm not sure what that @ @
+Grad C: Well, I mean, is that
+PhD D: It probably doesn't matter.
+Postdoc E: Well, we don't have to go into the codes.
+Grad C: I mean, it doesn't.
+PhD D: No, I d
+Postdoc E: We don't have to go into the codes.
+Grad C: I mean, that not for the topic of this meeting.
+Postdoc E: But let me just No. W the idea is just to have a separate green ribbon, you know, and and and let's say that this is a time bin. There's a word here. This is the first word of an overlapping segment of any length, overlapping with any other, uh, word uh, i segment of any length. And, um, then you can indicate that this here was perhaps a ch a backchannel, or you can say that it was, um, a usurping of the turn, or you can you know, any any number of categories. But the fact is, you have it time - tagged in a way that's independent of the, uh, sp particular time bin that the word ends up in. If it's a large unit or a small unit, or
+PhD A: Mm - hmm.
+Postdoc E: we sh change the boundaries of the units, it's still unique and and, uh, fits with the format,
+PhD F: Right.
+Postdoc E: flexible, all that.
+PhD A: Um, it would be nice um, eh, gr this is sort of r regarding uh, uh it's related but not directly germane to the topic of discussion, but, when it comes to annotations, um, you often find yourself in the situation where you have different annotations of the same, say, word sequence. OK?
+Postdoc E: Yeah.
+PhD A: And sometimes the word sequences even differ slightly because they were edited s at one place but not the other.
+Postdoc E: Yeah.
+PhD A: So, once this data gets out there, some people might start annotating this for, I don't know, dialogue acts or, um, you know, topics or what the heck. You know, there's a zillion things that people might annotate this for. And the only thing that is really sort of common among all the versi the various versions of this data is the word sequence, or approximately.
+Postdoc E: Yep.
+PhD F: Or the time.
+PhD A: Or the times. But, see, if you'd annotate dialogue acts, you don't necessarily want to or topics you don't really want to be dealing with time - marks.
+PhD F: I guess.
+PhD A: You'd it's much more efficient for them to just see the word sequence, right?
+PhD F: Mm - hmm.
+PhD A: I mean, most people aren't as sophisticated as as we are here with, you know, uh, time alignments and stuff. So So the the the point is
+Grad C: Should should we mention some names on the people who are n?
+PhD A: Right. So, um, the p my point is that you're gonna end up with, uh, word sequences that are differently annotated. And you want some tool, uh, that is able to sort of merge these different annotations back into a single, uh, version. OK? Um, and we had this problem very massively, uh, at SRI when we worked, uh, a while back on, uh well, on dialogue acts as well as, uh, you know, um, what was it? uh,
+PhD F: Well, all the Switchboard in it.
+PhD A: utterance types. There's, uh, automatic, uh, punctuation and stuff like that.
+PhD F: Yeah.
+PhD A: Because we had one set of annotations that were based on, uh, one version of the transcripts with a particular segmentation, and then we had another version that was based on, uh, a different s slightly edited version of the transcripts with a different segmentation. So, we had these two different versions which were you know, you could tell they were from the same source but they weren't identical. So it was extremely hard to reliably merge these two back together to correlate the information from the different annotations.
+Grad C: Yep. I I don't see any way that file formats are gonna help us with that.
+PhD A: No.
+Grad C: It's it's all a question of semantic.
+PhD A: No. But once you have a file format, I can imagine writing not personally, but someone writing a tool that is essentially an alignment tool, um, that mediates between various versions,
+PhD F: Mm - hmm.
+Grad C: Yeah.
+PhD A: and uh, sort of like th uh, you know, you have this thing in UNIX where you have, uh, diff.
+Grad C: Diff.
+PhD F: W - diff or diff.
+PhD A: There's the, uh, diff that actually tries to reconcile different two diffs f based on the same original.
+PhD F: Yeah.
+Postdoc E: Is it S - diff?
+Grad C: Yep.
+Postdoc E: Mmm.
+PhD A: Something like that, um, but operating on these lattices that are really what's behind this uh, this annotation format.
+Grad C: Yep.
+PhD A: So
+Grad C: There's actually a diff library you can use to do things like that that so you have different formats.
+PhD F: You could definitely do that with the
+PhD A: So somewhere in the API you would like to have like a merge or some some function that merges two two versions.
+Grad C: Yeah, I think it's gonna be very hard. Any sort of structured anything when you try to merge is really, really hard
+PhD A: Right.
+Grad C: because you ha i The hard part isn't the file format. The hard part is specifying what you mean by " merge ".
+PhD A: Is Exactly.
+Grad C: And that's very difficult.
+PhD F: But the one thing that would work here actually for i that is more reliable than the utterances is the the speaker ons and offs. So if you have a good,
+Grad C: But this is exactly what I mean, is that that the problem i
+PhD F: um Yeah. You just have to know wha what to tie it to.
+Grad C: Yeah, exactly. The problem is saying " what are the semantics,
+PhD F: And
+Grad C: what do you mean by " merge "? "
+PhD F: Right, right.
+PhD A: Right. So so just to let you know what we where we kluged it by, uh, doing uh, by doing Hhh.
+Grad C: So.
+PhD A: Both were based on words, so, bo we have two versions of the same words intersp you know, sprinkled with with different tags for annotations.
+Grad C: And then you did diff.
+PhD A: And we did diff. Exactly!
+Grad C: Yeah, that's just what I thought.
+PhD A: And that's how
+Grad C: That's just wh how I would have done it.
+PhD A: Yeah. But, you know, it had lots of errors and things would end up in the wrong order, and so forth. Uh, so, um, if you had a more
+Grad C: Yep.
+PhD A: Uh, it it was a kluge because it was basically reducing everything to uh, to uh, uh, to textual alignment.
+Grad C: A textual
+PhD A: Um, so
+PhD F: But, d isn't that something where whoever if if the people who are making changes, say in the transcripts, cuz this all happened when the transcripts were different ye um, if they tie it to something, like if they tied it to the acoustic segment if they You know what I mean? Then Or if they tied it to an acoustic segment and we had the time - marks, that would help.
+Grad C: Yep.
+PhD F: But the problem is exactly as Adam said, that you get, you know, y you don't have that information or it's lost in the merge somehow,
+Postdoc E: Well, can I ask one question?
+PhD F: so
+Postdoc E: It it seems to me that, um, we will have o an official version of the corpus, which will be only one one version in terms of the words where the words are concerned. We'd still have the the merging issue maybe if coding were done independently of the
+PhD A: And you're gonna get that
+Postdoc E: But but
+PhD A: because if the data gets out, people will do all kinds of things to it. And, uh, s you know, several years from now you might want to look into, um, the prosody of referring expressions. And someone at the university of who knows where has annotated the referring expressions. So you want to get that annotation and bring it back in line with your data.
+Grad C: Right.
+PhD A: OK?
+Grad C: But unfortunately they've also hand - edited it.
+Postdoc E: OK, then
+PhD F: But they've also Exactly. And so that's exactly what we should somehow when you distribute the data, say that you know, that have some way of knowing how to merge it back in and asking people to try to do that.
+PhD A: Yeah.
+Grad C: Yep.
+PhD A: Right.
+Postdoc E: Well, then the
+PhD D: What's what's wrong with doing times? I
+Postdoc E: I agree. That was what I was wondering.
+PhD F: Uh, yeah, time is the
+Grad C: Well,
+Postdoc E: Time is unique. You were saying that you didn't think we should
+PhD F: Time is passing!
+PhD A: Time time times are ephemeral.
+Postdoc E: Andreas was saying Yeah.
+Grad C: what if they haven't notated with them, times?
+PhD F: Yeah. He he's a language modeling person, though.
+PhD A: Um
+Grad C: So so imagine I think his his example is a good one. Imagine that this person who developed the corpus of the referring expressions didn't include time.
+PhD A: Mm - hmm. Yeah.
+Grad C: He included references to words.
+Postdoc E: Ach!
+PhD A: Yeah.
+Grad C: He said that at this word is when when it happened.
+Postdoc E: Well, then
+PhD A: Or she.
+Grad C: Or she.
+Postdoc E: But then couldn't you just indirectly figure out the time tied to the word?
+PhD F: But still they Exactly.
+Grad C: Sure. But what if what if they change the words?
+PhD F: Yeah.
+Postdoc E: Not Well, but you'd have some anchoring point. He couldn't have changed all the words.
+PhD D: But can they change the words without changing the time of the word?
+Grad C: Sure. But they could have changed it a little. The the point is, that that they may have annotated it off a word transcript that isn't the same as our word transcript, so how do you merge it back in? I understand what you're saying.
+PhD A: Mmm. Mm - hmm.
+Grad C: And I I guess the answer is, um, it's gonna be different every time. It's j it's just gonna be
+Postdoc E: Yeah.
+PhD F: Yeah.
+Grad C: I it's exactly what I said before,
+PhD F: You only know the boundaries of the
+Grad C: which is that " what do you mean by " merge "? " So in this case where you have the words and you don't have the times, well, what do you mean by " merge "? If you tell me what you mean, I can write a program to do it.
+PhD F: Right. Right. You can merge at the level of the representation that the other person preserved and that's it.
+Grad C: Right. And that's about all you can do.
+PhD F: And beyond that, all you know is is relative ordering and sometimes even that is wrong.
+Grad C: So so in so in this one you would have to do a best match between the word sequences,
+PhD F: So.
+PhD A: Mm - hmm.
+Grad C: extract the times f from the best match of theirs to yours, and use that.
+PhD F: And then infer that their time - marks are somewhere in between.
+Grad C: Right.
+PhD F: Yeah, exactly.
+Postdoc E: But it could be that they just uh, I mean, it could be that they chunked they they lost certain utterances and all that stuff,
+Grad C: Right, exactly. So it could get very, very ugly.
+Postdoc E: or
+PhD F: Definitely.
+Postdoc E: Yeah.
+PhD F: Definitely. Alright.
+Postdoc E: That's interesting.
+PhD F: Well, I guess, w I I didn't want to keep people too long and Adam wanted t people I'll read the digits. If anyone else offers to, that'd be great. And
+PhD A: Ah, well.
+Grad C: Yeah.
+PhD F: if not, I guess
+PhD A: For th for the for the benefit of science we'll read the digits.
+Grad C: More digits, the better. OK, this is
+PhD F: Thanks thanks a lot. It's really helpful. I mean, Adam and Don will sort of meet and I think that's great. Very useful. Go next.
+PhD D: Scratch that.
+Postdoc E: O three
+Grad C: Oh, right.

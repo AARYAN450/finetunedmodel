@@ -1,0 +1,76 @@
+device: cpu
+train 1140 rows (260 pos)
+test  285 rows (65 pos)
+
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+C:\Users\Aaryan Sharma\Desktop\finetunedmodel\.venv\Lib\site-packages\huggingface_hub\file_download.py:149: UserWarning: `huggingface_hub` cache-system uses symlinks by default to efficiently store duplicated files but your machine does not support them in C:\Users\Aaryan Sharma\.cache\huggingface\hub\models--roberta-base. Caching files will still work but in a degraded version that might require more space on your disk. This warning can be disabled by setting the `HF_HUB_DISABLE_SYMLINKS_WARNING` environment variable. For more details, see https://huggingface.co/docs/huggingface_hub/how-to-cache#limitations.
+To support symlinks on Windows, you either need to activate Developer Mode or to run Python as an administrator. In order to activate developer mode, see this article: https://docs.microsoft.com/en-us/windows/apps/get-started/enable-your-device-for-development
+  warnings.warn(message)
+C:\Users\Aaryan Sharma\Desktop\finetunedmodel\.venv\Lib\site-packages\huggingface_hub\file_download.py:149: UserWarning: `huggingface_hub` cache-system uses symlinks by default to efficiently store duplicated files but your machine does not support them in C:\Users\Aaryan Sharma\.cache\huggingface\hub. Caching files will still work but in a degraded version that might require more space on your disk. This warning can be disabled by setting the `HF_HUB_DISABLE_SYMLINKS_WARNING` environment variable. For more details, see https://huggingface.co/docs/huggingface_hub/how-to-cache#limitations.
+To support symlinks on Windows, you either need to activate Developer Mode or to run Python as an administrator. In order to activate developer mode, see this article: https://docs.microsoft.com/en-us/windows/apps/get-started/enable-your-device-for-development
+  warnings.warn(message)
+Loading weights:   0%|          | 0/197 [00:00<?, ?it/s]Loading weights:  14%|#3        | 27/197 [00:00<00:00, 255.87it/s]Loading weights:  27%|##6       | 53/197 [00:00<00:00, 231.84it/s]Loading weights: 100%|##########| 197/197 [00:00<00:00, 860.47it/s]
+[transformers] [1mRobertaForSequenceClassification LOAD REPORT[0m from: roberta-base
+Key                        | Status     | 
+---------------------------+------------+-
+lm_head.layer_norm.weight  | UNEXPECTED | 
+lm_head.dense.bias         | UNEXPECTED | 
+lm_head.bias               | UNEXPECTED | 
+lm_head.dense.weight       | UNEXPECTED | 
+lm_head.layer_norm.bias    | UNEXPECTED | 
+classifier.dense.bias      | MISSING    | 
+classifier.out_proj.weight | MISSING    | 
+classifier.out_proj.bias   | MISSING    | 
+classifier.dense.weight    | MISSING    | 
+
+Notes:
+- UNEXPECTED:	can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+- MISSING:	those params were newly initialized because missing from the checkpoint. Consider training on your downstream task.
+class weights: [0.6477272510528564, 2.192307710647583]
+  epoch 1 step 20/72 loss 0.6816
+  epoch 1 step 40/72 loss 0.6621
+  epoch 1 step 60/72 loss 0.6035
+epoch 1 done, mean loss 0.5680, 152s elapsed
+  epoch 2 step 20/72 loss 0.3101
+  epoch 2 step 40/72 loss 0.2945
+  epoch 2 step 60/72 loss 0.2735
+epoch 2 done, mean loss 0.2829, 304s elapsed
+  epoch 3 step 20/72 loss 0.2799
+  epoch 3 step 40/72 loss 0.2120
+  epoch 3 step 60/72 loss 0.1938
+epoch 3 done, mean loss 0.1887, 467s elapsed
+
+              precision    recall  f1-score   support
+
+           0      0.977     0.959     0.968       220
+           1      0.870     0.923     0.896        65
+
+    accuracy                          0.951       285
+   macro avg      0.923     0.941     0.932       285
+weighted avg      0.952     0.951     0.951       285
+
+confusion matrix [[tn fp] [fn tp]]:
+[[211   9]
+ [  5  60]]
+
+ACTION-ITEM CLASS @0.50  precision=0.870 recall=0.923 f1=0.896
+
+threshold sweep:
+  0.20  p=0.811 r=0.923 f1=0.863
+  0.25  p=0.811 r=0.923 f1=0.863
+  0.30  p=0.845 r=0.923 f1=0.882
+  0.35  p=0.857 r=0.923 f1=0.889
+  0.40  p=0.870 r=0.923 f1=0.896
+  0.45  p=0.870 r=0.923 f1=0.896
+  0.50  p=0.870 r=0.923 f1=0.896
+  0.55  p=0.868 r=0.908 f1=0.887
+  0.60  p=0.866 r=0.892 f1=0.879
+  0.65  p=0.864 r=0.877 f1=0.870
+  0.70  p=0.864 r=0.877 f1=0.870
+  0.75  p=0.864 r=0.877 f1=0.870
+  0.80  p=0.864 r=0.877 f1=0.870
+
+best f1=0.896 at threshold 0.50 (p=0.870 r=0.923)
+Writing model shards:   0%|          | 0/1 [00:00<?, ?it/s]Writing model shards: 100%|##########| 1/1 [00:00<00:00,  3.37it/s]Writing model shards: 100%|##########| 1/1 [00:00<00:00,  3.37it/s]
+
+saved action_item_model/ and results_roberta.json

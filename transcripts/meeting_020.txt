@@ -1,0 +1,1004 @@
+Grad H: st
+Grad F: So we're on.
+Grad H: Yeah. That's better.
+Grad F: And, somewhere is my agenda. I think the most important thing is Morgan wanted to talk about, uh, the ARPA demo.
+Professor D: Well, so, here's the thing. Um, why don't we s again start off with with, uh, Yeah, I'll get it. I'll get the door. Um, I think we want to start off with the agenda. And then, given that, uh, Liz and Andreas are gonna be ten, fifteen minutes late, we can try to figure out what we can do most effectively without them here. So So so, one thing is, yeah, talk about demo,
+Grad F: OK. So, uh uh, IBM transcription status,
+Professor D: IBM transcription. Uh, what else?
+Professor D: What's SmartKom? SmartKom?
+Grad F: Uh, we wanna talk about if w if we wanna add the data to the mar Meeting Recorder corpus.
+PhD E: The data. The data which we are collecting here.
+Professor D: What what what are we collecting here?
+PhD E: Data?
+Grad F: So why don't we have that on the agenda and we'll we'll get to it and talk about it?
+PhD E: The SmartKom data?
+Professor D: Yeah, right.
+PhD E: Yeah.
+Professor D: Uh, right. Uh.
+Grad F: Uh, reorganization status.
+Professor D: Reorganization status.
+Postdoc A: Oh. Files and directories?
+Professor D: Files and directories.
+Grad F: Yep. Uh - huh. Absinthe, which is the multiprocessor UNIX Linux. I think it was Andreas wanted to talk about segmentation and recognition, and update on SRI recognition experiments.
+Professor D: Um
+Grad F: And then if ti if there's time I wanted to talk about digits, but it looked like we were pretty full, so I can wait till next week.
+Professor D: Right. OK. Well, let's see. I think the a certainly the segmentation and recognition we wanna maybe focus on when An - Andreas is here since that was particularly his thing.
+PhD E: And also the SmartKom thing should b
+Professor D: SmartKom also, Andreas. Absinthe, I think also he has sort of been involved in a lot of those things.
+Grad F: At least,
+Professor D: Yeah.
+Grad F: yeah, he'll t he'll probably be interested.
+Professor D: Yeah.
+Grad F: But.
+Professor D: Um So, I mean, I think they'll be inter I'll be interested in all this, but but, uh, probably, if we had to pick something that we would talk on for ten minutes or so while they're coming here. Or I guess it would be, you think, reorganization status, or?
+Grad F: Yeah. I mean, I think, Chuck was the one who added out the agenda item. I don't really have anything to say other than that we still haven't done it.
+PhD B: Well, I mean, I uh just basically that
+Grad F: So.
+PhD B: maybe I said maybe we said this before just that we met and we talked about it and we sort of have a plan for getting things organized and
+Postdoc A: And I and I think a crucial part of that is the idea of of not wanting to do it until right before the next level zero back - up so that there won't be huge number of of added,
+PhD B: Right.
+Postdoc A: uh
+Grad F: Right.
+PhD B: That that was basically it. Not not much @ @
+Grad F: Although Dave basically said that if we wanna do it, just tell him and he'll do a d level zero then.
+Postdoc A: Yeah. Uh - huh. Oh, excellent.
+Grad F: So.
+Postdoc A: Oh, good.
+PhD B: Oh, so maybe we should just go ahead and get everything ready, and
+Grad F: Yep. So, I think we do need to talk a little bit about Well, we don't need to do it during this meeting.
+PhD B: Yeah.
+Grad F: We have a little more to discuss. But, uh, we're we're basically ready to do it. And, uh, I have some web pages on ts more of the background. So, naming conventions and things like that, that I've been trying to keep actually up to date. So. And I've been sharing them with U - d UW folks also.
+Postdoc A: I'm sorry, you've been what? Showing them?
+Professor D: OK.
+Postdoc A: Sharing them.
+Grad F: Sharing them with the UW folks.
+Postdoc A: OK. OK.
+Professor D: OK. Well, maybe uh, since that that was a pretty short one, maybe we should talk about the IBM transcription status. Someone can fill in Liz and Andreas later. Uh
+Grad F: OK. So, we, uh we did another version of the beeps, where we separated each beeps with a spoken digit. Chuck came up here and recorded some di himself speaking some digits, and so it just goes " beep one beep " and then the phrase, and then " beep two beep " and then the phrase. And that seems pretty good. Um, I think they'll have a b easier time keeping track of where they are in the file.
+PhD E: And we have done that on the automatic segmentations.
+Grad F: And we did it with the automatic segmentation, and I don't think We ne we didn't look at it in detail. We just sent it to IBM. We we sorta spot - checked it.
+PhD B: I listened to probably, uh, five or ten minutes of it from the beginning.
+PhD E: Yeah.
+Grad F: Oh, really?
+PhD B: Yeah.
+Grad F: OK.
+PhD B: And
+Grad F: I sorta spot - checked here and there and it sounded pretty good. So. I think it'll work.
+Professor D: OK.
+Grad F: And, uh, we'll just hafta see what we get back from them. Uh
+PhD B: And the main thing will be if we can align what they give us with what we sent them. I mean, that's the crucial part.
+Grad F: Right.
+PhD B: And I think we'll be able to do that at with this new beep format.
+Grad F: Yep. Well, I think it's also they are much less likely to d have errors.
+PhD B: Mm - hmm.
+Grad F: I mean, so the problem wi last time is that there were errors in the transcripts where they put beeps where there weren't any, or and they put in extraneous beeps.
+PhD B: Right. Yeah.
+Grad F: And with the numbers there, it's much less likely.
+PhD B: Yeah, one interesting note is uh, or problem I dunno if this was just because of how I play it back, I say, uh, SND - play and then the file, every once in a while, @ @ uh, like a beep sounds like it's cut into two beeps.
+PhD E: Yeah. Into two pieces.
+PhD B: Yeah, and I I dunno if that's an, uh, artifact of playback
+PhD E: Yeah. Yep.
+PhD B: bu uh, I don't think it's probably in the original file. Um, but, uh
+PhD E: I recognize that, too. Yeah.
+Grad F: Ha. That's interesting. I didn't hear that.
+PhD B: Yeah. But with this new format, um, that hopefully they're not hearing that, and if they are, it shouldn't throw them.
+PhD E: Yep.
+PhD B: So.
+Grad F: Well, maybe we better listen to it again, make sure, but, I mean, certainly the software shouldn't do that,
+PhD B: Yeah. That's what I thought.
+Grad F: so.
+Postdoc A: Mm - hmm.
+PhD B: I it's probably just, you know, mmm, somehow the audio device gets hung for a second,
+PhD E: Yeah. Some latency or something.
+Grad F: Hiccups.
+PhD E: Yeah?
+Postdoc A: As long as they have one number, and they know that there's only one beep maximum that goes with that number.
+PhD B: or
+PhD E: Yeah.
+PhD B: Yeah. Right.
+Grad F: Yeah. The only the only part that might be confusing is when Chuck is reading digits.
+PhD B: Right.
+PhD E: Yep.
+Postdoc A: Well, you know, actually, are we having them
+PhD B: So th
+Grad F: " Seven four eight beep seven beep eight three two ".
+Postdoc A: Yeah, but are we having them do digits?
+Grad F: Yes. Because, uh, we don't we didn't In order to cut them out we'd have to listen to it.
+PhD B: We we didn't cut those out.
+PhD E: Yeah. They are not transcribed yet. So. Yeah.
+Postdoc A: OK.
+PhD E: Yeah.
+Grad F: And we wanted to avoid doing that,
+Postdoc A: OK.
+Grad F: so we they are transcribing the digits.
+Postdoc A: OK.
+PhD B: We can we can ignore it when we get it back,
+Grad F: Although we could tell them we could tell them, if you hear someone reading a digits string just say " bracket digit bracket "
+PhD B: huh.
+Grad F: and don't bother actually computing the di writing down the digits.
+PhD B: Yeah.
+Postdoc A: That'd be great. That'd be what I'm having the transcribers here do, cuz it can be extracted later.
+Grad F: Yep. And then I wanted to talk about but as I said I we may not have time what we should do about digits. We have a whole pile of digits that haven't been transcribed.
+Professor D: Le - let's talk about it, because that's that's something that I I know Andreas is less interested in than Liz is,
+Grad F: OK.
+Professor D: so, you know. It's good
+Grad F: Do we have anything else to say about transcription? About IBM stuff?
+PhD B: Uh, Brian I I sent bresset sent Brian a message about the meeting and I haven't heard back yet. So. I g hope he got it and hopefully he's
+Grad F: OK.
+Postdoc A: Hmm.
+PhD B: maybe he's gone, I dunno. He didn't even reply to my message. So. I should probably ping him just to make sure that he got it.
+Grad F: Alright. So, we have a whole bunch of digits, if we wanna move on to digits.
+Professor D: Actually, maybe I One one relate more related thing in transcription. So that's the IBM stuff. We've got that sorted out. Um, how're we doing on the on the rest of it?
+Postdoc A: We're doing well. I I hire I've hired two extra people already, expect to hire two more.
+Grad F: Hmm.
+Postdoc A: And, um, I've prepared, um, uh, a set of five which I'm which I'm calling set two, which are now being edited by my head transcriber, in terms of spelling errors and all that. She's also checking through and mar and and monitoring, um, the transcription of another transcriber. You know, I mean, she's going through and doing these kinds of checks.
+Professor D: Uh - huh.
+Postdoc A: And, I've moved on now to what I'm calling set three. I sort of thought if I do it in sets groups of five, then I can have, like, sort of a a parallel processing through through the the current.
+Professor D: Uh - huh.
+Postdoc A: And and you indicated to me that we have a g a goal now, for the for the, um, the, uh, DARPA demo, of twenty hours. So, I'm gonna go up to twenty hours, be sure that everything gets processed, and released, and and that's that's what my goal is. Package of twenty hours right now, and then once that's done, move on to the next.
+Professor D: Yeah, uh, so twenty hours. But I guess the other thing is that, um, that that's kinda twenty hours ASAP because the longer before the demo we actually have the twenty hours, the more time it'll be for people to actually do cool things with it.
+Postdoc A: Mm - hmm. Good. I'm I'm hiring people who, uh, really are
+Professor D: So. OK.
+Postdoc A: They would like to do it full - time, several of these people. And and I don't think it's possible, really, to do this full - time, but, that what it shows is motivation to do as many hours as possible.
+Professor D: Mm - hmm.
+Grad F: It'll keep your accuracy up. Yep.
+Professor D: Yeah.
+Postdoc A: And they're really excellent.
+Professor D: Yeah. Well, that's good.
+Postdoc A: Yeah. Got a good core group now.
+Professor D: Yeah, I mean, I guess the So the difference if if, um, if the IBM stuff works out, the difference in the job would be that they p primarily would be checking through things that were already done by someone else?
+Postdoc A: Again. Mm - hmm.
+Professor D: Is that most of what it?
+Grad F: And correcting.
+Professor D: I mean Correcting.
+Grad F: Correcting. We'll we'll expect that they'll have to move some time bins and do some corrections.
+Postdoc A: And I you know, I've also d uh, discovered So with the new transcriber I'm um So Uh, lemme say that my, uh So, um At present, um, the people have been doing these transcriptions a channel at a time. And, that sort of, um, is useful, and t you know, and then once in a while they'll have to refer to the other channels to clear something up. OK. Well, I realize that, um, w i we we're using the pre - segmented version, and, um, the pre - segmented version is extremely useful, and wouldn't it be, useful also to have the visual representation of those segments? And so I've uh, I, uh, uh, I've trained the new one uh, the new the newest one, to, um, use the visual from the channel that is gonna be transcribed at any given time. And that's just amazingly helpful. Because what happens then, is you scan across the signal and once in a while you'll find a blip that didn't show up in the pre - segmentation.
+Grad F: Oh, right.
+Postdoc A: And that'll be something like I it's ver it's interesting.
+Grad F: I see what you mean. A backchannel, or
+Postdoc A: Once in a while it's a backchannel.
+PhD E: Yep.
+Postdoc A: Sometimes it seems to be, um, similar to the ones that are being picked up.
+Grad F: Mm - hmm.
+Postdoc A: And they're rare events, but you can really go through a meeting very quickly. You just you just, you know, yo you s you scroll from screen to screen, looking for blips. And, I think that we're gonna end up with, uh better coverage of the backchannels,
+Professor D: Yeah.
+Postdoc A: but at the same time we're benefitting tremendously from the pre - segmentation because there are huge places where there is just absolutely no activity at all. And, uh, the audio quality is so good
+Professor D: Mm - hmm.
+PhD B: So they can they can, um, scroll through that pretty quick?
+Postdoc A: Yeah. Mm - hmm.
+PhD B: That's great.
+Postdoc A: Yeah. So I think that that's gonna, also eh, you know, speed the efficiency of this part of the process.
+Professor D: Hmm. OK. Uh, yeah. So, uh Yeah. So let's talk about the digits, since they're not here yet.
+Grad F: Uh, so, we have a whole bunch of digits that we've read and we have the forms and so on, um, but only a small number of that ha well, not a small number only a subset of that has been transcribed. And so we need to decide what we wanna do. And, uh, Liz and Andreas actually they're not here, but, they did say at one point that they thought they could do a pretty good job of just doing a forced alignment. And, again, I don't think we'll be able to do with that alone, because, um, sometimes people correct themselves and things like that. But so, I was just wondering what people thought about how automated can we make the process of finding where the people read the digits, doing a forced alignment, and doing the timing.
+Professor D: Well, forced alignment would be one thing. What about just actually doing recognition?
+Grad F: Well, we we know what they read, because we have the forms.
+Professor D: No, they make mistakes.
+Grad F: Right. But, the point is that we wanna get a set of clean digits.
+PhD B: You're talking about as a pre - processing step.
+Professor D: Right.
+PhD B: Right, Morgan?
+Professor D: Um
+PhD B: Is that what you're?
+Professor D: Yeah, I'm I'm not quite sure what I'm talking about. I mean I I mean, uh, we're talking about digits now. And and so, um, there's a bunch of stuff that hasn't been marked yet. Uh. And, um, there's the issue that that they we know what what was said, but do we?
+Grad F: I mean, so one option i
+Professor D: Because people make mistakes and stuff. I was just asking, just out of curiosity, if if with, uh uh, the SRI recognizer getting one percent word error, uh, would we would we do better? So, if you do a forced alignment but the force but the but the transcription you have is wrong because they actually made mistakes, uh, or false starts, it's it's much less c it's much less common than one percent?
+Grad F: But that's pretty uncommon. Um, if we could really get one percent on
+Professor D: We should be able to.
+Grad F: Well, I guess yeah, I guess if we segmented it, we could get one percent on digits.
+Professor D: Right?
+PhD B: Yeah.
+Professor D: Yeah. So that's just my question. I'm not saying it should be one way or the other, but it's If
+Grad F: But, Well, there there're a couple different of doing it. We could use the tools I've already developed and transcribe it. Hire some people, or use the transcribers to do it. We could let IBM transcribe it. You know, they're doing it anyway, and unless we tell them different, they're gonna transcribe it. Um, or we could try some automated methods.
+Professor D: Well
+Grad F: And my my tendency right now is, well, if IBM comes back with this meeting and the transcript is good, just let them do it.
+Professor D: Yeah, it's Y you raised a point, kind of, uh, euphemistically but, I mean, m maybe it is a serious problem. Ho - what will they do when they go hear " beep seven beep seven three five two " I mean, you think they'll we'll get?
+Grad F: It's pretty distinct.
+Professor D: Yeah?
+Grad F: The beeps are pre - recorded.
+PhD B: It'll only be a problem for m for mine.
+PhD E: Yeah.
+Postdoc A: Well it it well, it'd be preceded by " I'm reading transcript so - and - so "?
+PhD B: Yeah.
+Grad F: Yes.
+Postdoc A: So, I think if they're processing it at
+Grad F: I mean, it'll be it will be in the midst of a digit string.
+Professor D: Yeah.
+Grad F: So I mean it sure, there there might be a place where it's " beep seven beep eight beep eight beep ". But, you know, they they're they're gonna macros for inserting the beep marks. And so, I I don't think it'll be a problem. We'll have to see, but I don't think it's gonna be a problem.
+Professor D: OK. Well, I I I dunno, I I think that that's if they are in fact going to transcribe these things, uh, certainly any process that we'd have to correct them, or whatever is needs to be much less elaborate for digits than for other stuff.
+Grad F: Right.
+Professor D: So, why not? Sure. That was it?
+Grad F: That was it. Just, what do we do with digits?
+Professor D: OK.
+Grad F: We have so many of them, and it'd be nice to actually do something with them.
+Professor D: Well, we we we wanna have them. Yeah, I
+PhD I: You mean there're more than ten?
+Grad F: Anything else? Your mike is a little low there.
+Professor D: I in Berkeley, yeah. So, uh You you have to go a little early, right? At twenty
+PhD I: Well, I can stay till about, uh, three forty.
+Professor D: Alright. So le let's make sure we do the ones that that, uh, saved you.
+PhD I: Yeah. Mm - hmm.
+Professor D: So there was some Uh In in Adam's agenda list, he had something from you about segmentation this last recognition?
+PhD I: Well, yeah. So this is just partly to inform everybody, um, and and of course to get, um, input.
+Grad F: Oops.
+PhD I: Um, so, uh, we had a discussion Don and Liz and I had discussion last week about how to proceed with, uh, you know, with Don's work,
+PhD E: Ch
+PhD I: and and and, uh, one of the obvious things that occur to us was that we're since we now have Thilo's segmenter and it works, you know, amazingly well, um, we should actually basically re - evaluate the recognition, um, results using you know, without cheating on the segmentations.
+PhD E: So
+PhD I: And, that should be fairly
+PhD E: And how do we find the transcripts for those so that? Yeah. The references for for those segments?
+PhD I: Oh, OK. So, there's actually
+PhD E: It's not that
+PhD I: Why do you ask?
+Grad F: I could
+PhD I: No, actually, um, NIST has, um m a fairly sophisticated scoring program that you can give a, um a time,
+Grad F: Hand ones.
+PhD G: Well
+PhD E: OK.
+PhD I: uh You know, you basically just give two time - marked sequences of words, and it computes the um the, uh you know, the the th
+PhD B: It does all the work for you.
+PhD I: it does all the work for you.
+PhD B: Yeah.
+PhD E: OK.
+PhD I: So, it we just and we use that actually in Hub - five to do the scoring. Um. So what we've been using so far was sort of a simplified version of the scoring. And we can we can handle the the the type of problem we have here.
+PhD E: So, basically you give some time constraints for for the references and for for the hypothesis,
+PhD I: So, we ha Yeah. Right.
+PhD E: and Yeah, OK.
+PhD G: Yeah.
+PhD I: Right.
+PhD G: Maybe the start of your speech and the end of it,
+PhD I: So do
+PhD E: OK.
+PhD G: or stuff like that.
+PhD I: Right. It does time - constrained word - alignment.
+PhD E: OK.
+PhD I: So. So that should be possible. I mean that shouldn't be a problem. Uh, so that was the one thing, and the other was that, um What was the other problem? Oh! That Thilo wanted to use the recognizer alignments to train up his, um, speech detector.
+PhD E: Yeah.
+PhD I: Um, so that we could use, uh you know there wouldn't be so much hand labelling needed to, uh to generate training data for for the speech detector.
+PhD E: Yeah. I'm just in progress of of doing that. So.
+PhD I: And I think you're in the process of doing that.
+PhD E: Yeah.
+PhD I: So, you can you can
+PhD B: It'll give you a lot more data, too. Won't it?
+PhD E: Yeah. So, it's basically s I think, eight meetings or something which which I'm using, and, it's before it was twenty minutes of one meeting.
+PhD I: Mm - hmm.
+PhD E: So should be a little bit better.
+PhD I: Right.
+PhD B: Great.
+PhD I: That won't be perfect the alignments aren't perfect,
+PhD E: Yeah. But
+PhD I: but, um, it's probably still better to have all this extra data, than
+PhD G: Yeah.
+PhD E: Yeah. Yep.
+PhD I: Yeah.
+PhD E: We'll see that.
+PhD I: Yeah.
+Professor D: OK.
+PhD G: Actually, I had a question about that. If you find that you can lower the false alarms that you get where there's no speech, that would be useful for us to know. So, um
+PhD E: There were the false alarms.
+PhD G: Yeah. So, r right now you get f fal you know, false false, uh, speech regions when it's just like, um, breath or something like that,
+PhD E: OK. Yeah. Yep.
+PhD G: and I'd be interested to know the wha if you retrain um,
+PhD E: Yeah.
+PhD G: do those actually go down or not? Because of
+PhD E: Yeah. I'll can make an can, like, make a c comparison of of the old system to the to the new one, and then
+PhD G: Yeah, just to see if by doing nothing in the modeling of just having that training data wh what happens.
+PhD E: Yeah. Yeah. Yep.
+Professor D: Um another one that we had on Adam's agenda that definitely involved you was s something about SmartKom?
+Grad F: Right. So, Rob Porzel eh, Porzel? and the, uh Porzel and the, uh, SmartKom group are collecting some dialogues.
+PhD I: Porzel. Porzel.
+Grad F: Basically they have one person sitting in here, looking at a picture, and a wizard sitting in another room somewhere. And, uh, they're doing a travel task. And, uh, it involves starting I believe starting with a It's it's always the wizard, but it starts where the wizard is pretending to be a computer and it goes through a, uh, speech generation system.
+PhD E: Yeah. Actually, it's changed to a synthesis for for the first part now.
+Grad F: Synthesis system.
+PhD E: Yeah.
+Grad F: Um, and then, it goes to a real wizard and they're evaluating that. And they wanted to use this equipment, and so the w question came up, is well, here's some more data. Should this be part of the corpus or not? And my attitude was yes, because there might be people who are using this corpus for acoustics, as opposed to just for language. Um, or also for dialogue of various sorts. Um, so it's not a meeting. Right? Because it's two people and they're not face to face.
+Professor D: Wait a minute. So, I just wanted to understand it, cuz I I'm uh, hadn't quite followed this process.
+PhD E: Yeah.
+Professor D: Um. So, it's wizard in the sen usual sense that the person who is asking the questions doesn't know that it's, uh, a machi not a machine?
+PhD I: Right.
+Grad F: At the beginning.
+PhD I: Actually actually, w w the the We do this I dunno who came up with it, but I think it's a really clever idea. We simulate a computer breakdown halfway through the session, and so then after that, the person's told that they're now talking to a, uh to a human.
+Professor D: Yeah.
+PhD E: It's a human operator.
+Professor D: Yeah.
+PhD E: Yeah.
+Grad F: But of course they don't know that it's the same person both times.
+PhD I: So, we we collect we collect both human - computer and human - human data, essentially, in the same session.
+Professor D: You might wanna try collecting it the other way around sometime, saying that th the computer isn't up yet
+Postdoc A: Hmm.
+Professor D: and then so then you can separate it out whether it's the beginning or end kind of effects.
+PhD I: That's an idea.
+Professor D: But, yeah.
+Grad F: Yep.
+PhD I: Yeah.
+Postdoc A: That's a good idea.
+Grad F: " I have to go now. You can talk to the computer. "
+PhD B: It's a lot more believable, too,
+Grad F: " No! "
+PhD B: if you tell them that they're the computer part is running on a Windows machine. And the whole breakdown thing kinda makes sense.
+PhD I: O Just just reboot it.
+Grad F: Abort abort, retry, fail?
+PhD G: So did they actually save the far - field data?
+PhD E: Yes.
+Grad F: Well, this was this was the question.
+PhD G: Cuz at first they weren't they weren't sa
+PhD I: Yeah.
+Grad F: So so they were saying they were not going to,
+PhD E: Yeah.
+PhD G: OK.
+Grad F: and I said, " well that's silly, if if we're gonna try to do it for a corpus, there might be people who are interested in acoustics. "
+PhD G: Yeah.
+PhD I: Wow.
+PhD E: No.
+PhD G: Or
+PhD E: projector We were not saying we are not doing it.
+PhD G: Yeah.
+Professor D: S
+PhD E: We wer we just wanted to do
+PhD I: No, the the question is do we save one or two far - field channels or all of them?
+PhD G: Right.
+PhD E: Yeah. Yeah.
+Grad F: I I see no reason not to do all of them.
+Professor D: Um
+Grad F: That that if we have someone who is doing acoustic studies, uh, it's nice to have the same for every recording.
+PhD G: Nnn. Yeah.
+PhD I: Hmm.
+Professor D: So, what is the purpose of this recording?
+PhD I: Mm - hmm.
+Professor D: This is to get acoustic and language model training data for SmartKom. OK.
+PhD I: It's to be traini to b training data and development data for the SmartKom system.
+PhD E: The English system? Yeah.
+PhD I: Yeah. Right. Right.
+PhD B: Where does this?
+PhD G: Maybe we can have him vary the microphones, too,
+Professor D: Well,
+PhD E: B
+PhD G: or they're different s speakers.
+Grad F: Right. So so so for their usage, they don't need anything.
+Professor D: so why not?
+PhD E: Yeah.
+Grad F: Right?
+PhD E: But but I'm not sure about the legal aspect of of that. Is is there some contract with SmartKom or something about the data?
+PhD I: Yeah.
+PhD E: What they or, is is that our data which we are collecting here,
+Professor D: We've never signed anything that said that we couldn't use anything that we did.
+PhD E: or? OK. OK.
+PhD I: We weren't supposed to collect any data.
+PhD E: So. OK.
+Professor D: Yeah.
+PhD E: So. Yeah, th th that was the question.
+PhD I: This was all
+PhD E: If if? Yeah.
+PhD I: Yeah.
+Professor D: No that's not a problem.
+PhD E: Basically.
+Professor D: I L look, it seems to me that if we're doing it anyway and we're doing it for these these purposes that we have, and we have these distant mikes, we definitely should re should save it all as long as we've got disk space,
+PhD I: Mm - hmm.
+Professor D: and disk is pretty cheap.
+PhD I: OK.
+Professor D: So should we save it?
+Grad F: And then
+Professor D: Now th Yeah. So we save it because it's it it's potentially useful. And now, what do we do with it is is a s separate question.
+Grad F: Right.
+Professor D: I mean, anybody who's training something up could choose to put it eh, to u include this or not.
+PhD I: Right.
+Professor D: I I would not say it was part of the meetings corpus. It isn't. But it's some other data we have, and if somebody doing experiment wants to train up including that then they can. Right?
+PhD I: Mm - hmm.
+Grad F: So it's It it I guess it the begs the question of what is the meeting corpus. So if, at UW they start recording two - person hallway conversations is that part of the meeting corpus?
+Professor D: I think it's I I think I th think the idea of two or more people conversing with one another is key.
+Grad F: Well, this has two or more people conversing with each other.
+Professor D: Nnn, well
+PhD E: Yeah.
+Postdoc A: Well this
+Grad F: They're just not face to face.
+PhD G: What if we just give it a a name like we give these meetings a name?
+Professor D: No, it doesn't. Right? It has
+Grad F: I mean, that was my intention.
+PhD G: And then later on some people will consider it a meeting and some people won't,
+Postdoc A: Well this
+Professor D: Yeah.
+Grad F: That was my intention. So so s so part of the reason that I wanted to bring this up is, do we wanna handle it as a special case or do we wanna fold it in,
+PhD G: and Just give it a title.
+Postdoc A: Oh.
+Professor D: I think it is a s
+Grad F: we give everyone who's involved as their own user ID, give it session I Ds, let all the tools that handle Meeting Recorder handle it, or do we wanna special case it? And if we were gonna special case it, who's gonna do that?
+PhD E: So.
+PhD I: Well, it it makes sense to handle it with the same infrastructure, since we don't want to duplicate things unnecessarily.
+PhD E: It it it
+Postdoc A: I think
+PhD I: But as far as distributing it, we shouldn't label it as part of this meeting corpus.
+Professor D: Yeah.
+PhD I: We should let it be its own corp
+Postdoc A: Well it's it well, because
+Grad F: I don't see why not. It's just a different topic.
+Postdoc A: I ha I have an extra point, which is the naturalness issue. Because we have, like, meetings that have a reason. That's one of the reasons that we were talking about this. And and those and this sounds like it's more of an experimental setup.
+Professor D: Yeah.
+Postdoc A: It's got a different purpose.
+Professor D: It's scenario - based, it's it's human - computer interface it's really pretty different.
+Postdoc A: Yeah.
+Professor D: But I I I have no problem with somebody folding it in for some experiment they're gonna do, but I don't think i it it doesn't match anything that we've described about meetings.
+Grad F: Mm - hmm.
+Professor D: Whereas everything that we talked about them doing at at UW and so forth really does. They're actually talking
+Grad F: OK. So w so what does that mean for how we are gonna organize things?
+Postdoc A: Hmm.
+PhD E: Yeah.
+Professor D: You can you can Again, as as I think Andreas was saying, if you wanna use the same tools and the same conventions, there's no problem with that. It's just that it's, you know, different directory, it's called something different, it's you know. It is different. You can't just fold it in as if it's I mean, digits are different, too. Right?
+Grad F: Yeah, but those are folded in,
+PhD I: It might also be potentially confusing.
+Grad F: and it's just you just mark the transcripts differently. So so one option is you fold it in,
+PhD I: Right.
+Grad F: and just simply in the file you mark somewhere that this is this type of interaction, rather than another type of interaction.
+PhD I: Yeah, I th
+Professor D: Well, I don I wouldn't call reading digits " meetings ". Right? I mean, we we we were doing
+Grad F: Well, but but, I put it under the same directory tree.
+Professor D: Well
+Grad F: You know, it's in " user doctor speech data MR ".
+PhD G: Can we just have a directory called, like, " other stuff "?
+Grad F: Other.
+PhD G: And Well or, I dunno.
+Professor D: I mean, I don't care what directory tree you have it under.
+PhD G: And and just, um, store it there.
+Professor D: Right? I mean that's just a
+Grad F: OK. My preference is to have a single procedure so that I don't have to think too much about things.
+PhD I: Yes.
+PhD G: I mean
+Professor D: Yeah.
+Grad F: And, just have a marking.
+Professor D: O - You you can use whatever procedure you want that's p convenient for you.
+Grad F: If we do it any other way that means that we need a separate procedure, and someone has to do that.
+Professor D: All I'm saying is that there's no way that we're gonna tell people that reading digits is meetings. And similarly we're not gonna tell them that someone talking to a computer to get travel information is meetings.
+Grad F: Right.
+Professor D: Those aren't meetings. But if it makes it easier for you to pu fold them in the same procedures and have them under the same directory tree, knock yourself out.
+PhD B: There's a couple other questions that I have too,
+Professor D: You know?
+PhD B: and and one of them is, what about, uh, consent issues? And the other one is, what about transcription? Are?
+PhD E: Transcription is done in Munich.
+PhD B: OK. So we don't have to worry about transcribing it?
+Professor D: Alright.
+PhD E: Yeah.
+Grad F: So, w we will hafta worry about format.
+PhD I: That's a that's another argument to keep it separate, because it's gonna follow the SmartKom transcription conventions and not the ICSI meeting transcription conventions.
+PhD E: Yeah.
+Grad F: Oh, OK.
+Professor D: Ah. Good point.
+Grad F: OK. Well, I didn't realize that. That's that's a
+Professor D: Good point. But I'm sure no one would have a problem with our folding it in for some acoustic modeling or or some things. Um. Do we h do we have, uh, um, American - born folk, uh, reading German German, uh, pla uh, place names and so forth? Is that?
+PhD E: Yeah.
+PhD I: Exactly.
+Professor D: Yeah, great.
+PhD E: Yeah.
+Grad F: Yep.
+PhD I: Yeah.
+Grad F: They they even have a reading list.
+PhD B: I bet that sounds good, huh?
+Professor D: Yeah.
+Grad F: It's pretty funny.
+PhD I: Yeah.
+PhD E: You can do that if you want.
+PhD B: OK.
+Professor D: Yeah.
+PhD B: I dunno if you want that.
+Professor D: Right.
+PhD I: Yeah.
+Postdoc A: Hmm.
+Professor D: Heidelberg
+Grad F: So
+PhD I: Exactly
+Grad F: Disk might eventually be an issue so we might we we might need to, uh, get some more disk pretty soon.
+PhD I: Do you wanna be a subject?
+Professor D: Yeah, I be pretty good.
+PhD I: We Yeah.
+Grad F: We're about we're about half halfway through our disk right now.
+PhD B: Yeah.
+PhD I: That was one of our concerns.
+PhD B: Are we only half? I thought we were more than that.
+Grad F: We're probably a little more than that because we're using up some space that we shouldn't be on. So, once everything gets converted over to the disks we're supposed to be using we'll be probably, uh, seventy - five percent.
+PhD B: Well, when I was looking for space for Thilo, I found one disk that had, uh, I think it was nine gigs and another one had seventeen.
+Grad F: Yep.
+PhD B: And everything else was sorta committed. Uh
+Grad F: Were those backed - up or non - backed - up?
+PhD B: Those were non - backed - up.
+PhD E: Non - back - up.
+Grad F: Right. So that's different.
+PhD B: S oh, you're talking about backed - up.
+Grad F: I'm much more concerned about the backed - up. The non - backed - up,
+PhD B: I haven't looked to see how much of that we have.
+Grad F: yeah, i is cheap. I mean, if we need to we can buy a disk, hang it off a s uh, workstation. If it's not backed - up the sysadmins don't care too much.
+Professor D: Yeah. So, I mean, pretty much anytime we need a disk, we can get it at the rate that we're
+PhD I: You can I shouldn't be saying this, but, you can just you know, since the back - ups are every night, you can recycle the backed - up diskspace.
+Grad F: Yeah. But that's that's that's risky.
+Professor D: Yeah. You really shouldn't be saying
+Grad F: Mmm. Mmm.
+PhD I: I didn't say that.
+Grad F: Yeah, that's right.
+PhD I: I didn't say that.
+Grad F: Beep that out.
+Professor D: Da - we had allowed Dave to listen to these these, uh, recordings.
+PhD I: Right.
+Professor D: Um Yeah, I me and there's been this conversation going on about getting another file server, and and we can do that.
+PhD I: Mm - hmm.
+Professor D: We'll take the opportunity and get another big raft of of disk, I guess.
+Grad F: Yeah. It's really the back - up issue rather than the file server issue.
+PhD I: Well, I think I think there's an argument for having you know, you could use our old file server for for disks that have data that is very rarely accessed, and then have a fast new file server for data that is, um, heavily accessed.
+Grad F: Yeah. My understanding is, the issue isn't really the file server.
+PhD I: Yeah.
+Grad F: We could always put more disks on.
+PhD I: Yeah. It's the back it's the back - up capaci
+Grad F: It's the back - up system.
+PhD I: Yeah.
+Grad F: So which is near saturation, apparently. So.
+PhD B: I think I think the file server could become an issue as we get a whole bunch more new compute machines.
+Professor D: Soon.
+PhD B: And we've got, you know, fifty machines trying to access data off of Abbott at once.
+Grad F: Well, we're alright for now because the network's so slow.
+PhD I: I mean, I think I think we've raised this before and someone said this is not a reliable way to do it, but the What about putting the stuff on, like, C - CD - ROM or DVD or something?
+Grad F: Yeah. That was me. I was the one who said it was not reliable. The - they they wear out.
+PhD I: OK. Oh, OK.
+Grad F: Yeah. The the th
+PhD I: But they wear out just from sitting on the shelf?
+Grad F: Yep. Absolutely.
+PhD I: Or from being read and read?
+Grad F: No. Read and write don't hurt them too much unless you scratch them.
+PhD I: Oh, OK.
+Grad F: But the r the write once, and the read - writes, don't last. So you don't wa you don't wanna put ir un reproduceable data on them.
+PhD I: Uh - huh.
+PhD B: Wear out after what amount of time?
+Grad F: Year or two.
+Postdoc A: Would it be?
+Professor D: Year or two?
+Grad F: Yep.
+Professor D: Wow.
+Postdoc A: Hmm.
+PhD I: But if that then you would think you'd hear much more clamoring about data loss
+PhD E: Yeah.
+PhD I: and
+Professor D: I mean, yeah, all the L
+Grad F: I I don't know many people who do it on CD. I mean, they're the most fo
+Professor D: LDC - all the LDC distributions are on CD - ROM.
+PhD G: Yeah.
+Grad F: They're on CD, but they're not tha that's not the only source.
+PhD G: Like
+Grad F: They have them on disk. And they burn new ones every once in a while. But if you go if you go k
+PhD I: But, you know, we have
+PhD G: But we have like thirty you know, from ten years ago?
+Professor D: We have all sorts of CD - ROMs from a long time ago.
+PhD G: No.
+PhD E: Yeah.
+PhD G: Yeah!
+Grad F: Well, th th OK.
+PhD G: Ten years ago.
+PhD I: Right.
+PhD G: Ninety - one, and they're still all fine.
+Professor D: Yeah.
+Grad H: Were they burned or were they pressed?
+PhD G: Uh, both. I've burned them and they're still OK.
+Grad H: Yeah.
+Grad F: The the pressed ones last for
+PhD G: I mean, usually they're
+Grad F: well, not forever, they've been finding even those degrade.
+Professor D: Oh, I see.
+Grad F: But, uh, the burned ones I mean, when I say two or three years what I'm saying is that I have had disks which are gone in a year.
+PhD G: That's what I
+Grad F: On the average, it'll probably be three or four years. But, uh I I you don't want to per p have your only copy on a media that fails.
+PhD I: Mmm.
+Grad F: And they do. Um, if you have them professionally pressed, y you know, they're good for decades.
+PhD I: So how about? So so how about putting them on that plus, like on a on on DAT or some other medium that isn't risky?
+Grad F: I think th um, we can already put them on tape. And the tape is hi is very reliable.
+PhD I: OK. Mm - hmm.
+Grad F: So the the only issue is then if we need access to them. So that's fine f if we don't need access to them.
+PhD I: Right. Well, if if if you if they last Say, they actually last, like, five years, huh, in in the typical case, and and occasionally you might need to recreate one, and then you get your tape out, but otherwise you don't. Can't you just you just put them on?
+Grad H: So you just archive it on the tape, and then put it on CD as well?
+PhD I: Yeah. Right.
+Grad F: Oh. So you're just saying put them on C Ds for normal access.
+Grad H: Yeah.
+PhD I: Right.
+PhD B: What you
+Grad F: Yeah. I mean, you can do that but that's pretty annoying, because the C Ds are so slow.
+PhD G: See Yeah.
+Grad H: Yeah.
+PhD I: Mmm.
+PhD B: What'd be nice is a system that re - burned the C Ds every year.
+PhD G: H everytime it was a " gonna " " gonna die ".
+Professor D: Well
+Grad F: Well, I mean, the C Ds are are an op
+PhD E: Yeah.
+PhD I: It's like like dynamic ra DRAM.
+PhD E: Just before.
+PhD B: Yeah.
+PhD G: Just before they be before it goes bad, it burns them in.
+Grad F: The the CD is an alternative to tape.
+Grad H: Yeah.
+Grad F: ICSI already has a perfectly good tape system and it's more reliable.
+Professor D: You know I would think
+Grad F: So for archiving, we'll just use tape.
+PhD I: One one thing I don't understand is, if you have the data if if you if the meeting data is put on disk exactly once, then it's backed - up once and the back - up system should never have to bother with it, uh, more than once.
+Grad F: Well, regardless Well, first of all there was, um, a problem with the archive in that I was every once in a while doing a chmod on all the directories an or recursive chmod and chown, because they weren't getting set correctly every once in a while,
+PhD I: Mm - hmm.
+Grad F: and I was just, doing a minus R star, not realizing that that caused it to be re - backed - up.
+PhD I: Mm - hmm.
+PhD G: Ah.
+Grad F: But normally you're correct. But even without that, the back - up system is becoming saturated.
+PhD I: But but this back - up system is smart enough to figure out that something hasn't changed and doesn't need to be backed - up again.
+Professor D: The b I think th the at least the once tha that you put it on, it would it would kill that.
+Grad F: Sure, but we still have enough changed that the nightly back - ups are starting to take too long.
+PhD I: OK. So so then, if So so then, let's
+Professor D: So.
+Grad F: It has nothing to do with the meeting. It's just the general ICSI back - up system is becoming saturated.
+PhD I: Right. OK. Right. So, what if we buy, uh uh, what what do they call these, um high density?
+Grad F: Well, why don't you have this have a this conversation with Dave Johnson tha rather than with me?
+PhD I: No, no. Because this is maybe something that we can do without involving Dave, and and, putting more burden on him. How about we buy, uh uh uh, one of these high density tape drives? And we put the data actually on non - backed - up disks. And we do our own back - up once and for all all, and then and we don't have to bother this @ @ up?
+Grad F: Actually, you know, we could do that just with the tape with the current tape.
+PhD I: I dunno what the these tapes uh, at some point these I dunno. What kind of tape drive is it?
+Grad F: I dunno but it's an automatic robot so it's very convenient.
+PhD I: Is it is?
+Professor D: Wh The o the one that we have?
+Grad F: You just run a program to restore them.
+PhD I: Right.
+Professor D: The I mean
+Grad F: Yeah.
+PhD I: But it might interfere with their back - up schedule,
+PhD G: But
+Professor D: No, we have s we Don't we have our own?
+PhD I: eh.
+Professor D: Something wi th that doesn't that isn't used by the back - up gang? Don't we have something downstairs?
+Postdoc A: Well they
+PhD B: What kinda tape drive?
+Professor D: Just in? Yeah.
+Grad F: Well but no, but Andreas's point is a good one. And we don't have to do anything ourselves to do that. They're already right now on tape.
+PhD I: Right.
+Grad F: Right. So your your point is, and I think it's a good one, that we could just get more disk and put it there.
+PhD I: Mmm. On an XH uh, X X whatever partition.
+Grad F: Yeah. That's not a bad idea.
+PhD I: Yeah.
+Professor D: Yeah, that's basically what I was gonna say, is that a disk is is so cheap it's es essentially, you know, close to free. And the only thing that costs is the back - up issue, eh, to first order.
+Grad F: So once it's on tape
+PhD I: Right. Right.
+Professor D: And we can take care of that by putting it on non - back up drives and just backing it up once onto this tape.
+PhD I: Mm - hmm.
+Grad F: I think that's a good idea.
+PhD I: Right.
+Professor D: Oh. Yeah.
+PhD I: OK.
+Professor D: Good. It's good.
+PhD G: So, who's gonna do these back - ups? The people that collect it?
+Grad F: Uh Well, I'll talk to Dave, and and see what th how what the best way of doing that is.
+PhD B: It's probably gonna n
+Grad F: There's a little utility that will manually burn a tape for you, and that's probably the right way to do it.
+PhD B: Yeah, and we should probably make that part of the procedure for recording the meetings.
+PhD G: Well, s
+Grad F: Yep.
+PhD G: Yeah. That's what I'm wondering, if
+Grad F: Well we're g we're gonna automate that.
+PhD G: OK.
+Grad F: My intention is to do a script that'll do everything.
+PhD G: I mean, you don't have to physically put a tape in the drive?
+Grad F: No. It's all tape robot,
+PhD G: Or s? s? Oh, OK.
+Grad F: so you just sit down at your computer and you type a command.
+PhD G: So it's just Oh, OK.
+PhD I: Yeah, but then you're effectively using the resources of the back - up system. Or is that a different tape robot?
+Grad F: Yeah.
+PhD G: But not at the same time.
+Grad F: But y but you would be anyway.
+PhD B: No, no, no.
+Grad F: Right?
+PhD B: He's saying get a whole different drive.
+Grad F: Because
+PhD I: No, no. See
+Grad F: But there's no reason to do that.
+PhD I: Yeah, just give a dedi
+Grad F: It we already have it there and it it's
+PhD I: Well, I'm saying is @ @ i if you go to Dave, and and and ask him " can I use your tape robot? ", he will say, " well that's gonna screw up our back - up operation. "
+Grad F: No, we won't. He'll say " if if that means that it's not gonna be backed - up standardly, great. "
+Professor D: He - I Dave has has promoted this in the past. So I don't think he's actually against it.
+Grad F: Yeah. It's it's definitely no problem.
+PhD I: Oh, OK. Alright.
+Professor D: Yeah.
+PhD I: Alright.
+Professor D: OK.
+PhD I: Good.
+PhD G: What about if the times overlap with the normal back - up time?
+Grad F: Um, it's it's just it's just a utility which queues up. It just queues it up and and when it's available, it will copy it.
+PhD G: OK.
+Professor D: Yeah.
+Grad F: And then you can tell it to then remove it from the disk or you can, you know, do it a a few days later or whatever you wanna do, after you confirm that it's really backed - up.
+PhD G: OK.
+Grad F: NW?
+Postdoc A: You saying NW archive?
+Grad F: NW archive.
+Postdoc A: Yep And if you did that during the day it would never make it to the nightly back - ups.
+Grad F: That's what it is.
+Professor D: OK.
+Grad F: Right.
+Postdoc A: And then there wouldn't be this extra load.
+PhD I: Well, it if he you have to put the data on a on a non - backed - up disk to begin with.
+Postdoc A: Well, but you can have it NW archive to you can have, uh, a non - backed - up disk NW archived,
+Grad F: Right.
+PhD I: So that so that otherwise you don't you
+Postdoc A: and it'll never show up on the nightly back - ups.
+Grad F: Right. And then it never
+PhD I: Right. Right.
+Grad F: Right. Which I'm sure would make ever the sysadmins very happy.
+PhD I: Right.
+Postdoc A: Yeah.
+Grad F: So, I think that's a good idea.
+PhD I: OK.
+Grad F: That's what we should do.
+PhD I: OK.
+Grad F: So, that means we'll probably wanna convert all all those files filesystems to non - backed - up media.
+PhD B: That sounds good.
+Professor D: Yeah.
+Grad F: Yep.
+Professor D: Um, another, thing on the agenda said SRI recognition experiments? What's that?
+PhD I: SRI recognition? Oh.
+Grad F: That wasn't me.
+Professor D: Uh.
+PhD I: Um. well,
+Professor D: Who's that?
+PhD I: we have lots of them. Uh, I dunno. Chuck, do you have any any updates?
+PhD B: N I'm successfully, uh, increasing the error rate. Uh
+Grad F: That's good.
+Grad H: Mmm.
+PhD I: Oh.
+PhD G: Lift the Herve approach.
+PhD B: Yeah. So, I mean I'm just playing with, um, the number of Gaussians that we use in the the recognizer, and
+PhD I: Well, you have to sa you have to tell people that you're you're doing you're trying the tandem features.
+PhD B: Yes, I'm using tandem features.
+Grad F: Oh you are?
+PhD B: And
+Grad F: Cool.
+PhD I: A and I'm still tinkering with the PLP features.
+Professor D: Yeah, I got confused by the results. It sai because uh, the meeting before, you said " OK, we got it down to where they're they're within a tenth of a percent ".
+PhD B: That was on males.
+PhD I: Right. That was that was before I tried it on the females.
+Professor D: Oh.
+PhD I: See, women are nothi are, trouble.
+Professor D: It's the women are the problem. OK.
+PhD I: Right? As we all know. So.
+PhD G: Well, let's just say that men are simple.
+PhD I: So so, when So I I had I ha
+Grad F: That was a quick response.
+PhD I: So, we had reached the point where
+PhD G: I'm well rehearsed.
+Professor D: Yeah.
+PhD I: we had reached the point where, um, on the male portion of the development set, the, um or one of the development sets, I should say the, um the male error rate with, uh, ICSI PLP features was pretty much identical with, uh, SRI features. which are MFCC. So, um, then I thought, " Oh, great. I'll j I'll just let's make sure everything works on the females. " And the error rate you know, there was a three percent difference.
+Professor D: Oh. Uh - huh.
+PhD I: So,
+PhD G: Is there less training data?
+PhD I: uh
+PhD G: I mean, we don
+PhD I: No, actually there's more training data.
+PhD G: This is on just digits?
+Professor D: No.
+PhD I: No, no.
+Grad F: No.
+PhD B: Hub - five.
+Grad F: It's, uh, Swi
+PhD G: Oh, sorry. OK. This is on
+PhD I: This is Hub - five.
+PhD G: Oh, OK.
+Grad F: Hub - five. Yeah.
+PhD I: Yeah. Um, and the test data is CallHome and Switchboard. So, uh so then um Oh, and plus the the vocal tract length normalization didn't actually made things worse. So something's really seriously wrong. So Um
+Professor D: Aha! OK.
+PhD I: So So
+Professor D: So but you see, now, between between the males and the females, there's certainly a much bigger difference in the scaling range, than there is, say, just within the males. And what you were using before was scaling factors that were just from the the m the SRI front - end. And that worked that worked fine.
+PhD I: That's true. Yeah.
+Professor D: Uh, but now you're looking over a larger range and it may not be so fine.
+PhD I: Well, um So I just d so the one thing that I then tried was to put in the low - pass filter, which we have in the So, most most Hub - five systems actually band - limit the uh, at about, uh, thirty - seven hundred, um, hertz.
+Professor D: Uh - huh.
+PhD I: Although, you know, normally, I mean, the channel goes to four four thousand. Right? So, um And that actually helped, uh uh, a little bit.
+Professor D: Uh - huh.
+PhD I: Um and it didn't hurt on the males either. So, um And I'm now, uh, trying the Oh, and suddenly, also the v the vocal tract length normalization only in the test se on the test data. So, you can do vocal tract length normalization on the test data only or on both the training and the test.
+Professor D: Yeah.
+PhD I: And you expect it to help a little bit if you do it only on the test, and s more if you do it on both training and test.
+Professor D: Yeah.
+PhD I: And so the It now helps, if you do it only on the test, and I'm currently retraining another set of models where it's both in the training and the test, and then we'll we'll have, hopefully, even better results. So But there's It looks like there will still be some difference, maybe between one and two percent, um, for the females.
+Professor D: Huh.
+PhD I: And so, um, you know, I'm open to suggestions.
+Grad F: Mm - hmm.
+PhD I: And it is true that the, uh that the you know, we are using the But it can't be just the VTL,
+Professor D: Uh - huh.
+PhD I: because if you don't do VTL in both systems, uh, you know, the the females are considerably worse in the with the PLP features.
+Professor D: No no. I I remember that.
+Grad F: It's much worse. Yeah.
+PhD I: So there must be some something else going on.
+PhD G: Well, what's the standard? Yeah, so I thought the performance was actually a little better on females than males.
+Grad F: That's what I thought, too.
+PhD I: Um, that ye overall, yes, but on this particular development test set, they're actually a little worse. But that's beside the point. We're looking at the discrepancy between the SRI system and the SRI system when trained with ICSI features.
+PhD G: Right. I'm just wondering if that if if you have any indication of your standard features,
+Grad F: What's Are the freq?
+PhD G: you know, if that's also different or in the same direction or not.
+Professor D: You're This is lemme ask a q more basic que
+PhD G: Cuz
+Professor D: I mean, is this, uh uh, iterative, Baum - Welch training?
+PhD I: Mm - hmm.
+Professor D: Or is it Viterbi training? Or?
+PhD I: It's Baum - Welch training.
+Professor D: Baum - Welch training. And how do you determine when to to stop iterating?
+PhD I: Um Well, actually, we we just basically do a s a fixed number of iterations.
+Grad F: Hmm.
+PhD I: Uh, in this case four. Um, which Eh, we used to do only three, and then we found out we can squeeze And it was basically, we're s we're keeping it on the safe side. But you're d Right. It might be that one more iteration would would help, but it's sort of
+Professor D: Or maybe or maybe you're doing one too many.
+PhD I: you know.
+Professor D: I mean it's it's
+PhD I: No, but with Baum - Welch, there shouldn't be an over - fitting issue, really.
+Professor D: Uh. Well, there can be. Sure.
+Grad F: Well, you can try each one on a cross - validation set,
+PhD I: Um.
+Professor D: It d if you if you remember some years ago Bill Byrne did a thing where he was he was looking at that,
+Grad F: can't you?
+Professor D: and he showed that you could get it.
+PhD I: Yeah.
+Professor D: So. But but but, um
+PhD I: Well, yeah. We can Well, that's that's the easy one to check,
+Professor D: Yeah.
+PhD I: because we save all the intermediate models
+Grad F: Do you?
+PhD I: and we can
+Professor D: And in each case, ho
+Grad F: What?
+Professor D: um, I'm sorry in each case how do you determine, you know, the the usual fudge factors? The, uh the, uh, language, uh, scaling, acoustic scaling, uh, uh
+PhD I: Um I uh I'm actually re - optimizing them. Although that hasn't shown to make a big difference.
+Professor D: OK. And the pru the question he was asking at one point about pruning, uh Remember that one?
+PhD I: Pruning?
+Professor D: Well, he was he's it looked like the probabil at one point he was looking at the probabilities he was getting out at the likelihoods he was getting out of PLP versus mel cepstrum, and they looked pretty different,
+PhD I: Pruning in the?
+PhD B: Yeah, the likelihoods were lower for the PLP.
+Professor D: as I recall.
+PhD G: Oh.
+Professor D: And so, uh, there's the question
+PhD I: I you mean did you see this in the SRI system?
+PhD B: Mm - hmm. Was just looking through the log files,
+PhD I: Um. Well, the likelihoods are
+PhD B: and
+PhD I: You can't directly compare them, because, for every set of models you compute a new normalization. And so these log probabilities, they aren't directly comparable
+PhD B: Oh.
+PhD I: because you have a different normalization constants for each model you train.
+PhD B: Hmm.
+Professor D: But, still it's a question
+PhD I: So
+Professor D: if you have some threshold somewhere in terms of beam search or something,
+PhD B: Well, yeah. That's what I was wondering.
+Professor D: or?
+PhD I: W yeah. I mean Uh
+PhD B: I mean, if you have one threshold that works well because the range of your likelihoods is in this area
+PhD I: We prune very conservatively. I mean, as we saw with the meeting data, um we could probably tighten the pruning without really So we we basically we have a very open beam.
+Professor D: But, you're only talking about a percent or two.
+PhD B: Yeah.
+Professor D: Right? Here we're - we're saying that we there gee, there's this b eh, there's this difference here. And it See cuz, i i there could be lots of things. Right? But but but but, um, let's suppose just for a second that, uh, we've sort of taken out a lot of the the major differences, uh, between the two.
+PhD I: Right. Course. Mm - hmm. Right.
+Professor D: I mean, we're already sort of using the mel scale and we're using the same style filter integration, and and, well, we're making sure that low and high
+PhD I: Actually, there is the difference in that. So, for the PLP features we use the triangular filter shapes. And for the in the SRI front - end we use the trapezoidal one.
+Grad F: And what's the top frequency of each?
+PhD I: Well, now it's the same. It's thirty thirty to seven hundred and sixty hertz.
+Grad F: Yeah. Exp - one's triangular, one's trapezoidal. So
+PhD I: No, no. But
+Professor D: Before we i i th with straight PLP, it's trapezoidal also.
+PhD I: Well But
+Professor D: But then we had a slight difference in the in the scale. Uh, so.
+PhD I: Since currently the Feacalc program doesn't allow me to change the filter shape independently of the scale.
+Grad F: Uh - huh.
+PhD I: And, I did the experiment on the SRI front - end where I tried the y where the standard used to be to use trapezoidal filters. You can actually continuously vary it between the two. And so I wen I swi I tried the trap eh, triangular ones. And it did slightly worse, but it's really a small difference.
+Grad F: Hmm.
+Professor D: Coup - Couple tenths of a percent or something.
+PhD I: So
+Grad F: OK.
+Professor D: Right.
+Grad F: So it's not just losing some frequency range.
+PhD I: Yeah, exactly. So, it's not I don't think the filter shape by itself will make a huge difference.
+Professor D: Yeah. Right. So the oth the other thing that
+Grad F: Yeah.
+Professor D: So, f i We've always viewed it, anyway, as the major difference between the two, is actually in the smoothing, that the that the, um, PLP, and and the reason PLP has been advantageous in, uh, slightly noisy situations is because, PLP does the smoothing at the end by an auto - regressive model,
+PhD I: Mm - hmm. Mm - hmm.
+Professor D: and mel cepstrum does it by just computing the lower cepstral coefficients.
+PhD I: Mm - hmm.
+Professor D: Um. So, um Mm - hmm.
+PhD I: OK. So one thing I haven't done yet is to actually do all of this with a much larger with our full training set. So right now, we're using a I don't know, forty? I i it's it's eh it's a f training set that's about, um, you know, by a factor of four smaller than what we use when we train the full system. So, some of these smoothing issues are over - fitting for that matter.
+Professor D: Mm - hmm.
+PhD I: And the Baum - Welch should be much less of a factor, if you go full whole hog.
+Professor D: Could be. Yeah.
+PhD I: And so, w so, just um so the strategy is to first sort of treat things with fast turn - around on a smaller training set and then, when you've sort of, narrowed it down, you try it on a larger training set.
+Professor D: Yeah.
+PhD I: And so, we haven't done that yet.
+Professor D: Now the other que related question, though, is is, uh, what's the boot models for these things?
+PhD I: Th - th the boot models are trained from scratch. So we compute, um So, we start with a, um, alil alignment that we computed with the b sort of the best system we have. And and then we train from scratch. So we com we do a, you know, w um We collect the uh, the observations from those alignments under each of the feature sets that that we train. And then, from there we do, um There's a lot of, actually The way it works, you first train a phonetically - tied mixture model. Um. You do a total of First you do a context - independent PTM model. Then you switch to a context You do two iterations of that. Then you do two iterations of of of context - dependent phonetically - tied mixtures. And then from that you you do the you you go to a state - clustered model,
+Professor D: Yeah.
+PhD I: and you do four iterations of that. So there's a lot of iterations overall between your original boot models and the final models. I don't think that Hmm. We have never seen big differences. Once I thought " oh, I can Now I have these much better models. I'll re - generate my initial alignments. Then I'll get much better models at the end. " Made no difference whatsoever. It's I think it's eh, i
+Professor D: Right. Well, mis for making things better.
+PhD I: the boot models are recur
+Professor D: Yeah. But, this for making things worse. This it migh Th - the thought is is is possible another possible partial cause is if the boot models used a comple used a different feature set, that
+PhD I: Mm - hmm. Mm - hmm. But there are no boot models, in fact. You you're not booting from initial models. You're booting from initial alignments.
+Professor D: Which you got from a different feature set.
+PhD I: That's correct.
+Professor D: So, those features look at the data differently, actually.
+PhD I: Yeah, but
+Professor D: I mean, you know, they they will find boundaries a little differently, though You know, all th all that sort of thing is actually slightly different. I'd expect it to be a minor effect,
+PhD I: But but but, what I'm what I'm saying is
+Professor D: but
+PhD I: So, we e w f w For a long time we had used boot alignments that had been trained with a with the same front - end but with acoustic models that were, like, fifteen percent worse than what we use now.
+Professor D: Mm - hmm.
+PhD I: And with a dict different dictionary with a considerably different dictionary, which was much less detailed and much less well - suited.
+Professor D: Mm - hmm. Yeah.
+PhD I: And so, then we switched to new boot alignments, which which now had the benefit of all these improvements that we've made over two years in the system.
+Professor D: Right.
+PhD I: And, the result in the end was no different.
+Professor D: Right.
+PhD I: So, what I'm saying is, the exact nature of these boot alignments is probably not a big factor in the quality of the final models.
+Professor D: Yeah, maybe not. But it it I st still see it as I mean, there's there's a history to this, too,
+PhD I: Yeah.
+Professor D: but I uh, I don't wanna go into,
+PhD I: Mm - hmm.
+Professor D: but but I I I th I think it could be the things that it the data is being viewed in a certain way, uh, that a beginning is here rather than there and so forth,
+PhD I: Yeah. Right.
+Professor D: because the actual signal - processing you're doing is slightly different.
+PhD I: Right.
+Professor D: But, it's it's that's probably not it.
+PhD I: Yeah. Anyway, I I I should really reserve, uh, any conclusions until we've done it on the large training set, um, and until we've seen the results with the with the VTL in training.
+Professor D: Yeah. At some point you also might wanna take the same thing and try it on, uh, some Broadcast News data or something else that actually has has some noisy noisy components, so we can see if any conclusions we come to holds across different data.
+PhD I: So. Yeah. Right.
+Professor D: Uh
+PhD I: And, uh, with this, I have to leave.
+Professor D: OK.
+Grad H: Hmm!
+Professor D: So, is there something quick about Absinthe that you?
+PhD I: With this said.
+Grad F: Uh. Just what we were talking about before, which is that I ported a Blass library to Absinthe, and then got got it working with fast - forward, and got a speedup roughly proportional to the number of processors times the clock cycle.
+PhD I: Oh.
+Grad F: So, that's pretty good.
+PhD I: Oh! Cool.
+Grad F: Um, I'm in the process of doing it for Quicknet, but there's something going wrong and it's about half the speed that I was estimating it should be, and I'm not sure why.
+PhD I: Mm - hmm.
+Grad F: But I'll keep working on it. But the what it means is that it's likely that for net training and forward passes, we'll Absinthe will be a good machine. Especially if we get a few more processors and upgrade the processors.
+PhD I: A few more processors? How many are you shooting for?
+Grad F: There're five now. It can hold eight.
+PhD I: Oh, OK.
+Professor D: Yeah, we'll just go buy them, I guess.
+Grad F: And it's also five - fifty megahertz and you can get a gigahertz.
+PhD I: Yeah.
+Grad F: So.
+PhD I: Can you mix t uh, processors of different speed?
+Grad F: I don't think so. I think we'd have to do all
+PhD I: OK.
+Professor D: Probably just throw away the old ones, and
+Grad F: Yep.
+Professor D: Thank you for the box,
+PhD I: Oh, OK.
+Professor D: and I'll just go buy their process.
+Grad H: Hmm!
+PhD I: Maybe we can stick them in another system. I dunno.
+Grad F: We'd have to get a almost certainly have to get a, uh, Netfinity server.
+PhD I: I see.
+Grad F: They're pretty pretty specialized.
+Professor D: Yeah. OK.
+PhD I: OK.
+Professor D: Is is Liz coming back, do you know, or? I dunno. Yeah. Oh, you don't. OK. Alright. Alright. See you. Um. Alright. So Uh, they're having tea out there. So I guess the other thing that we were gonna talk about is is, uh, demo. And, um, so, these are the demos for the uh, July, uh, meeting and, um DARPA mee
+Grad F: July what? Early July? Late July?
+Professor D: Oh, I think it's July fifteenth.
+Postdoc A: Sixteen to eighteen, I think.
+Professor D: Is that it?
+Postdoc A: Roughly.
+Professor D: Yeah, sixteenth, eighteenth. Yeah. So, we talked about getting something together for that, but maybe, uh maybe we'll just put that off for now, given that But I think maybe we should have a a sub - meeting, I think, uh, probably, uh, Adam and and, uh, Chuck and me should talk about should get together and talk about that sometime soon.
+Grad F: Over a cappuccino tomorrow?
+Professor D: Yeah something like that. Um, uh, you know, maybe maybe we'll involve Dan Ellis at some some level as well.
+Grad F: Mm - hmm.
+Professor D: Um. OK. The the tea is is going, so, uh, I suggest we do, uh uh, a unison.
+Grad F: A unison digits?
+Postdoc A: OK.
+Professor D: Yeah. Gets our
+Grad F: Which is gonna be a little hard for a couple people because we have different digits forms.
+PhD E: Oops.
+Grad F: We have a I found a couple of old ones.
+Professor D: Oh.
+Grad H: Hmm.
+Professor D: Well, that'll be interesting. So, uh
+Grad F: Have you done digits before?
+Professor D: No.
+Grad C: I haven't done it.
+Grad F: OK. So, uh, the idea is just to read each line with a short pause between lines,
+Grad C: Alright.
+Grad F: not between And, uh, since we're in a hurry, we were just gonna read everyone all at once. So, if you sorta plug your ears and read
+Grad C: OK.
+Grad F: So first read the transcript number, and then start reading the digits.
+Grad C: Sure.
+Grad F: OK? One, two, three.
+Professor D: OK we're done.
+Grad F: And

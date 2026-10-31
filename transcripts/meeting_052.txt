@@ -1,0 +1,659 @@
+PhD E: Yeah.
+Professor B: Um, so. If we can't, we can't. But uh we're gonna try to make this an abbreviated meeting cuz the the next next occupants were pushing for it, so. Um. So. Agenda is according to this, is transcription status, DARPA demos XML tools, disks, backups, et cetera and
+Grad H: Does anyone have anything to add to the agenda?
+Professor B: OK. Should we just go in order? Transcription status? Who's that's probably you.
+Postdoc A: I can do that quickly. Um I hired several more transcribers, They're making great progress.
+Professor B: Seven?
+Postdoc A: Seve - several, several.
+Professor B: Oh.
+Postdoc A: And uh and uh, uh I've been uh finishing up the uh double checking. I hoped to have had that done by today but it's gonna take one more week.
+Grad H: Um
+PhD D: I g
+Grad H: as a somewhat segue into the next topic, um could I get a hold of uh the data even if it's not really corrected yet just so I can get the data formats and make sure the information retrieval stuff is working?
+Postdoc A: Certainly. Yeah I mean, it's in the same place it's been.
+Grad H: So can you just Oh, it is.
+Postdoc A: Uh - huh. No change.
+Grad H: OK. Just So, " transcripts " is the sub - directory?
+Postdoc A: Uh Yes. Uh - huh.
+Grad H: OK. So I'll I'll probably just make some copies of those rather than use the ones that are there.
+Postdoc A: OK.
+Grad H: Um and then just we'll have to remember to delete them once the corrections are made.
+Postdoc A: OK.
+Professor B: OK, wh
+PhD D: I also got anot a short remark to the transcription. I've uh just processed the first five EDU meetings and they are chunked up so they would they probably can be sent to IBM whenever they want them.
+Grad C: Cool.
+PhD F: Well the second one of those
+PhD D: Yep. It's already at IBM,
+PhD F: is already at IBM.
+PhD D: but the other ones
+PhD F: That's the one that we're waiting to hear from them on.
+PhD D: Yeah. Yeah.
+Postdoc A: OK.
+PhD F: Yeah.
+Postdoc A: These are separate from the ones that
+PhD F: As soon as
+Postdoc A: I mean, these are
+PhD F: They're the IBM set.
+PhD D: Yep.
+Grad H: It's this one.
+Postdoc A: Excellent. Good.
+PhD F: Yeah. And so as soon as we hear from Brian that this one is OK
+Grad H: Is my mike on? Yeah.
+PhD F: and we get the transcript back and we find out that hopefully there are no problems matching up the transcript with what we gave them, then uh we'll be ready to go and we'll just send them the next four as a big batch,
+Postdoc A: Excellent.
+PhD F: and let them work on that.
+Grad H: And so we're doing those as disjoint from the ones we're transcribing here?
+PhD F: Yes, exactly.
+Grad H: OK, good.
+PhD F: We're sort of doing things in parallel, that way we can get as much done a at once.
+Grad H: Yeah, I think that's the right way to do it,
+PhD F: Yeah.
+Grad H: especially for the information retrieval stuff. Anything else on transcription status?
+Postdoc A: Hm - mmm.
+Grad H: OK.
+Professor B: DARPA demos, we had the submeeting the other day.
+Grad H: Right, which uh So I've been working on using the THISL tools to do information retrieval on meeting data and the THISL tools are there're two sets, there's a back - end and a front - end, so the front - end is the user interface and the back - end is the indexing tool and the querying tool. And so I've written some tools to convert everything into the right for file formats. And the command line version of the indexing and the querying is now working. So at least on the one meeting that I had the transcript for uh conveniently you can now do information retrieval on it, do type in a a string and get back a list of start - end times for the meeting,
+PhD F: What what kind of uh what does that look like? The string that you type in.
+Grad H: uh of hits.
+PhD F: What are you are you are they keywords, or are they?
+Grad H: Keywords.
+PhD F: OK. I see.
+Grad H: Right? And so and then it munges it to pass it to the THISL IR which uses an SGML - like format for everything.
+PhD F: I see.
+Professor B: And then does it play something back or that's something you're having to program?
+Grad H: Um, right now, I have a tool that will do that on a command line using our standard tools,
+Professor B: Yeah.
+Grad H: but my intention is to do a prettier user interface based either So so that's the other thing I wanted to discuss, is well what should we do for the user interface? We have two tools that have already been written. Um the SoftSound guys did a web - based one,
+Professor B: Mm - hmm.
+Grad H: um, which I haven't used, haven't looked at. Dan says it's pretty good
+Professor B: Mm - hmm.
+Grad H: but it does mean you need to be running a web server.
+Professor B: Mm - hmm.
+Grad H: And so it it's pretty big and complex. Uh and it would be difficult to port to Windows because it means porting the web server to Windows.
+Professor B: Mm - hmm.
+Grad H: Uh the other option is Dan did the Tcl - TK THISL GUI front - end for Broadcast News
+Professor B: Yeah.
+Grad H: which I think looks great. I think that's a nice demo. Um and that would be much easier to port to Windows. And so I think that's the way we should go.
+Postdoc A: I Can I ask a question? So um as it stands within the the Channeltrans interface, it's possible to do a find and a play.
+Grad H: Mm - hmm.
+Postdoc A: You can find a searched string and play. So e Are you So you're adding like um, I don't know, uh are they fuzzy matches or are they uh?
+Grad H: It's a sort of standard, text - retrieval - based So it's uh term frequency, inverse document frequency scoring.
+Postdoc A: OK.
+Grad H: Um and then there are all sorts of metrics for spacing how far apart they have to be and things like that. So it it's
+Postdoc A: It's a lot more sophisticated than the uh the basically Windows - based
+Grad H: i it's like doing a Google query or anyth anything else like that.
+Postdoc A: OK.
+Grad H: So i it uses So it pr produces an index ahead of time so you don't you're not doing a linear search through all the documents. Cuz you can imagine if with if we have the sixty hours' worth you do wouldn't wanna do a search.
+Postdoc A: Hm - mmm. Good.
+Grad H: Um you have to do preindexing and so that these tools do all that. And so the work to get the front - end to work would be porting it well uh to get it to work on the UNIX systems, our side is just rewriting them and modifying them to work for meetings.
+Professor B: Mm - hmm.
+Grad H: So that it understands that they're different speakers and that it's one big audio file instead of a bunch of little ones and just sorta things like that.
+Professor B: Mm - hmm.
+PhD G: Mm - hmm.
+PhD F: So what does the user see as the result of the query?
+Grad H: On which tool?
+PhD F: THISL.
+Grad H: The THISL GUI tool which is the one that Dan wrote, Tcl - TK
+PhD F: Yeah.
+Grad H: um you type in a query and then you get back a list of hits and you can type on them and listen to them. Click on them rather with a mouse.
+PhD F: Ah.
+Professor B: Mmm
+PhD F: So if you typed in " small heads " or something you could
+Grad H: Right, you'd get
+PhD F: get back a uh uh something that would let you click and listen to some audio where that phrase had occurred
+Grad H: something You you'd get to listen to " beep ".
+PhD F: or some
+Professor B: That was a really good look. It's too bad that that couldn't come into the
+Grad H: You couldn't get a video.
+PhD G: Guess who I practice on?
+Postdoc A: At some point we're gonna have to say what that private joke is, that keeps coming up.
+Professor B: Yeah. And then again, maybe not. So, uh Yeah, that soun that sounds reasonable. Yeah, it loo it my my recollection of it is it's it's a pretty reasonable uh demo sort of format.
+Grad H: Right.
+PhD F: Yeah that sounds good.
+Grad H: And so I think there'd be minimal effort to get it to work, minimally
+PhD F: That sounds really neat.
+Grad H: and then we'd wanna add things like query by speaker and by meeting and all that sort of stuff. Um Dave Gelbart expressed some interest in working on that so I'll work with him on it. And it it's looking pretty good, you know, the fact that I got the query system working. So if we wanna just do a video - based one I think that'll be easy.
+Professor B: Mm - hmm.
+Grad H: If we wanna get it to Windows it's gonna be a little more work because the THISL IR, the information retrieval tool's um, I had difficulty just compiling them on Solaris.
+Professor B: Mm - hmm.
+Grad H: So getting them to compile on Windows might be challenging.
+Professor B: Mm - hmm.
+PhD F: But you were saying that that the uh that there's that set of tools, uh, Cygnus tools, that
+Grad H: So. It certainly helps.
+PhD F: Uh - huh.
+Grad H: Um, I mean without those I wouldn't even attempt it.
+Professor B: Mm - hmm.
+PhD F: Yeah.
+Grad H: But what those they what those do is provide sort of a BSD compatibility layer,
+Professor B: Mm - hmm.
+Grad H: so that the normal UNIX function calls all work.
+Professor B: Mm - hmm.
+PhD F: And you have to have all the o
+Grad H: Um, But the problem is that that the THISL tools didn't use anything like Autoconf and so you have the normal porting problems of different header files and th some things are defined and some things aren't and uh different compiler work - arounds and so on. So the fact that um it took me a day to get it c to compile under Solaris means it's probably gonna take me s significantly more than that to get it to compile under Windows.
+Professor B: How about having it run under free BSD?
+PhD E: Well what you need
+Grad H: Free BSD would probably be easier.
+PhD E: All you need to do is say to Dan " gee it would be nice if this worked under Autoconf " and it'll be done in a day.
+Grad H: That's true.
+PhD D: Uh
+PhD E: Right?
+Grad H: Actually you know I should check because he did port it to SPRACHcore
+PhD E: Right.
+Grad H: so he might have done that already.
+PhD E: I I I wouldn't be surprised.
+Professor B: So
+Grad H: I'll check at that
+Professor B: But it would what would serve would serve both purposes, is if you contact him and ask him if he's already done it.
+PhD E: What I
+PhD F: How does it play?
+Grad H: Yeah, right.
+Professor B: If he has then you learn, if he hasn't then he'll do it.
+Grad H: Right.
+Postdoc A: Wow.
+PhD F: I hope he never listens to these meetings.
+Grad H: That's right. So, and I've been corresponding with Dan and also with uh uh, SoftSound guy, uh
+Postdoc A: It's amazing.
+Professor B: Yeah.
+Grad H: Blanking on his name.
+Professor B: Tony Robinson?
+PhD F: Tony Robinson?
+Grad H: Do I mean Tony? I guess I do.
+Professor B: Yeah.
+PhD E: James Christie.
+Grad H: Or S or Steve Renals.
+Professor B: Steve Renal - Steve Renals.
+Grad H: Which one do I mean?
+PhD E: Steve Renals is not SoftSound, is he?
+Professor B: No.
+Grad H: My brain is not working,
+Professor B: OK.
+Grad H: I don't remember who I've been corresponding with.
+PhD E: Steve wro i it's Ste - Steve Renals wrote THISL IR.
+Grad H: Then it's Steve Renals.
+Professor B: Oh, OK.
+PhD E: OK.
+Grad H: So uh just getting documentation and uh and f and formats,
+Professor B: Yeah.
+Grad H: so that's all going pretty well,
+Professor B: Assuming we're
+PhD E: Right.
+PhD F: What about issues of playing sound files @ @ between the two platforms?
+Grad H: I think we'll be OK with that. Um we have Well, that's a good point too.
+PhD E: Here's a here's a crazy idea actually.
+Grad H: I don't know.
+PhD E: Why don't you try and merge Transcriber and THISL IR? They're both Tcl interfaces.
+Grad H: Well this is one of the reasons This is the one of the reasons that I'm gonna have uh Dave Gelbart Gelbart Having him volunteer to work on it is a really good thing because he's worked on the Transcriber stuff
+PhD E: Right.
+Grad H: and he's more familiar with Tcl - TK than I am.
+PhD E: And then you get they then you get the Windows media playing for free.
+Grad H: Well that's Snack, not not Transcriber.
+PhD E: Right. But the point is that the Transcriber uses Snack and then you can but you can use a a lot of the same functionality and it's
+Grad H: Yeah, yeah, I mean, I I think THISL THISL GUI probably uses Snack. And so my intention was just to base it on that.
+PhD E: Yeah. Well my thought was is that it would be nice it would be nice to have the running transcripts um eh you know, from speaker to speaker.
+Grad H: And if it doesn't
+PhD E: Right? Do you have you have, you know, a speaker mark here and a speaker mark here?
+Grad H: Right, we'll have to figure out a user interface for that, so.
+PhD E: Right. Well that eh my thought was if you had like Multitrans or whatever do it. Or whatever.
+Grad H: Yeah. It might be fairly difficult to get that to work in the little short segments we'd be talking about and having the search tools and so on. We we can look into it,
+PhD E: Yeah.
+Grad H: but
+Professor B: The thing I was asking about with, um, free BSD is that it might be easier to get PowerPoint shows running in free BSD than to get this other package running in
+Grad H: Yeah, I mean we have to I have to sit down and try it before I make too many judgments,
+Professor B: Yeah.
+Grad H: so uh Um My experience with the Gnu compatibility library is really it's just as hard and just as easy to port to any system. Right? The Windows system isn't any harder because it it looks like a BSD system.
+Professor B: Mm - hmm.
+Grad H: It's just, you know, just like all of them, the " include " files are a little different and the function calls are a little different.
+Professor B: Right.
+Grad H: So I it might be a little easier but it's not gonna be a lot easier.
+Professor B: OK. So there was that demo, which was one of the main ones, then we talked about um some other stuff which would basically be um showing off the the Transcriber interface itself and as you say, maybe we could even merge those in some sense, but but um, uh and part of that was showing off what the speech - non uh nonspeech stuff that Thilo has done s looks like.
+PhD D: Yeah.
+Postdoc A: Can I ask one more thing about THISL? So with the IR stuff then you end up with a somewhat prioritized um?
+Grad H: Mm - hmm. Mm - hmm,
+Postdoc A: Excellent.
+Grad H: ranked.
+Postdoc A: Excellent. Yeah.
+PhD G: So another idea I w t had just now actually for the demo was whether it might be of interest to sh to show some of the prosody uh work that Don's been doing.
+Professor B: Mm - hmm.
+PhD G: Um actually show some of the features and then show for instance a task like finding sentence boundaries or finding turn boundaries. Um, you know, you can show that graphically, sort of what the features are doing. It, you know, it doesn't work great but it's definitely giving us something.
+Professor B: Well I think at at the very least we're gonna want something illustrative with that
+PhD G: I don't know if that would be of interest or not.
+Professor B: cuz I'm gonna want to talk about it and so i if there's something that shows it graphically it's much better than me just having a bullet point
+PhD G: Yeah.
+Professor B: pointing at something I don't know much about,
+PhD G: I mean, you're looking at this now
+Professor B: so.
+PhD G: Are you looking at Waves or Matlab?
+Grad C: Um yeah I'm starting to and um Yeah we can probably find some examples of different type of prosodic events going on.
+PhD G: Yeah def
+Professor B: S so when we here were having this demo meeting, what we're sort of coming up with is that we wanna have all these pieces together, to first order, by the end of the month
+PhD G: I
+Professor B: and then that'll give us a week or so.
+Grad C: Ooo. The end of
+PhD G: Oh, the end of this month or next month? Oh, you mean like today?
+Grad H: This month.
+Professor B: Ju
+PhD G: Oh.
+Professor B: June. June. June.
+PhD G: Next month.
+Grad H: Oh sorry, next month.
+Grad C: Yeah.
+PhD G: Sorry.
+Grad H: Today isn't June first,
+PhD F: There's another one.
+Grad H: is it.
+Professor B: Uh that'll that'll give us that'll give us a week or so to uh to port things over to my laptop and make sure that works,
+PhD E: Exactly.
+PhD G: Sorry.
+Professor B: yeah.
+PhD G: I think, I mean eh where
+Grad C: Yeah, I mean I'll be here.
+PhD G: Yeah if d if Don can sort of talk to whoever's
+Professor B: Yeah.
+PhD G: cuz we're doing this anyway as part of our you know, the research, visualizing what these features are doing
+Professor B: Yeah.
+PhD G: and so either it might not be integrated but it it could potentially be in it.
+Professor B: Yeah. Well, this is to an audience of researchers
+PhD G: Could find some.
+Professor B: so I mean, you know, to let s the goal is to let them know what it is we're doing.
+PhD G: I mean it's different.
+Professor B: So that's
+PhD G: I don't think anyone has done this on meeting data so it might be neat, you know.
+Professor B: Yeah. Good. Done with that. XML tools?
+Grad H: Um. So I've been doing a bunch of XML tools where you we're sort of moving to XML as the general format for everything and I think that's definitely the right way to go because there are a lot of tools that let you do extraction and reformatting of XML tools. Um. So yet again we should probably meet to talk about transcription formats in XML because I'm not particularly happy with what we have now. I mean it works with Transcriber but it it's a pain to use it in other tools uh because it doesn't mark start and end.
+PhD F: Start and end of each?
+PhD D: Yeah.
+Grad H: Uh Utterance.
+PhD F: Utterance. Just marks?
+Grad H: So it's implicit in in there
+PhD F: Yeah.
+Grad H: but you have to do a lot of processing to get it.
+PhD F: Right. Right.
+Grad H: And so and also I'd like to do the indirect time line business. Um but regardless, I mean, w that's something that you, me, and Jane can talk about later. Um, but I've installed XML tools of various sorts in various languages and so if people are interested in doing extracting any information from any of these files, either uh information on users because the user database is that way I'm converting the Key files to XML so that you can extract m uh various inf uh sorted information on individual meetings
+Grad C: Cool.
+PhD D: Yeah.
+Grad H: and then also the transcripts. And so l just let me know there it's mostly Java and Perl but we can get other languages too if if that's desirable.
+PhD G: Oh, quick question on that. Is do we have the the seat information? In in the Key files now?
+Postdoc A: Mm - hmm.
+Grad H: The seat information is on the Key files for the ones which
+Postdoc A: Ah.
+PhD G: Oh in For the new one
+Grad H: it's been recorded,
+PhD G: OK.
+Grad H: yeah.
+Professor B: Seat?
+PhD G: Great. Sea - yeah.
+Grad H: Where where you're sitting.
+Professor B: Oh! Not not the quality or anything. No.
+PhD D: n
+Grad H: Right.
+Professor B: OK. I see.
+Grad H: " It's pretty soft and squishy. "
+Professor B: Yeah. Yeah.
+PhD G: Alright.
+Professor B: OK.
+PhD G: OK.
+Grad H: Oh, but that might just be me. Um.
+PhD G: Alright.
+Professor B: That's more seat information than we wanted.
+PhD G: Never mind.
+PhD E: Hmm.
+PhD G: I'm just trying to figure out, you know, when Morgan's voice appears on someone's microphone are they next to him or are they across from him?
+Professor B: Yeah.
+Grad H: Maybe we should bleep that out.
+Professor B: Mmm, yeah.
+PhD F: Wait a minute,
+Professor B: Yeah.
+PhD F: how how w eh where is it in the Key file?
+Grad H: Right. The square bracket.
+PhD G: Cuz I mean I haven't been putting it in and in by
+Grad H: You haven't been putting it in.
+PhD G: Right.
+Postdoc A: Well bu
+PhD G: I have not.
+Grad H: Oh, OK.
+Postdoc A: Isn't it always on the digits?
+Professor B: Some of these are missing.
+PhD G: And
+Professor B: Aren't they?
+Postdoc A: Isn't it always on the digits forms?
+Professor B: Some fall out of
+PhD G: Well it
+Grad H: Yeah so we can go back and fill them in for the ones we have.
+Grad C: Ooo.
+PhD G: I mean they're on th right, these, but I just hadn't ever been putting it in the Key files.
+PhD F: Yeah I I never
+PhD G: And I don't think Chuck was either
+PhD F: I never knew we were supposed to put it in the Key file.
+PhD G: cuz
+Grad H: I had told you guys about it
+PhD F: Oh really?
+PhD G: Oh, so we're both sorry.
+Grad H: but
+PhD G: So
+Grad H: I mean this is why I wanna use a g a tool to do it rather than the plain text
+PhD G: OK.
+PhD F: OK.
+Grad H: because with the plain text it's very easy to skip those things.
+PhD G: OK.
+Grad H: So. Um if you use the Edit - key, or Key - edit
+PhD D: Edit - key.
+Grad H: I think it's Edit - key, command Did I show you guys that?
+PhD D: Yep.
+PhD F: You mentioned it,
+Grad H: I did show it to you,
+PhD F: yeah. Yeah.
+Grad H: but I think you both said " no, you'll just use text file ".
+PhD F: Text.
+Grad H: Um it has it in there, a place to fill it in.
+PhD G: OK.
+PhD F: OK.
+Grad H: Yeah, and so if you don't fill it in, you're not gonna get it in the meetings.
+PhD G: So if Right. Well I I just realized I hadn't been doing it
+Grad H: So.
+PhD G: and probably So
+Grad H: Yep.
+Grad C: u
+Grad H: Yeah and then the other thing also that Thilo noticed is, on the microphone, on channel zero it says hand - held mike or Crown mike,
+PhD G: Yeah. Right.
+Grad H: you actually have to say which one.
+PhD G: I know Yeah, I usually delete the
+Grad H: So.
+PhD F: Oh! OK. I didn't do that either.
+PhD G: I don't,
+PhD D: Yeah.
+PhD G: maybe I forgot to d
+PhD F: Takes me no time at all to edit these.
+PhD G: But it's almost Yeah.
+Grad H: Yeah that's cuz you kn
+PhD F: I'm not doing anything.
+Grad H: I I know why.
+PhD G: And I was I was looking at Chuck's, like, " oh what did Chuck do, OK I'll do that ". So.
+Grad H: And then uh also in a couple of places instead of filling the participants under " participants " they were filled in under " description ".
+Professor B: Ah, OK.
+PhD G: Uh
+Grad H: And so that's also a problem. So anyway.
+PhD G: We will do better.
+Grad H: That's it. Oh uh also I'm working on another version of this tool, the the one that shows up here, that will flash yellow if the mike isn't connected. And it's not quite ready to go yet because um it's hard to tell whether the mike's connected or not because the best quality ones, the Crown ones, are about the same level if they're off and no one's o off or if they're on and no one's talking.
+Grad C: Huh.
+Grad H: Um these these ones, they are much easier, there's a bigger difference. So I'm working on that and it it sorta works and so eventually we will change to that and then you'll be able to see graphically if your mike is dropping in or out.
+Grad C: Will that also include like batteries dying? Just a any time the mike's putting out zeros basically.
+Grad H: Yep. Yep. Yep.
+PhD F: But with the screensaver kicking in, it
+PhD D: But
+Grad H: Now
+PhD D: y yeah.
+Grad C: Yeah.
+PhD D: Yeah.
+Grad H: Well I'll turn off the screensaver too.
+Grad C: Oops. Speaking of which.
+Grad H: Um the other thing is as I've said before, it is actually on the thing. There's a little level meter but of course no one ever pays attention to it. So I think having it on the screen is more easy to notice.
+Postdoc A: It would be nice if if these had little light indicators, little L E Ds for
+Grad H: Uh buzzer.
+Postdoc A: Yeah, a buzzer.
+Grad H: " Bamp, bamp! "
+Professor B: Small shocks
+Postdoc A: Yeah. Actually
+Professor B: administered to the OK. Oh
+Grad H: OK, disk backup, et cetera? Um I spoke with Dave Johnson about putting all the Meeting Recorder stuff on non - backed - up disk to save the overhead of backup and he pretty much said " yeah, you could do that if you want " but he thought it was a bad idea. In fact what he said is doing the manual one, doing uh NW archive to copy it is a good idea and we should do that and have it backed up. He w he's a firm believer in in lots of different modalities of backup. I mean, his point was well taken. This data cannot be recovered.
+PhD G: Yeah.
+Grad H: And so if a mistake is made and we lose the backup we should have the archive and if then a mistake is made and we lose the archive we should have the backup.
+Professor B: Well I guess it is true that even with something that's backed up it's not gonna if it's stationary it's not going to go through the increment it's not gonna burden things in the incremental backups.
+Grad H: Just just the monthly full.
+Postdoc A: Hmm.
+Professor B: Yeah, so the monthly full will be a bear but
+Grad H: Yeah. But he said that that we sh shouldn't worry too much about that, that we're getting a new backup system and we're far enough away from saturation on full backups that it's w probably OK.
+Professor B: Really?
+Grad H: And uh, so the only issue here is the timing between getting more disks and uh recording meetings.
+Professor B: So I guess the idea is that we would be reserving the non - backed - up space for things that took less than twenty - four hours to recreate or something like that, right?
+Grad H: Things that are recreatable easily and also Yeah, basically things that are recreatable.
+Professor B: Yeah. Yeah.
+Grad H: The expanded files and things like that.
+Professor B: OK.
+Grad H: They take up a lot more room anyway.
+Professor B: Yeah.
+Grad H: Uh but we do need more disk.
+Professor B: So we can get more disk. Yeah. So.
+Grad H: Yeah. And I I think I agree with him. I mean his point was well taken that if we lose one of these we cannot get it back.
+Professor B: OK.
+Grad H: I don't think there was any other et cetera there.
+Professor B: Well I was allowing someone else to come up with something related that they had uh
+PhD E: I thought you guys were gonna burn C Ds?
+Grad H: Um unfortunately we could burn C Ds but first of all it's a pain.
+PhD E: Yeah.
+Grad H: Because you have to copy it down to the PC and then burn it and that's a multi - step procedure. And second of all the the write - once burners as opposed to a professional press don't last.
+PhD E: Yeah.
+Grad H: So I think burning them for distribution is fine but burning them for backup is not a good idea.
+PhD E: I see. OK.
+Grad H: Cuz th they they fail after a couple years.
+PhD E: Alright.
+Postdoc A: I do have uh uh It's a different topic. Can I add one top topic? We have time? I wanted to ask, I know that uh that Thilo you were, um, bringing the Channeltrans interface onto the Windows machine? And I wanted to know is th
+PhD D: Yeah it's it Basically it's done,
+Postdoc A: It's all done? That's g wonderful. Great.
+PhD D: yeah. Yeah.
+Grad H: Yes, since Tcl - TK runs on it, basically things'll just work.
+PhD D: Yeah it Yeah, it was just a problem with the Snack version and the Transcriber version but it's solved.
+Postdoc A: Does and that does that mean, I
+PhD D: So.
+Postdoc A: maybe I should know this but I don't. Does this mean that the that this could be por uh ported to a Think - Pad note or some other type of uh
+PhD D: Yeah, basically uh I did install it on my laptop and yeah
+Postdoc A: Wonderful.
+PhD D: it worked.
+Postdoc A: Wonderful.
+Professor B: Hmm! Good. CrossPads? CrossPads?
+Grad H: Uh got an email from uh James Landay who basically said " if you're not using them, could you return them? " So he said he doesn't need them, he just periodically w at the end of each term sends out email to everyone who was recorded as having them and asks them if they're still using them.
+Professor B: So we've never used them.
+Postdoc A: We used them once.
+Professor B: Once?
+Grad H: We we used them a couple times,
+Postdoc A: Mm - hmm. Couple times.
+PhD F: Them? There's more than one?
+Grad H: but
+Postdoc A: Yeah.
+Professor B: i
+Grad H: Yeah, we have two. Um.
+Professor B: But
+Grad H: My opinion on it is, first, I never take notes anyway so I'm not gonna use it, um and second, it's another level of infrastructure that we have to deal with.
+Postdoc A: And I have uh so my my feeling on it is that I think in principle it's a really nice idea, and you have the time tags which makes it better tha than just taking ra raw notes. On the other hand, I the down side for me was that I think the pen is really noisy. So you have ka kaplunk, kaplunk, kaplunk. And I and I don't know if it's audible on the but I I sort of thought that was a disadvantage. I do take notes, I mean, I could be taking notes on these things and I guess the plus with the CrossPads would be the time markings but I don't know.
+PhD D: Uh, what is a CrossPad?
+Professor B: So it's it's um it's a regular pad, just a regular pad of paper but there's this pen which indicates position.
+Grad C: Thank you.
+Professor B: And so you have time and position stuff stored
+PhD D: OK.
+Professor B: so that you can you have a record of whatever it is you've written.
+PhD D: OK.
+Grad H: And then you can download it and they have OCR and searching and all sorts of things.
+PhD D: OK. OK.
+Grad H: So i if you take notes it's a great little device.
+Postdoc A: Could Mm - hmm.
+Grad H: But I don't take notes,
+Professor B: And one of the reasons that it was brought up originally was because uh we were interested in in higher - level things,
+Grad H: so.
+Professor B: not just the, you know, microphone stuff but also summarization and so forth and the question is if you were going to go to some gold standard of what wa what was it that happened in the meeting you know, where would it come from? And um I think that was one of the things,
+PhD D: Yeah.
+PhD G: Yeah.
+Grad H: Yep.
+Professor B: right? And so the it seemed like a neat idea. We'll have a you know, have a scribe, have somebody uh take good notes and then that's part of the record of the meeting. And then we did it once or twice and we sort of
+Grad H: Yep, and then just sort of died out.
+Professor B: probably chose the wrong scribe but it was It's uh
+PhD G: I mean
+Grad H: Yeah that's right.
+Postdoc A: Well I did it one time
+Grad H: Yep.
+Postdoc A: but um
+Professor B: Yeah.
+Postdoc A: u but I guess the the other thing I'm thinking is if we wanted that kind of thing I wonder if we'd lose that much by having someone be a scribe by listening to the tape, to the recording afterwards and taking notes in some other interface.
+PhD F: I mean we're transcribing it anyways, why do we need notes?
+Postdoc A: Oh it's la it's useful,
+Grad H: Because that's summary.
+Postdoc A: have a summary and high points.
+Professor B: Summary.
+PhD G: I think there's also there's this use that
+PhD F: Summarize it from the transcription.
+PhD G: the Well, what if you're sitting there and you just wanna make an X and you don't wanna take notes and you're you just wanna
+PhD F: Doodle.
+PhD G: get the summary of the transcript from this time location like you know, and and then while you're bored you don't do anything and once in a while, maybe there's a joke and you put a X and But in in other words you can use that just to highlight times in a very simple way. Also with I was thinking and I know Morgan disagrees with me on this but suppose you have a group in here and you wanna let them note whenever they think there might be something later that they might not wanna distribute in terms of content, they could just sort of make an X near that point or a question mark that sort of alerts them that when they get the transcript back they c could get some red flags in that transcript region and they can then look at it. So. I know we haven't been using it but I w I can imagine it being useful just for sort of marking time periods
+Grad H: Right.
+PhD G: which you then get back in a transcript
+Postdoc A: Well.
+Professor B: I guess so, you know, what what makes one think i is maybe we should actually schedule some periods where people go over something later
+PhD G: so.
+Professor B: and and and put some kind of summary or something uh you know, some there'd be some scribe who would actually listen, w who'd agreed to actually listen to the whole thing, not transcribe it, but just sort of write down things that struck them as important. But then you don't you don't have the time reference uh that you'd have if you had it live.
+PhD G: Right. And you don't have a lot of other cues that might be useful,
+Professor B: Yeah.
+PhD F: How do you synchronize the time in the CrossPad and the time of the recording?
+PhD G: so.
+Grad H: I mean that was one of the issues we talked about originally and that that's w part of the difficulty is that we need an infrastructure for using the time the CrossPads and so that means synchronizing the time
+Postdoc A: Mm - hmm.
+Grad H: You know you want it pretty close and there's a fair amount of skew because it's a hand - held unit with a battery
+Postdoc A: Well when when I d
+Grad H: and so you
+Postdoc A: OK.
+Grad H: so you have to synchronize at the beginning of each meeting all the pads that are being used, so that it's synchronized with the time on that and then you have to download to an application, and then you have to figure out what the data formats are and convert it over if you wanna do anything with this information.
+Postdoc A: w Mm - hmm.
+PhD E: Why
+Grad H: And so there's a lot of infrastructure which
+Postdoc A: There is an alternative.
+Grad H: unless someone
+Postdoc A: There is an alternative, I mean, it's still, there's uh you know, your point stands about there be needing to be an infrastructure, but it doesn't have to be synchronized with the little clock's timer on it. You c I mean, I when I when I did it I synchronized it by voice, by whispering " one, two, three, four " onto the microphone
+Grad H: Hmm.
+Postdoc A: and uh, you know.
+Grad H: Well, but then there's the infrastructure at the other end
+PhD E: Right.
+Grad H: which someone has to listen to that and find that point,
+Postdoc A: Yeah, it's transcribed. It's in the transcript.
+Grad H: and then mark it.
+Postdoc A: Yeah.
+Grad H: So.
+Postdoc A: Well it's in the transcript.
+PhD G: Well, could we keep one of these things for another year? Would h I mean is there a big cau
+Grad H: We can keep all both of them for the whole whole year.
+PhD G: just just in case we
+Grad H: I mean, it's just
+PhD G: even maybe some of the transcribers who might be wanting to annotate uh f just there's a bunch of things that might be neat to do but I it might not be the case that we can actually synchronize them and then do all the infrastructure but we could at least try it out.
+Professor B: Well one thing that we might try um is on some set of meetings, some collection of meetings, maybe EDU is the right one or maybe something else, we we get somebody to buy into the idea of doing this as part of the task. I mean,
+PhD G: Right.
+Professor B: uh part of the reason I think part of the reason that Adam was so interested in uh the SpeechCorder sort of f idea from the beginning is he said from the beginning he hated taking notes and
+Grad H: Yep.
+Professor B: and so forth so and and Jane is more into it but eh uh you know I don't know if you wanna really do do this all the time so I think the thing is to to get someone to actually buy into it and have at least some series of meetings where we do it. Um and if so, it's probably worth having one. The p the the problem with the the more extended view, all these other you know with uh quibbling about particular applications of it is that it looks like it's hard to get people to um uh routinely use it, I mean it just hasn't happened anyway. But maybe if we can get a person to
+PhD G: Yeah I don't think it has to be part of a what everybody does in a meeting but it might be a useful, neat part of the project that we can, you know, show off as a mechanism for synchronizing events in time that happen that you just wanna make a note of, like what Jane was talking about with some later browsing, just just as a convenience, even if it's not a full - blown note taking substitute.
+PhD E: Well if you wanted to do that maybe the right architecture for it is to get a PDA with a wireless card. And and that way you can synchronize very easily with the the the meeting because you'll be synchroni you can synchronize with the the Linux server and uh
+PhD G: So what kind of input would you be?
+PhD E: so so, I mean, if you're not worried about
+Grad H: Buttons.
+PhD G: You'd just be pressing like a a
+PhD E: Well well you have a PDA and may and you could have the same sort of X interface or whatever, I mean, you'd have to do a little eh a little bit of coding to do it.
+PhD G: Mm - hmm.
+PhD E: But you could imagine,
+PhD G: Yeah, that be good.
+PhD E: I mean, if if all you really wanted was you didn't want this secondary note - taking channel but just sort of being able to use m markers of some sort, a PDA with a l a wireless card would be the probably the right way to go. I mean even buttons you could do, sort of, I mean, as you said.
+Grad H: I mean for what what you've been describing buttons would be even more convenient than anything else,
+PhD G: M right.
+PhD E: Right.
+PhD G: That would be fine too.
+Grad H: right? You have the
+PhD G: I mean, I don't have, you know, grandiose ideas in mind but I'm just sort of thinking well we've we're getting into the next year now and we have a lot of these things worked out at in terms of the speech maybe somebody will be interested in this and
+Postdoc A: I like this PDA idea. Yeah.
+Professor B: Yeah, I do like the idea of having a couple buttons
+PhD G: Yeah.
+Grad H: Well I'm sure there would
+Postdoc A: Yeah.
+Professor B: where like one one button was " uh - oh " and then another button was " that's great " and another button " that's f "
+PhD G: Or like this is my " I'm supposed to do this " kind of button,
+Postdoc A: Yeah.
+PhD G: like " I better remember to "
+Grad H: Action item.
+PhD G: Yeah something like that or
+Postdoc A: And then
+Grad H: I mean I think the CrossPad idea is a good one.
+Postdoc A: Uh - huh.
+Grad H: It's just a question of getting people to use it and getting the infrastructure set up in such a way that it's not a lot of extra work. I mean that's part of the reason why it hasn't happened is that it's been a lot of extra work for me
+PhD G: Yeah.
+Professor B: Right.
+Postdoc A: Well, and not just for you.
+Grad H: and
+Postdoc A: But it's also, it has this problem of having to go from an analog to a d a digital record too,
+PhD G: W
+Postdoc A: doesn't it? I mean
+Grad H: Well it's digital but it's in a format that is not particularly standard.
+Postdoc A: But I mean, say, if i if if you're writing if you're writing notes in it does it it can't do handwriting recognition, right?
+Professor B: No, no, but it's just it's just storing the pixel informa position information,
+Postdoc A: OK.
+Professor B: it's all digital.
+Postdoc A: I I guess what I'm thinking is that the PDA solution you h you have it already without needing to go from the pixelization to a to a I mean
+Professor B: Right. You don't have to
+PhD E: The transfer function is less errorful,
+Postdoc A: Oh, nicely put.
+Professor B: Yeah.
+PhD E: yes.
+PhD G: Yeah, yeah.
+Professor B: Yeah. Yeah.
+PhD G: Well it also it's maybe realistic cuz people are supposed to be bringing their P D As to the meeting eventually, right? That's why we have this little I don't know what I don't wanna cause more work for anyone but I can imagine some interesting things that you could do with it and so if we don't have to return it and we can keep it for a year I don't know.
+Grad H: Well w we don't we certainly don't have to return it, as I said. All all he said is that if you're not using it could you return it, if you are using it feel free to keep it. The point is that we haven't used it at all and are we going to?
+Professor B: So we have no but uh by I I would suggest you return one. Because we we you know, we we haven't used it at all.
+PhD G: Yeah.
+Grad H: OK.
+PhD G: We c
+Professor B: We have some aspirations of using them
+PhD G: One would probably be fine.
+Professor B: and
+PhD G: Maybe we could do like a student project, you know, maybe someone who wants to do this as their main like s project for something would be cool.
+Professor B: Yeah.
+Grad H: Yep. I mean if we had them out and sitting on the table people might use them a little more
+Professor B: Maybe Jeremy could sit in some meetings and press a button when there when when somebody laughed.
+Grad H: although there is a little
+PhD G: Well, I'm yeah, that's not a bad
+Professor B: Yeah, yeah. Yeah.
+PhD G: Jeremy's gonna be an he's a new student starting on modeling brea breath and laughter, actually, which sounds funny but I think it should be cool,
+Professor B: Yeah.
+PhD G: so.
+Grad H: Sounds breathy to me.
+PhD G: OK. " Ha - ha - ha. "
+Grad H: Breath and lau " ha - ha - ha - ha ". " Ha - ha - ha - ha. "
+Professor B: Well dear.
+Grad H: Um.
+Professor B: Hmm.
+Grad H: That reminded me of something. Oh well, too late. It slipped out.
+Professor B: OK.
+PhD G: You're you're gonna tease me?
+Grad H: Oh, equipment.
+PhD G: OK.
+Grad H: Ordered Uh, well I'm always gonna do that. W uh We ordered uh more wireless, and so they should be coming in at some point.
+PhD G: Great.
+Grad H: And then at the same time I'll probably rewire the room as per Jane's suggestion so that uh the first N channels are wireless, eh are the m the close - talking and the next N are far - field.
+Professor B: You know what he means but isn't that funny sounding? " We ordered more wireless. " It's like wires are the things so you're wiring you're you're you we're we ordered more absence of the thing.
+PhD G: That's a very philosophical statement from Morgan.
+Grad H: wired less, wired more.
+PhD G: I just it's sort of a anachronism, I mean it's like It's great.
+Professor B: Anyway.
+Grad H: Should we do digits? Do we have anything else?
+Professor B: Yeah.
+Postdoc A: OK.
+Professor B: I mean there's there's all this stuff going on uh between uh Andreas and and and Dave and Chuck and others with various kinds of runs uh um recognition runs, trying to figure things out about the features but it's it's all sort of in process, so there's not much to say right now. Uh why don't we start with our our esteemed guest.
+PhD E: OK. Alright.
+Grad H: So just the transcript number and then the then the
+PhD E: This is Yes, this is number two for me today.
+Professor B: See all you have to do is go away to move way up in the
+PhD E: Oh.
+PhD G: We could do simultaneous. Initiate him.
+Professor B: We we could.
+Grad H: Should we do simultaneous?
+PhD G: Well, I'm just thinking, are you gonna try to save the data before this next group comes in?
+Professor B: Yeah.
+Grad H: Yeah, absolutely.
+PhD G: Yeah, so we might wanna do it simultaneous.
+Grad H: I mean you hav sorta have to.
+Professor B: Well OK, so let's do one of those simultaneous ones.
+PhD G: Right, so so we might n we might need to do that actually.
+Professor B: That sounds good.
+Grad H: OK.
+PhD E: OK.
+Professor B: Everybody ready?
+Postdoc A: Yeah.
+Professor B: A one.
+PhD G: You have to plug your ears, by the way uh Eric,
+Grad H: Well I have to,
+PhD D: You don't have to.
+PhD E: OK, alright.
+PhD G: or or you start laughing.
+Grad H: I don't know about other people.
+Professor B: OK, a one and a two and a three. OK, babble, take five.

@@ -1,0 +1,1319 @@
+Grad E: OK, we're on.
+Professor B: OK.
+Grad E: So, I mean, everyone who's on the wireless check that they're on.
+PhD F: C we
+Grad G: Alright.
+Postdoc C: I see. Yeah.
+PhD F: Yeah.
+Grad E: OK, our agenda was quite short.
+Professor B: Oh, could you close the door, maybe? Yeah.
+Grad E: Sure. Two items, which was, uh, digits and possibly stuff on on, uh, forced alignment, which Jane said that Liz and Andreas had in information on,
+Grad E: but they didn't,
+PhD F: Mm - hmm.
+Professor B: I guess the only other thing, uh, for which I
+Grad E: so.
+PhD F: We should do that second, because Liz might join us in time for that.
+Grad E: OK.
+Professor B: Um. OK, so there's digits, alignments, and, um, I guess the other thing, which I came unprepared for, uh, is, uh, to dis s s see if there's anything anybody wants to discuss about the Saturday meeting.
+Grad E: Right.
+Professor B: So. Any I mean, maybe not.
+Grad E: Digits and alignments. But
+Professor B: Uh.
+PhD F: Talk about aligning people's schedules.
+Professor B: Yeah.
+Grad E: Yeah.
+Postdoc C: Mm - hmm.
+Professor B: Yeah. I mean Right. Yeah, I mean, it was
+Grad E: Yeah, it's forced alignment of people's schedules.
+PhD F: Yeah.
+PhD D: Forced align.
+PhD F: If we're very
+Professor B: Yeah.
+PhD F: Yeah.
+Professor B: With with whatever it was, a month and a half or something ahead of time, the only time we could find in common roughly in common, was on a Saturday.
+PhD D: Yeah.
+Professor B: Ugh.
+Grad E: Yep.
+PhD F: It's pretty sad.
+Professor B: Yeah.
+PhD F: Yeah.
+Postdoc C: Have Have we thought about having a conference call to include him in more of in more of the meeting? I I mean, I don't know, if we had the if we had the telephone on the table
+Professor B: No. But, h I mean, he probably has to go do something.
+PhD F: No, actually I I have to I have to shuttle kids from various places to various other places.
+Professor B: Right?
+Postdoc C: I see. OK.
+Professor B: Yeah.
+PhD F: So. And I don't have and I don't, um, have a cell phone
+PhD D: A cell phone?
+PhD F: so I can't be having a conference call while driving.
+Professor B: R r right.
+Postdoc C: No. It's not good.
+Professor B: So we have to we
+Postdoc C: That's not good.
+PhD F: Plus, it would make for interesting noise background noise.
+Grad E: Yep.
+PhD F: Uh
+Professor B: So we have to equip him with a with a with a head - mounted, uh, cell phone
+Grad E: Ye - we and we'd have to force you to read lots and lots of digits,
+Professor B: and
+Grad E: so it could get real real car noise.
+PhD F: Oh, yeah.
+PhD D: Yeah.
+PhD F: Oh, yeah.
+Grad G: Take advantage.
+PhD D: And with the kids in the background.
+PhD F: I'll let I'd let
+PhD D: Yeah.
+PhD F: I let, uh, my five - year - old have a try at the digits, eh.
+Professor B: Yeah.
+Grad E: So, anyway, I can talk about digits. Um, did everyone get the results or shall I go over them again? I mean that it was basically the only thing that was even slightly surprising was that the lapel did so well. Um, and in retrospect that's not as surprising as maybe i it shouldn't have been as surprising as I as as I felt it was. The lapel mike is a very high - quality microphone. And as Morgan pointed out, that there are actually some advantages to it in terms of breath noises and clothes rustling if no one else is talking.
+PhD D: Yeah.
+PhD F: Exactly.
+Grad E: Um, so, uh
+Grad G: Mm - hmm.
+Professor B: Well, it's Yeah, sort of the bre the breath noises and the mouth clicks and so forth like that, the lapel's gonna be better on.
+Grad G: It's g it
+PhD D: Or the cross - talk. Yeah.
+Professor B: The lapel is typically worse on the on clothes rustling, but if no one's rustling their clothes,
+Grad E: Right. I mean, a lot of people are just sort of leaning over and reading the digits,
+Professor B: it's it's
+Grad E: so it's it's a very different task than sort of the natural.
+PhD D: Yeah. You don't move much during reading digits, I think.
+Professor B: Yeah.
+Grad E: So.
+Professor B: Yeah.
+Grad E: Right.
+Grad G: Probably the fact that it picks up other people's speakers other people's talking is an indication of that it the fact it is a good microphone.
+PhD D: Yeah.
+Professor B: Right. So in the digits, in most most cases, there weren't other people talking.
+Grad E: Right. Right.
+Grad G: So.
+Professor B: So.
+PhD F: D do the lapel mikes have any directionality to them?
+Professor B: There typically don't, no.
+PhD F: Because I I suppose you could make some that have sort of that you have to orient towards your mouth,
+Grad E: They have a little bit,
+PhD F: and then it would
+Grad E: but they're not noise - cancelling. So, uh
+Professor B: They're they're intended to be omni - directional.
+Grad E: Right.
+Professor B: And th it's and because you don't know how people are gonna put them on, you know.
+PhD F: Mm - hmm.
+Grad E: Right. So, also, Andreas, on that one the the back part of it should be right against your head. And that will he keep it from flopping aro up and down as much.
+PhD F: It is against my head.
+Grad E: OK.
+Professor B: Yeah. Um. Yeah, we actually talked about this in the, uh, front - end meeting this morning, too. Much the same thing,
+Grad E: Uh - huh.
+Professor B: and and it was uh, I mean, there the point of interest to the group was primarily that, um, the, uh the system that we had that was based on H T K, that's used by, you know, all the participants in Aurora, was so much worse than the than the S R
+Grad E: Everybody.
+Professor B: And the interesting thing is that even though, yes, it's a digits task and that's a relatively small number of words and there's a bunch of digits that you train on, it's just not as good as having a a l very large amount of data and training up a a a nice good big HMM. Um, also you had the adaptation in the SRI system, which we didn't have in this. Um. So. Um.
+PhD F: And we know Di - did I send you some results without adaptation?
+Grad E: No.
+Professor B: I s I think Stephane, uh, had seen them.
+Grad E: Or if you did, I didn't include them, cuz it was
+Professor B: So
+PhD F: Yeah, I think I did, actually. So there was a significant loss from not doing the adaptation.
+Professor B: Yeah.
+PhD F: Um. A a a couple percent or some I mean Well, I don't know it Overall Uh, I I don't remember, but there was there was a significant, um, loss or win from adaptation with with adaptation. And, um, that was the phone - loop adaptation. And then there was a very small like point one percent on the natives uh, win from doing, um, you know, adaptation to the recognition hypotheses. And I tried both means adaptation and means and variances, and the variances added another or subtracted another point one percent. So, it's, um that's the number there. Point six, I believe, is what you get with both, uh, means and variance adaptation.
+Grad E: Right.
+Professor B: But I think one thing is that, uh, I would presume Hav - Have you ever t Have you ever tried this exact same recognizer out on the actual TI - digits test set?
+PhD F: This exact same recognizer? No.
+Professor B: It might be interesting to do that. Cuz my my cuz my sense, um
+PhD F: But but, I have I mean, people people at SRI are actually working on digits.
+Grad E: I bet it would do even slightly better.
+PhD F: I could and they are using a system that's, um you know, h is actually trained on digits, um, but h h otherwise uses the same, you know, decoder, the same, uh, training methods, and so forth,
+Professor B: Mm - hmm.
+PhD F: and I could ask them what they get on TI - digits.
+Professor B: Yeah, bu although I'd be I think it'd be interesting to just take this exact actual system so that these numbers were comparable
+PhD F: Mm - hmm.
+Professor B: and try it out on TI - digits.
+PhD F: Well, Adam knows how to run it,
+Professor B: Yeah.
+Grad E: Yeah. No problem.
+PhD F: so you just make a f
+Professor B: Yeah. Yeah. Cuz our sense from the other from the Aurora, uh, task is that
+Grad E: And try it with TI - digits?
+PhD F: Mm - hmm.
+Professor B: I mean, cuz we were getting sub one percent numbers on TI - digits also with the tandem thing.
+PhD F: Mm - hmm.
+Professor B: So, one so there were a number of things we noted from this.
+PhD F: Mmm.
+Professor B: One is, yeah, the SRI system is a lot better than the HTK
+PhD F: Hmm.
+Professor B: this, you know, very limited training HTK system.
+PhD F: Mm - hmm.
+Professor B: Uh, but the other is that, um, the digits recorded here in this room with these close mikes, i uh, are actually a lot harder than the studio - recording TI - digits. I think, you know, one reason for that, uh, might be that there's still even though it's close - talking, there still is some noise and some room acoustics.
+PhD F: Mm - hmm. Mm - hmm.
+Professor B: And another might be that, uh, I'd I would presume that in the studio, uh, uh, situation recording read speech that if somebody did something a little funny or n pronounced something a little funny or made a little that they didn't include it,
+Grad E: They didn't include it.
+Professor B: they made them do it again.
+Grad E: Whereas, I took out the ones that I noticed that were blatant that were correctable.
+Professor B: Mmm. Yeah.
+Grad E: So that, if someone just read the wrong digit, I corrected it.
+Professor B: Yeah.
+Grad E: And then there was another one where Jose couldn't tell whether I couldn't tell whether he was saying zero or six. And I asked him and he couldn't tell either.
+Grad I: Hmm.
+Grad E: So I just cut it out.
+Professor B: Yeah.
+Grad E: You know, so I just e edited out the first, i uh, word of the utterance. Um, so there's a little bit of correction but it's definitely not as clean as TI - digits. So my expectations is TI - digits would, especially I think TI - digits is all American English.
+Professor B: Mm - hmm.
+Grad E: Right? So it would probably do even a little better still on the SRI system, but we could give it a try.
+PhD F: Well. But remember, we're using a telephone bandwidth front - end here, uh, on this, uh on this SRI system, so, um, I was I thought that maybe that's actually a good thing because it it gets rid of some of the uh, the noises, um, you know, in the the below and above the um, the, you know, speech bandwidth
+Professor B: Mm - hmm. Mm - hmm.
+PhD F: and, um, I suspect that to get sort of the last bit out of these higher - quality recordings you would have to in fact, uh, use models that, uh, were trained on wider - band data. And of course we can't do that or
+Grad E: Wha - what's TI - digits? I thought t
+Professor B: It's wide - band, yeah. It's in in fact, we looked it up
+Grad E: It is wide - band. OK.
+Professor B: and it was actually twenty kilohertz sampling.
+Grad E: Oh, that's right. I I did look that up.
+PhD F: Mm - hmm.
+Grad E: I couldn't remember whether that was TI - digits or one of the other digit tasks.
+Professor B: Yeah.
+PhD F: Right. But but, I would Yeah. It's it's easy enough to try, just run it on
+Professor B: Yeah.
+Grad E: Mm - hmm.
+Professor B: See w
+Grad E: So, Morgan, you're getting a little breath noise.
+PhD F: Now, eh, does
+Grad E: You might wanna move the mike down a little bit.
+PhD F: one one issue one issue with with that is that um, the system has this, uh, notion of a speaker to which is used in adaptation, variance norm uh, you know, both in, uh, mean and variance normalization and also in the VTL estimation.
+Professor B: Mm - hmm.
+PhD F: So
+Grad E: Yeah, I noticed the script that extracted it.
+PhD F: Do y? Is? So does so th so does does, um, the TI - digits database have speakers that are known?
+Grad E: Yep. Yep.
+PhD F: And is there is there enough data or a comparable comparable amount of data to to what we have in our recordings here?
+Grad E: That I don't know. I don't know. I don't know how many speakers there are,
+Professor B: Yeah.
+Grad E: and and how many speakers per utterance.
+PhD F: OK.
+Professor B: Well, the other thing would be to do it without the adaptation and compare to these numbers without the adaptation. That would
+PhD F: Right. Uh, but I'm not so much worried about the adaptation, actually, than than the, um, um the, uh, VTL estimation.
+Grad E: Right.
+PhD F: If you have only one utterance per speaker you might actually screw up on estimating the the warping, uh, factor. So, um
+Grad E: I strongly suspect that they have more speakers than we do. So, uh
+PhD F: Right. But it's not the amount of speakers, it's the num it's the amount of data per speaker.
+Grad E: Right. So we we could probably do an extraction that was roughly equivalent.
+PhD F: Right. Right.
+Grad E: Um.
+PhD F: So
+Grad E: So, although I I sort of know how to run it, there are a little a f few details here and there that I'll have to dig out.
+PhD F: OK. The key So th the system actually extracts the speaker ID from the waveform names.
+Grad E: Right. I saw that.
+PhD F: And there's a there's a script and that is actually all in one script. So there's this one script that parses waveform names and extracts things like the, um, speaker, uh, ID or something that can stand in as a speaker ID. So, we might have to modify that script to recognize the, um, speakers, um, in the in the, uh, um, TI - digits database.
+Grad E: Right. Right. And that, uh
+PhD F: Or you can fake you can fake names for these waveforms that resemble the names that we use here for the for the meetings.
+Grad E: Right.
+PhD F: That would be the, sort of probably the safest way to do
+Grad E: I might have to do that anyway to to do because we may have to do an extract to get the amount of data per speaker about right.
+PhD F: Uh - huh.
+Grad E: The other thing is, isn't TI - digits isolated digits?
+PhD F: Right.
+Grad E: Or is that another one? I'm I looked through a bunch of the digits t corp corpora, and now they're all blurring.
+Professor B: Mm - hmm.
+Grad E: Cuz one of them was literally people reading a single digit. And then others were connected digits.
+Professor B: Yeah. Most of TI - digits is connected digits, I think.
+Grad E: OK.
+Professor B: The I mean, we had a Bellcore corpus that we were using. It was that's that was isolated digits.
+Grad E: Maybe it's the Bell Gram. Bell Digits. Alright.
+Professor B: Um.
+PhD F: By the way, I think we can improve these numbers if we care to compr improve them by, um, not starting with the Switchboard models but by taking the Switchboard models and doing supervised adaptation on a small amount of digit data collected in this setting.
+Grad E: Yep.
+PhD F: Because that would adapt your models to the room acoustics and f for the far - field microphones, you know, to the noise. And that should really improve things, um, further. And then you use those adapted models, which are not speaker adapted but sort of acous you know, channel adapted
+Grad E: Channel adapted.
+PhD F: use that as the starting models for your speaker adaptation.
+Professor B: Yeah. But the thing is, uh I mean, w when you it depends whether you're ju were just using this as a a starter task for you know, to get things going for conversational or if we're really interested i in connected digits. And I I think the answer is both. And for for connected digits over the telephone you don't actually want to put a whole lot of effort into adaptation
+PhD F: Well, I don't know.
+Professor B: because somebody gets on the phone and says a number and then you just want it. You don't don't, uh
+Postdoc C: This is this that one's better.
+PhD F: Right.
+Postdoc C: Mm - hmm.
+PhD F: Um, but, you know, I uh, my impression was that you were actually interested in the far - field microphone, uh, problem, I mean. So, you want to you want to That's the obvious thing to try.
+Postdoc C: Oh. Oh.
+Professor B: Right.
+PhD F: Right? Then, eh because you you don't have any
+Postdoc C: Yeah.
+PhD F: That's where the most m acoustic mismatch is between the currently used models and the the r the set up here.
+Professor B: Right.
+PhD F: So.
+Professor B: Yeah. So that'd be anoth another interesting data point.
+PhD F: Mm - hmm.
+Professor B: I mean, I I guess I'm saying I don't know if we'd want to do that as the as
+PhD D: Other way.
+Grad E: Other way. Liz
+PhD A: Now you're all watching me.
+Grad E: It f it clips over your ears.
+PhD A: Alright. This way.
+Grad E: There you go.
+Postdoc C: If you have a strong fe if you have a strong preference, you could use this.
+PhD A: You're all watching. This is terrible.
+Postdoc C: It's just we we think it has some spikes. So, uh, we we didn't use that one.
+PhD A: I'll get it.
+Postdoc C: But you could if you want.
+Professor B: Yeah. At any rate, I don't know if w
+Postdoc C: I don't know. And Andre - Andreas, your your microphone's a little bit low.
+Professor B: Yeah.
+PhD F: It is?
+Professor B: I don't know if we wanna use that as the
+Postdoc C: Yeah.
+Grad E: Uh, it pivots.
+PhD F: Uh.
+Postdoc C: So if you see the picture
+Grad E: It it like this.
+PhD F: I I
+Postdoc C: and then you have to scr
+PhD F: I I already adjusted this a number of times.
+Grad E: Eh.
+PhD F: I I
+Grad E: Yeah, I think these mikes are not working as well as I would like.
+PhD F: can't quite seem to Yeah, I think this contraption around your head is not working so well.
+Professor B: Too many adju too many adjustments. Yeah. Anyway, what I was saying is that I I think I probably wouldn't want to see that as sort of like the norm, that we compared all things to.
+Postdoc C: That looks good. Yeah.
+Professor B: To, uh, the to have have all this ad all this, uh, adaptation. But I think it's an important data point, if you're if Yeah.
+PhD F: Right.
+Professor B: Um. The other thing that that, uh of course, what Barry was looking at was was just that, the near versus far. And, yeah, the adaptation would get th some of that.
+PhD F: Mm - hmm.
+Professor B: But, I think even even if there was, uh, only a factor of two or something, like I was saying in the email, I think that's that's a big factor. So
+PhD F: Mm - hmm.
+Professor B: N
+Grad E: Liz, you could also just use the other mike if you're having problems with that one.
+Postdoc C: Well.
+PhD A: OK.
+Postdoc C: Yeah. This would be OK. We we we think that this has spikes on it,
+PhD A: It's this thing's This is too big for my head.
+Postdoc C: so it's not as good acoustically,
+PhD F: Yeah, basically your ears are too big.
+Postdoc C: but
+PhD F: I mean, mine are too. E th everybody's ears are too big for these things.
+PhD A: No, my my But this is too big for my head. So, I mean, it doesn't you know, it's sit
+PhD F: Uh
+Postdoc C: Well, if you'd rather have this one then it's
+PhD A: OK.
+Professor B: Yeah.
+Grad E: Oh, well.
+Professor B: It's great.
+Grad E: So the To get that, uh, pivoted this way, it pivots like this.
+PhD A: No this way. Yeah.
+Grad E: Yeah. There you go.
+Postdoc C: And there's a screw that you can tighten.
+Grad E: And then it
+PhD A: Right.
+Grad E: Right.
+PhD A: I already tried to get it close.
+Postdoc C: Good.
+Grad E: So if it doesn't bounce around too much, that's actually good placement.
+PhD A: OK.
+Postdoc C: That looks good.
+Grad E: But it looks like it's gonna bounce a lot.
+Professor B: So, where were we? Uh Yeah.
+Postdoc C: Yeah.
+Grad E: Digits. Adaptation.
+Professor B: Uh, adaptation, non - adaptation, um, factor of two, um Oh, yeah. I know what I was go w
+PhD F: What k u By the way, wh what factor of two did you?
+Professor B: Oh, no, no.
+PhD F: I mean
+Professor B: It's tha that that we were saying, you know, well is how much worse is far than near, you know.
+PhD F: Oh, th OK.
+Professor B: And I mean it depends on which one you're looking at,
+PhD F: That factor of two.
+Professor B: but for the everybody, it's little under a factor or two.
+PhD F: Mm - hmm.
+Professor B: Yeah. I I know what I was thinking was that maybe, uh, i i we could actually t t try at least looking at, uh, some of the the large vocabulary speech from a far microphone, at least from the good one.
+PhD F: Mm - hmm.
+Professor B: I mean, before I thought we'd get, you know, a hundred and fifty percent error or something, but if if, uh if we're getting thirty - five, forty percent or something, u um
+PhD F: Mm - hmm.
+PhD A: Actually if you run, though, on a close - talking mike over the whole meeting, during all those silences, you get, like, four hundred percent word error.
+Professor B: Mm - hmm. Right. I understand. But doing the same kind of limited thing
+PhD A: Or or some high number.
+Professor B: Yeah, sure. Get all these insertions. But I'm saying if you do the same kind of limited thing as people have done in Switchboard evaluations or as a
+PhD A: Yeah. Where you know who the speaker is and there's no overlap? And you do just the far - field for those regions?
+Professor B: Yeah. Yeah. The same sort of numbers that we got those graphs from. Right?
+Grad E: Could we do exactly the same thing that we're doing now, but do it with a far - field mike?
+Professor B: Yeah, do it with one of on
+Grad E: Cuz we extract the times from the near - field mike, but you use the acoustics from the far - field mike.
+PhD A: Right. I understand that. I just meant that so you have three choices. There's, um You can use times where that person is talking only from the transcripts but the segmentations were were synchronized. Or you can do a forced alignment on the close - talking to determine that, the you know, within this segment, these really were the times that this person was talking and elsewhere in the segment other people are overlapping and just front - end those pieces. Or you can run it on the whole data, which is which is, you know, a
+Professor B: But but but how did we get the how did we determine the links, uh, that we're testing on in the stuff we reported?
+PhD A: In the H L T paper we took segments that are channel time - aligned, which is now h being changed in the transcription process, which is good, and we took cases where the transcribers said there was only one person talking here, because no one else had time any words in that segment and called that " non - overlap ".
+Professor B: And tha And that's what we were getting those numbers from.
+PhD A: Yes. Tho - good the good numbers.
+Professor B: Right.
+PhD A: The bad numbers were from the segments where there was overlap.
+Professor B: Well, we could start with the good ones.
+PhD A: Yeah.
+Professor B: But anyway so I think that we should try it once with the same conditions that were used to create those, and in those same segments just use one of the P Z
+PhD A: Right. So we we can do that. Yeah.
+Professor B: And then, you know, I mean, the thing is if we were getting, uh what, thirty - five, forty percent, something like that on on that particular set, uh, does it go to seventy or eighty?
+PhD A: Right.
+Professor B: Or, does it use up so much memory we can't decode it?
+PhD A: It might also depend on which speaker th it is and how close they are to the PZM?
+Professor B: Uh
+PhD A: I don't know how different they are from each other.
+PhD F: You want to probably choose the PZM channel that is closest to the speaker.
+PhD A: To be best
+PhD D: Yeah.
+Grad E: For this particular digit ones, I just picked that one.
+PhD A: f
+Professor B: Well
+PhD A: OK. So we would then use that one, too,
+Grad E: So
+PhD F: Oh, OK.
+Professor B: This is kind of central.
+PhD A: or?
+Professor B: You know, it's so i but I would I'd pick that one. It'll be less good for some people than for other, but I I'd like to see it on the same exact same data set that that we did the other thing on.
+Grad E: Actually I sh actually should've picked a different one,
+Professor B: Right?
+Grad E: because that could be why the PDA is worse. Because it's further away from most of the people reading digits.
+PhD D: It's further away. Yeah. Yeah.
+Professor B: That's probably one of the reasons.
+Postdoc C: Hmm. Mm - hmm.
+PhD A: Well, yeah. You could look at, I guess, that PZM or something.
+Grad E: Yep.
+Professor B: But the other is, it's very, uh I mean, even though there's I'm sure the f f the the SRI, uh, front - end has some kind of pre - emphasis, it's it's, uh still, th it's picking up lots of low - frequency energy.
+PhD F: Mm - hmm.
+Professor B: So, even discriminating against it, I'm sure some of it's getting through. Um. But, yeah, you're right. Prob - a part of it is just the distance.
+PhD A: And aren't these pretty bad microphones?
+Grad E: Yep.
+PhD A: I mean
+Professor B: Well, they're bad. But, I mean, if you listen to it, it sounds OK. You know? u Yeah.
+Grad E: Yeah. When you listen to it, uh, the PZM and the PDA Yeah, th the PDA has higher sound floor but not by a lot. It's really pretty uh, pretty much the same.
+PhD A: I just remember you saying you got them to be cheap on purpose. Cheap in terms of their quality. So.
+Professor B: Well, they're twenty - five cents or so.
+Grad E: Th - we wanted them to be to be typical of what would be in a PDA.
+Professor B: Yeah.
+PhD A: Mm - hmm.
+Grad E: So they are they're not the PZM three hundred dollar type. They're the twenty - five cent,
+Professor B: Yeah.
+Grad E: buy them in packs of thousand type.
+PhD A: I see.
+Professor B: But, I mean, the thing is people use those little mikes for everything because they're really not bad.
+Grad E: Everything.
+PhD A: Mm - hmm.
+Professor B: I mean, if you're not doing something ridiculous like feeding it to a speech recognizer, they they they you know, you can hear the sou hear the sounds just fine.
+PhD A: Right.
+Professor B: You know, it's They I mean, i it's more or less the same principles as these other mikes are built under, it's just that there's less quality control. They just, you know, churn them out and don't check them. Um. So. So that was Yeah. So that was i interesting result. So like I said, the front - end guys are very much interested in in this is as as well and
+PhD F: So so, but where is this now? I mean, what's where do we go from here?
+Grad E: Yeah. That was gonna be my question.
+PhD F: I mean, we so we have a we have a a system that works pretty well but it's not, you know, the system that people here are used to using to working with.
+Professor B: Well, I think what we wanna do is we want to eh,
+PhD F: So what what do we do now?
+Professor B: and we've talked about this in other contexts we want to have the ability to feed it different features.
+PhD F: Mm - hmm.
+Professor B: And then, um, from the point of view of the front - end research, it would be s uh, substituting for HTK.
+PhD F: OK. OK.
+Professor B: I think that's the key thing. And then if we can feed it different features, then we can try all the different things that we're trying there.
+PhD F: OK. Alright.
+Professor B: And then, um, uh, also Dave is is thinking about using the data in different ways, uh, to um, uh, explicitly work on reverberation
+PhD F: Mm - hmm.
+Professor B: starting with some techniques that some other people have found somewhat useful, and Yeah.
+PhD F: OK. So so the key thing that's missing here is basically the ability to feed, you know, other features i into the recognizer
+Professor B: Right.
+PhD F: and also then to train the system.
+Professor B: Right.
+PhD F: OK. And, uh, es I don't know when Chuck will be back but that's exactly what he he's gonna
+Professor B: H h He's he's sort of back, but he drove for fourteen hours an and wasn't gonna make it in today.
+PhD F: Oh, OK. So, I think that's one of the things that he said he would be working on. Um.
+Grad E: Yeah.
+PhD F: Just sort of t to make sure that we can do that
+Professor B: Yeah.
+PhD F: and Um.
+Professor B: Right.
+PhD F: It's uh, I mean, the the front - end is f i tha that's in the SRI recognizer is very nice in that it does a lot of things on the fly but it unfortunately is not designed and, um like the, uh, ICSI system is, where you can feed it from a pipeline of of the command. So, the what that means probably for the foreseeable future is that you have to, uh, dump out, um you know, if you want to use some new features, you have to dump them into individual files and give those files to the recognizer.
+Grad E: We do we tend to do that anyway.
+PhD F: OK.
+Grad E: Oh. So, although you you can pipe it as well, we tend to do it that way because that way you can concentrate on one block and not keep re - doing it over and over.
+PhD F: Oh, OK.
+Professor B: Yeah.
+PhD F: Alright.
+Professor B: Yeah. So I've I
+Grad E: So tha that's exactly what the P - file is for.
+Professor B: Yeah.
+PhD F: Yeah, the the the cumbersome thing is is, um is that you actually have to dump out little little files.
+PhD A: Uh
+PhD F: So for each segment that you want to recognize you have to dump out a separate file.
+Grad E: Uh - huh.
+PhD F: Just like i th like th as if there were these waveform segments, but instead you have sort of feature file segments. But, you know So.
+Professor B: Cool. OK. So the s the the next thing we had on the agenda was something about alignments?
+PhD A: Oh. Yes, we have I don't know, did you wanna talk about it, or? I can give a I was just telling this to Jane and and W we we were able to get some definite improvement on the forced alignments by looking at them first and then realizing the kinds of errors that were occurring and um, some of the errors occurring very frequently are just things like the first word being moved to as early as possible in the recognition, which is a um, I think was both a a pruning problem and possibly a problem with needing constraints on word locations. And so we tried both of these st things. We tried saying I don't know, I got this whacky idea that just from looking at the data, that when people talk their words are usually chunked together. It's not that they say one word and then there's a bunch of words together. They're might say one word and then another word far away if they were doing just backchannels? But in general, if there's, like, five or six words and one word's far away from it, that's probably wrong on average. So, um And then also, ca the pruning, of course, was too too severe.
+PhD F: So that's actually interesting. The pruning was the same value that we used for recognition. And we had lowered that we had used tighter pruning after Liz ran some experiments showing that, you know, it runs slower and there's no real difference in
+PhD A: Actually it was better with slightly better or about th
+Grad E: No gain.
+PhD A: it was the same with tighter pruning.
+PhD F: Right. So for free recognition, this the lower pruning value is better.
+PhD A: It's probably cuz the recognition's just bad en at a point where it's bad enough that that you don't lose anything.
+PhD F: You Correct. Right. Um, but it turned out for for to get accurate alignments it was really important to open up the pruning significantly.
+PhD A: Right.
+Professor B: Hmm.
+PhD F: Um because otherwise it would sort of do greedy alignment, um, in regions where there was no real speech yet from the foreground speaker.
+Professor B: Mm - hmm.
+PhD F: Um, so that was one big factor that helped improve things and then the other thing was that, you know, as Liz said the we f enforce the fact that, uh, the foreground speech has to be continuous. It cannot be you cannot have a background speech hypothesis in the middle of the foreground speech. You can only have background speech at the beginning and the end.
+PhD A: Yeah. I mean, yeah, it isn't always true, and I think what we really want is some clever way to do this, where, um, you know, from the data or from maybe some hand - corrected alignments from transcribers that things like words that do occur just by themselves a alone, like backchannels or something that we did allow to have background speech around it
+PhD D: Yeah.
+PhD A: those would be able to do that,
+Postdoc C: Sorry.
+PhD A: but the rest would be constrained. So, I think we have a version that's pretty good for the native speakers. I don't know yet about the non - native speakers. And, um, we basically also made noise models for the different sort of grouped some of the mouth noises together. Um, so, and then there's a background speech model. And we also There was some neat or, interesting cases, like there's one meeting where, um, Jose's giving a presentation and he's talking about, um, the word " mixed signal " and someone didn't understand, uh, that you were saying " mixed " I think, Morgan. And so your speech - ch was s saying something about mixed signal.
+PhD H: Yeah, yeah.
+PhD A: And the next turn was a lot of people saying " mixed ", like " he means mixed signal " or " I think it's mixed ". And the word " mixed " in this segment occurs, like, a bunch of times.
+PhD H: Sh
+PhD A: And Chuck's on the lapel here, and he also says " mixed " but it's at the last one, and of course the aligner th aligns it everywhere else to everybody else's " mixed ",
+PhD H: Yeah.
+PhD A: cuz there's no adaptation yet. So there's I think there's some issues about u We probably want to adapt at least the foreground speaker. But, I guess Andreas tried adapting both the foreground and a background generic speaker, and that's actually a little bit of a f funky model. Like, it gives you some weird alignments, just because often the background speakers match better to the foreground than the foreground speaker.
+PhD F: Oh
+PhD D: Yeah.
+PhD A: So there's some things there,
+PhD H: Oh.
+PhD A: especially when you get lots of the same words, uh, occurring in the
+PhD F: Well, the I I think you can do better by uh, cloning so we have a reject phone. And you and what we wanted to try with you know, once we have this paper written and have a little more time, uh, t cloning that reject model and then one copy of it would be adapted to the foreground speaker to capture the rejects in the foreground, like fragments and stuff, and the other copy would be adapted to the background speaker.
+PhD A: Right. I mean, in general we actually
+PhD F: And
+PhD A: Right now the words like partial words are reject models and you normally allow those to match to any word.
+PhD F: Mm - hmm.
+PhD A: But then the background speech was also a reject model, and so this constraint of not allowing rejects in between you know, it needs to differentiate between the two. So just sort of working through a bunch of debugging kinds of issues.
+PhD F: Right.
+PhD A: And another one is turns, like people starting with " well I think " and someone else is " well how about ". So the word " well " is in this in this segment multiple times, and as soon as it occurs usually the aligner will try to align it to the first person who says it. But then that constraint of sort of uh, proximity constraint will push it over to the person who really said it in general.
+Grad E: Is the proximity constraint a hard constraint, or did you do some sort of probabilistic weighting distance, or?
+PhD F: We we didn't
+PhD A: Right now it's a kluge.
+PhD F: No. We w OK. We it's straightforward to actually just have a a penalty that doesn't completely disallows it but discourages it. But, um, we just didn't have time to play with, you know, tuning yet another yet another parameter.
+Grad E: The ve level. Yeah.
+PhD A: Yeah.
+PhD F: And really the reason we can't do it is just that we don't have a we don't have ground truth for these. So, we would need a hand - marked, um, word - level alignments or at least sort of the boundaries of the speech betw you know, between the speakers. Um, and then use that as a reference and tune the parameters of the of the model, uh, to op to get the best performance.
+PhD A: Yeah.
+Professor B: G given I I mean, I wa I wa I was gonna ask you anyway, uh, how you assessed that things were better.
+PhD F: Mm - hmm.
+PhD A: I looked at them. I spent two days um, in Waves
+Professor B: OK.
+PhD A: Oh, it was painful because the thing is, you know the alignments share a lot in common, so And you're yo you're looking at these segments where there's a lot of speech. I mean, a lot of them have a lot of words. Not by every speaker
+Professor B: Yeah.
+PhD A: but by some speaker there's a lot of words. No, not
+Professor B: Yeah.
+PhD A: I mean that if you look at the individual segments from just one person you don't see a lot of words,
+PhD H: Ju
+Professor B: Yeah.
+PhD A: but altogether you'll see a lot of words up there.
+Professor B: Yeah.
+PhD F: Mm - hmm.
+PhD D: Yeah.
+PhD A: And so the reject is also mapping and pauses So I looked at them all in Waves and just lined up all the alignments, and, at first it sort of looked like a mess and then the more I looked at it, I thought " OK, well it's moving these words leftward and " You know, it wasn't that bad. It was just doing certain things wrong. So But, I don't, you know, have time to l to look at all of them and it would be really useful to have, like, a a transcriber who could use Waves, um, just mark, like, the beginning and end of the foreground speaker's real words like, the beginning of the first word, the end of the last word and then we could, you know, do some adjustments.
+Postdoc C: Yeah. I OK. I have to ask you something, is i does it have to be Waves? Because if we could benefit from what you did, incorporate that into the present transcripts, that would help.
+PhD F: No.
+Postdoc C: And then, um, the other thing is, I believe that I did hand So. One of these transcripts was gone over by a transcriber and then I hand - marked it myself so that we do have, uh, the beginning and ending of individual utterances. Um, I didn't do it word level,
+PhD F: Mm - hmm.
+Postdoc C: but but in terms
+PhD A: Mm - hmm.
+Postdoc C: So I so for for one of the N S A groups. And also I went back to the original one that I first transcribed and and did it w uh, w uh, utterance by utterance for that particular one. So I think you do have if that's a sufficient unit, I think that you do have hand - marking for that. But it'd be wonderful to be able to benefit from your Waves stuff.
+PhD A: Mm - hmm.
+PhD F: We don't care what what tool you use.
+PhD A: Yeah. I mean, if if you can, um if you wanna
+Postdoc C: OK. I used it in Transcriber
+PhD F: U uh
+Postdoc C: and it's it's in the
+PhD A: well, Jane and I were just in terms of the tool, talking about this. I guess Sue had had some reactions. You know, interface - wise if you're looking at speech, you wanna be able to know really where the words are. And so, we can give you some examples of sort of what this output looks like,
+Postdoc C: Yeah, that's right. Middle of the word, or
+PhD A: um, and see if you can in maybe incorporate it into the Transcriber tool some way, or
+Postdoc C: Well, I th I'm thinking just ch e e incorporating it into the representation.
+PhD A: Um.
+Postdoc C: I mean, if it's if it's
+PhD A: You mean like Yeah, word start insights.
+Postdoc C: if you have start points, if you have, like, time tags,
+PhD A: Right.
+Postdoc C: which is what I assume. Isn't that what what you? Well, see, Adam would be
+PhD F: Yeah, whatever you use.
+PhD A: Yeah.
+PhD F: I mean, we convert it to this format that the, um, NIST scoring tool unders uh, CTM. Conversation Time - Marked file. And and then that's the that's what the
+Grad E: I think Transcriber, uh, outputs CTM.
+Postdoc C: If it? OK.
+PhD A: Yeah.
+Postdoc C: So you would know this more than I would.
+Grad E: I think so.
+PhD A: So, I mean
+Postdoc C: It seems like she if she's g if she's moving time marks around,
+PhD F: Right.
+Postdoc C: since our representation in Transcriber uses time marks, it seems like there should be some way of of using that benefitting from that.
+Grad E: Right.
+PhD A: Yeah, it wou the advantage would just be that when you brought up a bin you would be able if you were zoomed in enough in Transcriber to see all the words,
+Professor B: Mm - hmm.
+PhD A: you would be able to, like, have the words sort of located in time, if you wanted to do that.
+Professor B: So so if we e e even just had a a It sounds like w we we almost do.
+PhD A: So.
+Professor B: Uh, if we We have two.
+Postdoc C: We have two.
+Professor B: Yeah. Just ha uh, trying out the alignment procedure that you have on that
+PhD A: Mm - hmm.
+Professor B: you could actually get something, um uh, uh, get an objective measure. Uh
+PhD F: Mm - hmm.
+PhD A: You mean on on the hand - marked, um So we we only r hav I only looked at actually alignments from one meeting that we chose,
+Professor B: Yeah.
+PhD A: I think MR four, just randomly, um And
+PhD F: Actually, not randomly.
+PhD A: Not randomly
+PhD F: We knew we knew that it had these insertion errors from
+PhD A: It had sort of average recognition performance in a bunch of speakers
+PhD F: Yeah. Yeah.
+PhD A: and it was a Meeting Recorder meeting. Um. But, yeah, we should try to use what you have. I did re - run recognition on your new version of MR one.
+Postdoc C: Oh, good.
+PhD A: I I mean the the one with Dan Ellis in it and Eric.
+Postdoc C: Good! Uh - huh. Yeah, exactly. Yeah. Yeah.
+Grad G: I don't think that was the new version.
+PhD A: Um That Yeah, actually it wasn't the new new, it was the medium new.
+Postdoc C: OK.
+PhD A: But but we would we should do the the latest version.
+Postdoc C: OK.
+Grad G: Yeah.
+PhD A: It was the one from last week.
+Grad G: You did you adjust the the utterance times, um, for each channel?
+Postdoc C: Yes. Yes, I did. And furthermore, I found that there were a certain number where not not a lot, but several times I actually moved an utterance from Adam's channel to Dan's or from Dan's to Adam's. So there was some speaker identif And the reason was because I transcribed that at a point before uh, before we had the multiple audio available f so I couldn't switch between the audio. I I transcribed it off of the mixed channel entirely, which meant in overlaps, I was at a at a terrific disadvantage.
+PhD A: Right. Right.
+Postdoc C: In addition it was before the channelized, uh, possibility was there. And finally I did it using the speakers of my, um of you know, off the CPU on my on my machine cuz I didn't have a headphone.
+PhD A: Right.
+Postdoc C: So it @ @, like, I mean Yeah, I I mean, i in retrospect it would've been good to ha have got I should've gotten a headphone. But in any case, um, thi this is this was transcribed in a in a, uh, less optimal way than than the ones that came after it, and I was able to you know, an and this meant that there were some speaker identif identifications which were changes.
+Grad G: Well, I know there were some speaker labelling problems, um, after interruptions.
+Postdoc C: Yeah. Fixed that.
+Grad G: Is that what you're referring to? I mean, cuz there's this one instance when, for example, you're running down the stairs.
+Postdoc C: Oh, well
+Grad G: I remember this meeting really well.
+PhD D: Yeah.
+PhD A: Don Don has had He knows he can just read it like a play.
+Grad G: Right. It's a Yeah, I've I've I'm very well acquainted with this meeting.
+PhD D: Yeah.
+Grad G: Yeah, I can s
+PhD A: " And then she said, and then he said. "
+Grad G: Yeah, I know it by heart. So, um, there's one point when you're running down the stairs.
+Postdoc C: Uh - oh.
+Grad G: Right? And, like, there's an interruption. You interrupt somebody, but then there's no line after that. For example, there's no speaker identification after that line.
+Postdoc C: Uh - huh.
+Grad G: Is that what you're talking about? Or were there mislabellings as far as, like, the a Adam was?
+Postdoc C: That was fixed, um, before i i i I think I I think I understood that pretty
+Grad G: Yeah. Cuz I thought I let you know about that.
+Postdoc C: Thank you for mentioning. Yeah, no, tha that That I think went away a couple of versions ago,
+Grad G: Yeah. OK.
+Postdoc C: but it's good to know.
+Grad G: But you're actually saying that certain, uh, speakers were mis mis - identified.
+Postdoc C: Yeah. So, with under um, uh, listening to the mixed channel, there were times when, as surprising as that is, I got Adam's voice confused with Dan's and vice versa
+Grad G: OK.
+Postdoc C: not for long utterances,
+Grad G: OK.
+PhD A: Yeah.
+Postdoc C: but jus just a couple of places,
+Professor B: Mm - hmm.
+Postdoc C: and embedde embedded in overlaps. The other thing that was w interesting to me was that I picked up a lot of, um, backchannels which were hidden in the mixed signal,
+PhD A: Right.
+Postdoc C: which, you know, I mean, you c not not too surprising. But the other thing that I I hadn't thought about this, but I thou I wanted to raise this when you were uh, with respect to also a strategy which might help with the alignments potentially, but that's When I was looking at these backchannels, they were turning up usually very often in w well, I won't say " usually " but anyway, very often, I picked them up in a channel w which was the person who had asked a question. S so, like, someone says " an and have you done the so - and - so? " And then there would be backchannels, but it would be the person who asked the question. Other people weren't really doing much backchannelling. And, you know, sometimes you have the Yeah, uh - huh.
+PhD A: Well, that's interesting. Yeah.
+Postdoc C: I mean, i it wouldn't be perfect, but but it does seem more natural to give a backchannel when when you're somehow involved in the topic,
+PhD A: No, that's really interesting.
+Professor B: Mm - hmm.
+Postdoc C: and the most natural way is for you to have initiated the topic by asking a question.
+PhD F: Well,
+PhD A: That's interesting.
+PhD F: I think No. I think it's actually I think what's going on is backchannelling is something that happens in two - party conversations.
+Postdoc C: Mm - hmm.
+PhD F: And if you ask someone a question, you essentially initiating a little two - party conversation.
+Postdoc C: Yeah.
+PhD A: Well, actu Yeah, when we looked at this
+Postdoc C: Exactly.
+PhD F: So then you're so and then you're expected to backchannel because the person is addressing you directly and not everybody.
+Postdoc C: Exactly. Exactly my point. An - and so this is the expectation thing that uh, uh,
+PhD F: Yeah. Yeah.
+PhD A: Mm - hmm.
+PhD F: Right.
+Postdoc C: just the dyadic
+PhD F: Right.
+Postdoc C: But in addition, you know, if someone has done this analysis himself and isn't involved in the dyad, but they might also give backchannels to verify what what the answer is that this that the the answerer's given
+Professor B: H
+PhD A: Right.
+Professor B: I tell you, I say I say " uh - huh " a lot,
+PhD A: It's
+Postdoc C: There you go.
+PhD A: Well, but it's interesting cuz, uh
+Professor B: while people are talking to each other.
+PhD A: But there are fewer I think there are fewer " uh - huhs ".
+Postdoc C: There you go. Yeah. Yeah.
+PhD A: I mean, just from We were looking at word frequency lists to try to find the cases that we would allow to have the reject words in between in doing the alignment. You know the ones we wouldn't constrain to be next to the other words.
+Postdoc C: Oh, yeah.
+PhD A: And " uh - huh " is not as frequent as it sort of would be in Switchboard, if you looked at just a word frequency list of one - word short utterances. And " yeah " is way up there, but not " uh - huh ". And so I was thinking thi it's not like you're being encouraged by everybody else to keep talking in the meeting. And uh, that's all, I I'll stop there, cuz I I think what you say makes a lot of sense.
+Postdoc C: Well, that's right. And that would
+PhD A: But it was sort of
+Postdoc C: Well, an And what you say is the is the re uh, o other side of this, which is that, you know, so th there are lots of channels where you don't have these backchannels, w when a question has been asked and and these
+PhD A: Right. There's just probably less backchannelling in general,
+Postdoc C: Mm - hmm. So that's good news, really.
+PhD A: even if you consider every other person altogether one person in the meeting, but we'll find out anyway. We were I guess the other thing we're we're I should say is that we're gonna, um try compare this type of overlap analysis to Switchboard, where
+PhD F: And
+PhD A: and CallHome, where we have both sides, so that we can try to answer this question of, you know, is there really more overlap in meetings or is it just because we don't have the other channel in Switchboard
+Professor B: Mm - hmm.
+Grad E: Mm - hmm.
+PhD A: and we don't know what people are doing. Try to create a paper out of that.
+Professor B: Yeah. I mean, y y you folks have probably already told me, but were were you intending to do a Eurospeech submission, or?
+PhD A: Um, you mean the one due tomorrow?
+Professor B: Yeah.
+PhD A: Yeah. Well, we're still, like, writing the scripts for doing the research, and we will Yes, we're gonna try.
+Postdoc C: Mm - hmm.
+PhD A: And I was telling Don, do not take this as an example of how people should work.
+Professor B: Do as I say,
+Grad G: That's r
+PhD A: So, we will try.
+Professor B: don't do as I do. Yeah.
+PhD A: It'll probably be a little late,
+Grad E: Well
+PhD A: but I'm gonna try it.
+Grad E: It is different. In previous years, Eurospeech only had the abstract due by now, not the full paper.
+PhD A: Right.
+Grad G: Right.
+Grad E: And so all our timing was off. I've given up on trying to do digits. I just don't think that what I have so far makes a Eurospeech paper.
+PhD A: Well, I'm no We may be in the same position, and I figured we'll try, because that'll at least get us to the point where we have We have this really nice database format that Andreas and I were working out that It it's not very fancy. It's just a ASCII line by line format, but it does give you information
+PhD F: It's the it's the spurt format.
+PhD A: It Yeah, we're calling these " spurts " after Chafe. I was trying to find what's a word for a continuous region with pauses around it?
+Postdoc C: Hmm.
+Professor B: Yeah. I know that th the Telecom people use use " spurt " for that.
+Postdoc C: Good.
+PhD A: They do? Oh!
+Professor B: Yes.
+PhD F: Oh.
+PhD A: Oh.
+Professor B: And that's I mean, I I was using that for a while when I was doing the rate of speech stuff,
+PhD A: I would jus
+Professor B: because I because I looked up in some books and I found OK, I wanna find a spurt in which
+PhD A: Ah, right! It's just, like, defined by the acoustics.
+Professor B: and an because cuz it's another question about how many pauses they put in between them.
+Grad E: Horrible.
+PhD A: Right.
+Professor B: But how fast do they do the words within the spurt?
+PhD A: Right.
+Professor B: Yeah.
+PhD A: Well, that's what we were calling spurt,
+Grad E: It's gonna
+Grad G: you know " Burst " also?
+Grad E: Burst.
+Grad G: Isn't " burst " is used also?
+PhD A: so
+Grad E: Spurt has the horrible name overloading with other with hardware at ICSI.
+Professor B: Here. Just very locally, yeah.
+PhD A: Well, well, Chafe had this wor I think it was Chafe, or somebody had a the word " spurt " originally,
+Professor B: But but that just
+PhD H: Here @ @
+PhD A: and so I But tha that's good to know.
+Postdoc C: Actually
+PhD A: Was thi it's Chafe?
+Postdoc C: Well, see, I know S Sue wrote about spurts of development.
+PhD F: So maybe we should talk
+PhD A: Maybe it was Sue? Y
+Postdoc C: But, in any case, I think it's a good term,
+PhD A: So we have spurts and we have spurt - ify dot shell and spurt - ify
+Professor B: Yeah.
+Postdoc C: and, uh
+Grad E: Hmm!
+Professor B: Yeah.
+Postdoc C: And ma maybe maybe Chafe did.
+PhD F: Uh.
+PhD A: And then it's got all it's a verb now.
+Postdoc C: I know I know Ch - Chafe dealt with
+PhD F: So s
+Grad G: That's cool.
+PhD F: W uh, w
+Postdoc C: Chafe speaks about intonation units.
+PhD A: Yes. Right.
+Postdoc C: But maybe he speaks about spurts as well
+PhD F: We
+Postdoc C: and I just don't know. Yeah, go ahead.
+Grad E: I've heard " burst " also.
+PhD F: So what we're doing uh, this this is just maybe someone has s some some ideas about how to do it better,
+Grad G: Mmm.
+PhD F: but we So we're taking these, uh, alignments from the individual channels. We're from each alignment we're producing, uh, one of these CTM files,
+Postdoc C: Great.
+PhD F: which essentially has it's just a linear sequence of words with the begin times for every word and the duration.
+PhD A: It looks like a Waves label file almost. Right?
+PhD F: And and and of course
+PhD A: It's just
+PhD F: Right. But it has one the first column has the meeting name, so it could actually contain several meetings. Um. And the second column is the channel. Third column is the, um, start times of the words and the fourth column is the duration of the words. And then we're, um OK. Then we have a messy alignment process where we actually insert into the sequence of words the, uh, tags for, like, where where sentence ends of sentence, question marks, um, various other things.
+PhD A: Yeah. These are things that we had Don
+PhD F: Uh.
+PhD A: So, Don sort of, um, propagated the punctuation from the original transcriber
+PhD F: Right.
+PhD A: so whether it was, like, question mark or period or, um, you know, comma and things like that, and we kept the and disfluency dashes uh, kept those in because we sort of wanna know where those are relative to the spurt overlaps
+PhD F: Mm - hmm. Right.
+PhD A: sp overlaps,
+PhD F: So so those are actually sort of retro - fitted into the time alignment.
+PhD A: or
+PhD F: And then we merge all the alignments from the various channels and we sort them by time. And then there's a then there's a process where you now determine the spurts. That is Actually, no, you do that before you merge the various channels. So you you id identify by some criterion, which is pause length you identify the beginnings and ends of these spurts, and you put another set of tags in there to keep those straight.
+Professor B: Mm - hmm.
+PhD F: And then you merge everything in terms of, you know, linearizing the sequence based on the time marks. And then you extract the individual channels again, but this time you know where the other people start and end talking you know, where their spurts start and end. And so you extract the individual channels, uh, one sp spurt by spurt as it were. Um, and inside the words or between the words you now have begin and end tags for overlaps. So, you you basically have everything sort of lined up and in a form where you can look at the individual speakers and how their speech relates to the other speakers' speech.
+Grad E: Right.
+PhD A: Uh, I mean, I think that's actually really u useful also
+PhD F: And
+PhD A: because even if you weren't studying overlaps, if you wanna get a transcription for the far - field mikes, how are you gonna know which words from which speakers occurred at which times relative to each other? You have to be able to get a transcript like like this anyway, just for doing far - field recognition. So, you know, it's it's sort of
+PhD F: Yeah.
+PhD A: I thi it's just an issue we haven't dealt with before, how you time - align things that are overlapping anyway.
+Postdoc C: That's wonderful.
+PhD F: So
+PhD A: I mean, i I never thought about it before,
+Grad E: Well
+PhD F: And and we
+PhD A: but
+Grad E: Y yes.
+PhD F: In
+Grad E: I mean, s when I came up with the original data suggested data format based on the transcription graph, there's capability of doing that sort of thing in there.
+PhD A: Right. But you can't get it directly from the transcription.
+Postdoc C: Mm - hmm. Yeah, that's right.
+PhD F: Right. Well, this is this is just
+PhD A: Yeah, this is like a poor man's ver formatting version. But it's, you know It's clean, it's just not fancy.
+Grad E: Right.
+PhD A: Um.
+PhD F: Well, there's lots of little things. It's like there're twelve different scripts which you run and then at the end you have what you want. But, um, at the very last stage we throw away the actual time information. All we care about is whether that there's a certain word was overlapped by someone else's word. So you sort of at that point, you discretize things into just having overlap or no overlap. Because we figure that's about the level of analysis that we want to do for this paper.
+Grad E: Mm - hmm.
+PhD F: But if you wanted to do a more fine - grained analysis and say, you know, how far into the word is the overlap, you could do that.
+PhD A: Yeah.
+PhD F: It's just it'll just require more
+PhD A: Just sort of huge.
+PhD F: you know, slightly different
+Postdoc C: What's interesting is it's exactly what, um, i in discussing with, um, Sue about this,
+PhD A: Yeah.
+Postdoc C: um, she, um, i i i indicated that that you know, that's very important for overlap analysis.
+PhD A: Yeah. It's it's nice to know,
+PhD F: Right.
+PhD A: and also I think as a human, like, I don't always hear these in the actual order that they occur. So I can have two foreground speakers, you know, Morgan an and um, Adam and Jane could all be talking, and I could align each of them to be starting their utterance at the correct time, and then look where they are relative to each other, and that's not really what I heard.
+Postdoc C: And that's another thing she said.
+PhD A: Cuz it's just hard to do.
+Postdoc C: This is This is Bever's Bever's effect,
+PhD A: Y Yeah.
+Postdoc C: when where In psy ps psycho - linguistics you have these experiments where people have perceptual biases a as to what they hear,
+PhD A: It's sort of Yeah, you sort of move things around until you get to a low information point
+Postdoc C: that that Not the best
+PhD A: and yo then you can bring in the other person. So it's actually not even possible, I think, for any person to listen to a mixed signal, even equalize, and make sure that they have all the words in the right order. So, I guess, we'll try to write this Eurospeech paper.
+Postdoc C: Mm - hmm. Superb.
+PhD A: I mean, we will write it. Whether they accept it late or not, I don't know. Um, and the good thing is that we have It's sort of a beginning of what Don can use to link the prosodic features from each file to each other.
+PhD F: Yeah.
+Professor B: Yeah. That's the good thing about these pape
+PhD A: So. i You know, might as well.
+PhD F: Plus, mayb
+PhD H: Hmm?
+PhD A: We - I ju Otherwise we won't get the work done on our deadline.
+PhD F: I don't know, m
+Professor B: Yeah.
+PhD F: I mean, u u Jane likes to look at data. Maybe, you know, you could you could look at this format and see if you find anything interesting.
+Professor B: Yeah.
+PhD F: I don't know.
+PhD A: Yeah.
+Professor B: No, it's that's the good thing about these pape paper deadlines and, uh, you know, class projects, and and things like that,
+Postdoc C: Well, what I'm thinking is
+PhD F: Yeah.
+Postdoc C: Yeah.
+PhD A: Right.
+PhD F: Mm - hmm.
+Postdoc C: Well, my
+PhD F: Well th th the other thing that that that yo that you usually don't tell your graduate students is that these deadlines are actually not that, um, you know, strictly enforced,
+Professor B: because you you really get g
+PhD A: Forces you to do the work.
+Postdoc C: Yeah.
+Professor B: Yeah.
+PhD A: Exactly.
+Grad E: Strict.
+PhD F: because the
+Professor B: Oh, now it's out in the public, this this this secret information.
+PhD F: because
+PhD A: Right.
+Professor B: Yeah.
+Postdoc C: I think we can ha
+PhD F: bec b Nah
+PhD A: So
+Grad E: No.
+Professor B: No.
+Postdoc C: Nah.
+PhD F: i Because these the conference organizers actually have an interest in getting lots of submissions.
+PhD A: Right.
+Grad E: Right.
+PhD F: I mean, a a monetary interest.
+Professor B: Yeah.
+PhD F: So Um.
+Professor B: Th - that's that's true.
+Postdoc C: And good ones, good ones, which sometimes means a little extra time.
+PhD F: And good submission
+Professor B: That's
+PhD F: Right.
+Professor B: That's true.
+PhD F: Well That's another issue,
+Professor B: By th by the way, this is totally unfair, you may you may feel,
+PhD F: but
+Professor B: but the the, uh the morning meeting folks actually have an an extra month or so.
+PhD F: Mm - hmm.
+PhD D: Yep.
+Grad E: Yep. The Aurora there's a special Aurora
+PhD A: Uh
+PhD F: When
+Professor B: There's a special Aurora session
+PhD A: Oh.
+Professor B: and the Aurora pe people involved in Aurora have till Ma - uh, early May or something to turn in their paper.
+PhD F: Mmm.
+PhD A: Oh.
+PhD F: Mmm.
+PhD A: Oh, well maybe we'll submit to s Actually
+PhD F: Well, then you can just Maybe you can submit the digits paper on e for the Aurora session.
+PhD H: Yeah.
+PhD A: Yeah.
+PhD D: Yeah.
+Grad E: Oh, I could!
+PhD A: Yeah.
+Professor B: I if it w
+Grad E: I could submit that to Aurora.
+Professor B: Well
+Grad E: That would be pretty pretty
+PhD F: Yeah.
+Professor B: i it has
+PhD A: Yeah.
+Grad E: S That wouldn't work.
+Professor B: No, it wouldn't work.
+Grad E: It's not Aurora.
+Professor B: It's it's not the Aurora I mean, it it's it's actually the Aurora task.
+PhD A: Maybe they'll get s
+Grad E: Aurora's very specific.
+Professor B: It
+PhD A: Well, maybe it won't be after this deadline extension.
+PhD F: But but the people I mean, a a paper that is not on Aurora would probably be more interesting at that point
+PhD A: Maybe they'll
+PhD F: because everybody's so sick and tired of the Aurora task.
+PhD D: Yeah.
+Grad E: Oh, I thought you meant this was just the digits section. I didn't know you meant it was Aurora digits.
+Professor B: Yeah.
+PhD F: Well, no. If you if you have it's to if you discuss some relation to the Aurora task, like if you use the same
+Professor B: This is not the Aurora task. So they just do a little grep for
+PhD A: Do uh, d d Do not do not we are not setting a good example.
+PhD F: Um. Well, a relation other than negation, maybe,
+PhD A: This is not a
+PhD F: um. So.
+PhD A: Anyway.
+PhD F: I don't know.
+PhD A: But the good thing is this does
+Grad E: Well, I I don't know. I mean, you could you could do a paper on what's wrong with the Aurora task by comparing it to other ways of doing it.
+PhD F: How well does an Aurora system do on on you know, on digits collected in a in this environment?
+Grad E: Different way. Yeah.
+PhD F: Yeah.
+Professor B: Maybe.
+PhD F: Maybe.
+Grad E: Pretty hokey.
+Professor B: I think it's a littl little far - fetched. Nah, I mean, the thing is Aurora's pretty closed community.
+Grad E: Yep.
+Professor B: I mean, you know, the people who were involved in the the only people who are allowed to test on that are people who who made it above a certain threshold in the first round,
+PhD F: Mm - hmm.
+Grad E: It's very specific.
+Professor B: uh w in ninety - nine and it's it's sort of a it's not like a
+PhD F: Well, that's maybe why they don't f know that they have a crummy system. I mean, a crummy back - end. No, I mean I mean, seriously, if you if you have a very No, I'm sorry.
+PhD A: Uh, " beep " " bee "
+Grad E: I mean, th
+PhD F: No. I didn't mean anybody any particular system. I meant this H T K back - end.
+Professor B: Oh, you don't like HTK?
+PhD F: If they
+PhD H: Yeah.
+PhD F: I don't h I don't have any stock in HTK or Entropic or anything.
+Professor B: No. I mean, this it it's the HTK that is trained on a very limited amount of data.
+Grad E: It's d it's very specific.
+PhD F: Right.
+Professor B: Yeah.
+PhD F: But so, if you But maybe you should, you know, consider more using more data, or I mean
+Professor B: Oh, yeah. I I really think that that's true. And they i i
+PhD F: If yo if you sort of hermetically stay within one task and don't look left and right, then you're gonna
+Grad E: But they they had
+Professor B: i But
+Grad E: They had something very specific in mind when they designed it. Right?
+Professor B: Well, u i
+PhD F: Right.
+Grad E: And so so you can you can argue about maybe that wasn't the right thing to do, but, you know, they they they had something specific.
+Professor B: But, one of the reasons I have Chuck's messing around with with the back - end that you're not supposed to touch I mean, for the evaluations, yes, we'll run a version that hasn't been touched.
+PhD F: Mm - hmm. Mm - hmm.
+Professor B: But, uh, one of the reasons I have him messing around with that, because I think it's sort of an open question that we don't know the answer to. People always say very glibly that i if you s show improvement on a bad system, that doesn't mean anything, cuz it may not be show uh, because, you know, it doesn't tell you anything about the good system.
+PhD F: Mm - hmm.
+Professor B: And I I've always sort of felt that that depends. You know, that if some peopl If you're actually are getting at something that has some conceptual substance to it, it will port.
+PhD F: Mm - hmm.
+Professor B: And in fact, most methods that people now use were originally tried with something that was not their absolute best system at some level. But of course, sometimes it doesn't, uh, port. So I think that's that's an interesting question. If we're getting three percent error on, uh, u uh, English, uh, nati native speakers, um, using the Aurora system, and we do some improvements and bring it from three to two, do those same improvements bring, uh, th you know, the SRI system from one point three to you know, to point eight?
+PhD F: Hmm. Mm - hmm.
+Grad E: Zero.
+Professor B: Well. You know, so that's that's something we can test.
+PhD F: Mmm. Right.
+Professor B: So. Anyway.
+PhD F: OK.
+Professor B: I think we've we've covered that one up extremely well.
+Postdoc C: Mm - hmm.
+PhD F: Whew!
+Professor B: OK. So, um Yeah. So tha so we'll you know, maybe you guys'll have have one. Uh, you you and, uh and Dan have have a paper that that's going in.
+PhD D: Yeah.
+Professor B: You know, that's that's pretty solid, on the segmentation stuff.
+PhD D: Yeah. Yeah. I will send you the the final version,
+Professor B: Yeah. And the Aurora folks here will will definitely get something in on Aurora,
+PhD D: which is not
+PhD F: Actually this this, um So, there's another paper.
+Professor B: so.
+PhD F: It's a Eurospeech paper but not related to meetings. But it's on digits. So, um, uh, a colleague at SRI developed a improved version of MMIE training.
+Professor B: Uh - huh.
+PhD F: And he tested it mostly on digits because it's sort of a you know, it doesn't take weeks to train it.
+Professor B: Right.
+PhD F: Um. And got some very impressive results, um, with, you know, discriminative, uh, Gaussian training. Um, you know, like, um, error rates go from I don't know, in very noisy environment, like from, uh, uh I for now I OK, now I have the order of magnit I'm not sure about the order of magnitude. Was it like from ten percent to eight percent or from e e you know, point you know, from one percent to point eight percent?
+Professor B: H i it got it got better.
+PhD F: I mean, it's a
+Professor B: Yeah, yeah.
+PhD D: Yeah.
+PhD F: It got better. That's the important thing.
+Grad E: Hey, that's the same percent relative,
+PhD F: Yeah. But it's
+Grad E: so
+PhD F: Yeah. Right.
+Professor B: Yeah.
+PhD F: It's, uh, something in
+Professor B: Yeah.
+Grad E: Twenty percent relative gain.
+PhD F: Right.
+Professor B: Yeah.
+PhD F: Yeah.
+Professor B: Yeah. Um, let's see. I think the only thing we had left was unless somebody else Well, there's a couple things. Uh, one is anything that, um, anybody has to say about Saturday? Anything we should do in prep for Saturday? Um I guess everybody knows about I mean, u um, Mari was asking was trying to come up with something like an agenda and we're sort of fitting around people's times a bit. But, um, clearly when we actually get here we'll move things around this, as we need to, but so you can't absolutely count on it.
+PhD D: OK.
+Professor B: But but, uh
+PhD D: Yeah.
+PhD A: Are we meeting in here probably or? OK.
+Professor B: Yeah. That was my thought.
+PhD A: Yeah.
+Professor B: I think this is
+PhD F: Are we recording it?
+PhD A: We won't have enough microphones,
+PhD A: but
+Professor B: u No. I I hadn't in intended to.
+PhD A: There's no way.
+Professor B: We won we wanna I mean, they're there's gonna be, uh, Jeff, Katrin, Mari and two students.
+PhD F: OK.
+Professor B: So there's five from there.
+Grad E: And Brian.
+Professor B: And Brian's coming,
+PhD F: But you know th
+Professor B: so that's six.
+Grad E: And plus all of us.
+PhD F: Mm - hmm.
+Professor B: Uh
+PhD F: Can use the Oprah mike.
+PhD A: Depends how fast you can throw it.
+Grad E: It seems like too many too much coming and going.
+PhD A: It's just Yeah.
+PhD F: Mm - hmm.
+PhD A: We don't even have enough channel
+Professor B: Well
+PhD F: Because it would be a different kind of meeting,
+PhD D: Yeah.
+PhD F: that's what I'm
+Professor B: Well
+PhD F: But
+PhD H: Yeah.
+Professor B: I hadn't really thought of it,
+PhD F: Maybe just maybe not the whole day
+Professor B: but
+PhD F: but just, you know, maybe some I mean,
+Professor B: Maybe part of it.
+PhD F: part of it?
+Professor B: Maybe part of it.
+Grad E: Make everyone read digits.
+Professor B: At the same time.
+PhD A: At the same time.
+Grad E: At the same time.
+PhD F: Please.
+Professor B: Yeah.
+PhD A: We c
+Professor B: I don't know.
+PhD A: That's their initiation into our
+Professor B: Any
+PhD A: w
+Grad E: Into our our our cult.
+PhD A: Yeah, our Yeah, our
+PhD F: Maybe the sections that are not right afte you know, after lunch when everybody's still munching and
+PhD A: So can you send out a schedule once you know it, jus?
+Professor B: OK. Well
+PhD A: Is is there a r?
+Professor B: OK. Yeah. I guess I sent it around a little bit.
+PhD A: There's a res Is it changed now, or?
+Professor B: But I hadn't heard back from Mari after I I u u uh, brought up the point abou about Andreas's schedule. So, um, maybe when I get back there'll be some some mail from her.
+PhD A: OK.
+Professor B: So, I'll make a
+Postdoc C: I'm looking forward to seeing your representation. That'd be, uh
+PhD A: And w we should get the two meetings from y
+Postdoc C: I'd like to see that. Yeah.
+PhD A: I mean, I know about the first meeting, um, but the other one that you did, the NSA one, which we hadn't done cuz we weren't running recognition on it, because the non - native speaker
+Postdoc C: Mm - hmm.
+PhD A: there were five non - native speakers.
+Postdoc C: Mm - hmm. I see. Mm - hmm.
+PhD A: But, it would be useful for the to see what we get with that one. So.
+Postdoc C: Great. OK. It's, uh, two thousand eleven twenty - one one thousand.
+PhD A: Yeah, three. Right. So
+Postdoc C: Great. I sent email when I finished the that one.
+PhD A: N S A three, I think.
+Postdoc C: That was sort of son Yeah, that's right. That's right. That's much simpler.
+PhD A: I don't know what they said but I know the number.
+Professor B: Th - that part's definitely gonna confuse somebody who looks at these later.
+PhD F: Right.
+Professor B: I mean, this is we we're recording secret NSA meetings?
+PhD F: Um. Not the
+Professor B: I mean, it's
+PhD F: Yeah.
+Postdoc C: Yeah. Not that NSA.
+PhD F: Uh. The th the
+PhD A: They are hard to understand.
+Professor B: It's network services and applications.
+PhD F: Wait.
+PhD A: They're very, uh, out there.
+PhD F: The
+PhD A: I have no idea what they're talking about.
+Professor B: Yeah.
+PhD F: The, um th the other good thing about the alignments is that, um, it's not always the machine's fault if it doesn't work. So, you can actually find, um,
+PhD A: It's the person's fault.
+PhD F: problem uh, proble
+PhD A: It's Morgan's fault.
+PhD F: You can find
+Professor B: It's always Morgan's fault.
+PhD F: You can find, uh, problems with with the transcripts, um, you know,
+Grad E: Oh.
+PhD A: Yeah.
+PhD F: and go back and fix them.
+PhD A: Tha - There are some cases like where the the wrong speaker uh, these ca Not a lot, but where the the wrong person the the speech is addre attached to the wrong speaker
+PhD F: But
+PhD A: and you can tell that when you run it. Or at least you can get clues to it.
+Postdoc C: Interesting.
+PhD A: So these are from the early transcriptions that people did on the mixed signals, like what you have.
+Postdoc C: I guess it does w Mm - hmm. It also raises the possibility of, um, using that kind of representation I mean, I don't know, this'd be something we'd wanna check, but maybe using that representation for data entry and then displaying it on the channelized, uh, representation, cuz it I think that the I mean, my my preference in terms of, like, looking at the data is to see it in this kind of musical score format.
+PhD A: Mm - hmm.
+Postdoc C: And also, s you know, Sue's preference as well.
+PhD A: Yeah, if you can get it to
+Postdoc C: And and but, I mean, this if this is a better interface for making these kinds of, uh, you know, lo clos local changes, then that'd be fine, too. I don't I have no idea. I think this is something that would need to be checked. Yeah.
+Professor B: OK. Th - the other thing I had actually was, I I didn't realize this till today, but, uh, this is, uh, Jose's last day.
+Grad E: Yeah.
+PhD H: Is my last my last day.
+PhD A: Oh!
+Postdoc C: Oh.
+PhD F: Oh!
+Grad E: You're not gonna be here tomorrow?
+PhD H: My my last meeting about meetings.
+Grad E: Oh, that's right. Tomorrow
+PhD H: Yeah.
+PhD D: The last meeting meeting?
+PhD H: Because, eh, I leave, eh, the next Sunday.
+Grad E: It's off.
+PhD A: Oh.
+PhD F: Mm - hmm.
+PhD H: I will come back to home to Spain.
+Professor B: Yeah.
+PhD A: Oh.
+Professor B: I d so I I jus
+PhD F: Mm - hmm.
+PhD H: And I I would like to to to say thank you very much, eh, to all people in the group and at ICSI,
+PhD F: Mm - hmm.
+Grad E: Yeah. It was good having you.
+PhD F: Mmm.
+PhD A: Yeah.
+PhD H: because I I enjoyed @ @ very much,
+PhD F: Mmm.
+PhD H: uh. And I'm sorry by the result of overlapping, because, eh, I haven't good results, eh, yet but, eh, I I pretend to to continuing out to Spain, eh, during the the following months,
+Professor B: Uh - huh.
+PhD H: eh, because I have, eh, another ideas but, eh, I haven't enough time to to with six months it's not enough to to to research,
+Grad E: Yep.
+Professor B: Yeah.
+PhD H: eh, and e i I mean, if, eh, the topic is, eh, so difficult, uh, in my opinion, there isn't
+Professor B: Yeah. Maybe somebody else will come along and will be, uh, interested in working on it and could start off from where you are also, you know. They'd make use of of what you've done.
+PhD H: Yeah.
+Professor B: Yeah.
+PhD H: Yeah. But, eh, I I will try to recommend, eh, at, eh, the Spanish government but, eh, the following @ @ scholarship, eh, eh, eh, will be here more time, because eh, i in my opinion is is better, eh, for us to to spend more time here and to work more time i i in a topic.
+Professor B: Yeah, it's a very short time.
+PhD H: No? But, uh
+Professor B: Yeah. Yeah.
+Grad E: Yeah, six months is hard.
+PhD H: Yeah. It is.
+Grad E: I think a year is a lot better.
+PhD H: Yeah.
+Professor B: Yeah.
+PhD H: It's difficult. You e you have, eh you are lucky, and you you find a solution in in in some few tim uh, months, eh? OK. But, eh, I think it's not, eh, common. But, eh, anyway, thank you. Thank you very much. Eh, I I bring the chocolate, eh, to to tear, uh, with with you,
+PhD A: Oh.
+Postdoc C: Ah.
+PhD F: Mmm.
+Postdoc C: Nice.
+PhD H: uh. I I hope if you need, eh, something, eh, from us in the future, I I will be at Spain, to you help, uh.
+Professor B: Well.
+Grad E: Great.
+Postdoc C: Great.
+PhD A: Right.
+Professor B: Thank you, Jose.
+Postdoc C: Thank you.
+PhD H: And, thank you very much.
+PhD F: Have a good trip.
+Professor B: Yeah.
+Postdoc C: Yeah.
+PhD F: Keep in touch.
+PhD H: Thank you.
+Professor B: Yeah. OK. I guess, uh, unless somebody has something else, we'll read read our digits
+Grad E: Digits?
+Professor B: and we'll get our
+PhD D: Uh.
+Professor B: get our last bit of, uh, Jose's Jose Jose's digit
+PhD D: Oops.
+Grad E: Are we gonna do them simultaneously or?
+PhD H: You eh
+Professor B: Uh, I'm sorry?
+PhD H: Ye - ye you prefer, eh, to eat, eh, chocolate, eh, at the coffee break, eh, at the? Or you prefer now, before after?
+Postdoc C: Well, we have a time
+PhD F: No, we prefer to keep it for ourselves.
+PhD D: During
+Postdoc C: Well, we have a s a time time constraint.
+PhD F: Yeah, yeah.
+PhD D: during digits.
+Professor B: So keep it away from that end of the table.
+Postdoc C: Yeah.
+PhD F: Yeah.
+PhD H: Yeah.
+PhD A: Why is it that I can read your mind?
+Postdoc C: Yeah.
+Grad E: Well, we've gotta wait until after di after we take the mikes off.
+PhD D: No, no.
+Grad E: So are we gonna do digits simultaneously
+PhD A: You This is our reward if we do our digi
+Professor B: Well? Yeah.
+Postdoc C: OK.
+PhD D: Yeah.
+Grad E: or what?
+PhD D: Simultaneous digit chocolate task.
+PhD H: I I think, eh, it's enough, eh, for more peopl for more people after.
+Professor B: We're gonna we're gonna do digits at the same
+PhD A: Oh.
+PhD F: Mmm!
+Postdoc C: That's nice.
+PhD H: But, eh
+PhD F: Mm - hmm.
+PhD A: Oh, thanks, Jose.
+Professor B: Um.
+Postdoc C: Wow.
+PhD H: To Andreas, the idea is is good. s To eat here.
+Professor B: Well
+PhD F: Mmm.
+Postdoc C: Wow. Very nice.
+PhD F: Oh.
+PhD A: Oh, wow.
+Professor B: Tha - that's that looks great.
+PhD F: Oh, yeah. Th - it doesn't it won't leave this room.
+Professor B: Alright, so in the interest of getting to the
+PhD A: We could do digits while other people eat.
+PhD D: Yeah.
+PhD A: So it's background crunching.
+PhD D: Yeah.
+PhD H: Yeah.
+PhD F: Mmm.
+PhD A: We don't have background chewing.
+Postdoc C: Nice.
+PhD H: Is, eh, a another acoustic event.
+PhD D: Background crunch. Yeah.
+PhD A: No, we don't have any data with background eating.
+PhD F: Mmm.
+PhD D: Yeah.
+PhD A: I'm serious. You
+Professor B: She's she's serious.
+PhD A: I am serious.
+Grad E: It's just the rest of the digits the rest of the digits are very clean,
+Professor B: She is serious.
+PhD F: Mmm.
+PhD A: Well?
+PhD H: Are you? Oh, they're clean.
+PhD D: Yeah!
+Grad E: um, without a lot of background noise,
+PhD A: And it You have to write down, like, while y what you're what ch chocolate you're eating
+Grad E: so I'm just not sure
+PhD A: cuz they might make different sounds, like n nuts chocolate with nuts, chocolate without nuts.
+Postdoc C: Oh.
+Professor B: Um
+PhD D: Crunchy frogs.
+PhD F: Chocolate adaptation.
+Professor B: Actually actually kind of careful cuz I have a strong allergy to nuts, so I have to sort of figure out one without th
+PhD A: That w Oh, yeah, they they might.
+Professor B: It's hard to hard to say.
+PhD A: Maybe those? They're so I don't know.
+Professor B: I don't know. Um
+PhD A: This is You know, this is a different kind of speech,
+Professor B: Well
+PhD H: Take take several.
+PhD A: looking at chocolates, deciding
+PhD F: Mmm.
+PhD A: you know, it's another style.
+Professor B: Yeah. I may I may hold off.
+PhD F: Mmm.
+Professor B: But if I was eh, but maybe I'll get some later. Thanks.
+PhD F: Mmm.
+Professor B: Well well, why don't we? He he's worried about a ticket. Why don't we do a simultaneous one?
+PhD A: OK.
+Professor B: Simultaneous one?
+Postdoc C: OK.
+Grad E: OK.
+PhD F: Mmm.
+PhD A: And you laughed at me, too, f the first time I said that.
+Professor B: OK.
+Grad E: Remember to read the transcript number, please.
+PhD F: Right.
+PhD H: OK.
+Professor B: I have to what?
+PhD D: Oops.
+PhD H: Yeah.
+PhD A: You laughed at me, too, the first time I sa said
+Professor B: I did,
+PhD A: You really shouldn't, uh, te
+Professor B: and now I love it so much.
+Grad E: OK, everyone ready?
+PhD A: You have to sort of, um Jose, if you haven't done this, you have to plug your ears while you're t talking
+Professor B: W wait wait a minute wait a minute. W we want we want
+PhD A: so that you don't get confused, I guess.
+Professor B: we want it synchronized.
+PhD A: Yeah. Oh, you've done this one before?
+Postdoc C: Hey, you've done this before. Haven't you?
+PhD H: Yeah.
+PhD D: That's
+PhD A: Together?
+Postdoc C: You've read digits together with us, haven't you I mean, at the same time?
+PhD A: I'm not we we Oh, and you haven't done this either.
+Professor B: OK.
+Postdoc C: Oh, you haven't!
+PhD H: No.
+Postdoc C: Oh, OK.
+PhD D: Oh, yeah.
+PhD A: I the first time is traumatic,
+Professor B: We
+PhD A: but
+Professor B: Y Yeah, bu
+Postdoc C: Oh, and the groupings are important,
+PhD H: Mmm.
+Postdoc C: so yo you're supposed to pause between the groupings.
+PhD H: The grouping.
+Professor B: Yeah.
+PhD H: Yeah.
+Professor B: OK. So, uh
+PhD F: You mean that the the grouping is supposed to be synchronized?
+Professor B: No, no.
+Postdoc C: No.
+Grad E: Yeah, sure.
+PhD F: No?
+PhD A: That'd be good.
+Professor B: Synchronized digits.
+Postdoc C: No.
+PhD F: No?
+PhD A: We - we'll give everybody the same sheet
+PhD F: It's like a like a Greek like a Greek choir?
+PhD A: but they say different
+PhD F: You know?
+Professor B: Yes.
+Grad E: Hey, what a good idea.
+PhD F: Like
+Grad E: We could do the same sheet for everyone.
+PhD F: Yeah.
+Grad E: Have them all read them at once.
+PhD A: Well, different digits
+PhD D: Eh
+PhD A: but same groupings.
+Grad E: Or or just same digits.
+PhD A: So they would all be Yeah.
+Postdoc C: Yeah. That'd be good.
+Grad E: See if anyone notices.
+Professor B: There's so many possibilities.
+Postdoc C: And then then we can sing them next time.
+Professor B: Uh. OK, why don't we go? Uh, one two three Go!
+Postdoc C: OK. Mmm!
+Professor B: And Andreas has the last word.
+Grad E: Did you read it twice or what?
+PhD A: He's try No, he's trying to get good recognition performance.
+Postdoc C: He had the h
+PhD H: Yeah.
+Postdoc C: He had the the long form.
+PhD H: Yeah.
+Grad E: And we're off.
+PhD F: No.

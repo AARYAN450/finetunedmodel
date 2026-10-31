@@ -1,0 +1,106 @@
+{
+  "source": "meeting_062.txt",
+  "sentences_scored": 151,
+  "threshold": 0.8,
+  "filtered_non_commitments": 1,
+  "action_items": [
+    {
+      "task": "And my role is to design uh a television remote control.",
+      "owner": "User Interface",
+      "due": null,
+      "confidence": 0.981,
+      "said_by": "User Interface"
+    },
+    {
+      "task": "So, we looking for a working design when we come back.",
+      "owner": "Project Manager",
+      "due": null,
+      "confidence": 0.979,
+      "said_by": "Project Manager"
+    },
+    {
+      "task": "I'm going to draw a snake.",
+      "owner": "User Interface",
+      "due": null,
+      "confidence": 0.977,
+      "said_by": "User Interface"
+    },
+    {
+      "task": "This thing we are gonna um uh design is a new remote control.",
+      "owner": "Project Manager",
+      "due": null,
+      "confidence": 0.975,
+      "said_by": "Project Manager"
+    },
+    {
+      "task": "So that in case we have to, in the next meeting, present something on the white board.",
+      "owner": "team",
+      "due": "next meeting",
+      "confidence": 0.969,
+      "said_by": "Project Manager"
+    },
+    {
+      "task": "Here's the project finance uh which, of course, we all have to think about when we design this thing.",
+      "owner": "Project Manager",
+      "due": null,
+      "confidence": 0.964,
+      "said_by": "Project Manager"
+    },
+    {
+      "task": "That is it's gonna be individual work and then at the meeting we'll discuss what uh we have come up with.",
+      "owner": "team",
+      "due": null,
+      "confidence": 0.959,
+      "said_by": "Project Manager"
+    },
+    {
+      "task": "I wanna figure out how to sell them.",
+      "owner": "Marketing",
+      "due": null,
+      "confidence": 0.958,
+      "said_by": "Marketing"
+    },
+    {
+      "task": "Uh we get ins each of us will get instructions and we'll take it from there.",
+      "owner": "team",
+      "due": null,
+      "confidence": 0.947,
+      "said_by": "Project Manager"
+    },
+    {
+      "task": "After we've finished the remote control we'll get to that.",
+      "owner": "team",
+      "due": null,
+      "confidence": 0.931,
+      "said_by": "Marketing"
+    },
+    {
+      "task": "I think basically basically you will get instructions to work with and if you have any questions uh, uh I guess, you can uh",
+      "owner": "Project Manager",
+      "due": null,
+      "confidence": 0.928,
+      "said_by": "Project Manager"
+    },
+    {
+      "task": "We have to justify that price by having sufficient features to make it sell at that price.",
+      "owner": "team",
+      "due": null,
+      "confidence": 0.913,
+      "said_by": "Marketing"
+    },
+    {
+      "task": "So you have a working design and then a functional design.",
+      "owner": "Project Manager",
+      "due": null,
+      "confidence": 0.879,
+      "said_by": "Project Manager"
+    },
+    {
+      "task": "What should I draw?",
+      "owner": "User Interface",
+      "due": null,
+      "confidence": 0.859,
+      "said_by": "User Interface"
+    }
+  ]
+}

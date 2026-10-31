@@ -1,0 +1,651 @@
+source,speaker,sentence,label,rules,reason
+meeting_056.txt,User Interface,How would you point it?,0,request,rhetorical
+meeting_001.txt,Project Manager,we'll come back to uh your evaluation,0,commit,epistemic
+meeting_044.txt,Grad D,"Um, so, instead of um, doing a lot of, you know, computation about, you know, which one site it wants of the user wants to visit, I'll come well, try to come up with like, sort of a list of sites.",0,commit,hypothetical
+meeting_030.txt,Project Manager,"Um we decided that, or we know that we need to use company colours, company logo.",0,need_to,no_task_verb
+meeting_014.txt,Project Manager,We'll see later on.,0,commit,idiom
+meeting_049.txt,Lynne Neagle AM,"Can I ask if Members have any declarations of interest, please?",0,request,no_task_verb
+meeting_041.txt,Marketing,"Well I mean I'm thinking that what we need to do is have something that kind of unifies a lot of the different concepts,",0,need_to,no_task_verb
+meeting_015.txt,Project Manager,And I think we have to um see what requirements we need for those um remote controls.'Cause what you told is the channel selection is important.,0,need_to,epistemic
+meeting_003.txt,Professor B,"So anyway, I'll be putting together stuff.",0,commit,no_task_verb
+meeting_056.txt,Marketing,I will be happy to do that.,0,commit,no_task_verb
+meeting_039.txt,User Interface,I'll go for three as well.,0,commit,no_task_verb
+meeting_053.txt,Professor A,"um So I think we'll change our our picture on the web, when we're @ @.",0,commit,no_task_verb
+meeting_056.txt,User Interface,"So okay, I'll take this out now then.",0,commit,no_task_verb
+meeting_033.txt,Project Manager,"Uh in fact I'd I'd I'd welcome anybody to uh say something briefly about themselves, in fact we will do that by by going round the table quickly and and saying what what contribution you you're looking to make.",0,commit,no_task_verb
+meeting_006.txt,Project Manager,Let's go back to the meeting closure then and see what we need to do next.,0,need_to,no_task_verb
+meeting_038.txt,Project Manager,"So we agree on the the part that we need to get something on the on the remote to find it somewhere and increase it the durability of of the thing,",0,need_to,no_task_verb
+meeting_038.txt,Project Manager,"I want some you should do some trend-watching, because even if we're if we're gonna do those covers and everything, what people really want, that's what we need to know in this phase,",0,going_to|need_to,hypothetical
+meeting_010.txt,Julie Morgan AM,"So, we'll get a criteria, and then they will have access to the childcare offer.",0,commit,no_task_verb
+meeting_022.txt,PhD F,"Because I I suppose you could make some that have sort of that you have to orient towards your mouth,",0,need_to,no_task_verb
+meeting_009.txt,Project Manager,"So the the goal is to have a remote control so to have an advantage over our competitors we have to be original, we have to be trendy and we have to also try to be user-friendly.",0,need_to,no_task_verb
+meeting_058.txt,Project Manager,"So we will introduce m this model and uh let's introduce in the market and let's take the feedback from the customers, then we can uh go for the",0,commit,no_task_verb
+meeting_013.txt,User Interface,I think we need to define also a s the set of vocabularies for the speech recogniser,0,need_to,no_task_verb
+meeting_001.txt,Marketing,Did they s do we have to use an advanced chip for the L_C_D_?,0,need_to,rhetorical
+meeting_049.txt,Lynne Neagle AM,We're going to move on now to talk about how we create healthy settings.,0,going_to,epistemic
+meeting_042.txt,Project Manager,"Course, we'll have to go into a bit more um detail than that, but uh personally I think that the original is gonna be a very key aspect to this design.",0,commit,no_task_verb
+meeting_049.txt,Hefin David AM,"With that in mind, I'm going to confess to you, chief medical officer, I did anything in school I could to avoid physical education lessons.",0,going_to,no_task_verb
+meeting_026.txt,Project Manager,"Right, okay, we'll that's that's the end of the meeting, then.",0,commit,no_task_verb
+meeting_024.txt,Professor D,But we are gonna worry about all the decisions and the things that pert that contribute to them.,0,going_to,no_task_verb
+meeting_028.txt,Project Manager,"Um I'd like to if possible hear from our Marketing Expert first, to help us gain an idea of where we're going to go.",0,going_to,no_task_verb
+meeting_003.txt,Grad F,"Well, what my s expectation is, is that we'll send out one of these emails every time a meeting has been checked and is ready.",0,assign|commit,past
+meeting_056.txt,Project Manager,"I mean if we are gonna make it a novel I mean double-curved sounds good to me if we're talking about sorta ergonomic and easy use,",0,going_to,hypothetical
+meeting_044.txt,Professor F,"So, uh, the the plan is is when Daphne gets back, we'll get in touch and supposedly, um, we'll actually get s deep seriously connected to to their work and",0,commit,no_task_verb
+meeting_017.txt,John Griffiths AM,"So, could you say that, if they keep their promises, then at least that level of funding would be maintained?",0,request,hypothetical
+meeting_035.txt,Project Manager,But then first you have to select the pen function.,0,need_to,no_task_verb
+meeting_028.txt,User Interface,Um and wasn't really satisfied by what I saw I have to say so this is more sort of springboard for uh how these could be improved on.,0,need_to,idiom
+meeting_006.txt,User Interface,You know you could you could do it yourself actually.,0,request,no_task_verb
+meeting_050.txt,Project Manager,Uh um we need uh you know we need to leave space money-wise for the voice recogniser.,0,need_to,no_task_verb
+meeting_004.txt,Marketing,"It's not something I need to p push through, but I thought should we thinking more about the dimensions, um sort of like more of a three dimensional shapes as well as opposed to just that flat um",0,need_to,no_task_verb
+meeting_017.txt,Lynne Neagle AM,We will move on then to our evidence session on our inquiry into the impact of Brexit on higher and further education.,0,commit,epistemic
+meeting_019.txt,Project Manager,We'll have to do more research.,0,commit,no_task_verb
+meeting_003.txt,Grad F,And we'll see how many people respond to that email.,0,commit,idiom
+meeting_002.txt,Dawn Bowden AM,"Can you tell us, perhaps, how the HE Act addresses the issue of poor governance, or is it really just limited to responding to the symptoms rather than the poor governance itself?",0,request,hypothetical
+meeting_001.txt,Project Manager,For example um we'll work backwards I suppose.,0,commit,no_task_verb
+meeting_046.txt,Project Manager,Yeah I I will continue.,0,commit,no_task_verb
+meeting_026.txt,User Interface,"Then they're small cute and furry, and uh when planet of the apes becomes real, I'm gonna be up there with them.",0,going_to,no_task_verb
+meeting_029.txt,User Interface,So uh Um Yeah and w we have to keep uh in general buttons uh so um we've got um the buttons we have to use.,0,need_to,no_task_verb
+meeting_031.txt,Project Manager,I'll just fill it in.,0,commit,no_task_verb
+meeting_031.txt,Project Manager,"But you have to fill in this column, huh?",0,need_to,question
+meeting_030.txt,Marketing,Can I have your cable please?,0,request,no_task_verb
+meeting_008.txt,PhD A,You you have to what you have to do is you have to basically,0,need_to,no_task_verb
+meeting_049.txt,Dr Frank Atherton,"So, some metrics in there, it would seem, would be appropriate, but what those are, what the nature of those are, do we frame them as targets or ambitions—that's the point we need to consult on.",0,need_to,hypothetical
+meeting_039.txt,Marketing,"Oh I'm not gonna be able um, I'll do it on the whiteboard.",0,commit,no_task_verb
+meeting_054.txt,User Interface,"You need to browse the browse the channels in upward downward way,",0,need_to,no_task_verb
+meeting_031.txt,User Interface,I will put it back on the on the nice green.,0,commit,no_task_verb
+meeting_007.txt,Project Manager,Uh a little plan on on what we're going to do.,0,going_to,no_task_verb
+meeting_034.txt,Project Manager,"Uh we need to keep in mind the user requirement specification, what needs and desires are to be fulfilled, the functions design, what effects the apparatus should have, and the working design, how the apparatus actually works to fulfil its function.",0,need_to,no_task_verb
+meeting_051.txt,PhD A,So I'm gonna try.,0,going_to,no_task_verb
+meeting_002.txt,Huw Morris,There's quite a lot of learning that all sides have got to engage in if we're going to be able to have continued high quality in these new areas that are being explored.,0,going_to,hypothetical
+meeting_012.txt,User Interface,"So, basically, the method that we usually use in the user interface design is that we need to look at what people like and what people don't like about existing products.",0,need_to,epistemic
+meeting_041.txt,Project Manager,"Yeah if you are holding it in your hand you could you could do that, couldn't you?",0,request,hypothetical
+meeting_043.txt,Lynne Neagle AM,"I'm going to go to Michelle now, Mark, because—",0,going_to,no_task_verb
+meeting_007.txt,Project Manager,Would you start with drawing your uh favourite animal?,0,request,epistemic
+meeting_000.txt,User Interface,You have to use your imagination a little bit.,0,need_to,no_task_verb
+meeting_001.txt,Project Manager,Um but what's something we need to decide on is how we're gonna go from here.,0,going_to|need_to,no_task_verb
+meeting_046.txt,User Interface,On the lower side I think it you have to turn it.,0,need_to,no_task_verb
+meeting_057.txt,Professor C,because we may end up with this crunch where all of a sudden we have to cut the latency in half or something.,0,need_to,no_task_verb
+meeting_055.txt,PhD D,And we'll we'll do the labelling for you.,0,commit,no_task_verb
+meeting_001.txt,Marketing,"So um how well would you say the prototype is uh how well have we realised the dream of being able to stop remotes from from being lost, or to be able to find them once they are lost.",0,request,rhetorical
+meeting_006.txt,Project Manager,"Okay, so we're going to go anywhere from kids to adult in the age range",0,going_to,no_task_verb
+meeting_031.txt,User Interface,So we're going to erase features or something.,0,going_to,no_task_verb
+meeting_007.txt,Marketing,"Mm uh I I don't think we have to be, we have to agree on that.",0,need_to,negated
+meeting_004.txt,Project Manager,So I'll have to put that Oh no wait we ho how many colours have we got there?,0,commit,no_task_verb
+meeting_003.txt,Grad F,"Well, and also if we want it ready by the fifteenth, that means we better give them deadline of the first, if we have any prayer of actually getting everyone to respond in time.",0,deadline,hypothetical
+meeting_038.txt,Marketing,you must use the maximum of it.,0,need_to,no_task_verb
+meeting_048.txt,Industrial Designer,But we have to use the solar cell.,0,need_to,no_task_verb
+meeting_041.txt,Industrial Designer,"Okay lemme okay, I'm gonna pull everybody out first and then put in whoever needs to be left.",0,going_to,no_task_verb
+meeting_053.txt,Professor A,"But you have to you know, if you look at it closely, you see "" well, here's a place where this one has a big formant uh uh formant maj major formants here are are moving quite a bit.",0,need_to,hypothetical
+meeting_052.txt,PhD G,We will do better.,0,commit,no_task_verb
+meeting_025.txt,Marketing,and I will uh say it uh,0,commit,epistemic
+meeting_031.txt,Project Manager,"Little bit strange we have to judge that ourselves, huh?",0,need_to,no_task_verb
+meeting_025.txt,Marketing,Um I will be uh Pr Project the Marketing Expert.,0,commit,no_task_verb
+meeting_002.txt,Kirsty Williams AM,"But we have to have legislation now that is fit for the circumstances we currently find ourselves in and, hopefully, futureproofs us for how we want to see the sector develop in the future.",0,need_to,no_task_verb
+meeting_058.txt,Marketing,And we'll come back to yours,0,commit,epistemic
+meeting_010.txt,Julie Morgan AM,"I think we have to be very careful to see that lower standards are not implemented, because it was groundbreaking when we brought it in, and it has proved to be a great success, so we want to make sure that's guarded.",0,need_to,no_task_verb
+meeting_002.txt,Kirsty Williams AM,"I'm not anticipating a mass influx of alternative providers, in the sense that we've seen across the border, but we will need to ensure that the new commission has powers to regulate and to futureproof.",0,commit,no_task_verb
+meeting_021.txt,Project Manager,"So, by next meeting, so, please come up with the the prototype, okay, then uh, then we can proceed from there.",0,request,no_task_verb
+meeting_030.txt,Marketing,C and look at different types of material that might please our users who want spongy-feeling remote controls.,0,request,no_task_verb
+meeting_010.txt,Lynne Neagle AM,"If you're happy, we'll go straight into questions, and the first ones are from Hefin David.",0,commit,hypothetical
+meeting_005.txt,Project Manager,So we'll start with yourself on the basis that uh,0,commit,epistemic
+meeting_004.txt,User Interface,Well I'm We're gonna have again the the sort of the foggy um yellow from last time that lit up when you pushed the button.,0,going_to,no_task_verb
+meeting_020.txt,Professor D,"Um, uh, you know, maybe maybe we'll involve Dan Ellis at some some level as well.",0,commit,no_task_verb
+meeting_022.txt,Professor B,So we have to we,0,need_to,no_task_verb
+meeting_010.txt,Julie Morgan AM,"So, no, this is the pattern we would have expected, and I think anybody who's involved in starting up something in childcare will know you have to wait a number of years before you actually see it being fully taken up.",0,need_to,epistemic
+meeting_019.txt,Marketing,"Yeah, I think I agree with the single design thing for now, because we're trying to do so much, that if we're trying to make a unique, user-friendly, dadada, and it's also multi also multifunctional, um, we're gonna go over budget for one thing.",0,going_to,hypothetical
+meeting_018.txt,Project Manager,"and we've got it in at the moment and if and basically, we're going to reduce down from that.",0,going_to,no_task_verb
+meeting_008.txt,PhD A,For th for the for the benefit of science we'll read the digits.,0,commit,no_task_verb
+meeting_010.txt,Nicola Edwards,So I'll have a look and see if we can send you through the last term.,0,assign|commit,hypothetical
+meeting_043.txt,Kirsty Williams AM,"We need to understand why that happened, but I do think it's—",0,need_to,epistemic
+meeting_008.txt,PhD A,"Oh, that's That's actually very nicely handled here because you could you could all you'd have to change is the, um, time - stamps in the time - line without without, uh, changing the I Ds.",0,request,no_task_verb
+meeting_043.txt,Mark Reckless AM,"I think my questions are first, but, Michelle, please do correct me if you were planning to come in before.",0,request,hypothetical
+meeting_010.txt,Julie Morgan AM,"So, it's from the next one, however, we hope that we will get more information.",0,commit,no_task_verb
+meeting_022.txt,Grad E,"And so so you can you can argue about maybe that wasn't the right thing to do, but, you know, they they they had something specific.",0,request,no_task_verb
+meeting_014.txt,Project Manager,You have to use it very quickly.,0,need_to,no_task_verb
+meeting_042.txt,Project Manager,"Also not quite as feared as your average tiger, but uh cats are one of my favourite animals, they're very independent, they're snotty as hell at the best of times, and uh, what can you say, you got to love those qualities in an animal.",0,request,epistemic
+meeting_055.txt,Professor C,We'll talk about it later.,0,commit,epistemic
+meeting_020.txt,PhD I,"Well, it if he you have to put the data on a on a non - backed - up disk to begin with.",0,need_to,no_task_verb
+meeting_031.txt,Project Manager,"And uh then we have to look at something which is less nice, the finance uh aspect, whether we can afford what we have designed,",0,need_to,epistemic
+meeting_044.txt,Grad A,But you have to say something genuinely funny before you'll get an example.,0,need_to,idiom
+meeting_024.txt,Grad C,"Well, I will tell you the German tourist data.",0,commit,no_task_verb
+meeting_017.txt,Llyr Gruffydd AM,"I'll ask my questions in Welsh, if I may.",0,commit,hypothetical
+meeting_059.txt,Industrial Designer,so you can you know talk to it like that,0,request,epistemic
+meeting_013.txt,Project Manager,Um so in the last meeting we have discussed the functional design and now we will talk about the conceptual design.,0,commit,epistemic
+meeting_024.txt,Grad B,"I have to do uh uh unbounded dependencies, you know, which have a variety of constructions in uh uh instantiate that.",0,need_to,no_task_verb
+meeting_052.txt,Professor B,"S so when we here were having this demo meeting, what we're sort of coming up with is that we wanna have all these pieces together, to first order, by the end of the month",0,deadline,no_task_verb
+meeting_051.txt,Professor B,So maybe maybe we'll do some more of it.,0,commit,no_task_verb
+meeting_000.txt,Marketing,Um so the criteria we're gonna be looking at are the complaints um that we heard from the users who were interviewed earlier.,0,going_to,no_task_verb
+meeting_002.txt,Hefin David AM,"I'll move on to managing risk, if that's okay.",0,commit,epistemic
+meeting_051.txt,PhD A,"So we have to sort of normalize the front - end and so forth, and have these small segments.",0,need_to,no_task_verb
+meeting_031.txt,Marketing,No then we have to scrap everything we got because how many colours we gonna make?,0,need_to,negated
+meeting_001.txt,Project Manager,"Um but for the purposes of this meeting, I'm we're gonna have to stick with these figures.",0,going_to,no_task_verb
+meeting_057.txt,Professor C,"Because if we completely ignore latency, and then we discover that we really have to do something about it, we're going to be find ourselves in a bind.",0,going_to,hypothetical
+meeting_043.txt,Kirsty Williams AM,"But, again, we need to ensure a consistency across all the regions, and that the findings of Estyn's most recent reports into regional performance are followed through.",0,need_to,no_task_verb
+meeting_015.txt,Project Manager,Uh this time I will take the minutes.,0,commit,no_task_verb
+meeting_029.txt,Project Manager,"Uh so uh f I think first of all we have to see uh it is possible to introduce kinetic energy in our budget, I think.",0,need_to,epistemic
+meeting_050.txt,Marketing,So we have to get some input from those people.,0,need_to,no_task_verb
+meeting_055.txt,PhD D,I don't think you need to.,0,need_to,negated
+meeting_003.txt,Grad F,So at some point we need to do that.,0,need_to,no_task_verb
+meeting_030.txt,Project Manager,"Um and then for the user interface concept we need to decide what the tape, what, what the type is.",0,need_to,no_task_verb
+meeting_053.txt,PhD F,"and, well, some people from OGI are working on a paper for this, but there is also the um special session about th Aurora which is uh which has an extended deadline.",0,deadline,no_task_verb
+meeting_001.txt,Project Manager,What would you think yourself?,0,request,rhetorical
+meeting_034.txt,Project Manager,"I'm gonna do an opening, talk about um did you all get the minutes?",0,going_to,question
+meeting_046.txt,User Interface,So you have to the user has to like to should feel the the the discrete sense a bit.,0,need_to,no_task_verb
+meeting_049.txt,Lynne Neagle AM,Can you just tell us a bit more about your thinking on that and when you would see a second measurement taking place and how you would use that data?,0,request,no_task_verb
+meeting_048.txt,User Interface,Just Could you please check if it is the first one or the second.,0,request,hypothetical
+meeting_031.txt,Marketing,"Yeah, we have to rate.",0,need_to,no_task_verb
+meeting_015.txt,Marketing,Think I'll go first.,0,commit,no_task_verb
+meeting_023.txt,Industrial Designer,And uh the chip we chip imprint we know exactly which one we are going to use.,0,going_to,no_task_verb
+meeting_012.txt,Industrial Designer,"No, I haven't really um I wanted feedback, I think we need to rate rank these, but we'll see what your uh personal preferences are and your thoughts.",0,commit|need_to,idiom
+meeting_046.txt,Marketing,So all the buttons we we have to put are have to to have um a use a real use,0,need_to,no_task_verb
+meeting_040.txt,Industrial Designer,"In fact, I'll give it some more",0,commit,no_task_verb
+meeting_011.txt,Grad F,"Right, we don so the only thing we'll have extra now is just the lapel.",0,commit,no_task_verb
+meeting_003.txt,Grad F,"Well, and that's exactly why I did it the way I did it, which is the default is if you do nothing we're gonna release it.",0,going_to,hypothetical
+meeting_051.txt,Postdoc G,I need to acquaint myself more with it.,0,need_to,no_task_verb
+meeting_025.txt,Project Manager,And that's basically what we're gonna do.,0,going_to,no_task_verb
+meeting_029.txt,Project Manager,Okay this is um the second phase uh we're going to discuss today.,0,going_to,epistemic
+meeting_024.txt,Grad C,And we're gonna start tomorrow at three?,0,going_to,no_task_verb
+meeting_041.txt,Project Manager,Well how um on the in this meeting then if we um I'll just just recap on the minutes from the last meeting.,0,commit,hypothetical
+meeting_056.txt,Project Manager,Then we shall start with a presentation from Raj.,0,commit,epistemic
+meeting_051.txt,PhD A,"well even if you do it on something really long you need to know you can always chop it up but you need to have a reference of which words went with which, uh, chop.",0,need_to,hypothetical
+meeting_051.txt,Professor B,And we'll undoubtedly think of other things.,0,commit,no_task_verb
+meeting_019.txt,Industrial Designer,"Um, do I need to",0,need_to,no_task_verb
+meeting_002.txt,Sian Gwenllian AM,Could you clarify that and explain the situation in that instance?,0,request,no_task_verb
+meeting_025.txt,User Interface,Uh thing to keep in mind is that we need to stick to what people are familiar with.,0,need_to,no_task_verb
+meeting_011.txt,Professor C,"That, that if we, can we should put in, uh, another level of, of description there if we're gonna get into some of this low - level stuff.",0,going_to,hypothetical
+meeting_035.txt,Project Manager,Maybe you have to use Oh.,0,need_to,no_task_verb
+meeting_056.txt,Marketing,"Y yeah uh yeah, we have to, because uh d you can see how people have related their clothes, shoes, and everything with fruits and vegetables,",0,need_to,no_task_verb
+meeting_024.txt,Grad B,Something like I'll go th I mean I'd li I dunno.,0,commit,no_task_verb
+meeting_038.txt,Project Manager,Uh we'll we'll see what we can come up with.,0,commit,idiom
+meeting_019.txt,Project Manager,"We need to decide if that is our um intention is, is a simplistic design.",0,need_to,no_task_verb
+meeting_035.txt,Project Manager,I'm Bart the project manager so I'll direct you through the project.,0,commit,no_task_verb
+meeting_029.txt,Project Manager,Uh now I have to think.,0,need_to,epistemic
+meeting_022.txt,Professor B,"So we have to equip him with a with a with a head - mounted, uh, cell phone",0,need_to,no_task_verb
+meeting_020.txt,Grad F,So why don't we have that on the agenda and we'll we'll get to it and talk about it?,0,commit,no_task_verb
+meeting_017.txt,Lynne Neagle AM,"We're going to move on, then, to talk about student recruitment.",0,going_to,epistemic
+meeting_053.txt,Professor A,We we we want to go and check that in i for anything that we're going to use the P D A mike for.,0,going_to,no_task_verb
+meeting_037.txt,PhD A,"Can you use the same net to do both, or?",0,request,no_task_verb
+meeting_051.txt,PhD A,"Um, and it it seems like as long as we can time align the beginning, do we need to mix it with the rest?",0,need_to,no_task_verb
+meeting_043.txt,Kirsty Williams AM,"I have written to Qualifications Wales, we've had discussions about it, but I've asked them to formally submit evidence ahead of my policy board for May, where, as I said, we will be doing a formal, deep-dive discussion across the department about these issues.",0,commit,no_task_verb
+meeting_014.txt,Project Manager,So we have to think of that.,0,need_to,epistemic
+meeting_024.txt,Professor D,So What we're gonna do today is two related things.,0,going_to,no_task_verb
+meeting_051.txt,Postdoc G,"Yeah, w although I m I I have to u u mention the human subjects problems, that i increase with video.",0,need_to,no_task_verb
+meeting_044.txt,Grad B,"Um, the uh, uh I don't think we need to discuss the formalism that'll be done officially s once we're done.",0,need_to,negated
+meeting_036.txt,Project Manager,"Uh first of all I'll start with the costs,",0,commit,epistemic
+meeting_010.txt,Dawn Bowden AM,"So, can you say a little more about that, bearing in mind that I'm also conscious that you've told Hefin you're going to be making an announcement shortly?",0,request,epistemic
+meeting_012.txt,User Interface,"You need to change channels, both by directly going to a specific channel or by channel surfing.",0,need_to,no_task_verb
+meeting_039.txt,Marketing,Um and we're gonna do it on a one to seven scale where one is true and seven is false.,0,going_to,no_task_verb
+meeting_057.txt,PhD D,"The only requirement is that you must have, in these five hundred milliseconds segment, you must have voiced sound at least.",0,need_to,no_task_verb
+meeting_003.txt,Professor B,"And would you please mail you know, mail Adam that it is, if i if it, you know, is or not.",0,request,hypothetical
+meeting_024.txt,Professor D,"We'll let's let we'll do that off - line, OK.",0,commit,no_task_verb
+meeting_032.txt,Industrial Designer,"Oh, you have to hit like function and F_ something.",0,need_to,no_task_verb
+meeting_028.txt,Project Manager,"well I was going to say clapping, um Um digital telephones, uh for example, one unit has of course you have to have that base unit, somewhere where there's a button, but maybe it's a button that you attach to the T_V_.",0,need_to,past
+meeting_043.txt,Kirsty Williams AM,"So, what has that money been used on and how can you account for the effect?",0,request,no_task_verb
+meeting_028.txt,Project Manager,Um we'll start with the minutes of the last meeting.,0,commit,epistemic
+meeting_024.txt,Grad C,And we're gonna put it on the web site.,0,going_to,no_task_verb
+meeting_038.txt,Project Manager,"The other aspects, we'll just see how what you came up with and what's possible for that budget.",0,commit,epistemic
+meeting_045.txt,Project Manager,"Okay, first we're gonna um uh gonna try some different things with the tools we have over here, so you get acquainted with these uh um uh meeting tools.",0,going_to,no_task_verb
+meeting_018.txt,Project Manager,"So that should uh Right, so, seems to me that the thing that I have to do is is quickly find that uh",0,need_to,no_task_verb
+meeting_049.txt,Dr Frank Atherton,"We'll wait and see what comes out in the consultation, and it's something that we need to give thought to, but we do have to trade off the additionality of what the information would give us with the cost of doing that, of course.",0,commit|need_to,epistemic
+meeting_022.txt,PhD A,but I'm gonna try it.,0,going_to,no_task_verb
+meeting_044.txt,Professor F,And then we'll go.,0,commit,no_task_verb
+meeting_044.txt,Professor F,Because we're gonna see what what else uh what else we're gonna do.,0,going_to,epistemic
+meeting_024.txt,Grad B,"On the other hand I have to have, you know, there's particular uh, fixed expressions, or semi - fixed expressions like "" Get "" plus path expression for, you know, "" how d ho how do I get there?",0,need_to,no_task_verb
+meeting_035.txt,Marketing,"But they'll also really drag up the production costs, so think we'll have to see about that too.",0,commit,no_task_verb
+meeting_021.txt,Industrial Designer,I'll take the mouse.,0,commit,no_task_verb
+meeting_018.txt,Project Manager,The problem is we have to reduce down from there to get it down to twelve point five.,0,need_to,no_task_verb
+meeting_006.txt,Project Manager,First we need to determine the user requirements and the question that we can ask ourselves is what needs and desires are to be fulfilled by this remote control.,0,need_to,no_task_verb
+meeting_041.txt,Project Manager,Okay right um what else do you need to talk about?,0,need_to,epistemic
+meeting_025.txt,Project Manager,So we'll just meet back in here thirty minutes.,0,commit,no_task_verb
+meeting_014.txt,Project Manager,"Yeah, but it w I mean, if if they pay for it because they think, oh, that's a great idea, I'm gonna use it.",0,going_to,hypothetical
+meeting_003.txt,Grad F,What do you have to say?,0,need_to,idiom
+meeting_011.txt,PhD D,So we'll have a corpus that's the size of TI - digits?,0,commit,no_task_verb
+meeting_038.txt,Project Manager,"I don't think if we if we even use an L_C_D_ screen, we need to, definitely.",0,need_to,hypothetical
+meeting_005.txt,Project Manager,So we have to come effectively to the decision on the remote functions so that you can decide what you're gonna be doing.,0,need_to,no_task_verb
+meeting_038.txt,Project Manager,I'll take you over the minutes of last last meeting.,0,commit,no_task_verb
+meeting_014.txt,Project Manager,"no no, but I think we have to just keep in mind what the older age group wants.",0,need_to,no_task_verb
+meeting_005.txt,Industrial Designer,we're gonna have the the individual numbers,0,going_to,no_task_verb
+meeting_040.txt,Project Manager,That tells you something about how many um we have to sell on an international scale.,0,need_to,no_task_verb
+meeting_038.txt,Industrial Designer,because I have to put all the electronics in it.,0,need_to,no_task_verb
+meeting_041.txt,Project Manager,"and we decided that it was gonna be non-rechargeable battery-powered, that we're gonna group our audio-visual and other functions into into those categories, um.",0,going_to,no_task_verb
+meeting_016.txt,Project Manager,"I just have to there's a few little bits and pieces I have to write down, but Take your headsets off, kick back, smoke'em if you got'em.",0,need_to,hypothetical
+meeting_025.txt,Project Manager,"I'll put the the minutes of every meeting, I'll put them there too, so everybody can read up if they have to leave early or whatever.",0,commit,hypothetical
+meeting_048.txt,Project Manager,"Uh maybe, how can we, if we have a soft thing, like this, and to open it we have to attach it somewhere, I dunno how to do that technically, or.",0,need_to,hypothetical
+meeting_014.txt,Project Manager,"Well, I I I have to say, I have this uh can opening remote control in my head most of all,",0,need_to,idiom
+meeting_016.txt,Project Manager,"If you haven't had time to prepare one, you can draw stuff on the noteboard, you can talk to us, you can you know however you want to do your little presentation, basically, you can.",0,request,hypothetical
+meeting_001.txt,Project Manager,"As long as so are we gonna say w we have to keep an eye on the time as well, but we're gonna say um single curved design",0,going_to|need_to,no_task_verb
+meeting_022.txt,Grad E,"So, although I I sort of know how to run it, there are a little a f few details here and there that I'll have to dig out.",0,commit,no_task_verb
+meeting_005.txt,Project Manager,And we'll meet back at I'm not sure.,0,commit,no_task_verb
+meeting_019.txt,Marketing,"Um, and I'll give you a little briefing on what that means exactly.",0,commit,no_task_verb
+meeting_055.txt,Grad A,Could you take that mike there?,0,request,no_task_verb
+meeting_001.txt,Project Manager,"So just to try and roughly go over what we agreed in the last one, um we're gonna go for something uh uh how was it?",0,going_to,no_task_verb
+meeting_058.txt,Marketing,"And when you're rotating, you'll look behind and look this way uh it's possible to do with this, maybe there's a possibility of selling more than two million units in one year, which could you know, feasibili feasibility uh lower the price of the unit.",0,request,epistemic
+meeting_015.txt,Project Manager,And uh we have to be uh very clear on this point as well.,0,need_to,no_task_verb
+meeting_022.txt,PhD A,We - we'll give everybody the same sheet,0,commit,no_task_verb
+meeting_043.txt,Kirsty Williams AM,"So, being able to create an environment where adoptive parents feel very confident and able to talk about their children's education is absolutely crucial if we're going to get that parental engagement that we need for all of our children.",0,going_to,hypothetical
+meeting_031.txt,Project Manager,"but we have to do that uh very very quick I think,",0,need_to,no_task_verb
+meeting_018.txt,Marketing,I'll see if I can find them.,0,commit,hypothetical
+meeting_030.txt,Marketing,"Okay so from that um, as we've already said, we need to focus on a fancy look-and-feel.",0,need_to,no_task_verb
+meeting_041.txt,Project Manager,"Um so if we have the three presentations, and then if you have anything to kind of that you know you're gonna want to discuss, maybe just make a note of it, and we'll have all the discussion at the end.",0,commit,hypothetical
+meeting_038.txt,User Interface,what we have to decide now is uh what goes on top.,0,need_to,no_task_verb
+meeting_004.txt,Marketing,Okay so we'll go two.,0,commit,no_task_verb
+meeting_023.txt,Project Manager,So now uh we will have three presentations.,0,commit,no_task_verb
+meeting_038.txt,Project Manager,We either we have to decide what what people want.,0,need_to,no_task_verb
+meeting_055.txt,Professor C,"Well, w But we'll do that later.",0,commit,no_task_verb
+meeting_046.txt,Industrial Designer,"Otherwise, could you just describe by hand?",0,request,no_task_verb
+meeting_049.txt,Suzy Davies AM,I'll leave some questions for Hefin.,0,commit,no_task_verb
+meeting_010.txt,Suzy Davies AM,And that's why we need to know who is.,0,need_to,epistemic
+meeting_001.txt,Project Manager,Unfortunately we require the advanced chip if we're gonna do what we're needing to.,0,going_to,hypothetical
+meeting_016.txt,Project Manager,But we have to incorporate it.,0,need_to,no_task_verb
+meeting_032.txt,Marketing,I'll read out to you.,0,commit,no_task_verb
+meeting_038.txt,User Interface,"Yes, go and finish up and I'll see you at lunch.",0,commit,epistemic
+meeting_028.txt,Project Manager,We'll have to flesh out some of the uh stuff.,0,commit,no_task_verb
+meeting_051.txt,Professor B,"It it yeah, unless we're gonna train with a whole bunch of",0,going_to,hypothetical
+meeting_043.txt,Steve Davies,I think we need to look at more nuanced evaluations of the data at a lower level.,0,need_to,epistemic
+meeting_058.txt,Marketing,"So to come up with what the company wants is a fifty million Pound profit, we're gonna have to go a long ways.",0,going_to,no_task_verb
+meeting_056.txt,Industrial Designer,So this is what we need to have for certain.,0,need_to,no_task_verb
+meeting_018.txt,User Interface,D wouldn't you have to keep the simple chip there as well?,0,need_to,negated
+meeting_058.txt,Project Manager,so we have we have to balance somewhere.,0,need_to,no_task_verb
+meeting_052.txt,Grad H,"So can you just Oh, it is.",0,request,no_task_verb
+meeting_024.txt,Grad C,Now can you give me the uh remote T?,0,request,no_task_verb
+meeting_043.txt,Kirsty Williams AM,"We have looked at Ever 6, and I'm going to be absolutely blunt with you: to introduce an Ever 6 concept for Wales would mean in the region of identifying an additional £40 million.",0,going_to,no_task_verb
+meeting_007.txt,Project Manager,We have to sell uh a lot of uh,0,need_to,no_task_verb
+meeting_008.txt,Grad C,"You mean, this I guess I am gonna be standing up and drawing on the board.",0,going_to,no_task_verb
+meeting_000.txt,Project Manager,Is there like a scale that we have to hit?,0,need_to,no_task_verb
+meeting_018.txt,Marketing,so I'll go over here.,0,commit,no_task_verb
+meeting_057.txt,PhD D,"Yeah, b but I don't think we have to worry too much on that right now while you kno.",0,need_to,negated
+meeting_044.txt,Grad C,"So I'll be here for uh, tomorrow and then uh, the remainder of uh, next week.",0,commit,no_task_verb
+meeting_020.txt,Grad F,"And, uh, we'll just hafta see what we get back from them.",0,commit,no_task_verb
+meeting_056.txt,Project Manager,"Um uh we'll probably get questionnaire in a minute, it's a",0,commit,no_task_verb
+meeting_031.txt,Marketing,F You have to we have to scrap four points.,0,need_to,no_task_verb
+meeting_024.txt,Professor D,Then we need to figure out what influences its choices and finally we have to do some technical work on the actual belief relations and presumably estimates of the probabilities and stuff.,0,need_to,no_task_verb
+meeting_031.txt,Project Manager,Then I'll move this one.,0,commit,no_task_verb
+meeting_012.txt,User Interface,"Um often, you need to know specific button sequences to get certain functionalities done, um which you don't necessarily always remember, especially if it's a functionality that you don't use very often.",0,need_to,hypothetical
+meeting_043.txt,Kirsty Williams AM,I just think we need to be a bit mindful of people's privacy in some instances.,0,need_to,no_task_verb
+meeting_008.txt,Postdoc E,"It it seems to me that, um, we will have o an official version of the corpus, which will be only one one version in terms of the words where the words are concerned.",0,commit,no_task_verb
+meeting_018.txt,Marketing,"And I have to go up onto the whiteboard and do this apparently,",0,need_to,no_task_verb
+meeting_006.txt,Industrial Designer,"We need a power source, we're gonna need a smart chip if we're gonna make it multi-functional.",0,going_to,hypothetical
+meeting_003.txt,Grad F,I didn't give any other deadline.,0,deadline,no_task_verb
+meeting_003.txt,PhD H,"Because I have to leave, actually.",0,need_to,no_task_verb
+meeting_019.txt,Marketing,"So I guess we're gonna have to figure out what age group we're, we're targeting, and if and if voice recognition is something we wanna look into.",0,going_to,no_task_verb
+meeting_019.txt,Industrial Designer,Would you like to plug in your,0,request,no_task_verb
+meeting_014.txt,Project Manager,"but you will you do need uh also an uh, also you would need a battery in the the base unit as well, you know.",0,request,no_task_verb
+meeting_049.txt,Dr Frank Atherton,"I'm sorry, could you repeat the question?",0,request,no_task_verb
+meeting_003.txt,Grad F,"I'll pick up your dry - cleaning, too.",0,commit,no_task_verb
+meeting_017.txt,Eluned Morgan AM,That's something that I think we have to learn and we need to convince the FE sector about in terms of moving more quickly and to be more responsive to the demand that there is in the workplace.,0,need_to,no_task_verb
+meeting_005.txt,Industrial Designer,I'll just go through there.,0,commit,no_task_verb
+meeting_043.txt,Kirsty Williams AM,"So, we will look at that.",0,commit,epistemic
+meeting_036.txt,Marketing,"So it after the after after these five minutes, you have to",0,need_to,no_task_verb
+meeting_044.txt,Professor F,"Uh, and we'll see.",0,commit,idiom
+meeting_024.txt,Grad C,"Sort of "" We'll do it on when you say on that d day it means it'll never happen.",0,commit,no_task_verb
+meeting_049.txt,Sian Gwenllian AM,"You say that there is less money that's come in through these consequentials from the levy, can you mention some sort of figure?",0,request,no_task_verb
+meeting_014.txt,Project Manager,"Oh, if it let's well, we will see what's possible concerning the the costs, and if it's possible we'll do that.",0,commit,hypothetical
+meeting_023.txt,Project Manager,"we have to think about those aspects, sorry.",0,need_to,epistemic
+meeting_031.txt,Project Manager,Well we have to count some things and we have to think about some things.,0,need_to,no_task_verb
+meeting_050.txt,Marketing,"Um, next slide please.",0,request,no_task_verb
+meeting_024.txt,Professor D,"So, if we all decide it's a good idea for you to go then you'll we'll pay for it.",0,commit,hypothetical
+meeting_024.txt,Grad C,And um the see this this this uh ontology node is probably something that I will try to expand.,0,commit,no_task_verb
+meeting_036.txt,Marketing,You can you can ma,0,request,no_task_verb
+meeting_001.txt,Project Manager,"um if we can look at the criteria you're gonna evaluate, and then we'll come back to the product evaluation if that's alright.",0,commit,hypothetical
+meeting_037.txt,PhD A,Can you use the same net that you that I was talking about to do the VAD?,0,request,no_task_verb
+meeting_006.txt,Project Manager,Um can we go back to I'm gonna look really quickly back at those,0,going_to,no_task_verb
+meeting_035.txt,Project Manager,"And it also operates on infra-red, so you have to got the little device inside your room, and then you can operate it from the third or th or second floor.",0,need_to,no_task_verb
+meeting_056.txt,Marketing,"Yeah, buttons will be on the upper side, lower side we will just put the casing,",0,commit,no_task_verb
+meeting_049.txt,Dr Frank Atherton,"I think we need to think in terms of that pathway that we were talking about earlier, about access to that kind of advice and support, which can head off people getting into problems and kids getting into problems with weight issues.",0,need_to,epistemic
+meeting_012.txt,Project Manager,"Okay, I'll uh hand over to Agnes.",0,commit,no_task_verb
+meeting_009.txt,Project Manager,Yeah but s still we have to mm we have to have an advantage over our competitors.,0,need_to,no_task_verb
+meeting_043.txt,Kirsty Williams AM,"We could, indeed, change the way in which we allocate PDG money, but we have to do it within the envelope that is available to me, over £90 million.",0,need_to,no_task_verb
+meeting_024.txt,Grad B,"but uh, but you know obviously we need to get sort of a general view of what things look like, so yeah.",0,need_to,no_task_verb
+meeting_043.txt,John Griffiths AM,"So, how would you respond to those findings?",0,request,rhetorical
+meeting_006.txt,Project Manager,Then we're gonna discuss some new project requirements.,0,going_to,epistemic
+meeting_006.txt,Project Manager,Uh we'll still put that as a point that we need to discuss.,0,commit|need_to,no_task_verb
+meeting_043.txt,John Griffiths AM,"Could you tell the committee, Cabinet Secretary, how effective you believe the relationship was between the Schools Challenge Cymru programme and the regional consortia's school improvement functions, and to what extent it varied by region?",0,request,no_task_verb
+meeting_044.txt,Grad B,"Um, something happened, in on Eva's side with the PRM that we're gonna look at today, and um, we have a visitor from Bruchsal from the International University.",0,going_to,epistemic
+meeting_053.txt,PhD B,"I thought "" well I'm gonna just look at the what actual digit strings do occur in the training data.",0,going_to,epistemic
+meeting_043.txt,Lynne Neagle AM,We're going to move on to Schools Challenge Cymru now.,0,going_to,epistemic
+meeting_014.txt,Project Manager,"Well, we we will come to that, but ju first on the on the functions.",0,commit,no_task_verb
+meeting_055.txt,Grad A,Please characterize your accent?,0,request,no_task_verb
+meeting_010.txt,Suzy Davies AM,Could you give us an idea of the price tag?,0,request,no_task_verb
+meeting_034.txt,User Interface,"The second is is economic, uh we need to find a balance between features and price.",0,need_to,no_task_verb
+meeting_005.txt,Industrial Designer,I'm sure we'll have by the end of today.,0,commit,no_task_verb
+meeting_011.txt,Postdoc B,"And then we'll see if the units that we're getting, uh, with the at that level, are sufficient.",0,commit,idiom
+meeting_035.txt,Project Manager,"So I'm gonna sit down, I think.",0,going_to,no_task_verb
+meeting_043.txt,Kirsty Williams AM,"I'll be the first person to say that maybe it's not as absolutely focused, but in the absence of anything different to identify a proxy for need, I think it's probably the best that we've got at present.",0,commit,no_task_verb
+meeting_006.txt,Industrial Designer,"So, do we have to include the company colour within that?",0,need_to,rhetorical
+meeting_015.txt,Industrial Designer,And besides that it's um If we're gonna focus on elderly people they'll have to adapt.,0,going_to,hypothetical
+meeting_010.txt,Julie Morgan AM,"So, when we do have all those results, we will be able to say the direction that we want to go in, and I hope we'll be able to do that very soon.",0,commit,no_task_verb
+meeting_018.txt,Marketing,"Shall we shall we evaluate the prototype as we've got it now first, and then sort of make decisions about what needs to be changed after?",0,commit,question
+meeting_054.txt,Project Manager,We will try to guess what it is.,0,commit,no_task_verb
+meeting_032.txt,Project Manager,"Yeah, I must say that um the uh I c can't remember what um f you know phone service I was using the other day, but that had sorta speech recognition which worked uh remarkably well, so that is indeed a uh um a thought",0,need_to,idiom
+meeting_024.txt,Professor D,"And depending on what Fey sort of provokes them to say, we'll get information on different things.",0,commit,no_task_verb
+meeting_042.txt,Project Manager,"Tarik, would you like to have a shot at a bit of artistry?",0,request,no_task_verb
+meeting_014.txt,Project Manager,"Um, well, what functions do we have to decide on?",0,need_to,rhetorical
+meeting_046.txt,Project Manager,"I will try to show it to everyone, that would be more comfortable.",0,commit,hypothetical
+meeting_016.txt,Marketing,So we have to have it one colour.,0,need_to,no_task_verb
+meeting_052.txt,Grad H,Um Dave Gelbart expressed some interest in working on that so I'll work with him on it.,0,commit,no_task_verb
+meeting_039.txt,Project Manager,And um I have to access that as well.,0,need_to,no_task_verb
+meeting_008.txt,PhD F,"But you know, we'll do something where we some kind of data reduction where the prosodic features are sort o uh, either at the word - level or at the segment - level,",0,commit,no_task_verb
+meeting_031.txt,User Interface,"Yeah, you can, you should you have to lose",0,need_to,no_task_verb
+meeting_033.txt,Project Manager,"Yes, I mean the only thing is if if you're watching television in a in a a darkened room um you need to be able to uh",0,need_to,hypothetical
+meeting_031.txt,User Interface,"Yeah, we need to uh",0,need_to,no_task_verb
+meeting_046.txt,Industrial Designer,"Um we just have to define the processing power that we need uh especially if we want to do some uh speech recognition, in that case that mean that we are going to use more for simple",0,going_to,hypothetical
+meeting_052.txt,Grad H,"Right, we'll have to figure out a user interface for that, so.",0,commit,no_task_verb
+meeting_034.txt,Industrial Designer,"Well if we're gonna say that function um fashion we put the fashion in in electronics then you automatically, I think, a sort of younger group that that's who's gonna be attracted to this.",0,going_to,hypothetical
+meeting_034.txt,Project Manager,We need to decide who our target group is.,0,need_to,no_task_verb
+meeting_028.txt,Project Manager,"I would say so, yes, because then we have to be able to control the remote boxes, and that is a separate unit.",0,need_to,no_task_verb
+meeting_045.txt,Project Manager,"Okay, we're now gonna discuss some stuff when well, we're gonna brainstorm about uh what kind of kemoro romo remote control it's gonna be.",0,going_to,no_task_verb
+meeting_052.txt,Grad H,"Uh got an email from uh James Landay who basically said "" if you're not using them, could you return them?",0,request,hypothetical
+meeting_043.txt,Kirsty Williams AM,It's a source of huge concern to me that we need to do better for those children.,0,need_to,no_task_verb
+meeting_031.txt,Industrial Designer,"Yeah, if you can't push it you have to tap the the options window uh button here and then uh scroll down with the d with uh with uh the button.",0,need_to,hypothetical
+meeting_012.txt,User Interface,You need to be able to control the volume and then control any menus on the T_V_ to regulate contrast or whatever.,0,need_to,no_task_verb
+meeting_005.txt,Marketing,"Okay, so My personal preferences from the marketing is that we need to come up with some sort of sleek sort of good looking high high-tech A design which looks high-tech, basically.",0,need_to,no_task_verb
+meeting_055.txt,PhD D,"like but by hand, by cheating, and looking at you know, if you can detect something that way, because if we can't do it that way, there's no good way that we're going to be able to do it.",0,going_to,hypothetical
+meeting_019.txt,Project Manager,Do we need to reach a decision on that right now?,0,need_to,no_task_verb
+meeting_030.txt,Project Manager,"Okay and I will leave that, leave it at that.",0,commit,no_task_verb
+meeting_045.txt,Project Manager,I'll use this uh same sheet.,0,commit,no_task_verb
+meeting_056.txt,Marketing,So we have to look on this.,0,need_to,no_task_verb
+meeting_048.txt,Project Manager,and afterwards we will discuss about all this.,0,commit,epistemic
+meeting_029.txt,Project Manager,So these are the points we have to discuss.,0,need_to,epistemic
+meeting_011.txt,Professor C,"So I mean i we'll see wha how much we can, uh, get the people to do, and how much money we'll have and all this sort of thing,",0,commit,idiom
+meeting_036.txt,Industrial Designer,We need to lose some buttons.,0,need_to,no_task_verb
+meeting_001.txt,Project Manager,But we'll go into that later.,0,commit,epistemic
+meeting_011.txt,Grad F,"I wonder, how would you do a forced alignment?",0,request,rhetorical
+meeting_043.txt,Kirsty Williams AM,I'm going to be absolutely straight and blunt with you: we're not in a position at the moment to be able to identify an additional £40 million to introduce an Ever 6.,0,going_to,no_task_verb
+meeting_043.txt,Mark Reckless AM,"Cabinet Secretary, how would you assess the impact of PDG on attendance and hopefully subsequent engagement with education from children who have free school meals?",0,request,rhetorical
+meeting_012.txt,Marketing,"So we're gonna have to look at it in a in this global idea, with the ideas of the industrial uh design.",0,going_to,no_task_verb
+meeting_003.txt,Grad F,"So next week we'll do automatic transcription status, plus anything that's real timely.",0,commit,no_task_verb
+meeting_038.txt,Project Manager,So we have to s we have to do something about that.,0,need_to,no_task_verb
+meeting_056.txt,User Interface,So we need to combine those ones um,0,need_to,no_task_verb
+meeting_039.txt,Project Manager,"And so now that we've we have a prototype, uh we need to go over the finances and seeing if this prototype matches uh what our budget can handle.",0,need_to,no_task_verb
+meeting_052.txt,Grad H,Um you have to do preindexing and so that these tools do all that.,0,need_to,no_task_verb
+meeting_043.txt,Lynne Neagle AM,"So, we're going to need succinct questions and succinct answers.",0,going_to,no_task_verb
+meeting_010.txt,Hefin David AM,Can I just come back to the first thing you said:'We can't say yet what we're going to do'?,0,going_to,no_task_verb
+meeting_038.txt,Project Manager,"Yeah, but for example if it's lost in your armchair, we'll not see the flash.",0,commit,hypothetical
+meeting_049.txt,Lynne Neagle AM,"What my follow-up question, really, is: can you just tell us what kind of engagement you've had with children and young people to inform the draft strategy?",0,request,no_task_verb
+meeting_004.txt,Project Manager,Uh as a note we'll do this alphabetically.,0,commit,no_task_verb
+meeting_039.txt,Project Manager,"So um in our shared folder, if everyone could go there right now, um I'm going to um steal a cable.",0,going_to,no_task_verb
+meeting_040.txt,Project Manager,"Um the trendiness we'll probably go look at for some marketing research information from you, Sarah.",0,commit,no_task_verb
+meeting_010.txt,Suzy Davies AM,"Okay, but we'll get a note on that, is it?",0,commit,no_task_verb
+meeting_046.txt,User Interface,We're gonna need chips right.,0,going_to,no_task_verb
+meeting_003.txt,Postdoc A,"So maybe, uh, I you know, that's not that many people and if I if, uh i i there is an advantage to having them admit and if I can help with with processing that, I will.",0,commit,hypothetical
+meeting_018.txt,Project Manager,"You have to do it within a set time frame is the other thing, so",0,need_to,no_task_verb
+meeting_028.txt,Project Manager,Um we have to decide exactly what we're going to do with the remote.,0,going_to|need_to,no_task_verb
+meeting_034.txt,User Interface,So in some sense we're gonna we're gonna have to aim for a device which is fairly conventional in design uh so that we're not completely shocking people.,0,going_to,no_task_verb
+meeting_034.txt,Project Manager,"Okay, those are very good goals, I think, um that we have to keep in mind in with everything we do.",0,need_to,no_task_verb
+meeting_036.txt,Marketing,Yeah we have to count them.,0,need_to,no_task_verb
+meeting_047.txt,Professor B,and then we'll operate with that,0,commit,no_task_verb
+meeting_040.txt,Project Manager,"Yes,'cause our market um is international and your problem is has to do with marketing of you know, you gotta know how many we're going to be selling to know how big a market you have to target and who is that.",0,going_to|need_to,epistemic
+meeting_037.txt,PhD A,Will you will you train the net on after you've done the spectral subtraction or the Wiener filtering?,0,request,no_task_verb
+meeting_058.txt,Project Manager,"So we'll do it in the other place, and I don't think it's take more than four weeks time.",0,commit,no_task_verb
+meeting_038.txt,Project Manager,I must say that it Hmm.,0,need_to,idiom
+meeting_016.txt,Project Manager,Not necessarily even if i it just has to ye but you have to look at the product and instantly know that it's one of our products,0,need_to,hypothetical
+meeting_053.txt,Professor A,"But you could I mean you can you can align so that It's not perfect, but if you if you know what was said and",0,request,hypothetical
+meeting_030.txt,Project Manager,And what kind of supplements we'll have.,0,commit,no_task_verb
+meeting_055.txt,PhD D,Do we hafta turn,0,need_to,no_task_verb
+meeting_023.txt,Project Manager,"So, we will first start by summarizing the mm the previous meeting and the decision we've taken.",0,commit,no_task_verb
+meeting_009.txt,User Interface,I I think we will be finished this uh,0,commit,no_task_verb
+meeting_031.txt,User Interface,"But you can't push it, so you have to tap.",0,need_to,no_task_verb
+meeting_001.txt,Project Manager,"We'll get panned on the next one, anyway.",0,commit,no_task_verb
+meeting_005.txt,Industrial Designer,or do you have to do it via the remote?,0,need_to,no_task_verb
+meeting_012.txt,Project Manager,So can you go to the next slide?,0,request,no_task_verb
+meeting_048.txt,Industrial Designer,"This this is just uh one thing I wanted to mention and show you that I just uh I just found this, that our company uh developed a s a seven f seven fingers or I'll just",0,commit,no_task_verb
+meeting_019.txt,Marketing,So I'll be discussing the functional requirements of this remote control.,0,commit,no_task_verb
+meeting_043.txt,Lynne Neagle AM,"Given that we've had it now for six years, would you not have expected there to be a higher level of schools actually making good use of that funding?",0,request,no_task_verb
+meeting_046.txt,Marketing,So mm we have to have a remote control uh very um out for that.,0,need_to,no_task_verb
+meeting_043.txt,Kirsty Williams AM,But you're absolutely right; there is more that we need to do to address this particular agenda of attainment.,0,need_to,no_task_verb
+meeting_035.txt,Industrial Designer,I'll just try something else.,0,commit,no_task_verb
+meeting_017.txt,Kirsty Williams AM,"So, I don't think we need to persuade Sam Gyimah about the importance of this.",0,need_to,negated
+meeting_044.txt,Grad B,"And ha n hav we'll never have to look at it again Maybe it'll take some more time, to be realistic, but at least we're we're seeing the end of the tunnel there.",0,commit,no_task_verb
+meeting_017.txt,Lynne Neagle AM,"Can I just ask you to introduce your officials for the record, please?",0,request,no_task_verb
+meeting_021.txt,Industrial Designer,"Right here, is that little that one, yes please.",0,request,no_task_verb
+meeting_052.txt,Grad H,Well this is one of the reasons This is the one of the reasons that I'm gonna have uh Dave Gelbart Gelbart Having him volunteer to work on it is a really good thing because he's worked on the Transcriber stuff,0,going_to,no_task_verb
+meeting_022.txt,PhD F,"So, the what that means probably for the foreseeable future is that you have to, uh, dump out, um you know, if you want to use some new features, you have to dump them into individual files and give those files to the recognizer.",0,need_to,hypothetical
+meeting_014.txt,Project Manager,We have to something special.,0,need_to,no_task_verb
+meeting_003.txt,PhD H,"Um, because I, uh, I could use one on my workstation, just to t because sometimes I have to listen to audio files and I don't have to b go borrow it from someone and",0,need_to,negated
+meeting_016.txt,Project Manager,just gonna leave this up here'cause I'll you know.,0,commit,no_task_verb
+meeting_002.txt,Kirsty Williams AM,"I meet on a regular basis with both HEFCW—I meet separately with the vice-chancellors, and I've been very keen to develop a stronger working relationship with chairs, and perhaps we'll come on to issues of governance later.",0,commit,no_task_verb
+meeting_032.txt,Project Manager,"Okay, so we'll first of all mm have individual reports from everybody.",0,commit,no_task_verb
+meeting_052.txt,Grad H,Well I'll turn off the screensaver too.,0,commit,no_task_verb
+meeting_023.txt,Project Manager,So we have to take some decision on this aspect.,0,need_to,no_task_verb
+meeting_005.txt,Industrial Designer,I'll put delay to allow um multiple numbers.,0,commit,no_task_verb
+meeting_028.txt,Project Manager,"Maybe we'll hear differently, but for now",0,commit,no_task_verb
+meeting_004.txt,Marketing,"Uh and I'm gonna write up our results on the board, so this'll be a way for us to go through and decide if we're um sort of review where we stand with it.",0,assign|going_to,hypothetical
+meeting_051.txt,Postdoc G,That means potentially as many as ten might be finished by the end of the month.,0,deadline,no_task_verb
+meeting_049.txt,Sian Gwenllian AM,Could you give us any kind of figure?,0,request,no_task_verb
+meeting_035.txt,Project Manager,First I will introduce myself.,0,commit,no_task_verb
+meeting_008.txt,Grad C,I don't want to have this text file that you have to read in the whole thing to do something very simple for.,0,need_to,no_task_verb
+meeting_054.txt,Project Manager,"So, we'll come to that later.",0,commit,no_task_verb
+meeting_001.txt,Marketing,"Okay, so we have to go through each point.",0,need_to,no_task_verb
+meeting_052.txt,PhD G,So what kind of input would you be?,0,request,no_task_verb
+meeting_053.txt,PhD F,So it would be for the first deadline.,0,deadline,hypothetical
+meeting_000.txt,Project Manager,Would you like to uh,0,request,no_task_verb
+meeting_058.txt,Marketing,"with transport, promotion, labour, because we hav gi included the promotion in the cost, transport for the material to the stores or whatever how however we're gonna break this down between our our retailers.",0,going_to,no_task_verb
+meeting_014.txt,Industrial Designer,"'Kay, we're going to um uh talk about working design.",0,going_to,epistemic
+meeting_006.txt,Project Manager,"I guess, we're gonna discuss the project financing later, making sure that we can fit all of the stuff that we want to on our budget.",0,going_to,epistemic
+meeting_003.txt,Postdoc A,"My, um I was thinking that with the NSA meetings, I'd like there are three of them, and they're uh, I I will have them done by Monday.",0,commit|deadline,no_task_verb
+meeting_038.txt,Project Manager,"Um after that I got some new project requirements from project board, so we're gonna go af go after over this later.",0,going_to,no_task_verb
+meeting_019.txt,Project Manager,One thing we have to consider is our uh one hundred percent um turnover goal that we have for our financial sector.,0,need_to,epistemic
+meeting_048.txt,Project Manager,I don't know what we are going to do with that.,0,going_to,no_task_verb
+meeting_030.txt,Project Manager,So we have a good idea of what we're gonna need to to do on this?,0,going_to,no_task_verb
+meeting_019.txt,Marketing,"And we have to keep in mind the, the reliability of our research.",0,need_to,no_task_verb
+meeting_007.txt,Industrial Designer,but I'm gonna do something much more difficult.,0,going_to,no_task_verb
+meeting_007.txt,Project Manager,"Okay, now we're gonna dig into the to the serious stuff.",0,going_to,no_task_verb
+meeting_011.txt,PhD G,"So that's probably what will happen, but we'll try it this way and see.",0,commit,no_task_verb
+meeting_032.txt,Project Manager,"Yeah, and if if anybody manages to run it down, we'll we'll give'em a new one.",0,commit,no_task_verb
+meeting_028.txt,Project Manager,"Before we leave this meeting, it would be best to say this is what we're going this is the design we're gonna try and get, this is how we're gonna make ourselves look unique.",0,going_to,hypothetical
+meeting_023.txt,User Interface,But if you move it then you have to have some sensor to when you move it to detect your movement.,0,need_to,hypothetical
+meeting_000.txt,Project Manager,So I'm going to leave it at that and let you guys take over.,0,going_to,no_task_verb
+meeting_033.txt,Project Manager,"and think oh yes that's it's obvious how that works, uh and they also want to look at the price and think oh yeah that's something that I may not need another remote control but uh it's such a nice one I'm gonna have one.",0,going_to,no_task_verb
+meeting_004.txt,Industrial Designer,"Having to tick it before you go off was a bit hindering as well,'cause you're half way through a thought, and then you run out of paper and then you have to jump.",0,need_to,no_task_verb
+meeting_052.txt,PhD F,And you have to have all the o,0,need_to,no_task_verb
+meeting_003.txt,Postdoc A,I d I just don't think we will.,0,commit,no_task_verb
+meeting_050.txt,Marketing,"We wanted the feel to be as soft as possible, we'll have the soft buttons",0,commit,no_task_verb
+meeting_036.txt,Industrial Designer,We'll we'll be on,0,commit,no_task_verb
+meeting_014.txt,Project Manager,"Mm, we'll hear about it.",0,commit,no_task_verb
+meeting_023.txt,Project Manager,Well we will discuss that after maybe,0,commit,epistemic
+meeting_025.txt,Project Manager,I think well it sums up what we need to do.,0,need_to,no_task_verb
+meeting_046.txt,Project Manager,"only ten per cent of the button are are used often so I think we have to do something very simple and I think we all agree on that point, no?",0,need_to,no_task_verb
+meeting_043.txt,Kirsty Williams AM,"And again, I'll give you an example that has been seen as good practice in Pembrokeshire: a window on the world bus, again paid for by schools.",0,commit,past
+meeting_036.txt,Industrial Designer,Yeah the the the problem with PowerPoint for me is that you have to i put in the pre-made chunks c as well.,0,need_to,no_task_verb
+meeting_002.txt,Lynne Neagle AM,"I will just start the questioning by asking whether you are planning to repeal the 2015 higher education Act, or will it be amended by the post-compulsory education and training Bill?",0,commit,question
+meeting_058.txt,Marketing,So now I'm gonna scare everybody out of this project.,0,going_to,no_task_verb
+meeting_038.txt,User Interface,"because we're working with different types of television, so we're going to work with that?",0,going_to,no_task_verb
+meeting_015.txt,User Interface,Uh and um th the buttons uh the real buttons uh we have to use um.,0,need_to,no_task_verb
+meeting_022.txt,PhD A,"You have to sort of, um Jose, if you haven't done this, you have to plug your ears while you're t talking",0,need_to,hypothetical
+meeting_039.txt,User Interface,We have to market it.,0,need_to,no_task_verb
+meeting_022.txt,Grad E,"I mean, you could you could do a paper on what's wrong with the Aurora task by comparing it to other ways of doing it.",0,request,no_task_verb
+meeting_041.txt,Marketing,"Uh basically what I wanna do here, before we get into it uh too far, is I want to show you all the background information I have that I think we need to acknowledge if we want this to be successful.",0,need_to,hypothetical
+meeting_009.txt,Marketing,You have to imagine a little bit um.,0,need_to,epistemic
+meeting_006.txt,Project Manager,"yeah, how would you leave those out?",0,request,rhetorical
+meeting_050.txt,Project Manager,Now we're gonna talk about financing.,0,going_to,epistemic
+meeting_020.txt,Grad F,And so we need to decide what we wanna do.,0,need_to,no_task_verb
+meeting_008.txt,PhD A,"Now now how would you how would you represent, um, multiple speakers in this framework?",0,request,rhetorical
+meeting_034.txt,User Interface,Um also in in designing the user interface we need to consider practicalities.,0,need_to,epistemic
+meeting_034.txt,Marketing,"Maybe I mean if I get m more numbers, I'll e-mail you before the next meeting in terms of ages.",0,commit,hypothetical
+meeting_015.txt,Project Manager,"Um what we're going to do for the next meeting is the Industrial Designer will do the components concept, User Interface Designer the user interface concept, and the trend-watching.",0,going_to,no_task_verb
+meeting_056.txt,Industrial Designer,"And I'm gonna use the whiteboard, just'cause we haven't used it.",0,going_to,no_task_verb
+meeting_018.txt,Project Manager,"right, I'll just re-do it.",0,commit,no_task_verb
+meeting_008.txt,PhD F,I I don't know enough about what we're gonna do with the data.,0,going_to,no_task_verb
+meeting_051.txt,PhD A,"Sorry, can you explain what the ATLAS I'm not familiar with this ATLAS system.",0,request,no_task_verb
+meeting_037.txt,Professor B,"But I would I would I would thought think that what we would wanna do is not futz with this stuff for a while because what'll happen is we'll change many other things in the system,",0,commit,no_task_verb
+meeting_034.txt,User Interface,I'll think of that every time now.,0,commit,epistemic
+meeting_001.txt,Project Manager,And then we'll come back pretty much promptly to this.,0,commit,epistemic
+meeting_039.txt,User Interface,"That kind of annoys me though, when it's zero six when you have to press",0,need_to,no_task_verb
+meeting_036.txt,Industrial Designer,I will take this away'cause it looks messy.,0,commit,no_task_verb
+meeting_028.txt,Marketing,"But after a while people may wanna return it, because if you have to to say som I mean most people use a remote control for switching to channels, and they say they do that about ninety eight percent of the time.",0,need_to,hypothetical
+meeting_053.txt,PhD B,"But if we can you know, run all of these back - ends f with many fewer iterations and on Linux boxes we should be able to get a lot more experimenting done.",0,request,hypothetical
+meeting_056.txt,Marketing,"You have to keep your pen separate, because I used your pen.",0,need_to,no_task_verb
+meeting_015.txt,Marketing,We would have to look into that.,0,assign,hypothetical
+meeting_058.txt,Industrial Designer,So I think what we need to do is perhaps to synchronise the final the the launch of a user-tested device with some special event.,0,need_to,no_task_verb
+meeting_004.txt,Project Manager,"So you can power on and off, what else can you do?",0,request,no_task_verb
+meeting_058.txt,Marketing,So we'll go screen by screen.,0,commit,no_task_verb
+meeting_008.txt,PhD A,"but can you do it sort of l l you know, it",0,request,no_task_verb
+meeting_038.txt,Marketing,"I don't know it's manageable, but we will uh we will see.",0,commit,no_task_verb
+meeting_036.txt,Industrial Designer,"Yeah we have to pull it this way, huh?",0,need_to,no_task_verb
+meeting_025.txt,User Interface,I'm going to uh look at the technical design from the uh user point of view.,0,going_to,epistemic
+meeting_014.txt,Marketing,It's a very small market which we will approach then if we uh want to reach customers younger than forty.,0,commit,hypothetical
+meeting_054.txt,Industrial Designer,"So I dunno if we need to spend time on that, actually But uh",0,need_to,hypothetical
+meeting_057.txt,Professor C,"and, uh Uh, we'll see.",0,commit,idiom
+meeting_002.txt,Kirsty Williams AM,"Now, I have to trust their professional judgment that that has not been necessary to date, but our expectation is that they would do that if they felt it was necessary.",0,need_to,hypothetical
+meeting_045.txt,User Interface,"It's international, so we have to use a standard.",0,need_to,no_task_verb
+meeting_025.txt,Project Manager,So I'm gonna give it a smiley face.,0,going_to,no_task_verb
+meeting_034.txt,Marketing,"And if the whole idea is you're using a remote then why would you have voice,",0,request,rhetorical
+meeting_002.txt,Huw Morris,I don't think we're going to be going back to that system in the foreseeable future because of the pressures on public finances—,0,going_to,no_task_verb
+meeting_027.txt,Project Manager,I will give a six.,0,commit,no_task_verb
+meeting_054.txt,Project Manager,"Uh we will try to uh to get at a international market uh so um it will be I think mainly Europe and uh Northern America,",0,commit,no_task_verb
+meeting_019.txt,Project Manager,"So, if it takes off then we'll, we'll, we'll try that out.",0,commit,hypothetical
+meeting_015.txt,User Interface,So uh we must keep uh buttons uh quite s uh simple and quite large.,0,need_to,no_task_verb
+meeting_038.txt,Industrial Designer,because I need to put all the electronics in it.,0,need_to,no_task_verb
+meeting_021.txt,Marketing,"We've been giving simple questionnaires in different areas because th obviously we have to see what the com consumers are looking for today,'cause uh trends change very very quickly.",0,need_to,epistemic
+meeting_049.txt,Dr Frank Atherton,So we need to think about our governance system for this and how we drive it forward.,0,need_to,epistemic
+meeting_033.txt,Project Manager,So we'll start with Andrew.,0,commit,epistemic
+meeting_036.txt,Marketing,Because we have to use the special colour anyway.,0,need_to,no_task_verb
+meeting_012.txt,Project Manager,"so then uh Ed, so can you tell about",0,request,no_task_verb
+meeting_029.txt,Industrial Designer,So it's j really just up to the design department what we're gonna use.,0,going_to,no_task_verb
+meeting_052.txt,Grad H,"All all he said is that if you're not using it could you return it, if you are using it feel free to keep it.",0,request,hypothetical
+meeting_024.txt,Grad C,"If you wanna simulate it, for example, what parameters would you need for the simulation?",0,request,hypothetical
+meeting_010.txt,Julie Morgan AM,"Well, I think we are near getting to an announcement where we will be able to say what direction we're going in, and because we have had—.",0,commit,no_task_verb
+meeting_041.txt,Project Manager,I'll clear one of these things for you.,0,commit,no_task_verb
+meeting_043.txt,Llyr Gruffydd AM,"So, I'm just wondering, can you give us confidence that, actually, you are serious about taking lessons from Schools Challenge Cymru and applying them to the wider school improvement agenda?",0,request,no_task_verb
+meeting_007.txt,Project Manager,"But we have to keep an eye that it's Uh at the beginning of such a project, it's it's it's very uh cool to talk about, well, this would be cool, that would be cool.",0,need_to,hypothetical
+meeting_016.txt,Project Manager,"Alright, let's have um well, we all know that it's it's a remote control that we're gonna be dealing with.",0,going_to,no_task_verb
+meeting_056.txt,User Interface,I'll just walk you through them.,0,commit,no_task_verb
+meeting_030.txt,Marketing,And then I'll just tell you some personal preferences that I got from that.,0,commit,no_task_verb
+meeting_044.txt,Professor F,"Uh, the people at Stanford write papers as if they had one, but, um, we'll see.",0,commit,idiom
+meeting_050.txt,User Interface,"Just the look like, the button part I'll explain.",0,commit,no_task_verb
+meeting_015.txt,Project Manager,And we have to be very uh attent in uh putting the corporate image uh in our product.,0,need_to,no_task_verb
+meeting_005.txt,Project Manager,I um so we'll know how long we've got to complete that task.,0,commit,epistemic
+meeting_019.txt,Project Manager,"Um, we have to decide on a target group and the functions of the remote control.",0,need_to,no_task_verb
+meeting_043.txt,Kirsty Williams AM,"In fact, we'll be having a discussion later on today about decisions, going forward, for the next two years.",0,commit,no_task_verb
+meeting_048.txt,Marketing,Uh uh have we decided that we're gonna use this T_F_T_ screen?,0,going_to,no_task_verb
+meeting_008.txt,PhD F,"just sort of how to Um, cuz we need to come up with a database like this just to do our work.",0,need_to,no_task_verb
+meeting_028.txt,Project Manager,So um I'll just load up your presentation from here if you want.,0,commit,hypothetical
+meeting_053.txt,Professor A,So the deadline When's the deadline?,0,deadline,no_task_verb
+meeting_052.txt,Grad H,"Well I have to,",0,need_to,no_task_verb
+meeting_042.txt,Marketing,Would you like me to spell that?,0,request,no_task_verb
+meeting_030.txt,Industrial Designer,I'm going to bore you with a couple of descriptions of the interior.,0,going_to,no_task_verb
+meeting_032.txt,Project Manager,w we need to s identify things that people actually need,0,need_to,no_task_verb
+meeting_004.txt,User Interface,"But um this button um, because it's red it's sort of very prominent, we're gonna use it as uh it can be the power button if you hold it for maybe two seconds it'll send a stand-by signal.",0,going_to,hypothetical
+meeting_014.txt,User Interface,and I think they're we have to focus uh on uh the uh one hand the expert view or the novice user.,0,need_to,no_task_verb
+meeting_025.txt,Marketing,"You have to hold it, right?",0,need_to,no_task_verb
+meeting_049.txt,Dr Frank Atherton,"So, we'll need some sort of national oversight, absolutely, but we need local ownership and local leadership, too.",0,commit,no_task_verb
+meeting_000.txt,Project Manager,Well'cause we have to have both right?,0,need_to,no_task_verb
+meeting_035.txt,Project Manager,"We are going to work with a lot of high-tech tools here, so it's ab it's handy if we have a little bit of training first.",0,going_to,hypothetical
+meeting_044.txt,Grad B,"And um, until then we'll come up with a something that's @ @ that's way more complicated for you.",0,commit,no_task_verb
+meeting_051.txt,PhD E,So to save that data you You have to have one channel recording per mike in the array?,0,need_to,question
+meeting_035.txt,Project Manager,Uh I'll start with the presentation kick off.,0,commit,epistemic
+meeting_011.txt,Grad F,"And then, if we like them we'll get more.",0,commit,hypothetical
+meeting_055.txt,PhD D,Let's just And we'll see what we get.,0,commit,idiom
+meeting_016.txt,User Interface,I think I think we have to carry that mental.,0,need_to,no_task_verb
+meeting_008.txt,PhD F,"You have to have another type then, I guess.",0,need_to,no_task_verb
+meeting_025.txt,Project Manager,"What do we This Quick What we're going to Selling price, twenty five Euros.",0,going_to,no_task_verb
+meeting_000.txt,Marketing,So we're gonna be doing it based on a seven point scale.,0,going_to,no_task_verb
+meeting_048.txt,Project Manager,"So, uh we will have again three presentation, from all of you, and uh I hope it will be fast because I would like to have time to for long discussion and and decisions.",0,commit,no_task_verb
+meeting_007.txt,Project Manager,Uh but we must not uh lose uh sight of the the user uh uh friendly uh,0,need_to,no_task_verb
+meeting_001.txt,User Interface,"But as you as you see with the uh with holding it in the left hand, the L_ uh the L_C_D_ is nowhere useful, so that would need to be articulated uh if we're going to retain ergonomic design.",0,going_to,hypothetical
+meeting_018.txt,Project Manager,"The other option if we're planning on just going for something cheap and cheerful, would be to um make it originally, we're gonna make it a simple product.",0,going_to,hypothetical
+meeting_019.txt,Marketing,"But we'll have to also avoid, you know, buttons responding to the slightest touch as well.",0,commit,no_task_verb
+meeting_006.txt,Industrial Designer,"'cause you know when the battery starts dying in your remote currently, you have to actually stare at that bulb and go, okay, when I push this button, is it working?",0,need_to,no_task_verb
+meeting_055.txt,Postdoc B,"I I would say more more sweepingly, "" how would you characterize your accent?",0,request,rhetorical
+meeting_030.txt,Marketing,Um we need to incorporate this fashion trend of fruits and vegetables.,0,need_to,no_task_verb
+meeting_001.txt,Marketing,"Os on a scale of one to seven, how would you guys rate it for finding finding it once it's lost?",0,request,rhetorical
+meeting_005.txt,Industrial Designer,"Okay, so we'll have um",0,commit,no_task_verb
+meeting_007.txt,User Interface,we must first agree on uh what we're going to m going to make.,0,going_to|need_to,epistemic
+meeting_019.txt,Marketing,"Um, so what I'll be talking about now is the equivalent for a remote control.",0,commit,no_task_verb
+meeting_015.txt,Project Manager,"Uh another point is we have to skip the teletext, because in the world of uh upcoming internet uh we think teletext is going to be uh a thing of the past.",0,need_to,no_task_verb
+meeting_049.txt,Nathan Cook,"So, what we'd want to consider is, you know, what we need to be careful of is unintended consequences of changing that, as well, if you see a shift to more kids bringing in school packed lunches as well.",0,need_to,hypothetical
+meeting_020.txt,Grad F,"But the what it means is that it's likely that for net training and forward passes, we'll Absinthe will be a good machine.",0,commit,no_task_verb
+meeting_009.txt,Project Manager,And uh then we will uh discuss if we have few ideas and we will uh end uh by uh dispatching the different task you will be you will have to fulfil to complete this process.,0,commit,hypothetical
+meeting_004.txt,Industrial Designer,but that you know process actually says you have to do it in a certain way.,0,need_to,no_task_verb
+meeting_024.txt,Grad C,"So, would you like to",0,request,no_task_verb
+meeting_020.txt,PhD I,"Well, you have to sa you have to tell people that you're you're doing you're trying the tandem features.",0,need_to,no_task_verb
+meeting_043.txt,Kirsty Williams AM,"But, given the fact that we're moving away from level 2 plus, then we will need a different set of performance indicators.",0,commit,no_task_verb
+meeting_030.txt,User Interface,I don't suppose we have to stick to co,0,need_to,negated
+meeting_001.txt,Marketing,You have to wind it up?,0,need_to,no_task_verb
+meeting_032.txt,User Interface,There's a user centred one and an engineering centred one which I will have pictures of and then we kinda have to decide which one this should be.,0,commit,no_task_verb
+meeting_022.txt,Professor B,We're gonna we're gonna do digits at the same,0,going_to,no_task_verb
+meeting_005.txt,Industrial Designer,"Okay, um I have to go again.",0,need_to,no_task_verb
+meeting_020.txt,Grad F,"So, w we will hafta worry about format.",0,commit,no_task_verb
+meeting_056.txt,Industrial Designer,"I guess there are a lot of options that we're gonna have to choose from among,",0,going_to,no_task_verb
+meeting_024.txt,Grad B,"Oh, you know, I have to do Verb Phrase.",0,need_to,no_task_verb
+meeting_030.txt,User Interface,"Um the point made at the end there here is that you have to be sort of be need to be clear on your um devices, as to what, you know, things you use.",0,need_to,no_task_verb
+meeting_026.txt,Project Manager,Um and um this is just what we're gonna be doing over the next twenty five minutes.,0,going_to,no_task_verb
+meeting_013.txt,Industrial Designer,"So for energy sources we have we have to choose between the solar energy, hand dynamo and uh kinetic um well uh kinetic uh technique to to store the energy.",0,need_to,no_task_verb
+meeting_020.txt,Grad F,"So for archiving, we'll just use tape.",0,commit,no_task_verb
+meeting_049.txt,Dr Frank Atherton,"Just in terms of the physical activity, I have to say it's a really important dimension and we need to move further on.",0,need_to,idiom
+meeting_024.txt,Professor D,"Uh - huh, I'll be gone.",0,commit,no_task_verb
+meeting_045.txt,Project Manager,And then you have to place your laptop exactly on the marked spot.,0,need_to,no_task_verb
+meeting_006.txt,Project Manager,After this meeting we're gonna be sent a questionnaire and summary again which we need to reply to that e-mail.,0,going_to|need_to,no_task_verb
+meeting_052.txt,Professor B,Well I think at at the very least we're gonna want something illustrative with that,0,going_to,no_task_verb
+meeting_031.txt,Project Manager,"Okay, but we have to rate uh these things now?",0,need_to,no_task_verb
+meeting_003.txt,PhD C,Do you have to do the other close - talking?,0,need_to,question
+meeting_050.txt,Marketing,"So that that's where we're gonna have to do maybe we can eliminate one of the mute buttons, instead of having two mute buttons.",0,going_to,hypothetical
+meeting_009.txt,Project Manager,If you want to react uh about this wonderful drawing uh I'll let you uh comment.,0,commit,hypothetical
+meeting_045.txt,Marketing,I will need it.,0,commit,no_task_verb
+meeting_057.txt,PhD A,Could you train a neural net to do spectral subtraction?,0,request,no_task_verb
+meeting_025.txt,Project Manager,I'll start with you.,0,commit,epistemic
+meeting_054.txt,Project Manager,"So we uh we will wait for Anna, a few minutes.",0,commit,epistemic
+meeting_015.txt,Industrial Designer,"Y i um I think we'll have to choose between the docking station or the screen,'cause",0,commit,no_task_verb
+meeting_043.txt,Kirsty Williams AM,"So, if you're moving away from tried and tested interventions, what we know works, if you're doing something different with your money, okay, you need to justify that and you need to explain how you're going to demonstrate impact.",0,need_to,hypothetical
+meeting_050.txt,Project Manager,And then we have to interface push buttons.,0,need_to,no_task_verb
+meeting_050.txt,Marketing,Wait what would you ra uh one being good and seven being the worst.,0,request,rhetorical
+meeting_043.txt,Kirsty Williams AM,We have to be mindful.,0,need_to,no_task_verb
+meeting_020.txt,Professor D,"Ho - what will they do when they go hear "" beep seven beep seven three five two "" I mean, you think they'll we'll get?",0,commit,no_task_verb
+meeting_042.txt,Project Manager,If we're aiming for fifty million Euros we're gonna have to be selling an awful lot of them.,0,going_to,hypothetical
+meeting_035.txt,Project Manager,"These are not very much, but uh Uh, see you have to do it real slow.",0,need_to,no_task_verb
+meeting_004.txt,Project Manager,"Um we're gonna discuss the look and feel design, the user interface design, and we're gonna evaluate the product.",0,going_to,epistemic
+meeting_051.txt,Professor B,"So, um, I mean, I'll just tell you the party line on that.",0,commit,no_task_verb
+meeting_050.txt,Marketing,So um th those have been fulfilled by your prototype and go ahead to the next slide please.,0,request,past
+meeting_028.txt,Project Manager,"Well this is a requirement that we have to stick to I'm afraid,",0,need_to,no_task_verb
+meeting_041.txt,Project Manager,Yeah I know we're gonna have like rubber buttons that feel kind of Okay.,0,going_to,no_task_verb
+meeting_025.txt,Project Manager,"Everybody has uh a piece of individual work and a meeting afterwards, so we can share information about So I'm gonna keep this short, since we had a technical problem.",0,going_to,no_task_verb
+meeting_038.txt,Industrial Designer,"Okay, then uh I'd I'd like to know now if we want the uh universal remote control or not, because that's uh determines everything I'm gonna do.",0,going_to,hypothetical
+meeting_036.txt,Industrial Designer,I mean we have to drop on everything.,0,need_to,no_task_verb
+meeting_007.txt,Marketing,"you have to do something special, I think.",0,need_to,no_task_verb
+meeting_040.txt,Project Manager,We have to think about that one.,0,need_to,epistemic
+meeting_019.txt,Project Manager,"Um, we'll have to see if that can meet our financial goals as well.",0,commit,no_task_verb
+meeting_039.txt,Project Manager,"Yeah but I mean if you press, it'll go to that channel right away.'Cause you gotta press the plus afterwards.",0,need_to,hypothetical
+meeting_043.txt,Kirsty Williams AM,And we will continue to have discussions with local government about whether there are different ways.,0,commit,no_task_verb
+meeting_003.txt,PhD E,"You have to do all of them,",0,need_to,no_task_verb
+meeting_058.txt,Marketing,"we're gonna have a bit of difference of opinion, yes.",0,going_to,no_task_verb
+meeting_056.txt,Industrial Designer,"So, the way I'm gonna do this is uh we're gonna take a look at some old remote controls, see how they work, uh reuse the the vital kind of um essential pieces of it,",0,going_to,no_task_verb
+meeting_011.txt,Postdoc B,"How many minutes would you want from I mean, we could easily, get a section, you know, like say a minute or so, from every meeting that we have so f from the newer ones that we're working on, everyone that we have.",0,request,no_task_verb
+meeting_028.txt,Industrial Designer,Click to save in where do I have to save it?,0,need_to,no_task_verb
+meeting_034.txt,Project Manager,"Um I'll talk about the new project requirements I've just received, and then we have to make a decision on our remote control functions.",0,commit|need_to,epistemic
+meeting_051.txt,PhD A,"I mean, the the more data we have to try the the alignments on, um, the better.",0,need_to,no_task_verb
+meeting_049.txt,Dr Frank Atherton,"But we have to take a focus, a future generation's focus, almost, on the next generation.",0,need_to,no_task_verb
+meeting_056.txt,Industrial Designer,and then we'll throw in our new innovations um and keep it all within budget.,0,commit,no_task_verb
+meeting_020.txt,PhD I,"And so the It now helps, if you do it only on the test, and I'm currently retraining another set of models where it's both in the training and the test, and then we'll we'll have, hopefully, even better results.",0,commit,hypothetical
+meeting_008.txt,Grad C,"Can you can you say that this is part of this,",0,request,no_task_verb
+meeting_041.txt,Marketing,Can you like yeah just t we can visualize it.,0,request,no_task_verb
+meeting_025.txt,Project Manager,"Like you see here, I'll just take the take here.",0,commit,no_task_verb
+meeting_053.txt,Professor A,"Cuz at forty thou I mean you could you could have uh Yeah, easily four times as many parameters.",0,request,no_task_verb
+meeting_041.txt,Project Manager,Um and I'll get the the minutes up as soon as possible.,0,commit,no_task_verb
+meeting_034.txt,Project Manager,So we gotta keep that in that in mind.,0,need_to,no_task_verb
+meeting_056.txt,Marketing,"If somebody wants it i in banana shape, we will fit banana shape casing onto that, so it will give a banana shape look.",0,commit,hypothetical
+meeting_056.txt,Industrial Designer,"We'll uh Okay, we could do that.",0,commit,no_task_verb
+meeting_041.txt,Industrial Designer,and we'll either modify it or start from scratch um depending on what your needs are.,0,commit,no_task_verb
+meeting_000.txt,Marketing,"So for the first one, we need to decide, did we solved the problem of the users who complained about an ugly remote?",0,need_to,no_task_verb
+meeting_032.txt,Project Manager,"Um and and then we'll as a result of that we will then talk through the the functions that we see the the device um actually b carrying out, and we have uh forty minutes to do this in and I uh Anyway.",0,commit,no_task_verb
+meeting_029.txt,Marketing,Could you explain that a little more?,0,request,no_task_verb
+meeting_054.txt,Industrial Designer,"w Of course, and first before um designing the func well thinking about the functionalities, we need to know what are the user requirements.",0,need_to,epistemic
+meeting_034.txt,Project Manager,Um and then we'll have our lunch break.,0,commit,no_task_verb
+meeting_014.txt,Industrial Designer,But i in a way we have to be uh uh special.,0,need_to,no_task_verb
+meeting_043.txt,Kirsty Williams AM,"If they don't want to divulge that, it wouldn't be my job to tell a family,'You have to let us know if your child is adopted.'",0,need_to,hypothetical
+meeting_014.txt,Industrial Designer,But how wi how will you be able to handle a whole market?,0,request,no_task_verb
+meeting_043.txt,Lynne Neagle AM,"If you're happy, we'll go straight into questions, and the first questions are from Llyr Gruffydd.",0,commit,hypothetical
+meeting_015.txt,Project Manager,"So we have to find a market which is above forty plus uh but which will suit our uh remote control, and the other way round.",0,need_to,no_task_verb
+meeting_005.txt,Industrial Designer,I'll just um I'll grab the wire out the back of this one.,0,commit,no_task_verb
+meeting_011.txt,Grad E,"No, but if we're gonna segment it, like if there's one speaker in there, that says "" OK "" or something, right in the middle, it's gonna have a lot of dead time around it,",0,going_to,hypothetical
+meeting_022.txt,PhD A,"Well, maybe it won't be after this deadline extension.",0,deadline,no_task_verb
+meeting_020.txt,Grad F,But I'll keep working on it.,0,commit,no_task_verb
+meeting_024.txt,Professor D,"Well, OK, so let's let's take let's I I think your suggestion is good, which is we'll do a b uh a batch.",0,commit,no_task_verb
+meeting_016.txt,Project Manager,I'll see if I can get see if I can get hold of them for the next meeting.,0,commit,hypothetical
+meeting_020.txt,Grad F,""" I have to go now.",0,need_to,no_task_verb
+meeting_056.txt,Marketing,Or we are going to discuss something?,0,going_to,epistemic
+meeting_041.txt,Marketing,Well that's I guess where we're gonna go with this.,0,going_to,no_task_verb
+meeting_013.txt,User Interface,"That we can what we can do is we can program a function whereby when you press the switch off T_V_ button, the off button, the remote there be s uh instruction on the screen, please charge charge me.",0,request,no_task_verb
+meeting_022.txt,PhD A,"even if you consider every other person altogether one person in the meeting, but we'll find out anyway.",0,commit,hypothetical
+meeting_002.txt,Kirsty Williams AM,"I have to say that, at present, we've not identified an urgent reason to designate these courses as qualifying courses for the purposes of a fee limit.",0,need_to,idiom
+meeting_010.txt,Jo-Anne Daniels,"We are now starting the detailed work to define the new system requirements so that we will have a single application process across Wales, moving forward.",0,commit,no_task_verb
+meeting_036.txt,Marketing,Do we have to do other things?,0,need_to,rhetorical

@@ -1,0 +1,985 @@
+Grad F: OK.
+PhD C: Adam, what is the mike that, uh, Jeremy's wearing?
+Grad F: It's the ear - plug mike.
+Postdoc A: Ear - plug.
+PhD E: That's good.
+PhD C: Is that a wireless, or? Oh.
+Grad F: No.
+Grad G: It's wired.
+Professor B: Oh!
+Postdoc A: Is that Does that mean you can't hear anything during the meeting?
+Grad D: It's old - school.
+Grad F: Huh? What? Huh?
+Professor B: Should we, uh, close the door, maybe?
+Grad F: It it's a fairly good mike, actually.
+Professor B: So it's Yeah. Huh.
+Grad F: Well, I shouldn't say it's a good mike. All I really know is that the signal level is OK. I don't know if it's a the quality.
+Professor B: Well, that's a
+Grad F: Ugh! So I didn't send out agenda items because until five minutes ago we only had one agenda item and now we have two. So. And, uh.
+Professor B: OK. So, just to repeat the thing bef that we said last week, it was there's this suggestion of alternating weeks on more, uh, automatic speech recognition related or not? Was that sort of the division?
+Grad F: Right.
+Professor B: So which week are we in?
+Grad F: Well We haven't really started, but I thought we more we more or less did Meeting Recorder stuff last week, so I thought we could do, uh
+Professor B: I thought we had a thing about speech recognition last week too.
+PhD C: Yeah.
+Grad F: But I figure also if they're short agenda items, we could also do a little bit of each.
+Professor B: Yeah.
+Grad F: So. I seem to be having difficulty getting this adjusted. Here we go.
+Professor B: OK.
+Grad F: So, uh, as most of you should know, I did send out the consent form thingies and, uh, so far no one has made any Ach! any comments on them. So, no on no one has bleeped out anything.
+Professor B: Um. Yeah.
+Grad F: So. I don't expect anyone to. But.
+Professor B: Um. So, w what follows? At some point y you go around and get people to sign something?
+Grad F: No. We had spoken w about this before
+Professor B: Yeah, but I've forgotten.
+Grad F: and we had decided that they have they only needed to sign once. And the agreement that they already signed simply said that we would give them an opportunity. So as long as we do that, we're covered.
+Professor B: And how long of an opportunity did you tell them?
+Grad F: Uh, July fifteenth.
+Professor B: July fifteenth. Oh, so they have a plenty of time, and y
+Grad F: Yep.
+Professor B: Given that it's that long, um, um Why was that date chosen? You just felt you wanted to?
+Grad F: Jane told me July fifteenth. So, that's what I set it.
+Postdoc A: Oh. I just meant that that was the release date that you had on the data.
+Professor B: Oh, OK.
+Grad F: Oh. I I didn't understand that there was something specific.
+Postdoc A: I, uh I thought
+Grad F: You y you had
+Professor B: I don't
+Grad F: I had heard July fifteenth, so that's what I put.
+Postdoc A: Mm - hmm.
+Professor B: No, the only th the only mention I recall about that was just that July fifteenth or so is when this meeting starts.
+Grad F: So.
+Postdoc A: That's right. That's why.
+Professor B: Oh, I see.
+Postdoc A: You said you wanted it to be available then.
+Professor B: OK.
+Postdoc A: I didn't mean it to be the hard deadline.
+Professor B: Right.
+Postdoc A: It's fine with me if it is, or we cou But I thought it might be good to remind people two weeks prior to that
+Professor B: w
+Postdoc A: in case, uh you know, " by the way this is your last "
+Professor B: Right.
+Postdoc A: Uh. Yeah.
+Professor B: We probably should have talked about it, cuz i because if we wanna be able to give it to people July fifteenth, if somebody's gonna come back and say " OK, I don't want this and this and this used ", uh, clearly we need some time to respond to that. Right?
+Grad F: Yeah. As I said, we I just got one date
+Professor B: Yeah.
+PhD H: Damn!
+Grad F: and that's the one I used.
+Professor B: Yeah.
+Grad F: So. But I can send a follow - up. I mean, it's almost all us. I mean the people who are in the meeti this meeting was, uh, these the meetings that in are in set one.
+PhD C: Was my was my response OK?
+Postdoc A: That's right.
+PhD C: I just wrote you replied to the email saying they're all fine.
+Grad F: Right. I mean, that's fine.
+PhD C: OK, good.
+Grad F: I we don't My understanding of what we had agreed upon when we had spoken about this months ago was that, uh, we don't actually need a reply.
+PhD C: That makes it easy.
+Grad F: We just need to tell them that they can do it if they want.
+Professor B: OK. I just didn't remember, but
+Grad F: And so no reply is no changes.
+Postdoc A: And he's got it so that the default thing you see when you look at the page is " OK ".
+Professor B: OK.
+Postdoc A: So that's very clear all the way down the page, " OK ". And they have two options they can change it to. One of them is " censor ", and the other one is " incorrect ". Is it is your word is " incorrect "?
+Grad F: Right.
+Postdoc A: Which means also we get feedback on if um, there's something that they w that needs to be adjusted, because, I mean, these are very highly technical things. I mean, it's an added, uh, level of checking on the accuracy of the transcription, as I see it. But in any case, people can agree to things that are wrong.
+Grad F: Well
+Postdoc A: So.
+Grad F: Yeah. The reason I did that it was just so that people would not censor not ask to have stuff removed because it was transcribed incorrectly,
+Postdoc A: And the reason I liked it was because
+Grad F: as opposed to, uh
+Postdoc A: was because it, um it gives them the option of, uh, being able to correct it.
+Grad F: Right.
+Postdoc A: Approve it and correct it. And um. So, you have it nicely set up so they email you and, uh
+Grad F: When they submit the form, it gets processed and emailed to me.
+Postdoc A: Mm - hmm. Mm - hmm. And I wanted to say the meetings that are involved in that set are Robustness and Meeting Recorder.
+Grad F: So.
+Postdoc A: The German ones will be ready for next week. Those are three three of those. A different set of people. And we can impose
+PhD C: The German ones?
+Postdoc A: Uh, well.
+PhD H: Yeah. Those uh
+Professor B: NSA.
+Postdoc A: OK. I spoke loosely. The the German, French Sorry, the German, Dutch, and Spanish ones.
+PhD E: Spanish. Yeah.
+Grad F: Mm - hmm.
+PhD C: Oh, those are the NSA meetings?
+PhD E: The non - native
+PhD H: Those are
+Postdoc A: Yeah. Uh - huh.
+Professor B: German, Dutch, Swiss and Spanish.
+PhD C: Oh, oh! OK.
+PhD E: The all non - native
+Postdoc A: That's that's that's r
+Grad F: Mm - hmm.
+PhD H: Uh - huh.
+PhD C: OK. I'd I d
+Postdoc A: Yeah. It's the other group.
+Professor B: I It was the network network services group.
+PhD C: OK.
+Postdoc A: Uh - huh. Yeah, exactly. Yeah.
+Professor B: Yeah.
+Postdoc A: I didn't mean to isolate them.
+Professor B: Otherwise known as the German, Dutch, and Spanish.
+Postdoc A: Yeah. Sorry. It was it was not the best characterization.
+Grad F: Mm - hmm.
+Postdoc A: But what what I meant to say was that it's the other group that's not n no m no overlap with our present members. And then maybe it'd be good to set an explicit deadline, something like a week before that, uh, J July fifteenth date, or two weeks before.
+Professor B: I mean, I would suggest we discuss I mean, if we're going to have a policy on it, that we discuss the length of time that we want to give people,
+Grad F: Mm - hmm.
+Professor B: so that we have a uniform thing. So, tha that's a month, which is fine. I mean, it seems
+PhD C: Twelve hours.
+Grad F: Well, the only thing I said in the email is that the data is going to be released on the fifteenth. I didn't give any other deadline.
+Postdoc A: Mm - hmm.
+Grad F: So my feeling is if someone after the fifteenth says, " wow I suddenly found something ", we'll delete it from our record. We just won't delete it from whatever's already been released.
+Postdoc A: Hmm. That's a little bit difficult.
+Grad F: What else can we do?
+Postdoc A: Yeah.
+Grad F: If someone says " hey, look, I found something in this meeting and it's libelous and I want it removed ". What can we do?
+Postdoc A: Well. That's true.
+Grad F: We have to remove it.
+Postdoc A: I I agree with that part, but I think that it would it, uh we need to have, uh, a a a message to them very clearly that beyond this date, you can't make additional changes.
+Professor B: I mean, um, I I i I think that somebody might request something even though we say that. But I think it's good to at least start some place like that.
+Postdoc A: Mm - hmm. Good.
+Professor B: So if we agreed, OK, how long is a reasonable amount of time for people to have if we say two weeks, or if we say a month, I think we should just say that say that, you know, i a as um, " per the the the, uh, page you signed, you have the ability to look over this stuff " and so forth " and, uh, because we w " these, uh I would I would imagine some sort of generic thing that would say " because we, uh, will continually be making these things available to other researchers, uh, this can't be open - ended and so, uh, uh, please give us back your response within this am you know, within this amount of time ", whatever time we agree upon.
+Grad F: Well, did you read the email and look at the pages I sent?
+Professor B: Did I? No, I haven't yet. No, just
+Grad F: No. OK, well why don't you do that and then make comments on what you want me to change?
+Professor B: No, no. I'm not saying that you should change anything. I I'm what I'm what I'm I'm trying to spark a discussion hopefully among people who have read it so that that you can you can, uh, decide on something.
+Postdoc A: Mm - hmm.
+Professor B: So I'm not telling you what to decide.
+Postdoc A: Mm - hmm.
+Professor B: I'm just saying you should decide something,
+Postdoc A: OK.
+Professor B: and then
+Grad F: I already did decide something, and that's what's in the email.
+Postdoc A: Yeah, yeah. OK, so
+Grad F: And if you disagree with it, why don't you read it and give me comments on it?
+Postdoc A: Yeah. Well I I think that there's one missing line.
+Professor B: Well, the one thing that I did read and that you just repeated to me was that you gave the specific date of July fifteenth.
+Grad F: Mm - hmm.
+Professor B: And you also just said that the reason you said that was because someone said it to you. So what I'm telling you is that what you should do is come up with a length of time that you guys think is enough
+Grad F: Right.
+Professor B: and you should use that rather than this date that you just got from somewhere. That's all I'm saying.
+Grad F: OK.
+Professor B: OK?
+Postdoc A: I ha I have one question. This is in the summer period and presumably people may be out of town. But we can make the assumption, can't we? that, um, they will be receiving email, uh, most of the month. Right? Because if someone
+Professor B: It well, it well, you're right. Sometimes somebody will be away and, uh, you know, there's, uh for any length of time that you uh, choose there is some person sometime who will not end up reading it.
+Postdoc A: OK.
+Professor B: That's it's, you know, just a certain risk to take.
+PhD H: S so maybe when Am I on, by the way?
+Grad F: I don't know. You should be.
+PhD H: Oh. Hello? Hello?
+Grad F: You should be channel B.
+PhD H: Oh, OK. Alright. So. The, um Maybe we should say in w you know, when the whole thing starts, when they sign the the agreement that you know, specify exactly uh, what, you know, how how they will be contacted and they can, you know they can be asked to give a phone number and an email address, or both. And, um, then
+Postdoc A: We did that, I I believe.
+PhD H: Right.
+PhD E: Yeah.
+PhD H: So. A And, then, you know, say very clearly that if they don't if we don't hear from them, you know, as Morgan suggested, by a certain time or after a certain period after we contact them that is implicitly giving their agreement.
+Grad F: Well, they've already signed a form.
+Postdoc A: And the form says
+PhD E: And nobody nobody really reads it anyway.
+PhD H: Right.
+Grad F: So. And the s and the form was approved by Human Subjects,
+PhD H: Says that. Right.
+Postdoc A: Uh, the f
+PhD H: Well, if that's i tha if that's already if
+Grad F: so, eh, that's gonna be a little hard to modify.
+Postdoc A: Well, the form Well, the form doesn't say, if uh, you know, " if you don't respond by X number of days or X number of weeks "
+PhD H: I see. Uh Oh, OK. So what does it say about the the the process of of, uh y the review process?
+Postdoc A: It doesn't have a time limit. That you'll be provided access to the transcripts and then, uh, allowed to remove things that you'd like to remove, before it goes to the general uh, larger audience.
+PhD H: Oh, OK. Hmm. Right.
+Grad F: Here.
+Postdoc A: There you go.
+Grad F: You can read what you already signed.
+PhD H: Oh.
+PhD E: I guess when I read it, um
+PhD H: OK.
+PhD E: I'm not as diligent as Chuck, but I had the feeling I should probably respond and tell Adam, like, " I got this and I will do it by this date, and if you don't hear from me by then " You know, in other words responding to your email once, right away, saying " as soon as you get this could you please respond. "
+Grad F: Right.
+PhD E: And then if you if the person thinks they'll need more time because they're out of town or whatever, they can tell you at that point? Because
+Grad F: Oh, I just I didn't wanna do that, because I don't wanna have a discussion with every person if I can avoid it.
+PhD E: Well, it's
+Grad F: So what I wanted to do was just send it out and say " on the fifteenth, the data is released,
+Postdoc A: Mm - hmm.
+Grad F: if you wanna do something about it, do something about it, but that's it ".
+Postdoc A: I I kind of like this.
+PhD E: Well
+Postdoc A: Yeah.
+PhD E: OK. So, we're assuming that
+PhD H: Well, that's that would be great if but you should probably have a legal person look at this and make sure it's OK. Because if you if you, uh, do this and you then there's a dispute later and, uh, some you know, someone who understands these matters concludes that they didn't have, uh, you know, enough opportunity to actually exercise their their right
+PhD E: Or they they might never have gotten the email, because although they signed this, they don't know by which date to expect your email. And so someone whose machine is down or whatever I mean, we have no
+Professor B: Mm - hmm.
+PhD E: in internally we know that people are there,
+Grad F: Well, OK. l Let me Let me reverse this.
+PhD E: but we have no confirmation that they got the mail.
+Grad F: So let's say someone I send this out, and someone doesn't respond. Do we delete every meeting that they were in?
+PhD E: Well, then
+Grad F: I don't think so.
+PhD E: It we're hoping that doesn't happen,
+PhD H: No.
+PhD E: but that's why there's such a thing as registered mail
+Grad F: That will happen.
+PhD E: or
+PhD H: That will happen.
+PhD E: Right.
+Grad F: That will absolutely happen. Because people don't read their email, or they'll read and say " I don't care about that, I'm not gonna delete anything " and they don just won't reply to it.
+PhD H: Maybe uh, do we have mailing addresses for these people?
+Grad F: No. We have what they put on the speaker form,
+PhD H: No.
+Postdoc A: Well Most
+Grad F: which was just generic contact information.
+PhD H: Oh.
+Postdoc A: But the ones that we're dealing with now are all local,
+PhD H: Well, then
+Postdoc A: except the ones who I mean, we we're totally in contact with all the ones in those two groups.
+PhD H: Mmm. OK.
+Postdoc A: So maybe, uh, I you know, that's not that many people and if I if, uh i i there is an advantage to having them admit and if I can help with with processing that, I will. It's it's there is an advantage to having them be on record as having received the mail and indicating
+Grad F: Yeah. I mean I thought we had discussed this, like, a year ago.
+Postdoc A: Yes, we did.
+Grad F: And so it seems like this is a little odd for it to be coming up yet again.
+Postdoc A: You're right. Well, I you know. But sometimes
+Professor B: Well, we we haven't experienced it before.
+Grad F: So.
+Postdoc A: That's right.
+Professor B: Right? So
+PhD E: You'll either wonder at the beginning or you'll wonder at the end.
+Postdoc A: Need to get it right.
+PhD E: I mean, there's no way to get around I It's pretty much the same am amount of work except for an additional email just saying they got the email.
+Postdoc A: Yeah.
+PhD E: And maybe it's better legally to wonder before you know, a little bit earlier than
+Grad F: Well
+Postdoc A: It's much easier to explain this way.
+Grad F: OK. Well, why don't you talk t
+Postdoc A: T t to have it on record.
+Grad F: Morgan, can you talk to our lawyer about it, and find out what the status is on this? Cuz I don't wanna do something that we don't need to.
+Postdoc A: Yeah, but w Mmm.
+Grad F: Because what I'm telling you, people won't respond to the email. No matter what you do, you there're gonna be people who you're gonna have to make a lot of effort to get in contact with.
+Postdoc A: Well, then we make the effort.
+Grad D: I mean, i it's k
+Grad F: And do we want to spend that effort?
+PhD H: Hmm.
+Postdoc A: We make the effort.
+Grad D: It's kind of like signing up for a mailing list. They have opt in and opt out. And there are two different ways. I mean, and either way works probably, I mean.
+Postdoc A: Except I really think in this case I I'm agr I agree with Liz, that we need to be in the clear and not have to after the fact say " oh, but I assumed ", and " oh, I'm sorry that your email address was just accumulating mail without notifying you ", you know.
+Professor B: If this is a purely administrative task, we can actually have administration do it.
+Postdoc A: Oh, excellent.
+Professor B: But the thing is that, you know, I I I think, without going through a whole expensive thing with our lawyers, from my previous conversations with them, my my sense very much is that we would want something on record as indicating that they actually were aware of this.
+Postdoc A: Yes.
+Grad F: Well, we had talked about this before
+Professor B: Mm - hmm.
+Grad F: and I thought that we had even gone by the lawyers asking about that and they said you have to s they've already signed away the f with that form that they've already signed once.
+Postdoc A: I don't remember that this issue of the time period allowed for response was ever covered.
+Grad F: Yeah.
+Professor B: Yeah. We never really talked about that.
+Grad F: OK.
+PhD E: Or the date at which they would be receiving the email from you.
+Postdoc A: Or or how they would indicate
+Professor B: Yeah.
+PhD E: They probably forgot all about it.
+Professor B: We certainly didn't talk, uh, about with them at all about, uh, the manner of them being made the, uh, uh, materials available.
+PhD E: Yeah.
+PhD H: We do it like with these
+Professor B: That was something that was sort of just within our implementation.
+Grad F: OK.
+PhD H: We can use it we can use a a ploy like they use to, um you know, that when they serve, like uh, uh, uh uh, you know, like dead - beat dads, they they they make it look like they won something in the lottery and then they open the envelope
+Grad D: And they're served.
+PhD H: and that Right? Because and then the the the the thing is served. So you just make it, you know, " oh, you won you know, go to this web site and you've, uh you're "
+PhD E: That's why you never open these things that come in the mail.
+Postdoc A: That one.
+Professor B: Yeah.
+Grad F: Well, it's just, we've gone from one extreme to the other, where at one point, a few months ago, Morgan was you were saying let's not do anything,
+PhD H: Right. Right. No, it I it might
+Postdoc A: Well, it doesn't matter.
+PhD H: i i it it might well be the case
+Grad F: and now we're we're saying we have to follow up each person and get a signature?
+PhD H: it might Right.
+Grad F: I mean, what are we gonna doing here?
+PhD H: It might well be the case that that this is perfectly you know, this is enough to give us a basis t to just, eh, assume their consent if they don't reply.
+Professor B: Well.
+Grad F: Mm - hmm.
+PhD H: But, I'm not you know, me not being a lawyer, I wouldn't just wanna do that without having the the expert, uh, opinion on that.
+Postdoc A: And how many people? Al - altogether we've got twenty people. These people are people who read their email almost all the time.
+Grad F: Then I think we had better find out, so that we can find a
+PhD H: Yeah.
+Professor B: Let me look at this again.
+Grad F: Right.
+Postdoc A: I I really don't see that it's a problem. I I think that it's a common courtesy to ask them uh, to expect for them to, uh, be able to have @ @ us try to contact them,
+Grad F: For for th
+Postdoc A: u just in case they hadn't gotten their email. I think they'd appreciate it.
+Professor B: Yeah. My Adam, my my view before was about the nature of what was of the presentation,
+Grad F: Mm - hmm.
+Professor B: of of how my my the things that we're questioning were along the lines of how easy uh, h how m how much implication would there be that it's likely you're going to be changing something, as opposed to
+Grad F: Mm - hmm.
+Professor B: That was the kind of dispute I was making before.
+Postdoc A: Mm - hmm. I remember that.
+Professor B: But, um, the attorneys, I uh, I can guarantee you, the attorneys will always come back with and we have to decide how stringent we want to be in these things, but they will always come back with saying that, um, you need to you want to have someth some paper trail or which includes electronic trail that they have, uh, in fact O K'd it.
+Grad F: Mm - hmm.
+Professor B: So, um, I think that if you f i if we send the email as you have and if there's half the people, say, who don't respond at all by, you know, some period of time, we can just make a list of these people and hand it to, uh you know, just give it to me and I'll hand it to administrative staff or whatever,
+Grad F: Right.
+Professor B: and they'll just call them up and say, you know, " have you Is is this OK? And would you please mail you know, mail Adam that it is, if i if it, you know, is or not. " So, you know, we can we can do that.
+PhD E: The other thing that there's a psychological effect that at least for most people, that if they've responded to your email saying " yes, I will do it " or " yes, I got your email ", they're more likely to actually do it later than to just ignore it.
+Professor B: Mm - hmm.
+PhD E: And of course we don't want them to bleep things out, but it it's a little bit better if we're getting the their, uh, final response, once they've answered you once than if they never answer you'd at al at all. That's how these mailing houses work. So, I mean, it's not completely lost work because it might benefit us in terms of getting responses.
+Postdoc A: Mm - hmm.
+PhD E: You know, an official OK from somebody is better than no answer, even if they responded that they got your email. And they're probably more likely to do that once they've responded that they got the email.
+Postdoc A: I also think they'd just simply appreciate it. I think it's a good a good way of of fostering goodwill among our subjects. Well, our participants.
+Professor B: I think the main thing is I mean, what lawyers do is they always look at worst cases.
+Grad F: Sending lots of spam.
+Professor B: So they s so so Tha - that's what they're paid to do.
+Grad F: Yep.
+Professor B: And so, it is certainly possible that, uh, somebody's server would be down or something and they wouldn't actually hear from us, and then they find this thing is in there and we've already distributed it to someone. So, what it says in there, in fact, is that they will be given an opportunity to blah - blah - blah,
+Postdoc A: Mm - hmm.
+Professor B: but if in fact if we sent them something or we thought we sent them something but they didn't actually receive it for some reason, um, then we haven't given them that.
+Grad F: Well, so how far do we have to go? Do we need to get someone's signature? Or, is email enough?
+Professor B: I i i em email is enough.
+Grad F: Do we have to have it notarized? I mean OK.
+Professor B: Yeah. I mean, I've been through this I mean, I'm not a lawyer, but I've been through these things a f things f like this a few times with lawyers now
+Grad F: Mm - hmm.
+Professor B: so I I I I'm pretty comfortable with that.
+PhD C: Do you track, um, when people log in to look at the?
+Grad F: Uh. If they submit the form, I get it.
+PhD C: Uh - huh.
+Grad F: If they don't submit the form, it goes in the general web log. But that's not sufficient.
+PhD C: Hmm.
+Grad F: Right? Cuz if someone just visits the web site that doesn't imply anything in particular.
+PhD C: Except that you know they got the mail.
+Postdoc A: Mm - hmm. That's right.
+Grad F: Right.
+Postdoc A: I I could get you on the notify list if you want me to.
+Grad F: I'm already on it.
+Postdoc A: For that directory? OK, great.
+Grad F: Mm - hmm.
+Professor B: So again, hopefully, um, this shouldn't be quite as odious a problem either way, uh, in any of the extremes we've talked about because uh, we're talking a pretty small number of people.
+Grad F: W For this set, I'm not worried, because we basically know everyone on it.
+Professor B: Mm - hmm.
+Postdoc A: Hmm.
+Professor B: Mm - hmm.
+Grad F: You know, they're all more or less here or it's it's Eric and Dan and so on. But for some of the others, you're talking about visitors who are gone from ICSI, whose email addresses may or may not work,
+Professor B: Mm - hmm.
+Postdoc A: Oh.
+Professor B: Mm - hmm.
+Grad F: and So what are we gonna do when we run into someone that we can't get in touch with?
+Postdoc A: I don't think, uh They're so recent, these visitors.
+Grad F: Mm - hmm.
+Postdoc A: I and and I they're also so
+Professor B: Mm - hmm.
+Postdoc A: They're prominent enough that they're easy to find through I I mean, I I w I'll be able to if you have any trouble finding them, I really think I could find them.
+Grad F: Other methods? OK.
+Professor B: Yeah. Cuz it what it what it really does promise here is that we will ask their permission. Um, and I think, you know, if you go into a room and close the door and and ask their permission and they're not there, it doesn't seem that that's the intent of, uh, meaning here. So.
+Grad F: Well, the qu the question is just whether how active it has to be. I mean, because they they filled out a contact information and that's where I'm sending the information.
+Professor B: Right.
+Grad F: And so far everyone has done email. There isn't anyone who did, uh, any other contact method.
+Professor B: Well, the way ICSI goes, people, uh, who, uh, were here ten years ago still have acc have forwards to other accounts and so on.
+Grad F: Yeah.
+Professor B: So it's unusual that that they, uh
+Grad F: So my original impression was that that was sufficient, that if they give us contact information and that contact information isn't accurate that we fulfilled our burden.
+Professor B: Yeah.
+PhD E: Then they just come back.
+PhD C: All my files were still here.
+PhD E: Same as us.
+Postdoc A: I just
+Professor B: So if we get to a boundary case like that then maybe I will call the attorney about it.
+PhD C: Yeah.
+Grad F: OK.
+Professor B: But, you know, hopefully we won't need to.
+Postdoc A: I d I just don't think we will. For all the reasons that we've discussed.
+Grad F: Alright.
+Professor B: So we'll we'll see if we do or not.
+Grad F: Yep. And we'll see how many people respond to that email.
+Postdoc A: Yeah.
+Grad F: So far, two people have.
+Professor B: Yeah. I think very few people will
+Grad F: So.
+Professor B: and and and, you know, people people see long emails about things that they don't think is gonna be high priority, they typically, uh, don't don't read it, or half read it.
+Grad F: Right.
+Professor B: Cuz people are swamped.
+Postdoc A: And actually,
+Professor B: But
+Postdoc A: um, I I didn't anticipate this so I that's why I didn't give this comment, and it I this discussion has made me think it might be nice to have a follow - up email within the next couple of days saying " by the way, you know, we wanna hear back from you by X date and please ", and then add what Liz said " please, uh, respond to please indicate you received this mail. "
+Professor B: Uh, or e well, maybe even additionally, uh, um, " Even if you've decided you have no changes you'd like to make, if you could tell us that ".
+Grad F: Respond to the email. Yep.
+Postdoc A: Mm - hmm. It is the first time through the cycle.
+Professor B: Yeah.
+PhD E: Right. That would that would definitely work on me. You know, it makes you feel m like, um, if you were gonna p if you're predicting that you might not answer, you have a chance now to say that. Whereas, I I mean, I would be much more likely myself,
+PhD C: And the other th
+PhD E: given all my email, t to respond at that point, saying " you know what, I'm probably not gonna get to it " or whatever, rather than just having seen the email, thinking I might get to it, and never really, uh, pushing myself to actually do it until it's too late.
+PhD C: Yeah. I was I was thinking that it also lets them know that they don't have to go to the page to accept this.
+PhD E: Right. R Right. That's true.
+Professor B: Right.
+PhD C: I mean, I I Yeah. So that way they could they can see from that email that if they just write back and say " I got it, no changes ", they're off the hook.
+Professor B: Yeah.
+PhD C: They don't have to go to the web page
+Professor B: I mean, the other thing I've learned from dealing with dealing with people sending in reviews and so forth, uh, is, um, if you say " you've got three months to do this review ", um, people do it, you know, two and seven eighths months from now.
+PhD C: and
+PhD E: Yeah. That's true.
+Professor B: If you say " you've got three weeks to do this review ", they do do it, you know, two and seven eighths weeks from now they do the review.
+Grad F: Right.
+Professor B: And, um So, if we make it a little less time, I don't think it'll be that much
+Grad F: Well, and also if we want it ready by the fifteenth, that means we better give them deadline of the first, if we have any prayer of actually getting everyone to respond in time.
+Professor B: There's the responding part and there's also what if, uh, I mean, I hope this doesn't happen, what if there are a bunch of deletions that have to get put in and changes?
+Grad F: Right.
+Professor B: Then we actually have to deal with that
+Postdoc A: Mm - hmm. Some lead time.
+Professor B: if we want it to
+Grad F: Ugh! Disk space,
+Postdoc A: By the way, has has Jeremy signed the form?
+Grad F: oh my god! I hadn't thought about that.
+Postdoc A: OK.
+Grad F: That for every meeting any meeting which has any bleeps in it we need yet another copy of.
+PhD H: Oh.
+PhD C: Just that channel.
+Grad D: Can't you just do that channel?
+PhD C: Oh, no. We have to do
+Grad F: No, of course not.
+PhD E: Yeah. You have to do all of them,
+Grad F: You need all the channels.
+Grad D: Oh.
+PhD C: Do you have to do the other close - talking?
+PhD E: as well as all of these.
+Grad D: Yeah.
+PhD E: You have to do all You could just do it in that time period, though,
+Grad F: Yes. Absolutely. There's a lot of cross - talk.
+Grad G: Wow.
+Postdoc A: Well
+PhD E: but I guess it's a pain.
+Grad F: Well, but you have to copy the whole file.
+PhD E: Yeah.
+Grad F: Right? Because we're gonna be releasing the whole file.
+PhD E: Yeah. You're right.
+Postdoc A: Well I you know, I think at a certain point, that copy that has the deletions will become the master copy.
+Grad F: Yeah. It's just I hate deleting any data. So I I don't want I really would rather make a copy of it, rather than bleep it out
+Professor B: Are you del are you bleeping it by adding?
+Grad F: and then Overlapping. So, it's it's exactly a censor bleep. So what I really think is " bleep "
+Professor B: I I I I understand, but is is it summing signals
+Grad F: and then I want to
+Professor B: or do you delete the old one and put the new one in?
+Grad F: I delete the old one, put the new one in.
+Professor B: Oh, OK. Cuz
+Grad F: There's nothing left of the original signal.
+Professor B: Oh. Cuz if you were summing, you could No. But anyway
+Grad F: Yeah. It would be qui quite easy to get it back again.
+Postdoc A: But And then w I was gonna say also that the they don't have to stay on the system, as you know,
+Professor B: Yeah.
+PhD E: Then someday we can sell the unedited versions.
+Postdoc A: cuz cuz the the ones
+Grad F: Say again?
+Postdoc A: Once it's been successfully bleeped, can't you rely on the?
+PhD C: Or we'll tell people the frequency of the beep
+Professor B: Encrypt it.
+PhD C: and then they could subtract the beep out.
+Grad D: You can hide it. Yeah.
+Postdoc A: Can't you rely on the archiving to preserve the older version?
+PhD H: Oh, yeah.
+Grad D: It wouldn't be that hard to hide it.
+PhD E: Right. Exactly. I see.
+Grad F: Yeah, that's true. Yeah. Yep, that's true.
+PhD E: See, this is good. I wanted to create some side conversations in these meetings.
+Postdoc A: OK.
+Professor B: Yeah. You could encrypt it, you know, with a with a two hundred bit thousand bit, uh
+Grad D: You can use spread spectrum.
+PhD C: Uh - huh.
+Grad D: Hide it.
+PhD E: So
+PhD C: Here we go.
+PhD E: Yeah. Yeah.
+Grad D: Yeah, there you go.
+PhD E: Cuz we don't have enough asides.
+PhD H: I have an idea. You reverse the signal,
+Grad D: There you go.
+PhD H: so it it lets people say what they said backwards.
+Grad F: Backwards.
+Grad D: Then you have, like, subliminal, uh, messages,
+Grad F: But, ha you've seen the this the speech recognition system that reversed very short segments.
+PhD H: Yeah.
+Grad D: like.
+Grad F: Did you read that paper? It wouldn't work.
+PhD H: No.
+Grad F: The speech recognizer still works.
+PhD E: Yeah. And if you do it backward then
+Professor B: Yeah.
+PhD C: That's cuz they use forward - backward.
+PhD E: H - good old HMM.
+Grad F: Forward but backward. That's right.
+PhD E: No, it's backward - forward.
+Grad F: Good point. A point. Well, I'm sorry if I sound a little peeved about this whole thing. It's just we've had meeting after meeting after meeting a on this and it seems like we've never gotten it resolved.
+Postdoc A: Hmm.
+Professor B: Well, but we never also we've also never done it.
+PhD E: Uh.
+Grad F: So.
+Postdoc A: This is the first cycle.
+PhD E: If it makes
+Grad F: Yeah.
+Postdoc A: There're bound to be some glitches the first time through.
+Professor B: So. And, uh and I'm sorry responding without, uh, having much knowledge, but the thing is, uh, I am, like, one of these people who gets a gazillion mails and and stuff comes in as
+Grad F: Well, and that's exactly why I did it the way I did it, which is the default is if you do nothing we're gonna release it.
+Professor B: Yeah.
+Grad F: Because, you know, I have my stack of emails of to d to be done, that, you know, fifty or sixty long, and the ones at the top I'm never gonna get to.
+Professor B: Right.
+Grad F: And, uh So so
+PhD C: Move them to the bottom.
+Professor B: So so the only thing we're missing is is some way to respond to easily to say, uh, " OK, go ahead " or something.
+Grad F: Yeah, right. So, i this is gonna mean
+PhD C: Just re - mail them to yourself and then they're at the bottom.
+Professor B: Yeah.
+Grad F: Yeah.
+Postdoc A: Yeah.
+Grad F: Yeah. That's actually definitely a good point. The m email doesn't specify that you can just reply to the email, as op as opposed to going to the form
+Postdoc A: Mm - hmm.
+PhD H: In
+Postdoc A: And it also doesn't give a a specific I didn't think of it.
+PhD E: Right.
+Grad F: and
+Postdoc A: S I think it's a good idea an ex explicit time by which this will be considered definite.
+Grad F: Yeah, release.
+Postdoc A: And and it has to be a time earlier than that endpoint.
+Professor B: Yeah. It's converging.
+Postdoc A: Yeah. That's right.
+PhD H: This um, I've seen this recently. Uh, I got email, and it i if I use a MIME - capable mail reader, it actually says, you know, click on this button to confirm receipt of the of the mail.
+Postdoc A: Oh, that's interesting.
+Grad D: Hmm.
+PhD H: So
+Grad F: You you can
+Grad D: It's like certified mail.
+Grad F: A lot of mailers support return receipt.
+Postdoc A: Could do that.
+PhD H: Right.
+Grad F: But it doesn't confirm that they've read it.
+PhD H: No, no, no. This is different. This is not So, I I know, you can tell, you know, the, uh, mail delivery agent to to confirm that the mail was delivered to your mailbox.
+Postdoc A: Mmm.
+Grad F: Right.
+PhD H: But but, no. This was different. Ins - in the mail, there was a
+Grad F: Oh, just a button.
+PhD H: uh, th there was a button that when you clicked on it, it would send, uh, you know, a actual acknowledgement to the sender that you had actually looked at the mail.
+Grad F: Oh, yeah. Yeah. Unfor - Yeah, we could do that. But I hate that.
+PhD H: But it o but it only works for, you know, MIME - capable you know, if you use Netscape or something like that for your n
+Grad F: Yeah.
+Professor B: And
+PhD E: You might as well just respond to the mail.
+Professor B: And we actually need a third thing.
+PhD E: I mean
+PhD H: Right.
+Professor B: It's not that you've looked at it, it's that you've looked at it and and and agree with one of the possible actions.
+PhD H: No, no. You can do that.
+Professor B: Right?
+PhD H: You know, you can put this button anywhere you want,
+Professor B: Oh? Oh, I see.
+PhD H: and you can put it the bottom of the message and say " here, by you know, by clicking on this, I I agree uh, you know, I acknowledge "
+Professor B: That i i my first - born children are yours, and Yeah. Yeah.
+PhD E: Quick question. Are, um
+Grad F: Well, I could put a URL in there without any difficulty and even pretty simple MIME readers can do that. So.
+Postdoc A: But why shouldn't they just email back? I don't see there's a problem.
+Professor B: Yeah.
+Grad F: Yeah. Reply.
+PhD H: Right.
+Postdoc A: It's very nice. I I like the high - tech aspect of it,
+Professor B: Yeah.
+Postdoc A: but I think
+PhD H: No, no, no. I actually don't.
+Postdoc A: I appreciate it.
+PhD H: I'm just saying that
+Grad F: Well, I cuz I use a text mail reader.
+PhD H: if ev but I'm
+PhD E: Don't you use VI for your mai?
+PhD H: Yeah.
+Professor B: Wow. That's that's my guy. Alright.
+Grad F: You you read email in VI?
+PhD H: Yeah.
+Postdoc A: Yeah. I like VI.
+PhD H: So I i There's these logos that you can put at the bottom of your web page, like " powered by VI ".
+Grad D: Yeah.
+Professor B: Wow.
+Grad D: I see.
+PhD E: Anyway, quick question.
+Grad F: You could put wed bugs in the email.
+PhD E: How m
+PhD H: Yeah.
+PhD E: Like, there were three meetings this time, or so
+Postdoc A: Six.
+PhD E: or how many? Six? But, no of different people. So I guess if you're in both these types of meetings, you'd have a lot. But How I mean, it also depends on how many Like, if we release this time it's a fairly small number of meetings, but what if we release, like, twenty - five meetings to people? In th
+Grad F: Well, what my s expectation is, is that we'll send out one of these emails every time a meeting has been checked and is ready.
+PhD E: I don't know. Oh. Oh, OK. So this time was just the first chunk. OK.
+Grad F: So. Tha - that was my intention. It's just yeah that we just happened to have a bunch all at once.
+PhD E: Well, that's a good idea.
+Grad F: I mean, maybe Is that the way it's gonna be, you think, Jane?
+Postdoc A: I agree with you. It's we could do it, uh I I could I'd be happy with either way, batch - wise What I was thinking Uh, so this one That was exactly right, that we had a uh, uh I I had wanted to get the entire set of twelve hours ready. Don't have it. But, uh, this was the biggest clump I could do by a time where I thought it was reasonable.
+Professor B: Mm - hmm.
+Postdoc A: People would be able to check it and still have it ready by then. My, um I was thinking that with the NSA meetings, I'd like there are three of them, and they're uh, I I will have them done by Monday. Uh, unfortunately the time is later and I don't know how that's gonna work out, but I thought it'd be good to have that released as a clump, too, because then, you know, they're they they have a it it's in a category, it's not quite so distracting to them, is what I was thinking, and it's all in one chu But after that, when we're caught up a bit on this process, then, um, I could imagine sending them out periodically as they become available.
+PhD E: OK.
+Postdoc A: I could do it either way. I mean, it's a question of how distracting it is to the people who have to do the checking.
+Professor B: We heard anything from IBM? at all?
+PhD C: Uh. Let's see. We Yeah, right. So we got the transcript back from that one meeting. Everything seemed fine. Adam had a script that will put everything back together and there was Well, there was one small problem but it was a simple thing to fix. And then, um, we, uh I sent him a pointer to three more. And so he's off and working on those.
+Grad F: Yeah. Now we haven't actually had anyone go through that meeting, to see whether the transcript is correct and to see how much was missed and all that sort of stuff.
+Postdoc A: That's on my list.
+Grad F: So at some point we need to do that.
+PhD C: Yeah.
+Postdoc A: Well, that's on my list.
+PhD C: Yeah. It's gonna have to go through our regular process.
+Grad F: I mean, the one thing I noticed is it did miss a lot of backchannels. There are a fair number of " yeahs " and " uh - huhs " that it's just that aren't in there. So.
+Postdoc A: Hmm.
+Professor B: But I think Yeah. Like you said, I mean, that's that's gonna be our standard proc that's what the transcribers are gonna be spending most of their time doing, I would imagine,
+Postdoc A: Mm - hmm. Mm - hmm, mm - hmm.
+Professor B: once once we
+Grad F: Yes, absolutely. Yeah.
+Postdoc A: One question about the backchannels.
+Professor B: It's gonna
+Postdoc A: Do you suppose that was because they weren't caught by the pre - segmenter?
+Grad F: Yes, absolutely. Absolutely.
+Postdoc A: Oh, interesting. Oh, interesting. OK.
+Grad F: Yeah. They're they're not in the segmented.
+Postdoc A: OK.
+Grad F: It's not that the IBM people didn't do it.
+Postdoc A: OK.
+Grad F: Just they didn't get marked.
+Postdoc A: OK. So maybe when the detector for that gets better or something I w I There's another issue which is this we've been, uh, contacted by University of Washington now, of course, to, um We sent them the transcripts that correspond to those six meetings and they're downloading the audio files. So they'll be doing that. Chuck's Chuck's, uh, put that in.
+PhD C: Mm - hmm. Yeah, I pointed them to the set that Andreas put, uh, on the web so th if they want to compare directly with his results they can. And, um, then once, uh, th we can also point them at the, um, uh, the original meetings and they can grab those, too, with SCP.
+PhD E: Wait. So you put the reference files?
+PhD C: No, no. They d they wanted the audio.
+PhD E: Or the?
+PhD C: Jane sent them the, uh, transcripts.
+PhD E: No, I mean of the transcripts. Um. Well, we can talk about it off - line.
+PhD C: Mm - hmm.
+Grad F: There's another meeting in here, what, at four? Right? Yeah, so we have to finish by three forty - five.
+PhD H: D d So, does Washi - does does UW wanna u do this wanna use this data for recognition or for something else?
+PhD C: Uh, for recognition.
+PhD E: I think they're doing w
+PhD H: Oh.
+PhD E: didn't they want to do language modeling on, you know, recognition - compatible transcripts
+PhD H: Oh. I see.
+Postdoc A: This is to show you, uh, some of the things that turn up during the checking procedure.
+Professor B: Yeah.
+PhD E: or?
+Postdoc A: Um @ @ So, this is from one of the NSA meetings and, uh, i if you're familiar with the diff format, the arrow to the left is what it was, and the arrow to the right is what it was changed to. So, um. And now the first one. " OK. So, then we started a weekly meeting. The last time, uh " And the transcriber thought " little too much " But, uh, really, um, it was " we learned too much ", which makes more sense syntactically as well.
+PhD H: And these the parentheses were f from
+Postdoc A: Then Oh, this that's the convention for indicating uncertain.
+Grad F: U uncertains.
+Postdoc A: So the transcriber was right.
+PhD H: S
+Postdoc A: You know, she was uncertain about that.
+PhD H: OK.
+Postdoc A: So she's right to be uncertain. And it's also a g a good indication of the of that.
+PhD H: Oh. OK.
+Postdoc A: The next one. This was about, uh, Claudia and she'd been really b busy with stuff, such as waivers. Uh, OK. Um, next one. Um. This was an interesting one. So the original was " So that's not so Claudia's not the bad master here ", and then he laughs, but it really " web master ".
+Grad F: Web master.
+Grad D: Oh. Uh - oh.
+Postdoc A: And then you see another type of uncertainty which is, you know, they just didn't know what to make out of that. So instead of " split upon unknown ", it's " split in principle ".
+Grad F: Yep.
+Grad D: Jane, these are from IBM?
+Grad F: Spit upon?
+Grad D: The top lines?
+Postdoc A: No, no. These are these are our local transcriptions of the NSA meetings.
+Grad F: No, these are ours.
+Postdoc A: The transcribers transcriber's version ver versus the checked version.
+Grad D: Oh. Oh, I see.
+Postdoc A: My my checked version, after I go through it.
+Grad D: OK.
+Postdoc A: Um, then you get down here. Um. Sometimes some speakers will insert foreign language terms. That's the next example, the next one. The, uh, version beyond this is So instead of saying " or ", especially those words, " also " and " oder " and some other ones. Those sneak in. Um, the next one
+Grad F: That's cool.
+PhD H: Discourse markers.
+Postdoc A: S
+PhD H: Discourse markers.
+Postdoc A: Sorry, what? Discourse markers? Sure. Sure, sure, sure.
+PhD H: Discourse markers.
+Postdoc A: And it's and it makes sense
+PhD H: Yeah. Yeah.
+Postdoc A: cuz it's, like, below this it's a little subliminal there.
+PhD H: Yeah. Yeah, yeah.
+Postdoc A: Um. OK, the next one, uh, this is a term. The problem with terminology. Description with th the transcriber has " X as an advance ". But really it's " QS in advance ". I mean, I I've benefited from some of these, uh, cross - group meetings. OK, then you got, um, uh, instead of " from something - or - other cards ", it's " for multicast ". And instead of " ANN system related ", it's " end system related ". This was changed to an acronym initially and it should shouldn't have been. And then, you can see here " GPS " was misinterpreted. It's just totally understanda This is this is a lot of jargon. Um, and the final one, the transcriber had th " in the core network itself or the exit unknown, not the internet unknown ". And it it comes through as " in the core network itself of the access provider, not the internet backbone core ". Now this is a lot of terminology. And they're generally extremely good,
+PhD H: Mmm.
+Postdoc A: but, you know in this this area it really does pay to, um to double check and I'm hoping that when the checked versions are run through the recognizer that you'll see s substantial improvements in performance cuz the you know, there're a lot of these in there.
+PhD H: Yeah. So how often?
+Grad F: Yeah, but I bet I bet they're acoustically challenging parts anyway, though.
+Postdoc A: No, actually no.
+Grad D: Mmm.
+Postdoc A: Huh - uh.
+Grad F: Oh, really? Uh, it's Oh, so it's just jargon.
+Postdoc A: It's jargon. Yeah. I mean this is cuz, you know you don't realize in daily life how much you have top - down influences in what you're hearing.
+PhD H: Well, but
+Postdoc A: And it's jar it's jargon coupled with a foreign accent.
+PhD H: But but But we don't I mean, our language model right now doesn't know about these words anyhow. So,
+Professor B: Yeah.
+PhD H: you know, un until you actually get a decent language model, @ @ Adam's right.
+Grad F: It probably won't do any better.
+PhD H: You probably won't notice a difference. But it's I mean, it's definitely good that these are fixed. I mean, obviously.
+Postdoc A: Well, also from the standpoint of getting people's approval,
+Professor B: Yeah.
+Postdoc A: cuz if someone sees a page full of uh, um, barely decipherable w you know, sentences, and then is asked to approve of it or not, it's, uh, uh
+Grad F: Did I say that?
+Professor B: Yeah.
+Postdoc A: OK.
+Professor B: Yeah. That would be a shame if people said " well, I don't approve it because the it's not what I said ".
+Grad F: Well, that's exactly why I put the extra option in,
+Professor B: Yeah.
+Postdoc A: Exactly. That's why we discussed that.
+Professor B: Yeah.
+Grad F: is that I was afraid people would say, " let's censor that because it's wrong ",
+Professor B: Yeah.
+Grad F: and I don't want them to do that.
+Postdoc A: And then I also the final thing I have for transcription is that I made a purchase of some other headphones
+PhD H: C
+Postdoc A: because of the problem of low gain in the originals. And and they very much appro they mu much prefer the new ones, and actually I I mean, I I think that there will be fewer things to correct because of the the choice. We'd originally chosen, uh, very expensive head headsets
+Grad F: Yeah. Ugh!
+Postdoc A: but, um, they're just not as good as these, um, in this with this respect to this particular task.
+PhD H: Well, return the old ones.
+Grad F: It's probably impedance matching problems.
+Postdoc A: I don't know exactly,
+Grad F: But
+Postdoc A: but we chose them because that's what's been used here by prominent projects in transcription.
+Professor B: Could be.
+Postdoc A: So it i we had every reason to think they would work.
+Grad F: Mm - hmm.
+PhD H: So you have spare headsets?
+Postdoc A: Sorry, what?
+PhD H: You have spare headsets?
+Grad F: They're just earphones. They're not headsets. They're not microphones.
+PhD E: Right.
+PhD H: No, no. I mean, just earphones? Um, because I, uh, I could use one on my workstation, just to t because sometimes I have to listen to audio files and I don't have to b go borrow it from someone and
+Postdoc A: We have actua actually I have W Well, the thing is, that if we have four people come to work for a day, I was I was hanging on to the others for, eh for spares,
+PhD H: Oh, OK.
+Postdoc A: but I can tell you what I recommend.
+Professor B: No, but you'd If you Yeah, w we should get it.
+PhD H: Sure. No problem.
+Grad F: But if you need it, just get it.
+PhD H: I just
+Grad F: Come on.
+PhD H: Right.
+Professor B: Yeah. If you need it.
+PhD H: Yeah.
+Professor B: Yeah.
+Postdoc A: It'd just have to be a s a separate order an added order.
+Grad D: Yeah, I still I still need to get a pair, too.
+Professor B: They're they're they're they're pretty inexpensive.
+PhD E: Yeah, that We should order a cou uh, t two or three or four, actually.
+Professor B: Yeah.
+Grad D: I'm using one of these. Yeah.
+PhD E: We have
+PhD H: I think I have a pair that I brought from home, but it's f just for music listening
+Professor B: No. Just just just just buy them.
+PhD E: Sh - Just get the model number
+PhD H: and it's not Nnn. Yeah.
+Professor B: Just buy them.
+PhD E: and Where do you buy these from?
+PhD H: Yeah.
+Postdoc A: Cambridge SoundWorks, just down the street.
+PhD E: Like? You just b go and b
+Postdoc A: Yeah. They always have them in stock.
+PhD E: Oh.
+Professor B: Yeah.
+PhD E: That'd be a good idea.
+PhD H: Anyway.
+Professor B: Yeah.
+Grad F: W uh, could you email out the brand?
+Postdoc A: Oh, sure. Yeah. OK.
+Grad F: Cuz I think sounds like people are interested.
+Grad D: Yeah.
+Professor B: Yeah.
+Grad D: Definitely.
+Grad F: So.
+Postdoc A: It's made a difference in in how easy. Yeah.
+Professor B: I realized something I should talk about. So what's the other thing on the agenda actually?
+Grad F: Uh, the only one was Don wanted to, uh, talk about disk space yet again.
+Grad D: Yeah. u It's short. I mean, if you wanna go, we can just throw it in at the end.
+Professor B: No, no. Why don't you why don't you go ahead since it's short.
+Grad D: Um, well, uh.
+Grad F: Oh, I thought you meant the disk space. Yeah, we know disk space is short.
+PhD H: The disk space was short. Yeah. That's what I thought too.
+PhD E: That's a great ambiguity.
+Professor B: Yeah.
+PhD E: It's one of these it's it's social
+Professor B: It's I i i it i
+PhD E: and, uh, discourse level
+Grad D: Yeah.
+PhD E: and
+Professor B: Yeah, it's great. Yeah,
+PhD E: Sorry.
+Professor B: double double
+Grad F: Yeah, it was really goo
+PhD E: See, if I had that little scratch - pad, I would have made an X there.
+Grad D: Thank you, thank you.
+Grad F: Uh, well, we'll give you one then.
+Professor B: Yeah.
+Grad D: Um. So, um, without thinking about it, when I offered up my hard drive last week
+Grad F: Oh, no.
+Grad D: Um, this is always a suspect phrase.
+PhD E: It was while I was out of town.
+Grad D: But, um, no. I, uh I realized that we're going to be doing a lot of experiments, um, o for this, uh, paper we're writing, so we're probably gonna need a lot more We're probably gonna need that disk space that we had on that eighteen gig hard drive. But, um, we also have someone else coming in that's gonna help us out with some stuff.
+Professor B: We've just ordered a hundred gigabytes.
+Grad D: So OK. We just need to
+PhD E: I think we need, like, another eighteen gig disk to be safe.
+Professor B: Well, we're getting three thirty thirty - sixes.
+PhD E: So.
+Professor B: Right?
+Grad D: OK.
+Professor B: That are going into the main f file server.
+PhD E: OK.
+Professor B: So.
+PhD C: Markham's ordering and they should be coming in soon.
+Grad D: W Well. So so
+Grad F: Soon?
+Grad D: Yeah. I mean, I guess the thing is is, all I need is to hang it off, like, the person who's coming in, Sonali's, computer.
+PhD H: Oh, so so, you mean the d the internal the disks on the machines that we just got?
+Grad D: Whew. Or we can move them.
+Grad F: No.
+PhD C: These are gonna go onto Abbott.
+Grad F: Ne - new disks.
+PhD H: Or extra disk?
+Professor B: Onto Abbott, the file server.
+Grad D: So are we gonna move the stuff off of my hard drive onto that when those come in?
+Grad F: On
+PhD H: Oh, oh. OK.
+Grad F: Yeah.
+PhD E: Uh, i
+Grad F: Once they come in. Sure.
+Grad D: OK. That's fine.
+PhD E: Do when when is this planned for roughly?
+PhD C: They should be I I imagine next week or something.
+Grad D: OK.
+PhD E: OK. So
+Grad F: If you're if you're desperate, I have some space on my drive.
+Grad D: I think if I'm
+Grad F: But I I vacillate between no space free and a few gig free.
+Grad D: Yeah. I think I can find something if I'm desperate
+PhD E: Yeah.
+Grad F: So.
+Grad D: and, um, in the meantime I'll just hold out.
+Grad F: OK.
+Grad D: That was the only thing I wanted to bring up.
+PhD C: It should be soon. We we should
+Grad D: OK.
+Professor B: So there's another hundred gig. So.
+Grad D: Alright. Great.
+PhD H: Mm - hmm.
+Professor B: OK. It's great to be able to do it,
+Grad D: That's it.
+Professor B: just say " oh yeah, a hundred gig,
+PhD E: Good.
+Professor B: no big deal ".
+Grad D: Yeah.
+Grad F: Yeah. A hundred gig here, a hundred gig there.
+PhD E: Well, each meeting is like a gig or something,
+Grad F: It's eventually real disk space.
+Professor B: Yeah.
+PhD E: so it's really
+Professor B: Yeah. Um. Yeah. I was just going to comment that I I'm going to, uh, be on the phone with Mari tomorrow, late afternoon.
+Grad F: Oh, yeah.
+Professor B: We're supposed to get together and talk about, uh, where we are on things. Uh, there's this meeting coming up, uh, and there's also an annual report. Now, I never actually I I was asking about this. I don't really quite understand this. She was re she was referring to it as I think this actually didn't just come from her, but this is what, uh, DARPA had asked for. Um, she's referring to it as the an annual report for the fiscal year. But of course the fiscal year starts in October, so I don't quite understand w w why we do an annual report that we're writing in July.
+PhD C: She's either really late or really early.
+Grad F: Huh. Or she's getting a good early start.
+Professor B: Uh, I think basically it it's none of those. It's that the meeting is in July so they so DARPA just said do an annual report. So. So. So anyway, I'll be putting together stuff. I'll do it, uh, you know, as much as I can without bothering people, just by looking at at papers and status reports. I mean, the status reports you do are very helpful.
+PhD H: Hmm.
+Professor B: Uh, so I can grab stuff there. And if, uh if I have some questions I'll
+Grad F: When we remember to fill them out.
+Professor B: Yeah. If people could do it as soon as as you can, if you haven't done one si recently. Uh. Uh, but, you know, I'm I'm sure before it's all done, I'll end up bugging people for for more clarification about stuff. Um. But, um, I don't know, I guess I guess I know pretty much what people have been doing. We have these meetings and and there's the status reports. Uh. But, um. Um. Yeah. So that wasn't a long one. Just to tell you that. And if something hasn't, uh I'll be talking to her late tomorrow afternoon, and if something hasn't been in a status report and you think it's important thing to mention on this kind of thing, uh, uh, just pop me a one - liner and and and I'll I'll have it in front of me for the phone conversation.
+PhD H: OK.
+Professor B: Uh. I guess, uh, you you're still pecking away at the demos and all that, probably.
+Grad F: Yep. And Don is gonna be helping out with that.
+Professor B: Oh, that's right.
+Grad F: So.
+Professor B: OK.
+Grad F: Did you wanna talk about that this afternoon?
+Grad D: Um.
+Grad F: Not here, but later today?
+Grad D: We should probably talk off - line about when we're gonna talk off - line.
+Grad F: OK. OK.
+Professor B: OK. Yeah, I might want to get updated about it in about a week cuz, um, I'm actually gonna have a a few days off the following week, a after the after the picnic. So.
+Grad F: Oh, OK.
+Professor B: That's all I had.
+Grad F: So we were gonna do sort of status of speech transcription automatic transcription, but we're kind of running late. So.
+PhD E: How long does it take you to save the data?
+Grad F: Fifteen minutes.
+PhD E: Yeah.
+Grad F: So. If you wanna do a quick
+PhD E: Yeah.
+Grad F: ten minute
+PhD E: Guess we should stop, like, twenty of at the latest.
+Professor B: Uh
+PhD E: We we have another meeting coming in that they wanna record.
+Professor B: And there's the digits to do.
+PhD E: So.
+Professor B: So maybe may maybe maybe
+Grad F: Yeah. Well, we can skip the digits.
+Professor B: We could. Fi - five minute report or something.
+PhD E: It's up to you. I don't
+Professor B: Yeah, yeah.
+Grad F: Whatever you want.
+Professor B: Well, I would love to hear about it,
+Grad F: What do you have to say?
+Professor B: especially since
+Grad F: I'm interested, so
+Professor B: Yeah. Well, I'm gonna be on the phone tomorrow, so this is just a good example of the sort of thing I'd like to hear about.
+PhD E: Wait. Why is everybody looking at me?
+PhD C: I don't know.
+Grad F: Sorry.
+Professor B: Cuz he looked at you
+PhD H: What?
+Professor B: and says you're sketching.
+PhD E: Uh. I'm not sure what you were referring to.
+PhD H: I I I I'm not actually, I'm not sure what? Are we supposed to have done something?
+Grad F: No. We were just talking before about alternating the subject of the meeting.
+PhD H: Oh.
+PhD E: Uh - huh.
+Grad F: And this week we were gonna try to do t automatic transcription status.
+PhD H: Alternating.
+PhD E: I wasn't here last week. Sorry.
+PhD H: Oh!
+PhD E: Oh.
+Grad F: But we sort of failed.
+PhD H: We did that last week. Right?
+PhD E: Hhh.
+Grad F: No.
+Professor B: I thought we did.
+Grad F: Did we? OK.
+PhD H: Yeah. We did.
+Grad F: OK. So now now we have the schedule. So next week we'll do automatic transcription status, plus anything that's real timely.
+PhD H: OK.
+PhD E: Oh. OK.
+Postdoc A: OK.
+Professor B: OK. Whew!
+PhD C: Good update.
+Grad F: Whew!
+Professor B: That was
+Grad F: Dodged that bullet.
+Professor B: Yeah. Nicely done, Liz.
+Postdoc A: A woman of few words.
+Professor B: But but lots of prosody. OK. OK.
+Grad F: Th
+PhD H: Uh, I mean, we we really haven't done anything.
+Grad F: Excuse me?
+PhD H: Sorry.
+Postdoc A: Well, since last week.
+PhD E: Yeah, we're
+PhD H: I mean, the the next thing on our agenda is to go back and look at the, um the automatic alignments because, uh, I got some I I I learned from Thilo what data we can use as a benchmark to see how well we're doing on automatic alignments of the background speech or, of the foreground speech with background speech.
+Grad F: Yeah.
+PhD H: So.
+PhD E: And then, uh, I guess, the new data that Don will start to process
+PhD H: But, we haven't actually
+PhD E: the, um when he can get these You know, before we were working with these segments that were all synchronous and that caused a lot of problems
+PhD H: Mmm.
+PhD E: because you have timed sp at on either side.
+Grad F: Oh. Right, right. Mm - hmm.
+PhD E: And so that's sort of a stage - two of trying the same kinds of alignments with the tighter boundaries with them is really the next step.
+Grad F: Right.
+Postdoc A: I'll be interested.
+PhD E: We did get our, um I guess, good news. We got our abstract accepted for this conference, um workshop, ISCA workshop, in, um, uh, New Jersey. And we sent in a very poor abstract, but they very poor, very quick. Um, but we're hoping to have a paper for that as well, which should be an interesting
+Grad F: When's it due?
+PhD E: The t paper isn't due until August. The abstracts were already due. So it's that kind of workshop.
+Grad F: Mm - hmm.
+PhD E: But, I mean, the good news is that that will have sort of the European experts in prosody sort of a different crowd, and I think we're the only people working on prosody in meetings so far, so that should be interesting.
+Postdoc A: What's the name of the meeting?
+PhD E: Uh, it's ISCA Workshop on Prosody in Speech Recognition and Understanding, or something like that
+PhD H: It's called Prosody to
+Grad F: Mm - hmm.
+Postdoc A: Good.
+PhD E: some generic Uh, so it's focused on using prosody in automatic systems and there's a um, a web page for it.
+Professor B: Y you going to, uh, Eurospeech? Yeah.
+Grad F: I don't have a paper
+PhD H: Yeah.
+Grad F: but I'd kinda like to go, if I could. Is that alright?
+Professor B: We'll discuss it.
+Grad F: OK. I guess that's " no ".
+Professor B: My my my car my car needs a good wash, by the way.
+Grad F: OK. Well, that th Hey, if that's what it takes, that's fine with me.
+Professor B: Um.
+Grad F: I'll pick up your dry - cleaning, too. Should we do digits?
+Professor B: Yeah.
+Grad F: Uh.
+PhD H: Can I go next? Because I have to leave, actually.
+Grad F: Yep. Go for it. Hmm! Thanks. Thank you.
+Professor B: So you get to be the one who has all the paper rustling. Right?

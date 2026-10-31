@@ -1,0 +1,1426 @@
+source,speaker,sentence,label,rules
+meeting_028.txt,Project Manager,"I don't know how easy that will be within the time frame,",0,
+meeting_053.txt,Professor A,If you can if we can approximate the old numbers while still keeping the latency down.,0,
+meeting_005.txt,Project Manager,"I would have thought that uh it's forever expanding and at the moment we've got although you've onl you've got the five standard, you've got the B_B_C_ have come up with a further six",0,
+meeting_036.txt,Marketing,What time do we have to deliver the report?,1,need_to
+meeting_048.txt,Industrial Designer,But we have to take care of the T_F_T_.,1,assign|need_to
+meeting_011.txt,Grad F,The digits goes up to about four thousand.,0,
+meeting_052.txt,PhD G,I mean it's different.,0,
+meeting_051.txt,Grad H,Who's willing to get recorded and distributed?,0,
+meeting_046.txt,Marketing,Eighty per cents of users would spend more money when the remote control would look fancy.,0,
+meeting_043.txt,Kirsty Williams AM,"I don't know if there's anything extra you wanted to add, Steve.",0,
+meeting_032.txt,Project Manager,"Um I don't suppose we've got any statistics on the the life expectancy of uh remote controls, particularly sort of independent ones.",0,
+meeting_052.txt,Grad H,"which someone has to listen to that and find that point,",0,
+meeting_035.txt,Project Manager,"Well I don't know if you've noticed, but uh we're working for Real Reaction.",0,
+meeting_004.txt,Marketing,We only actually needed one computer.,0,
+meeting_043.txt,Kirsty Williams AM,But I have asked officials to give greater scrutiny to how that resource has been used in the last year.,0,
+meeting_011.txt,Grad F,"Well the prosodics are so much different s it's gonna be, strange.",0,
+meeting_048.txt,Industrial Designer,"Okay, so could you please, Fabien, open it.",1,request
+meeting_056.txt,Marketing,"Uh like if this is a like if this is a mobile phone uh we will design casing in such a way like half of, we need not to have a full cover, we will just have a half of cover,",1,commit
+meeting_036.txt,Project Manager,S s Drop speech recognition?,0,
+meeting_022.txt,PhD A,"So can you send out a schedule once you know it, jus?",1,assign|request
+meeting_014.txt,Project Manager,But it and I think we have to make it quite big.,1,need_to
+meeting_049.txt,Dr Frank Atherton,Resourcing will be important.,0,
+meeting_015.txt,Marketing,Then we did some research to the most relevant functions.,0,
+meeting_050.txt,Marketing,Um and then how about how we doing on colour?,0,
+meeting_011.txt,Professor C,yeah I mean it was,0,
+meeting_036.txt,Marketing,But we can't drop three buttons.,0,
+meeting_031.txt,Marketing,The scroller a bit I think it's it's a one yeah.,0,
+meeting_003.txt,Grad F,We have to remove it.,1,need_to
+meeting_051.txt,Grad H,I bet he meant native speaking American.,0,
+meeting_057.txt,Professor C,Do you think it might help?,0,
+meeting_047.txt,Professor B,Um you know what things uh did you think of when you were uh doing this process that uh you just didn't really have time to adequately work on uh uh so,0,
+meeting_059.txt,Industrial Designer,"Li that'll be the covers as well, yeah yeah.",0,
+meeting_006.txt,Project Manager,"What do you mean by um the current remote controls do not match well with the operating behaviour of the user, like they have to press the buttons.",0,
+meeting_037.txt,Grad D,"Um, but that might not be necessarily a good idea according to, um, John.",0,
+meeting_047.txt,Professor B,"Yeah since these well also just to know the numbers,",0,
+meeting_040.txt,Marketing,We don't need to have like the l the numbers if we also have uh uh channel up channel down.,0,
+meeting_003.txt,Professor B,"And would you please mail you know, mail Adam that it is, if i if it, you know, is or not.",1,request
+meeting_032.txt,Industrial Designer,"Um alright, yeah, so um I'll just do my presentation on the working design uh.",1,commit
+meeting_053.txt,PhD B,So to do that right you'd probably want to have allow for them all but then have weightings and things.,0,
+meeting_003.txt,Grad F,Cuz if someone just visits the web site that doesn't imply anything in particular.,0,
+meeting_002.txt,Kirsty Williams AM,"Well, at this stage, I think the charitable status will continue to be an important part of what we will take forward.",1,commit
+meeting_055.txt,PhD E,""" use only """,0,
+meeting_055.txt,Postdoc B,Let's do that later.,0,
+meeting_015.txt,Project Manager,Everybody found his place again?,0,
+meeting_031.txt,Project Manager,What do you think?,0,
+meeting_059.txt,Project Manager,But th th but th yeah th b the,0,
+meeting_058.txt,Marketing,And we'll come back to yours,1,commit
+meeting_003.txt,PhD E,"in internally we know that people are there,",0,
+meeting_031.txt,Marketing,Young means sixteen to forty years.,0,
+meeting_035.txt,Marketing,You have to go really slow when you're writing.,1,need_to
+meeting_013.txt,Marketing,once they see the help button they say oh this is a complicated stuff.,0,
+meeting_030.txt,Project Manager,Um Then the User Interface Designer um explored some of the technical functions of the remote.,0,
+meeting_051.txt,Postdoc G,I I need to to write to him.,1,need_to
+meeting_037.txt,PhD E,And there is no noise addition after after that.,0,
+meeting_038.txt,User Interface,"so possibly, just an idea that popped in",0,
+meeting_019.txt,Project Manager,"Um, and um, I'll be taking minutes on this one, and um Being hooked up to the PowerPoint for this meeting isn't very necessary for uh myself, because it'll be more about uh, what you guys are bringing to the meeting today.",1,commit
+meeting_036.txt,Marketing,"And then finally you have some idea, okay this is gonna w this is what we gonna make together and okay I will arrange this and you will arrange that,",1,commit
+meeting_019.txt,User Interface,That would be good.,0,
+meeting_034.txt,Marketing,"Maybe I mean if I get m more numbers, I'll e-mail you before the next meeting in terms of ages.",1,commit
+meeting_010.txt,Lynne Neagle AM,We’re very much looking forward to the session.,0,
+meeting_021.txt,Project Manager,Don't looks nice uh.,0,
+meeting_056.txt,User Interface,"Yeah, like with those watches that you kind of twist.",0,
+meeting_017.txt,Eluned Morgan AM,"What's important for us is that we do collaborate and we do get this analysis, but we hope to do that on the ground through the regional skills partnerships.",0,
+meeting_021.txt,User Interface,"So, as you can see, it's a very very simple design,",0,
+meeting_005.txt,Project Manager,"So uh Any sugges Well, any conclusions?",0,
+meeting_031.txt,Project Manager,"huh, because we have to have a design, and that is within the budget.",1,need_to
+meeting_047.txt,Professor B,So what's the difference between the second,0,
+meeting_020.txt,PhD I,So something's really seriously wrong.,0,
+meeting_054.txt,User Interface,"It's not a directional mic, anyway.",0,
+meeting_030.txt,Industrial Designer,Now as you can see this is the the rubber button version of it.,0,
+meeting_042.txt,User Interface,Which I think is a good thing.,0,
+meeting_057.txt,PhD D,"Yeah, so it looks to be, um",0,
+meeting_026.txt,Project Manager,I mean do you think the fact that it's going to be sold internationally will have a bearing on how we design it at all?,0,
+meeting_031.txt,User Interface,I would make it a two or something.,0,
+meeting_016.txt,User Interface,you're not gonna be staring at it for five minutes.,0,
+meeting_009.txt,Project Manager,"Yeah but, it is still something uh you have to buy and that is um not maybe very",1,need_to
+meeting_019.txt,User Interface,"I was thinking though, if it was glow-in-the-dark, you could put the um Real Reaction symbol as glow-in-the-dark, and then it would be constantly advertised.",0,
+meeting_031.txt,Project Manager,"Okay, you're very enthusiastic about your own design,",0,
+meeting_036.txt,Marketing,So it it's a very true point.,0,
+meeting_013.txt,Industrial Designer,Okay so I think I will do my presentation on the components concept so can you please uh open uh I'm participant two.,1,commit|request
+meeting_011.txt,Postdoc B,"It's gonna be fun to see how we, compare at this.",0,
+meeting_018.txt,Marketing,"And so the method is that the design team makes a prototype, and we evaluate the prototype against some criteria that we've formulated.",0,
+meeting_032.txt,Marketing,You see this okay?,0,
+meeting_012.txt,Industrial Designer,"Well, uh training is always an issue with uh commands.",0,
+meeting_006.txt,Project Manager,And we wanna keep um I'll make a note here that we wanna keep the number of buttons down.,1,commit
+meeting_018.txt,Industrial Designer,"Yeah, yeah we'll make the adjustments",1,commit
+meeting_051.txt,Professor B,"Yeah, if ninety - nine percent of what you're doing is c is shutting off most of the mikes, then going through the",0,
+meeting_048.txt,Industrial Designer,"What does it mean, spongy?",0,
+meeting_031.txt,User Interface,We could lose the curve.,0,
+meeting_043.txt,Kirsty Williams AM,"Llyr opened with the question of,'How can you absolutely ensure that these children are getting the money?', but then there's also a tension about how can you create some flexibility around the school's usage of the grant.",1,request
+meeting_057.txt,PhD D,"And if you f if you re - synthesize these spot sounds as, like, sounds,",0,
+meeting_038.txt,Project Manager,but y I'm not sure if it's even possible.,0,
+meeting_032.txt,Marketing,And general opinions about current current remotes.,0,
+meeting_050.txt,Marketing,Uh it looks mm looks like something I can sell.,0,
+meeting_029.txt,Marketing,"Um you uh said you wanted to put the um changing channels button on the right side,",0,
+meeting_029.txt,Project Manager,And then h the rest of the buttons over here.,0,
+meeting_037.txt,PhD E,and we take th the third.,0,
+meeting_004.txt,Project Manager,wha what are your summarising words about Play-Doh?,0,
+meeting_034.txt,Industrial Designer,"So h the method as um working designers figure out what you need to make it fulfil this practical function, what what needs to be done and how do we convert all the elements to make that done.",1,need_to
+meeting_031.txt,User Interface,'cause you have to add it.,1,need_to
+meeting_057.txt,PhD B,That was with on - line normalization and LDA.,0,
+meeting_044.txt,Grad D,"And status would be, you know, more or less like, whether they're under construction, and and or stuff like that.",0,
+meeting_053.txt,PhD F,"For Finnish, we start to ninety - three point eight - four and we go to ninety - three point seventy - four.",0,
+meeting_055.txt,PhD D,"Depends who you ask, I suppose.",0,
+meeting_022.txt,Postdoc C,"That was fixed, um, before i i i I think I I think I understood that pretty",0,
+meeting_036.txt,Project Manager,That would skip nine buttons and four and a half Euros.,0,
+meeting_043.txt,Kirsty Williams AM,"As I said, we were aware that the programme was transitioning and we were determined to get that right for those individual schools, and to learn the lessons and, crucially, to be able to apply those lessons right across the board.",0,
+meeting_039.txt,Industrial Designer,But I mean it's not obviously obvious from the outside that that's gonna happen'cause you can't s particularly see an alarm.,0,
+meeting_036.txt,Industrial Designer,Uh th uh do you mean the the interaction between us?,0,
+meeting_037.txt,PhD C,"So it's, like, where do we want to put the VAD?",0,
+meeting_056.txt,Industrial Designer,So it'd look like this kinda.,0,
+meeting_012.txt,Marketing,So we have to figure out a way of making it um more user friendly.,1,need_to
+meeting_020.txt,Professor D,"Da - we had allowed Dave to listen to these these, uh, recordings.",0,
+meeting_027.txt,User Interface,"Because I saw uh some phones that were banana shaped, uh wireless phones not mobile ones, wireless for the house,",0,
+meeting_039.txt,Marketing,I'll write down our scores up on the,1,commit
+meeting_009.txt,Project Manager,"And then we will move to f conceptual design where we'll specify the different component involved, what kind of user interf interface we want and what are the different uh trend in user interface and stuff like that.",1,commit
+meeting_049.txt,Dr Frank Atherton,She met the Minister there and gave a very good personal account of her views on obesity and overweight.,0,
+meeting_008.txt,Grad C,"Well, in that case you would add that to this format",0,
+meeting_036.txt,Industrial Designer,This is gonna be flat.,0,
+meeting_049.txt,Dawn Bowden AM,"So, if we're going to try and utilise these buildings for general community activity to get kids and the wider public, actually, more active, do you think that's something that we ought to be building in?",1,going_to
+meeting_017.txt,Suzy Davies AM,"Well, yes, because that's the worst-case scenario, so let's look at that one.",0,
+meeting_051.txt,Professor B,There's I I don't know what they're going to do and I don't know how big their array is.,0,
+meeting_022.txt,PhD A,Is is there a r?,0,
+meeting_059.txt,Marketing,"yeah, kinda like that kinda like a flower or a plant",0,
+meeting_031.txt,Project Manager,And we have a correct agenda.,0,
+meeting_059.txt,User Interface,just kind of a light non-descript grey,0,
+meeting_036.txt,Marketing,I all made it po I I all made it,0,
+meeting_005.txt,Industrial Designer,Well shall we look into that and just get back together.,1,assign
+meeting_042.txt,Marketing,"I will make this quick, since we don't have much time.",1,commit
+meeting_003.txt,PhD H,I have an idea.,0,
+meeting_003.txt,Grad F,We just need to tell them that they can do it if they want.,0,
+meeting_002.txt,Kirsty Williams AM,We'll be creating a commission that will be structured in such a way that it can have those relationships.,1,commit
+meeting_022.txt,Grad E,"Hey, that's the same percent relative,",0,
+meeting_021.txt,Industrial Designer,"and um, so it could be in the television set, could be in the device, but somewhere you have to put the microphone, um and a w a way of making beeps or sounds so you can find it when it's gets lost.",1,need_to
+meeting_053.txt,Professor A,"what that said is that, sort of, left to its own devices, like without the a strong language model and so forth, that you would you would make significant number of errors just with your uh probabilistic machinery in deciding",1,request
+meeting_005.txt,User Interface,"'Kay we've already decided that we don't need a teletext button, haven't we?",0,
+meeting_034.txt,User Interface,"I suspect the remote control does need a battery,",0,
+meeting_053.txt,Professor A,"uh take the log of that or uh pre pre uh pre - nonlinearity,",0,
+meeting_014.txt,Industrial Designer,It's uh it's all very uh,0,
+meeting_054.txt,Project Manager,"well, uh, you wor yes, work on a design, keep it general, I mean so w we will be still fle flexible with maybe adding some functions.",1,commit
+meeting_059.txt,Industrial Designer,and has the cover on it,0,
+meeting_041.txt,Industrial Designer,"like I said the bouncing ball thing, or you could trigger that to use that to power the light",0,
+meeting_031.txt,Industrial Designer,That's definitely our uh,0,
+meeting_055.txt,PhD D,"Well, it would be lost no matter what you do.",0,
+meeting_020.txt,Grad F,"Well, I guess yeah, I guess if we segmented it, we could get one percent on digits.",0,
+meeting_011.txt,Postdoc B,But they're they're generally very good.,0,
+meeting_048.txt,User Interface,"And uh s uh I can conclude like this, that we shouldn't need to learn how to use it.",0,
+meeting_014.txt,Marketing,"Ye I think the can opener i is a brilliant idea actually, because television and beer is not a rare combination.",0,
+meeting_039.txt,User Interface,Oh that would be class.,0,
+meeting_049.txt,Dr Frank Atherton,"But leadership will be really important, and we will need some sort of structure to lead this, to provide oversight.",1,commit
+meeting_002.txt,Kirsty Williams AM,"But, clearly, we'll need to keep that under review.",1,commit
+meeting_051.txt,PhD D,"But, eh, for me and for my problems, is uh is enough.",0,
+meeting_004.txt,Project Manager,"Yeah, yeah if the meeting's over then yeah I guess so.",0,
+meeting_008.txt,PhD F,Thanks thanks a lot.,0,
+meeting_021.txt,Industrial Designer,To t an and then you would know like um what the geometry of their hands would be and uh,0,
+meeting_013.txt,Marketing,"So if we have a L_C_D_ on the remote, rather than looking onto the T_V_ you just look into a remote and navigate it.",1,assign
+meeting_016.txt,Industrial Designer,"Well, we can make the the signal strong enough to go through walls if if you fancy it.",0,
+meeting_021.txt,Industrial Designer,Do you wanna take an action item to go find out?,1,assign
+meeting_029.txt,Marketing,And I'd prefer the corners to be round.,0,
+meeting_057.txt,Professor C,You know what I mean?,0,
+meeting_013.txt,Marketing,So we need to take care of them in the design.,1,assign|need_to
+meeting_029.txt,User Interface,Or we have to make a left uh For lefties,1,need_to
+meeting_003.txt,Grad D,"But, um, we also have someone else coming in that's gonna help us out with some stuff.",0,
+meeting_049.txt,Dr Frank Atherton,"I mean, at the heart of it, it's about making sports and physical activity enjoyable and attractive to people.",0,
+meeting_056.txt,User Interface,"Um and what the survey told us and what we think would be good, so a bit of imagination.",0,
+meeting_015.txt,Project Manager,"Um important thing of this phase is that we're going to uh try to get an agreement about the user requirements, technical function design, and the working design.",1,going_to
+meeting_038.txt,Industrial Designer,So we have to make something that's not too difficult in design again.,1,need_to
+meeting_017.txt,Suzy Davies AM,"But if I could start with higher education, I understand that—I don't know, it must be about 18 months ago now—Ken Skates told another committee in this place that there had been nine sector analyses done.",0,
+meeting_011.txt,Professor C,"well, "" real "", Um, the uh there's one microphone that's close, that they have as as this sort of thing, close versus distant.",0,
+meeting_042.txt,User Interface,"Yeah, I mean I wouldn't like to say you g I mean you get ones that you can switch between multiple units, but something that could um operate between multiple units in a more integrated fashion.",0,
+meeting_020.txt,Professor D,And we can take care of that by putting it on non - back up drives and just backing it up once onto this tape.,1,assign
+meeting_043.txt,Steve Davies,"I think we will not move away from the fact that these children need good GCSEs to gain employment, so we'll continue to measure that.",1,commit
+meeting_048.txt,Industrial Designer,Interface to the microphone.,0,
+meeting_053.txt,PhD F,"As soon as we have something that's significant and that's better than than what was submitted, we will fix fix the system and But we've not discussed it it it this yet, yeah.",1,commit
+meeting_055.txt,PhD E,"for example "" mmm mm - hmm hmm "" eh And the energy is not eh height eh I think if you consider all the channel to normalize and the channel is mmm bigger eh eh eh compared with the with the overlapping eh duration,",0,
+meeting_031.txt,Project Manager,"we're good, and if they're not we're going to uh re-design,",1,going_to
+meeting_058.txt,Project Manager,"S I'm fine, I'm satisfi",0,
+meeting_003.txt,Postdoc A,"Um, then you get down here.",0,
+meeting_019.txt,Marketing,That's it for the market research.,0,
+meeting_008.txt,PhD F,"Cuz he has all of the channels, you know, with the channels in the tag and stuff like that.",0,
+meeting_041.txt,Project Manager,"Um and then after that we'll have to make some decisions about stuff, right.",1,commit
+meeting_010.txt,Jo-Anne Daniels,"So that, as I said, is a ring-fenced sum that they use to administer the offer.",0,
+meeting_022.txt,PhD A,I was trying to find what's a word for a continuous region with pauses around it?,0,
+meeting_046.txt,User Interface,I'm designing the user interface.,0,
+meeting_039.txt,Project Manager,It would still be comfortable I think.,0,
+meeting_028.txt,User Interface,"Um, if all you're replacing is one of the you know however many remotes you have in your living room, um you know you still need separate remotes for everything else.",0,
+meeting_014.txt,User Interface,Can you make an uh uh a part of f folder for the minutes maybe?,1,request
+meeting_020.txt,Professor D,"Well, that'll be interesting.",0,
+meeting_024.txt,Grad C,Some data I collected in a couple weeks for training recognizers and email way back when.,0,
+meeting_028.txt,User Interface,"Okay, this is a brief run through of the um of the technical functions of the remote.",0,
+meeting_007.txt,Project Manager,Uh the profit we must make with uh the new remote is uh fifty million Euro.,1,need_to
+meeting_012.txt,Project Manager,"I will I will send you a mail, okay?",1,assign|commit
+meeting_003.txt,PhD E,It was while I was out of town.,0,
+meeting_034.txt,Project Manager,Um I'll make sure to put up um the minutes and the project documentation and including these PowerPoint slides.,1,commit
+meeting_052.txt,PhD G,"I mean, you're looking at this now",0,
+meeting_013.txt,Marketing,"It's an good reminder,",0,
+meeting_052.txt,Postdoc A,Can I ask one more thing about THISL?,0,
+meeting_057.txt,Professor C,"You could imagine one that that that made use of where where the amount that you added in was, uh, a function of the probability of it being s speech or noise.",0,
+meeting_029.txt,Project Manager,"Uh so that elderly people can uh use the remote control and at the same time look easily at the screen, because it's a bit, it has a bit of a angle.",0,
+meeting_046.txt,Project Manager,and I I will make a summary of that meeting that I will put in the shared folder you can't see,1,commit
+meeting_053.txt,PhD F,So we've put together all this and then we have results that are not um very impressive.,1,assign
+meeting_014.txt,Project Manager,That's why it was uh said in the in the use in the r new requirements.,0,
+meeting_051.txt,Postdoc G,And that's that's my email to him.,0,
+meeting_001.txt,Project Manager,we'll come back to uh your evaluation,1,commit
+meeting_019.txt,Marketing,And the What was the word they used?,0,
+meeting_000.txt,User Interface,That's gonna be a difficult shape to,0,
+meeting_034.txt,Marketing,"And you're a happy person and everyone else doesn't have to have like two remotes, one that has the easy ones and one that has",0,
+meeting_030.txt,Industrial Designer,And thus gives on the signal.,0,
+meeting_003.txt,Professor B,"I was just going to comment that I I'm going to, uh, be on the phone with Mari tomorrow, late afternoon.",1,going_to
+meeting_008.txt,Grad C,"what do you mean by "" merge ""?",0,
+meeting_028.txt,Marketing,Functional requirement by me Ebenezer.,0,
+meeting_039.txt,Project Manager,"Um, between one and two.",0,
+meeting_036.txt,Marketing,So the only option is an hand dynamo.,0,
+meeting_022.txt,PhD A,"And it You have to write down, like, while y what you're what ch chocolate you're eating",1,need_to
+meeting_013.txt,Marketing,"Because when you have the L_C_D_ onto the television screen you miss the picture in the background, we are most focused on the commands.",0,
+meeting_014.txt,Project Manager,But I'll uh make sure that uh happens next time.,1,commit
+meeting_035.txt,Marketing,Since it's your job.,0,
+meeting_054.txt,Marketing,"I think for us it's just like a normal whiteboard, but they'll be recording what we write down.",0,
+meeting_010.txt,Jo-Anne Daniels,"We are now starting the detailed work to define the new system requirements so that we will have a single application process across Wales, moving forward.",1,commit
+meeting_018.txt,Project Manager,"Um, if we Okay, that gives us twelve point seven",0,
+meeting_031.txt,Marketing,The microphone is a feature.,0,
+meeting_013.txt,Industrial Designer,"That's right, yeah, yeah.",0,
+meeting_010.txt,Dawn Bowden AM,"So, all of this is going to be incorporated in this announcement that you're going to be making shortly—",0,
+meeting_002.txt,Kirsty Williams AM,"Given the fact that there are ongoing legal processes attached to Swansea University, I think it would not be appropriate for me to comment any further, because there are still matters in train with regard to that institution.",0,
+meeting_017.txt,Eluned Morgan AM,"That's our way of ensuring that we can have an understanding, on the ground, of what's needed by employers.",0,
+meeting_011.txt,Grad F,I mean you'd you'd want models for spreading.,0,
+meeting_032.txt,Project Manager,"Um the the logo uh being at b the bottom of the screen there, the the the two R_s in grey against uh a yellow background.",0,
+meeting_051.txt,Grad H,so u I didn't have to do it each time.,0,
+meeting_009.txt,User Interface,Next time I concentrate.,0,
+meeting_055.txt,PhD E,This is the the first derivate of log of frame energy uh without any kind of normalization.,0,
+meeting_051.txt,PhD A,It's makes our job a lot easier.,0,
+meeting_038.txt,Project Manager,because your finger is on top.,0,
+meeting_050.txt,Marketing,It'll take me the rest of the time to get my microphone out from my necklace.,0,
+meeting_019.txt,Project Manager,"We need to decide if that is our um intention is, is a simplistic design.",1,need_to
+meeting_049.txt,Suzy Davies AM,"So, I take your overall point, but in terms of the people who we're trying to help in all this, actually creating a direct link might be quite helpful.",0,
+meeting_053.txt,Professor A,"And he had some I mean, he did that sort of in combination with RASTA.",0,
+meeting_029.txt,Project Manager,Um does somebody have any comments on these requirements?,0,
+meeting_030.txt,Industrial Designer,I don't have an information on that.,0,
+meeting_031.txt,Industrial Designer,"Huh, looks fucking boring now.",0,
+meeting_052.txt,PhD F,Takes me no time at all to edit these.,0,
+meeting_003.txt,Postdoc A,"I I like the high - tech aspect of it,",0,
+meeting_024.txt,Grad C,And a I w think the data would be nicer if we get temporal references.,0,
+meeting_056.txt,Industrial Designer,Oh yeah that was that was it.,0,
+meeting_036.txt,Industrial Designer,"You can give it a kind of a home style, like we have i the the logo and everything.",0,
+meeting_043.txt,Steve Davies,I'll go back and check for you.,1,commit
+meeting_056.txt,Project Manager,"And we're using this our basic chip set, so it's all good.",0,
+meeting_011.txt,Professor C,"I said "" For the record Adam is is not a paid consultant or employee of Crown "".",0,
+meeting_044.txt,Professor F,"And two days ago There's two l you know, so, two branches of legislature.",0,
+meeting_015.txt,Project Manager,"Um that's, we've uh got to design a um remote which is only suitable for T_V_.",0,
+meeting_047.txt,PhD C,We so basically we will I think we'll try to to focus on these three architectures and and perhaps I was thinking also a fourth one with just just a single KLT because we did not really test that,1,commit
+meeting_038.txt,User Interface,"This is not the final design,",0,
+meeting_051.txt,Professor B,which would mean that the sampling times and so forth would be all over the place compared to this.,0,
+meeting_059.txt,Project Manager,"Good, this is why we need to make these things simple so that the uh the the the boss can understand.",1,need_to
+meeting_009.txt,User Interface,"Uh if if we bundle the remote control with something uh to sell then it could be a single device, otherwise it could be programmable one otherwise who would buy a remote control from us.",0,
+meeting_022.txt,Professor B,and an because cuz it's another question about how many pauses they put in between them.,0,
+meeting_053.txt,PhD B,""" See how different these sequences of numbers are?",0,
+meeting_055.txt,Professor C,"So uh Uh "" forms "".",0,
+meeting_057.txt,PhD D,"And finally, uh, sixteen point five.",0,
+meeting_052.txt,Grad H,He w he's a firm believer in in lots of different modalities of backup.,0,
+meeting_024.txt,Professor D,"Or eh so, y but there's th but definitely a back - off position to asking.",0,
+meeting_001.txt,Industrial Designer,Or had you already incorporated that?,0,
+meeting_038.txt,Marketing,We can look at the possibilities for an uh L_C_D_ and uh,0,
+meeting_053.txt,Professor A,rather than word error rate?,0,
+meeting_020.txt,PhD I,"So we compute, um So, we start with a, um, alil alignment that we computed with the b sort of the best system we have.",0,
+meeting_053.txt,Professor A,"Yeah, the other thing is that you saw that that mail about uh the VAD V A Ds performing quite differently?",0,
+meeting_006.txt,User Interface,including v voice recognition if we have any like settings for voice recognition now,0,
+meeting_038.txt,Project Manager,"um and Yeah, we have to either that or make it integrated with a with a docking station.",1,need_to
+meeting_052.txt,PhD G,But it's almost Yeah.,0,
+meeting_053.txt,PhD B,"So I I just for the heck of it, I made a little grammar which um, you know, had it's separate path for each length digit string you could get.",0,
+meeting_039.txt,Project Manager,It looks more Think like vanilla and banana would.,0,
+meeting_036.txt,Marketing,"Um well they are in a Word document, which I will open now.",1,commit
+meeting_051.txt,Professor B,and and and it's so I,0,
+meeting_034.txt,User Interface,And I think that's that's why companies like Apple've've've made a lot of progress.,0,
+meeting_002.txt,Kirsty Williams AM,"So, the point is that we need to create a commission that will still be able to be close to the sector, close enough to be able to provide that soft regulation, those really important relationships in a way—.",1,need_to
+meeting_046.txt,User Interface,Well if it is going to be just a T_V_ remote control it is going to be very simple.,0,
+meeting_029.txt,Project Manager,"And then we're going to uh try to finish our project, and uh make a good design for all the grandfathers and grandmothers, I think.",1,going_to
+meeting_056.txt,Project Manager,"I've got I've got no I've got a north facing house, there's not really ever sun coming in my window.",0,
+meeting_019.txt,Marketing,designers can look into that.,1,assign
+meeting_036.txt,User Interface,So we have to to make it s uh more uh It has to be,1,need_to
+meeting_043.txt,Kirsty Williams AM,"So, there's more work to do, but it cannot be just the job of education on its own if we're going to make a difference, nor can it just be the job of the PDG to make a difference for those children.",1,going_to
+meeting_008.txt,Grad C,It's just they hadn't actually come up with an external format yet.,0,
+meeting_053.txt,PhD F,"Yeah, well, not pitch, but to look at the um fine at the at the high re high resolution spectrum.",0,
+meeting_028.txt,Marketing,Just put it on the deskt desktop.,0,
+meeting_022.txt,Professor B,"I mean, cuz we were getting sub one percent numbers on TI - digits also with the tandem thing.",0,
+meeting_000.txt,Project Manager,"Um then we'll do the evaluation, and then we can finish up after that with um any changes that we'll need to make, or hopefully everything will fall right in line.",1,commit
+meeting_000.txt,User Interface,Uh that is possible yeah.,0,
+meeting_010.txt,Dawn Bowden AM,"Yes, we're not holding our breath.",0,
+meeting_043.txt,Kirsty Williams AM,"Again, one of the outcomes from the schools challenge review, and one of the lessons learnt, was, again, the importance of individual tracking of pupils throughout their school career.",0,
+meeting_046.txt,Project Manager,Okay so i it's a bit long yeah.,0,
+meeting_038.txt,Project Manager,that's what I something I have to look into.,1,need_to
+meeting_002.txt,Kirsty Williams AM,"So, we do have a circumstance where—and a process in place, to manage this.",0,
+meeting_004.txt,Project Manager,"Oh no, that's cool, it's got I'm kind of",0,
+meeting_019.txt,Project Manager,"Um, ages like from thirty five to sixty five which show lower numbers probably won't be as concerned.",0,
+meeting_038.txt,Project Manager,"Okay, so it's it it does it recognise itself, you don't have to set it",0,
+meeting_022.txt,Professor B,"So, I'll make a",1,commit
+meeting_038.txt,Industrial Designer,I have to check out how far I can go with that.,1,need_to
+meeting_039.txt,Project Manager,"the PowerPoint slide thing said would be good for R_S_I_,",0,
+meeting_028.txt,Project Manager,And they can completely ignore most of the functionality which would be for say the o actual owner of the the T_V_,0,
+meeting_000.txt,Project Manager,Do you need a this?,0,
+meeting_031.txt,Project Manager,So what are we going to do?,0,
+meeting_022.txt,PhD A,"So, I guess, we'll try to write this Eurospeech paper.",1,commit
+meeting_036.txt,Project Manager,Uh was that helpful or,0,
+meeting_028.txt,User Interface,"Um giving you every possible function that the that the device has, the remote control controls.",0,
+meeting_055.txt,Grad A,So so I would say Germany,0,
+meeting_013.txt,Industrial Designer,So I see ya.,0,
+meeting_012.txt,Marketing,"Okay, from the marketing yeah, from the marketing side, just to to give an idea what the management is looking for, I was looking for a a remote control to have a s",0,
+meeting_023.txt,Project Manager,"We have also uh the lightening feature for the remote control to be easy to find, and for fast development and low cost we have decided to have no L_C_D_ no voice features.",0,
+meeting_038.txt,Project Manager,"No, I think it's just something you you put over them, because Yeah we c Yeah, you ca Well,",0,
+meeting_057.txt,PhD D,Um and the latency of this recursion is around fifty milliseconds.,0,
+meeting_034.txt,Marketing,People are also frustrated with the difficulty it is to learn how to use a remote and I think that ties back to what you were saying before,0,
+meeting_018.txt,User Interface,"Because that was just a trend, and we do have rubber buttons anyway.",0,
+meeting_048.txt,Industrial Designer,"And on the main board we have the um interface to the microphone, which is somewhere, say here.",0,
+meeting_012.txt,Industrial Designer,"and talk about this, so",0,
+meeting_048.txt,Industrial Designer,"So, say power circuit here.",0,
+meeting_002.txt,Sian Gwenllian AM,"Has the current legislation been framed around institutional autonomy so that it's not possible for institutions to fulfil any national outcomes, and is that going to be an element of the new Bill?",0,
+meeting_019.txt,User Interface,"Well, it's just that, when we're creating it, we're, we have to make it um compatible with different brands of devices.",1,need_to
+meeting_050.txt,Project Manager,"You wanna go to this next slide, marketing expert?",0,
+meeting_051.txt,Professor B,"So, i uh, any agenda items anybody has, wants to talk about, what's going on?",0,
+meeting_034.txt,Project Manager,So let's do that quickly.,0,
+meeting_029.txt,User Interface,Um yeah and Uh we uh need some uh new a attractive functions uh uh which attract uh uh people for using it.,0,
+meeting_049.txt,Dr Frank Atherton,"There's more we need to do in terms of that, because you're absolutely right: there's something about building the whole of the workforce—education is really important, but elsewhere as well; it's about how do we really make every contact count, you know, that construct.",1,need_to
+meeting_046.txt,Project Manager,Uh maybe for next meeting uh send me your presentation before by email so that we can see them uh altogether.,1,assign
+meeting_024.txt,Professor D,"So what I yeah, OK, So what what I meant was "" Do a first cut at "".",0,
+meeting_031.txt,User Interface,but it doesn't really work all the time.,0,
+meeting_024.txt,Professor D,And he has a handout.,0,
+meeting_055.txt,Postdoc B,That's the old and that's the new.,0,
+meeting_010.txt,Dawn Bowden AM,Because that was one of the key drivers for that as well.,0,
+meeting_049.txt,Dr Frank Atherton,"If there is a specific point around that that the committee would like to make in terms of a response into the consultation, which I presume you'll be making, then we'd be happy to consider that.",0,
+meeting_012.txt,Industrial Designer,"And um so, maybe what we'll have to do is um add something where you can um recharge it wirelessly so that uh y you know sen send power to it.",1,commit
+meeting_051.txt,PhD A,Well if there's a way to say time to sort of solve each of these f those,0,
+meeting_057.txt,Grad E,I guess that's it.,0,
+meeting_038.txt,Project Manager,Preview what's on the channel.,0,
+meeting_053.txt,PhD F,I mean if it the compared to the small or the big network.,0,
+meeting_041.txt,Marketing,Well I mean I'm thinking it might be That for uh this to be a high-tech thing it's gonna have to have something high-tech about it,0,
+meeting_020.txt,PhD G,"Can we just have a directory called, like, "" other stuff ""?",0,
+meeting_000.txt,Project Manager,You didn't know that you were gonna have a budget.,0,
+meeting_027.txt,Project Manager,"Yeah, it's rubber, made of rubber,",0,
+meeting_042.txt,Project Manager,Any ideas of where you think a new remote control could go into this market?,0,
+meeting_017.txt,Lynne Neagle AM,Thank you very much.,0,
+meeting_019.txt,Project Manager,So we've decided on lighting up things.,0,
+meeting_048.txt,Marketing,"Can you open my presentation,",1,request
+meeting_001.txt,Marketing,What do you mean cr is there anything I wanna,0,
+meeting_033.txt,Marketing,I think it's this is gonna have to appeal to people that want device that can enhance their living room,0,
+meeting_057.txt,PhD B,And then you try to minimize the error between these two.,0,
+meeting_042.txt,Project Manager,"I'd say we finish this one up, we get started, I'll get in, I'll write up what we've um kind of quickly done, and I'll get that out to everybody.",1,assign|commit
+meeting_039.txt,User Interface,'Cause it'd be quite subtle and,0,
+meeting_024.txt,Grad C,"So if you ask "" How do I get to the castle "" then a m s several seconds later it'll come out of here "" In order to get to the castle you do """,0,
+meeting_031.txt,Marketing,I th think it's not the most spongy thing.,0,
+meeting_039.txt,Project Manager,So um our operating cost is twelve twenty Euros.,0,
+meeting_009.txt,User Interface,I is there a matter for a new remote control?,0,
+meeting_034.txt,Project Manager,That's a good thing to keep in mind.,0,
+meeting_051.txt,PhD A,"um, you know, yeah, whether to",0,
+meeting_032.txt,Project Manager,I mean the the actual time that a remote control is actually operating,0,
+meeting_012.txt,Marketing,What do they want?,0,
+meeting_052.txt,Grad H,"um, which I haven't used, haven't looked at.",0,
+meeting_046.txt,Project Manager,Then we will take uh the decision on on the remote control uh needed functions and then I will assign you the task for the next part of the meeting.,1,commit
+meeting_057.txt,PhD B,The th they actually do the filtering in the time domain.,0,
+meeting_057.txt,PhD B,So the f filter will have like sometimes zeros in it,0,
+meeting_037.txt,Professor B,In conversational speech in particular.,0,
+meeting_058.txt,User Interface,"But if you've already got the remote control in your hand you need to open the flip to use the voice, why use the voice, why not just use your hand?",1,need_to
+meeting_036.txt,Project Manager,"Oh, five minutes to the end of the meeting.",0,
+meeting_031.txt,Industrial Designer,"Uh that's the only curve you made,",0,
+meeting_022.txt,PhD D,The last meeting meeting?,0,
+meeting_042.txt,Project Manager,Now we better actually just get on with the uh the meat of the project.,0,
+meeting_022.txt,PhD A,"And another one is turns, like people starting with "" well I think "" and someone else is "" well how about "".",0,
+meeting_018.txt,Industrial Designer,so we're still within budget on that.,0,
+meeting_015.txt,Industrial Designer,"Like with your key-chain, if you whistle it goes uh it makes a sound.",0,
+meeting_026.txt,Marketing,"So cost like production cost is twelve fifty,",0,
+meeting_004.txt,Marketing,"And so it is leadership almost to the point of sort of disempowering the the the team member, so",0,
+meeting_026.txt,Project Manager,Well I guess that's up to our industrial designer.,0,
+meeting_003.txt,Grad F,"So, uh, as most of you should know, I did send out the consent form thingies and, uh, so far no one has made any Ach!",1,assign
+meeting_047.txt,PhD C,And then the KLT and then the two together again.,0,
+meeting_058.txt,User Interface,it's not a trivial task.,0,
+meeting_030.txt,Marketing,"As far as fashion update, we've learned that fruits and vegetables will be the most important theme for cloths, shoes and furniture.",0,
+meeting_016.txt,Project Manager,So y so it's so it's so you got,0,
+meeting_008.txt,Postdoc E,He couldn't have changed all the words.,0,
+meeting_001.txt,Marketing,"Oh that's it's very ambitious,",0,
+meeting_056.txt,Project Manager,"Yeah, can you save that uh send that last one again, please, Raj,",1,request
+meeting_037.txt,Professor B,"I guess the week after he'll be, uh, going back to Europe, and so we wanna",0,
+meeting_034.txt,Marketing,"What can you do to like make the infra-red more functional, like why would it not be?",1,request
+meeting_008.txt,Grad C,I I am imagining you'd have multiple versions of this depending on the information that you want.,0,
+meeting_000.txt,Marketing,And then we will calculate the average score to see how we did.,1,commit
+meeting_012.txt,Marketing,"That might be a possibility, even though it costs more, to be the first on the market to produce this.",0,
+meeting_044.txt,Grad B,"Remember the uh, Prashant story?",0,
+meeting_019.txt,User Interface,"Um, it will make an original design more obtainable, as we have less functional necessities to include in the design.",0,
+meeting_024.txt,Grad C,And with this we're getting more.,0,
+meeting_047.txt,PhD D,It the the output silence of the MLP.,0,
+meeting_038.txt,Project Manager,I'll get back to my thing then.,1,commit
+meeting_056.txt,User Interface,"There's um an L_C_D_ thing, which we thought could I thought could get a bit confusing and a bit expensive as well for us.",0,
+meeting_044.txt,Professor F,"So and he was, I think, the chief staffer to Clinton on technology matters.",0,
+meeting_033.txt,User Interface,"Have it kind of look how they want to, different colours, things like that,",0,
+meeting_025.txt,Project Manager,Let's go easy on it.,0,
+meeting_042.txt,Project Manager,"As you can see, w opening, acquaintance, tool training, project plan discussion, and closing.",0,
+meeting_040.txt,Project Manager,"Okay, so we'll have a functional design individual work um with meeting and then conceptual design t and then detailed design.",1,commit
+meeting_040.txt,Project Manager,"Now um we have to get down to the nitty-gritty of how to make this and this remote control has to be sold um we're to sell it for twenty five Euros, with a profit aim ultimately of fifty million Euros.",1,need_to
+meeting_050.txt,Project Manager,Well hi everyone again.,0,
+meeting_058.txt,Project Manager,"Okay for uh but our time being, so thanks for all your efforts and great work and uh great design and uh let's leave it to the Ed for later for once production is over and the meantime let's celebrate.",0,
+meeting_014.txt,User Interface,But I don't know.,0,
+meeting_051.txt,Postdoc G,"Now wasn't I thought that one of the proposals was that IBM was going to do an initial forced alignment,",0,
+meeting_017.txt,Huw Morris,That may be true for the economy brief.,0,
+meeting_057.txt,PhD B,"And and what I t what I tried was, by using the same thing but Uh, so we actually found that the VAD is very, like, crucial.",0,
+meeting_024.txt,Professor D,So we'll buy a disk.,1,commit
+meeting_019.txt,Marketing,"Um okay, here's some ideas for you.",0,
+meeting_015.txt,Project Manager,I will put the minutes in the project uh project document folder.,1,commit
+meeting_055.txt,PhD D,But if there's something on the rest of the I'm I'll be around just have to make call before quarter of.,1,commit
+meeting_051.txt,PhD A,"I mean, that's that's a good length.",0,
+meeting_042.txt,Marketing,"and I can't remember back when I used to live back in Nigeria, but I think I used to have a pet elephant.",0,
+meeting_017.txt,Julie Morgan AM,Has the Welsh Government explored the possibility of looking at different immigration rules for international and EU students who may wish to study here?,0,
+meeting_058.txt,Project Manager,"Or uh Okay, so then the real production we will start once we product evaluation, okay, then uh it's approve from uh the technical team and uh your team, okay, uh from the management, then we can launch in the market.",1,commit
+meeting_053.txt,PhD B,"Actually I I s we didn't I guess I wrote this in after the meeting b but the thought I had was um looking at the language model that's used in the HTK recognizer, which is basically just a big loop,",0,
+meeting_053.txt,PhD F,Even tenth of a percent?,0,
+meeting_030.txt,Industrial Designer,Um However our interface options are push-buttons.,0,
+meeting_004.txt,Marketing,Do you want me to d um Do you want me to do my um design evaluation last?,0,
+meeting_055.txt,PhD D,"Well, it's something that w Well, we we wouldn't be able to do any work without a forced alignment anyway,",0,
+meeting_031.txt,Project Manager,which we can afford and uh we only need to draw a little bit to get a good uh design.,0,
+meeting_049.txt,Dr Frank Atherton,"That funding, of course, is less than we had anticipated, and that reflects, actually, a success story because industry is reformulating, and so the amount of sugar in soft drinks is already starting to decrease, which is a good thing.",0,
+meeting_034.txt,Project Manager,"Function, F_ eight, yeah.",0,
+meeting_001.txt,Project Manager,"It looks like it unless we can manage to put it in under point two Euros, um.",0,
+meeting_020.txt,Grad F,"Abort abort, retry, fail?",0,
+meeting_030.txt,Marketing,And then the spongy feel.,0,
+meeting_046.txt,Marketing,"And here I have the results so you can see that um seventy five per cent of users find most remote controls ugly so we have to find something to make them more more nice, more kind.",1,need_to
+meeting_019.txt,Industrial Designer,So we need to think about how we could bring this in um technically.,1,need_to
+meeting_051.txt,Professor B,"Well, let's w i isn't that what what you want",0,
+meeting_010.txt,Julie Morgan AM,"So, early next year, we will have a view on how we could go forward.",1,commit
+meeting_029.txt,Marketing,'Cause we would have to make one w uh control which would fit in with a wooden cover and a plastic cover.,0,
+meeting_025.txt,Project Manager,We can use a regular PowerPoint presentation.,0,
+meeting_051.txt,Grad H,The problem is so much of their stuff is confidential.,0,
+meeting_013.txt,User Interface,Mm but this interface are kind of confusing.,0,
+meeting_038.txt,Project Manager,I'll just make it a little bigger now.,1,commit
+meeting_028.txt,Marketing,"See, you could there're two options.",0,
+meeting_038.txt,Industrial Designer,Because then the buttons have to send out a different signal then they would normally do.,1,assign
+meeting_022.txt,PhD A,"I mean, we will write it.",1,commit
+meeting_020.txt,Professor D,"Yeah, we'll just go buy them, I guess.",1,commit
+meeting_040.txt,Project Manager,"The new remote control is to be original, trendy and user-friendly.",0,
+meeting_004.txt,Marketing,"Uh and I'm gonna write up our results on the board, so this'll be a way for us to go through and decide if we're um sort of review where we stand with it.",1,assign
+meeting_036.txt,Marketing,You can still play with it then I guess.,0,
+meeting_025.txt,Project Manager,"Like it says, very simple, you just take out the pen.",0,
+meeting_024.txt,Professor D,"Oh, well, uh th I think there are two places where it comes up.",0,
+meeting_038.txt,Project Manager,"Let's take take the basic design again, what we oh, crap uh came up with.",0,
+meeting_053.txt,PhD F,So you have the C - zero parameters for one uh Italian utterance.,0,
+meeting_039.txt,Project Manager,"I think, it was another colour and it was like I think it'd look okay.",0,
+meeting_023.txt,User Interface,"So basically, w software we will build will look more or less the same as these two.",1,commit
+meeting_052.txt,Postdoc A,Isn't it always on the digits forms?,0,
+meeting_055.txt,Postdoc B,But someone from Boston with a really strong coloration would know.,0,
+meeting_050.txt,Industrial Designer,"Text that we can have on the case itself,",0,
+meeting_052.txt,Grad H,So I'll I'll probably just make some copies of those rather than use the ones that are there.,1,commit
+meeting_014.txt,User Interface,"Yeah, but just keep it simple and look more at th",0,
+meeting_006.txt,Project Manager,So if you have something just say it and we'll add it to my meeting minutes.,1,commit
+meeting_041.txt,Marketing,because obviously the thing that the message here is ease of use.,0,
+meeting_031.txt,Industrial Designer,But the technology was uh fantastic.,0,
+meeting_031.txt,Industrial Designer,"It's very fancy, I think.",0,
+meeting_026.txt,Marketing,So this is blue.,0,
+meeting_049.txt,Lynne Neagle AM,"What my follow-up question, really, is: can you just tell us what kind of engagement you've had with children and young people to inform the draft strategy?",1,request
+meeting_003.txt,Grad F,"I mean I thought we had discussed this, like, a year ago.",0,
+meeting_054.txt,Marketing,Dogs are always friendly and loyal and fun.,0,
+meeting_058.txt,Project Manager,"We are behind the scene and he is the front screen, so.",0,
+meeting_049.txt,Dr Frank Atherton,And so you do have a longitudinal view over time of what's happening to children.,0,
+meeting_024.txt,Grad C,""" And we sort of get the idea what people do when they s think they speak to a machine and what people say when they think they speak to a human, or know, or assume they speak to a human.",0,
+meeting_015.txt,Project Manager,Because he was uh aiming on the the younger persons.,0,
+meeting_026.txt,Marketing,"Um, can we just go over that again?",0,
+meeting_039.txt,Project Manager,Oh you were only given red and black?,0,
+meeting_005.txt,Project Manager,"So on the back it'll have brightness, contrast,",0,
+meeting_053.txt,PhD F,the the number that at that are here are recognition experiments on Italian HM and MM with these two kinds of parameters.,0,
+meeting_034.txt,Project Manager,We're starting this meeting at approximately twelve thirteen and we have forty minutes.,0,
+meeting_004.txt,Industrial Designer,"I think controlling is not the right word, I think the interactions are very structured.",0,
+meeting_032.txt,User Interface,"And so, for my personal preferences, I think this one is easier to use and has quite a you know, fewer buttons.",0,
+meeting_024.txt,Professor D,Then we need to figure out what influences its choices and finally we have to do some technical work on the actual belief relations and presumably estimates of the probabilities and stuff.,1,need_to
+meeting_020.txt,PhD G,What if we just give it a a name like we give these meetings a name?,0,
+meeting_038.txt,Marketing,"Yeah, but I Here I have the the s the homepage of uh our internet,",0,
+meeting_020.txt,PhD I,"It might be that one more iteration would would help, but it's sort of",0,
+meeting_020.txt,Professor D,"So le let's make sure we do the ones that that, uh, saved you.",0,
+meeting_014.txt,Marketing,I'll I'll fix it.,1,commit
+meeting_003.txt,Postdoc A,"I mean, it's an added, uh, level of checking on the accuracy of the transcription, as I see it.",0,
+meeting_048.txt,Project Manager,"Uh, so I think we have a lot We have to take decision today, so I think we have to do some work to finalise our idea and take decisions.",1,need_to
+meeting_018.txt,Marketing,Did you get told what the company colour is or,0,
+meeting_051.txt,Postdoc G,"In terms of, like, pre - segmentation, that that continues to be, um, a terrific asset to the to the transcribers.",0,
+meeting_031.txt,User Interface,One d on i it's the colours and the,0,
+meeting_006.txt,User Interface,"Yeah, like you have one, two, three, four, five, six, seven, eight, nine, zero.",0,
+meeting_005.txt,Project Manager,"Come along with it in the next meeting, we can discuss it then and take whatever action is appropriate.",0,
+meeting_018.txt,Marketing,"Yeah, I just had a presentation to do.",0,
+meeting_020.txt,PhD E,Some latency or something.,0,
+meeting_051.txt,PhD A,"Yeah, I mean, it One thing that would be nice",0,
+meeting_043.txt,Mark Reckless AM,Can I follow up on tracking adopted children?,1,assign
+meeting_019.txt,Industrial Designer,"Um, so I was looking at how we're going to go about the working design, and what we actually need to do, and what the remote control needs to do.",1,going_to
+meeting_012.txt,Project Manager,And uh I'll send you the the minutes of meet,1,assign|commit
+meeting_022.txt,PhD H,"And, thank you very much.",0,
+meeting_041.txt,Project Manager,Right I'm gonna have to,0,
+meeting_006.txt,Project Manager,First it's only going to be a T_V_ remote.,0,
+meeting_022.txt,Professor B,But doing the same kind of limited thing,0,
+meeting_035.txt,Project Manager,Here are some functions.,0,
+meeting_021.txt,Project Manager,"Yeah, so uh what we'll do is, uh, we will stick with the the simple design for time being until uh th Ed find outs about the how much it's cost to the extra, in case we go for the display.",1,commit
+meeting_049.txt,Lynne Neagle AM,"Is that a situation that you recognise and what, really, can we do to improve that situation?",0,
+meeting_037.txt,PhD C,"Well, I I did The only experiment where I tried was I used the channel zero VAD for the noise estimation and frame - dropping.",0,
+meeting_053.txt,PhD F,and then use a tandem system,0,
+meeting_020.txt,PhD B,He's saying get a whole different drive.,0,
+meeting_031.txt,User Interface,"With a scroll wheel,",0,
+meeting_020.txt,Professor D,and I'll just go buy their process.,1,commit
+meeting_003.txt,Postdoc A,"The, uh, version beyond this is So instead of saying "" or "", especially those words, "" also "" and "" oder "" and some other ones.",0,
+meeting_023.txt,Project Manager,Banana is also yellow so you you can't lost your remote control then.,0,
+meeting_039.txt,Marketing,or one two enter.,0,
+meeting_003.txt,Grad F,and now we're we're saying we have to follow up each person and get a signature?,1,need_to
+meeting_019.txt,Industrial Designer,"I mean, I haven't seen that.",0,
+meeting_043.txt,Kirsty Williams AM,"So, we will want to develop a new suite, in line with our new accountability measures, as we go forward.",1,commit
+meeting_024.txt,Professor D,"Yeah, right well y i w if we w right.",0,
+meeting_014.txt,User Interface,The user interface is easy.,0,
+meeting_053.txt,Professor A,"Yeah but you're but when you look at the numbers, your sense of the relative size of things is quite different.",0,
+meeting_031.txt,Industrial Designer,"I think it's easier to use than a regular remote control, because when you push on the options menu, you get the the the various options uh entirely explained.",0,
+meeting_005.txt,Marketing,You've got brightness and contrast.,0,
+meeting_049.txt,Dr Frank Atherton,"We're currently looking at breastfeeding because it starts before birth, actually.",0,
+meeting_055.txt,Grad A,our our dialects Or whatever you region are the same.,0,
+meeting_031.txt,Project Manager,"That was your evaluation uh show,",0,
+meeting_059.txt,Project Manager,Does anybody want to uh uh Andrew do you want what do you want to say about um the uh yeah the evaluation,0,
+meeting_022.txt,PhD A,Tho - good the good numbers.,0,
+meeting_033.txt,User Interface,I'm Kendra and I'm the Us User Interface Designer and um I haven't had a whole lot of experience in this kind of thing before but I'm m so I'll be working on the design.,1,commit
+meeting_041.txt,Project Manager,So um yeah so just t to bear in mind that the ultimate goal of this meeting is to reach an decision on the the the concepts of the product.,0,
+meeting_017.txt,Suzy Davies AM,For HE and FE for that matter.,0,
+meeting_037.txt,PhD E,on the multi - condition in TI - digits.,0,
+meeting_051.txt,Professor B,"You know, if we can plug in three, let's plug in three.",0,
+meeting_020.txt,PhD E,"So, basically you give some time constraints for for the references and for for the hypothesis,",0,
+meeting_008.txt,PhD F,"Well, it's definitely true with the segment.",0,
+meeting_003.txt,PhD E,That's how these mailing houses work.,0,
+meeting_002.txt,Kirsty Williams AM,"What we're also very clear about, and I think it is important to say, is that any quality framework covering higher education will be compatible with ENQA, which I think is really, really important going forward.",0,
+meeting_046.txt,Project Manager,You put it on,0,
+meeting_004.txt,Project Manager,Okay jog-dial for volume.,0,
+meeting_010.txt,Jo-Anne Daniels,"So, at any one point in time, you're only sort of capturing a snapshot of what's happening.",0,
+meeting_022.txt,Grad E,But they they had,0,
+meeting_018.txt,Marketing,"So, I got a set of criteria just based on the marketing that we need to add in a financial one as well, at the end.",1,need_to
+meeting_059.txt,Industrial Designer,"so it kinda your hand still holds it and have it there,",0,
+meeting_020.txt,Postdoc A,"Sometimes it seems to be, um, similar to the ones that are being picked up.",0,
+meeting_038.txt,Marketing,so uh I think it's a bee beep to sound it and uh you can find it.,0,
+meeting_049.txt,Lynne Neagle AM,"We've got some questions now on leadership, and the first questions are from Siân Gwenllian.",0,
+meeting_039.txt,Project Manager,Bit of a stress ball feel.,0,
+meeting_005.txt,User Interface,"But I think a lot of um like Cable and Sky and stuff, that would be tuned to one channel, and then you'd have another remote for all of those channels.",0,
+meeting_007.txt,Marketing,w what it's gonna be.,0,
+meeting_003.txt,Grad F,"Oh, I just I didn't wanna do that, because I don't wanna have a discussion with every person if I can avoid it.",0,
+meeting_038.txt,Industrial Designer,What it costs and what kind of materials that we can uh choose what we want in it,0,
+meeting_046.txt,Industrial Designer,'S quite it's quite easy we do that w with back light on the on the wheel.,0,
+meeting_052.txt,Grad H,"We we can look into it,",1,assign
+meeting_009.txt,Project Manager,We have to ask the quest of that's uh design to the uh Industrial um Designer.,1,need_to
+meeting_031.txt,Marketing,"So does this I think lik oh and information was a bit low I think, sometimes,",0,
+meeting_034.txt,Project Manager,After that we have thirty minutes of individual work.,0,
+meeting_011.txt,Professor C,"Um, but, Again, I wouldn't wanna, wouldn't want what we we produced to be so, know, local in perspective that it it was matched, what we were thinking of doing one week, And and, and, you know, what you're saying is absolutely right.",0,
+meeting_039.txt,User Interface,It's in the middle of one of the little R_s.,0,
+meeting_044.txt,Grad B,Then I think the w long term perspective is is pretty clear.,0,
+meeting_038.txt,Industrial Designer,"If we make it s uh smaller, uh less wide, then we need to m make it a little thicker,",1,need_to
+meeting_046.txt,User Interface,Well during lunch break actually.,0,
+meeting_012.txt,Project Manager,"So, I'll invite uh Christine to discuss about uh the functional design.",1,commit
+meeting_011.txt,PhD G,""" Gonna see you tomorrow "", uh, "" guh see you tomorrow "".",0,
+meeting_009.txt,Project Manager,And then uh I will uh just ask you to think about that and uh look at your mail because you will receive uh some good advice soon.,1,commit
+meeting_053.txt,PhD B,"I thought "" well I'm gonna just look at the what actual digit strings do occur in the training data.",0,
+meeting_030.txt,Project Manager,Like I said we have to make a decision on a couple of these items here.,1,need_to
+meeting_023.txt,Project Manager,We have to make it l look like a fruit or vegetable.,1,need_to
+meeting_000.txt,Industrial Designer,"Well the recent fashion is rather displayed in the in the L_C_D_ and the way you operate it than the form and the colour,",0,
+meeting_049.txt,Dr Frank Atherton,"But it's a tiered approach, so, having access to information through schools and through communities and into families is part of the first step of that.",0,
+meeting_046.txt,User Interface,Yeah and also parameter changing.,0,
+meeting_048.txt,User Interface,Just Could you please check if it is the first one or the second.,1,request
+meeting_010.txt,Dawn Bowden AM,"What the first year's evaluation did show, however, was that 94 per cent of respondents said that they were already using formal childcare before the offer came into place.",0,
+meeting_052.txt,Professor B,You know what he means but isn't that funny sounding?,0,
+meeting_022.txt,Professor B,"But, I think even even if there was, uh, only a factor of two or something, like I was saying in the email, I think that's that's a big factor.",0,
+meeting_052.txt,Grad H,"My opinion on it is, first, I never take notes anyway so I'm not gonna use it, um and second, it's another level of infrastructure that we have to deal with.",1,need_to
+meeting_041.txt,Industrial Designer,"So just so you guys have some idea of what's involved in my process, um and then you can just work through it",0,
+meeting_055.txt,PhD D,And the other thing is I Sorry.,0,
+meeting_038.txt,Project Manager,Uh I'm not sure it's it's hard to make.,0,
+meeting_010.txt,Julie Morgan AM,"I believe very strongly in having a universal system, where everybody is able to access it.",0,
+meeting_004.txt,Project Manager,"So yeah ab well yeah about sixty nine, seventy percent yeah.",0,
+meeting_008.txt,PhD F,But as long as the,0,
+meeting_055.txt,PhD D,I c I have to make a call.,1,need_to
+meeting_019.txt,Project Manager,"If you touch the button and then it could be, it could be lit up as well.",0,
+meeting_021.txt,Industrial Designer,"Components design, there we go.",0,
+meeting_010.txt,Lynne Neagle AM,Are you going to move on?,0,
+meeting_043.txt,Kirsty Williams AM,"One of the emerging themes for me, as I go around visiting schools, is the impact and the growing awareness and the growing numbers of children who have attachment disorder, and how schools are best able to respond to that in their children.",0,
+meeting_034.txt,Project Manager,We have a couple new requirements that I was just e-mailed right before the meeting and that we have to keep in in um in mind as we're creating this.,1,need_to
+meeting_037.txt,PhD E,In some cases it divides the error rate by two.,0,
+meeting_034.txt,Project Manager,Thank you very much.,0,
+meeting_004.txt,Marketing,"Yeah, because the PowerPoint was provided to us while we had time to prepare, whereas I can imagine if I'd been encouraged to use Paintbrush, for example, or whatever, I would've actually used it,",0,
+meeting_002.txt,Dawn Bowden AM,"So, the informal measures might not be as prevalent as they are currently, possibly.",0,
+meeting_008.txt,Grad C,It's almost the same.,0,
+meeting_007.txt,Industrial Designer,"No, it's a turtle.",0,
+meeting_034.txt,User Interface,"When a users using a remote control, he or she expects the buttons to be in certain places.",0,
+meeting_053.txt,Professor A,"So one thing to do might be to just take a piece of the spec uh of the spectrogram where you can see that something looks different, an and blow it up, and have that be the part that's just to show as well.",0,
+meeting_037.txt,PhD E,This is with just fifteen frames.,0,
+meeting_049.txt,Dr Frank Atherton,"So, I mean, your point about food that's brought in in the packed lunches is a really important one, and I've talked to some headteachers as well about this.",0,
+meeting_022.txt,Professor B,"I mean, before I thought we'd get, you know, a hundred and fifty percent error or something, but if if, uh if we're getting thirty - five, forty percent or something, u um",0,
+meeting_039.txt,User Interface,Well that was our brief and we followed the brief.,0,
+meeting_014.txt,Project Manager,"I thought it w might be, let's make things better or something, but",0,
+meeting_024.txt,Grad C,And um And then after three tasks the system breaks down.,0,
+meeting_031.txt,Industrial Designer,"But it isn't three dimensional,",0,
+meeting_054.txt,Project Manager,Um You all get uh um certain task uh in this uh in this phase and uh then we will meet again and uh discuss this functional design.,1,commit
+meeting_031.txt,Marketing,"Yeah, like the f like a plotters or something,",0,
+meeting_002.txt,Lynne Neagle AM,Are there any other questions from Members?,0,
+meeting_058.txt,User Interface,think it's the last one.,0,
+meeting_022.txt,PhD D,Simultaneous digit chocolate task.,0,
+meeting_021.txt,User Interface,"And then here you'd have your sort of standard, telephonish number pad.",0,
+meeting_057.txt,PhD D,"Uh, and another thing is to Yeah, for this I just use as noise estimate the mean, uh, spectrum of the first twenty frames of each utterance.",0,
+meeting_029.txt,Project Manager,How we're going to make it.,1,going_to
+meeting_003.txt,Postdoc A,"The the German, French Sorry, the German, Dutch, and Spanish ones.",0,
+meeting_017.txt,Huw Morris,I think the research you're referring to may be research that Cardiff University has been doing with the Bevan Foundation and others.,0,
+meeting_003.txt,Professor B,So if we get to a boundary case like that then maybe I will call the attorney about it.,1,commit
+meeting_014.txt,Project Manager,"Yeah, we we'll make w this one trendy.",1,commit
+meeting_003.txt,Grad D,"Um, this is always a suspect phrase.",0,
+meeting_045.txt,Marketing,Do you know how how I can wake it up?,0,
+meeting_036.txt,Marketing,Where did we start with price?,0,
+meeting_003.txt,Grad F,And we'll see how many people respond to that email.,1,commit
+meeting_046.txt,Project Manager,"so then uh each of you will uh lead a presentation on the task that has been required last time so user requirement specification, technical function design and working design.",0,
+meeting_008.txt,Grad C,"And then, uh, you could either say "" time equals a particular time - mark "" or you could do other sorts of references.",0,
+meeting_035.txt,Project Manager,Is everybody is anybody playing with the mouse?,0,
+meeting_011.txt,Professor C,"But that that's sort of what I was imagining doing, um, and but it's still open within that whether you would have an intermediate level in which it was actually phones, or not.",0,
+meeting_007.txt,User Interface,"Than on the, with",0,
+meeting_031.txt,Industrial Designer,"To knock the sample speaker, yeah.",0,
+meeting_048.txt,Industrial Designer,"The good news is that we can uh we decided to use the infra-red unit because our company has also developed the chip for communication by the infra-red, including all the stuff inside, so it will be very cheap for us.",0,
+meeting_048.txt,Marketing,"This seven inch T_F_T_ screen,",0,
+meeting_003.txt,PhD E,"No, it's backward - forward.",0,
+meeting_008.txt,PhD F,"And that isn't really, I guess, as important as the the main I don't know what you call it, the the main sort of word - level",0,
+meeting_005.txt,Project Manager,"because we've got uh th th three um primary um uh requisites from uh from and email uh that was sent to me whereby we had The design logo was one, which we've already mentioned.",0,
+meeting_056.txt,Marketing,because most of the people,0,
+meeting_035.txt,Project Manager,Is everybody sitting on the right place?,0,
+meeting_024.txt,Grad B,"But who is it that has to care about this, or what component of the system?",0,
+meeting_052.txt,Postdoc A,"You c I mean, I when I when I did it I synchronized it by voice, by whispering "" one, two, three, four "" onto the microphone",0,
+meeting_009.txt,Project Manager,then uh we will uh see what will be uh our product and what will be the different step we will have to design it.,1,commit
+meeting_051.txt,Professor B,"Uh, he might be excited to and it might be very appropriate for him to, uh, or he might have no interest whatsoever.",0,
+meeting_055.txt,Grad A,You could you can write widgets in C.,1,request
+meeting_057.txt,PhD D,"Uh, so yeah, the next thing I started to do is to, uh, try to develop a better voice activity detector.",0,
+meeting_047.txt,Professor B,"The fact that none of these are are you know, enormous is is is not too surprising most improvements aren't enormous and uh",0,
+meeting_057.txt,Professor C,I would worry about it a little.,0,
+meeting_014.txt,Project Manager,"we also meet the other thin y you sh you just re we have to choose for the the simple design, I guess.",1,need_to
+meeting_051.txt,PhD A,"Um, the other thing is that there was a number of things at the transcription side that, um, transcribers can do, like dialogue act tagging,",0,
+meeting_013.txt,User Interface,But I I I think that the user would like wou would like to associate the channel or call the channel rather than than the numbers.,0,
+meeting_049.txt,Nathan Cook,"So, what we'd want to consider is, you know, what we need to be careful of is unintended consequences of changing that, as well, if you see a shift to more kids bringing in school packed lunches as well.",1,need_to
+meeting_031.txt,Marketing,Team work was okay.,0,
+meeting_016.txt,User Interface,because uh we we need to find out what what people want before we make firm decisions on this.,1,need_to
+meeting_009.txt,Project Manager,Okay so I hope that it helps you uh in the process of designing a remote control.,0,
+meeting_036.txt,Project Manager,If you Don't know if you al already had a look or not?,0,
+meeting_031.txt,Industrial Designer,"For example uh T_V_ settings, uh remote settings, et cetera.",0,
+meeting_051.txt,Grad H,I had read some papers that looked like they had already done some work.,0,
+meeting_018.txt,Marketing,"Shall we shall we evaluate the prototype as we've got it now first, and then sort of make decisions about what needs to be changed after?",1,commit
+meeting_036.txt,Project Manager,No y you would rec,0,
+meeting_022.txt,PhD A,And so your speech - ch was s saying something about mixed signal.,0,
+meeting_036.txt,Project Manager,Uh We have a Back and a Okay button.,0,
+meeting_036.txt,Project Manager,"Then I have to uh uh write this,",1,need_to
+meeting_004.txt,Marketing,We only have very sparse,0,
+meeting_038.txt,Project Manager,"just I'm not sure if you came up with anything in the meantime, after making a presentation.",0,
+meeting_053.txt,PhD B,I noticed that in the pictures.,0,
+meeting_037.txt,Professor B,"So it would be more or less the same thing with the neural net, I guess, actually.",0,
+meeting_007.txt,Project Manager,So uh we uh must let it uh stand on this uh this programme.,0,
+meeting_021.txt,User Interface,"Um, so again you can have a little L_C_D_ light somewhere, the flip thing and Have I forgotten anything?",0,
+meeting_011.txt,Professor C,"And someone else, might actually want some phonetic uh intermediate thing.",0,
+meeting_022.txt,Professor B,"It's it's not the Aurora I mean, it it's it's actually the Aurora task.",0,
+meeting_039.txt,Marketing,I don't know what other options there are.,0,
+meeting_046.txt,Marketing,So it's not in theory but I I can I can say yeah.,0,
+meeting_039.txt,Industrial Designer,So that for corporate identity that would probably be the most strength.,0,
+meeting_044.txt,Professor F,Whether the inference gets any faster or not I don't know.,0,
+meeting_001.txt,Marketing,That's quite significantly expensive.,0,
+meeting_030.txt,Industrial Designer,Or a device that was not n not further specified that provides kinetic energy.,0,
+meeting_045.txt,Marketing,Get back to me.,1,assign
+meeting_039.txt,Project Manager,Yeah but you don't have to press zeros.,0,
+meeting_042.txt,Project Manager,"and that could allow n easy navigation, used as a joystick as well.",0,
+meeting_008.txt,PhD F,Can you But you can add to those structures if you,1,request
+meeting_055.txt,Grad A,Well what we talked about with that is is so that they would understand the granularity.,0,
+meeting_057.txt,Professor C,"And then the decoding of that is much, much faster or can be much, much faster if it isn't a big bushy network.",0,
+meeting_036.txt,Marketing,"And since it's not kinetic, it doesn't have to flip around that much?",0,
+meeting_031.txt,User Interface,We have to make this like four or five or something.,1,need_to
+meeting_057.txt,PhD D,"Yeah, it's our system but with just the Wiener filtering from their system.",0,
+meeting_053.txt,PhD B,Can I just mention one other interesting thing?,0,
+meeting_057.txt,PhD B,"Oh, it's it's Wiener filtering.",0,
+meeting_037.txt,PhD E,Just the frame - dropping problem.,0,
+meeting_053.txt,Professor A,"You also could do it by spect uh spectral subtraction before the variance normalization, right?",0,
+meeting_031.txt,Marketing,And the menu is avail that is available is easy to use.,0,
+meeting_038.txt,User Interface,"Yeah, with the cover.",0,
+meeting_057.txt,Professor C,"I mean, why would you do it, if you knew that you were going to have short windows in testing.",1,request
+meeting_020.txt,Professor D,And that worked that worked fine.,0,
+meeting_056.txt,Project Manager,"Yeah, I like that, yeah.",0,
+meeting_001.txt,Project Manager,"is there anything else that anybody would like to to add, um anything they think that's not been covered, before I quickly write up a final report.",1,assign
+meeting_031.txt,User Interface,You have to add something to the rubber to make it green.,1,need_to
+meeting_009.txt,Project Manager,So what could I draw?,0,
+meeting_056.txt,User Interface,and as we say we n we don't wanna be too ridiculous with the fruit things you know.,0,
+meeting_051.txt,PhD A,"Oh, that we could.",0,
+meeting_053.txt,PhD F,So it hurts a little bit on the well - match and yeah.,0,
+meeting_053.txt,Professor A,"Well, that's why I saying either Well, either spectrum or cepstrum",0,
+meeting_057.txt,PhD D,"So, yeah, it depends.",0,
+meeting_031.txt,Marketing,but now we're completely separated from each other.,0,
+meeting_059.txt,Project Manager,Well I think most definitely.,0,
+meeting_037.txt,PhD E,So it's good because it's difficult when we have to add noise to to to find the right level.,1,need_to
+meeting_037.txt,Professor B,"Um, it'd certainly be more robust to different kinds of input if you had at least some updates.",0,
+meeting_034.txt,Project Manager,Ah I can never tell which way to turn these things.,0,
+meeting_037.txt,Professor B,and then we'll probably wanna come back to this and possibly make some other choices.,1,commit
+meeting_016.txt,User Interface,That was sort of the inspiration for it.,0,
+meeting_020.txt,PhD I,"Um, and the test data is CallHome and Switchboard.",0,
+meeting_057.txt,PhD A,I'm not e u,0,
+meeting_047.txt,Professor B,I guess they have to send it out let's see the thirty - first is uh uh Wednesday and I think the it has to be there by some hour uh European time on Wednesday,0,
+meeting_048.txt,Industrial Designer,Um I have to check what I wanted to Uh from my point of view I don't care about the about the material used for the overall des uh ov all the device.,1,need_to
+meeting_011.txt,Postdoc B,W Well it seems like you could do both.,0,
+meeting_047.txt,Professor B,Uh that's uh that's with the reduced uh KLT size reduced dimensionality.,0,
+meeting_011.txt,Grad F,"But What I'm imagining is a score - like notation, where each line is a particular feature.",0,
+meeting_012.txt,Project Manager,"Okay uh Agnes, you can help me for the slide when",0,
+meeting_026.txt,Project Manager,Um I'll just check we've nothing else.,1,commit
+meeting_051.txt,Grad H,I wonder if we have any.,0,
+meeting_003.txt,Grad F,"W For this set, I'm not worried, because we basically know everyone on it.",0,
+meeting_036.txt,Marketing,Oh not the bold one.,0,
+meeting_056.txt,Industrial Designer,"and the shape, maybe we'll just make it kinda mix and match type of shape or",1,commit
+meeting_043.txt,Llyr Gruffydd AM,"Finally for now, on this issue of once a year, in January, if you're eligible for free school meals, then you're in that group for that year.",0,
+meeting_045.txt,Project Manager,I don't think uh I don't think uh Darwin would agree with that.,0,
+meeting_024.txt,Grad C,Um But I think y I I got the point and I think I like it.,0,
+meeting_046.txt,User Interface,If you also up on a computer in a strange position.,0,
+meeting_011.txt,PhD G,"It's like the, single cell, you know, it's the beginning of life,",0,
+meeting_051.txt,Postdoc G,"So what he wants me to do and what we what we will do and uh, is to provide them with the u already transcribed meeting for him to be able to experiment with in this ATLAS System.",1,commit
+meeting_038.txt,Industrial Designer,"I have to check that out,",1,need_to
+meeting_032.txt,Project Manager,"Yeah, yeah, yeah, so uh um",0,
+meeting_014.txt,Marketing,Fifty percent also claims uh to have lost a remote control very often in the room.,0,
+meeting_019.txt,Project Manager,Is Are you okay with that?,0,
+meeting_018.txt,Project Manager,"But the current one, you'd say would be fancy, would be too",0,
+meeting_056.txt,Marketing,"So in that way we need not to d have different different shape mobiles everything, we will just design casings fruit shape.",1,commit
+meeting_036.txt,User Interface,Or we have to delete this one or,1,need_to
+meeting_038.txt,Project Manager,Would you like to share?,1,request
+meeting_045.txt,Project Manager,You can use an eraser.,0,
+meeting_024.txt,Professor D,"So "" object "" becomes "" entity "", right?",0,
+meeting_048.txt,Industrial Designer,Then the graphical card uh for the T_F_T_ and the third unit is the I_R_.,0,
+meeting_037.txt,PhD C,Just one more thing.,0,
+meeting_019.txt,Project Manager,'Cause that wouldn't be very expensive at all.,0,
+meeting_031.txt,Marketing,And we'll probably make also a yellow one.,1,commit
+meeting_049.txt,Nathan Cook,"One of the proposals we're looking for is, obviously, we know that during pregnancy it's a really critical time when we can actually look to work with mothers.",0,
+meeting_057.txt,Professor C,"No, he'll be around for three weeks.",0,
+meeting_037.txt,Professor B,"Did you happen to notice how much, uh, the change was due to just this frame - dropping problem?",0,
+meeting_020.txt,PhD I,"So, what I'm saying is, the exact nature of these boot alignments is probably not a big factor in the quality of the final models.",0,
+meeting_027.txt,Project Manager,we don't sesh especially have the lightning,0,
+meeting_038.txt,Project Manager,"yeah, for ex you have to make it a little decision between the part if you want a universal remote control that it should do what people usually do with their T_V_s, not not the very complicated settings",1,need_to
+meeting_022.txt,PhD D,"I will send you the the final version,",1,assign|commit
+meeting_045.txt,Project Manager,"Right, we're gonna try out the electronic white-boards.",0,
+meeting_053.txt,PhD F,And it and this,0,
+meeting_041.txt,Marketing,Number two was that it be innovative.,0,
+meeting_052.txt,PhD F,What about issues of playing sound files @ @ between the two platforms?,0,
+meeting_016.txt,Project Manager,Can you all d e-mail me your e-mail addresses?,1,request
+meeting_004.txt,Project Manager,"Six, seven, eight, nine, ten.",0,
+meeting_032.txt,Project Manager,Um the uh the ma the management has had it's own thoughts on this and uh the they don't necessarily agree with with what we uh we thought.,0,
+meeting_000.txt,Industrial Designer,"Um the it's based on this anti anti-theft technology for suitcases and stuff,",0,
+meeting_049.txt,Dr Frank Atherton,"Would I like to see more dietetic support, for example, in that setting?",0,
+meeting_036.txt,Project Manager,Well I have to um um make an uh report of every decision we made so far.,1,need_to
+meeting_029.txt,Project Manager,We have about forty minutes.,0,
+meeting_053.txt,PhD F,"Yeah we are We are trying to to do something with the Meeting Recorder digits,",0,
+meeting_012.txt,User Interface,"It's actual speech, so then you have to make sure that the speech recognizer is good enough to filter out the T_V_ speech, and the the user's speech.",1,need_to
+meeting_011.txt,Grad F,Cuz then it would be a meeting about the meeting about the meeting about meetings.,0,
+meeting_010.txt,Jo-Anne Daniels,"As part of that work, we'll need to consider the detailed costings, but our initial estimate suggests that it would be less than the cost proposed by HMRC.",1,commit
+meeting_015.txt,Project Manager,It's a big success.,0,
+meeting_009.txt,User Interface,I it will look a bulky in that case.,0,
+meeting_038.txt,Project Manager,"I mean those cost hardly anything I think, and people could even spend extra money on buying a cover",0,
+meeting_001.txt,User Interface,"But as you as you see with the uh with holding it in the left hand, the L_ uh the L_C_D_ is nowhere useful, so that would need to be articulated uh if we're going to retain ergonomic design.",1,going_to
+meeting_016.txt,Project Manager,"It's older generation, they're the ones that have gone out and",0,
+meeting_010.txt,Julie Morgan AM,"We think this is very important, and we're pleased that 29 per cent of children taking up the childcare offer are in Welsh or bilingual settings, so we think that's very good.",0,
+meeting_020.txt,PhD G,"Well, let's just say that men are simple.",0,
+meeting_009.txt,User Interface,Well uh do we sell other stuff?,0,
+meeting_039.txt,Project Manager,But I was just wondering,0,
+meeting_057.txt,PhD D,"The baseline is something similar to a w I mean, the t the the baseline that you are talking about is the MFCC baseline, right?",0,
+meeting_030.txt,Project Manager,Works well in Arizona but in Edinburgh not so,0,
+meeting_057.txt,PhD D,"So if you take these minima, it b they will overestimate the noise a lot.",0,
+meeting_030.txt,Industrial Designer,"Um as for the energy source, um we were talking about that shortly in the other meeting.",0,
+meeting_020.txt,Grad F,"But, uh, we're we're basically ready to do it.",0,
+meeting_005.txt,Project Manager,Channel up and down.,0,
+meeting_008.txt,PhD F,"So, I mean, that seems that seems g great for all of the encoding of things with time and,",0,
+meeting_043.txt,Lynne Neagle AM,"Given that we've had it now for six years, would you not have expected there to be a higher level of schools actually making good use of that funding?",1,request
+meeting_038.txt,Project Manager,I mean we all do.,0,
+meeting_053.txt,PhD F,Yeah that's th Yeah.,0,
+meeting_036.txt,Marketing,The remote control has irrelevant or less used functions.,0,
+meeting_001.txt,User Interface,Such as it is.,0,
+meeting_017.txt,Kirsty Williams AM,"So, we have a close working relationship with the National Union of Students.",0,
+meeting_019.txt,User Interface,So it would be cheaper to make.,0,
+meeting_051.txt,PhD A,And it's just sort of a open world right now of exploring that.,0,
+meeting_052.txt,Grad H,And so we're doing those as disjoint from the ones we're transcribing here?,0,
+meeting_057.txt,PhD B,"So but the thing is that you have to estimate the SF from the noisy spectrum, what you have.",1,need_to
+meeting_003.txt,Grad F,It would be qui quite easy to get it back again.,0,
+meeting_049.txt,Suzy Davies AM,"I appreciate this is a consultation, but what is it that needs changing in those regulations at the moment, just to give us a bit of steer?",0,
+meeting_013.txt,Industrial Designer,But I d I don't know it's if it is feasible because I don't know if yet if if the user will move enough to provide the remote um all the necessary energy.,0,
+meeting_008.txt,Grad C,"You use it as a tool, not an end - user.",0,
+meeting_008.txt,PhD A,"I would say OK, so frame - level is probably not a good idea.",0,
+meeting_018.txt,Marketing,", I just read the email again and it sort of says it's evaluate the design sort of as it is, I think, so I think we need to think about finance after we've sort of evaluated that design.",1,need_to
+meeting_044.txt,Grad B,"Um, something happened, in on Eva's side with the PRM that we're gonna look at today, and um, we have a visitor from Bruchsal from the International University.",0,
+meeting_011.txt,PhD A,That's that's what I that's my future work.,0,
+meeting_010.txt,Julie Morgan AM,"I think we have to be very careful to see that lower standards are not implemented, because it was groundbreaking when we brought it in, and it has proved to be a great success, so we want to make sure that's guarded.",1,need_to
+meeting_017.txt,Eluned Morgan AM,"We have been promised that we will not lose a penny as a result of Brexit, and we need to make sure that we keep them to that commitment.",1,commit|need_to
+meeting_007.txt,User Interface,"Uh a Graphical User Designer, so",0,
+meeting_041.txt,Marketing,Okay lemme just see where I can find it.,0,
+meeting_026.txt,Marketing,"Superb sketch, by the way.",0,
+meeting_011.txt,Grad F,I don't know what they do in Aurora.,0,
+meeting_021.txt,Industrial Designer,"You know, maybe what you could do is when somebody orders the device id you could send them like um a uh uh b some sort of a foam rubber um ball,",1,assign
+meeting_020.txt,Professor D,"I mean, we're already sort of using the mel scale and we're using the same style filter integration, and and, well, we're making sure that low and high",0,
+meeting_016.txt,Industrial Designer,but we'll send you an e-mail.,1,assign|commit
+meeting_001.txt,Marketing,"She'd be like is this a remote control, I don't how do you use it, and stuff like that.",0,
+meeting_010.txt,Julie Morgan AM,"Well, the evaluation of the first year of the childcare offer was very limited, because the childcare offer wasn't available throughout the whole of Wales.",0,
+meeting_024.txt,Grad C,One could put scales in there.,0,
+meeting_011.txt,Postdoc B,"They'd be able to do phonetic - level coding, or articulatory.",0,
+meeting_056.txt,Marketing,like people uh now,0,
+meeting_041.txt,Industrial Designer,"No, like I said we have a h hybrid kind of thing, so it's not gonna charge the battery, it's just",0,
+meeting_050.txt,User Interface,And we have also included two buttons for scrolling up and scrolling down the programme channels.,0,
+meeting_005.txt,Industrial Designer,Um Yes.'Kay and that's it for the moment.,0,
+meeting_013.txt,User Interface,T_V_ remote controller where are you?,0,
+meeting_019.txt,User Interface,"Um, a single function just for the television itself.",0,
+meeting_044.txt,Grad B,"We get rocking and rolling on this again, once we get a package, if, when, and how, then this becomes foregrounded",0,
+meeting_046.txt,User Interface,so it's really something for the expert user.,0,
+meeting_018.txt,Project Manager,"So we're now on to changing it to get it to fit in with the budget requirements, and then",0,
+meeting_052.txt,Grad H,"Yeah, I mean we have to I have to sit down and try it before I make too many judgments,",1,need_to
+meeting_019.txt,User Interface,I think that would be better.,0,
+meeting_008.txt,PhD F,"So you would be able to go in and say, you know, "" give me all the words in the bound in the prosodic phrase",0,
+meeting_031.txt,User Interface,"Y yeah, you could you could call it.",1,request
+meeting_036.txt,Industrial Designer,We'll make it a Morse code.,1,commit
+meeting_018.txt,Project Manager,"You could either you could have it If you have a in plastic rather than rubber, then that would uh enable you to get you could keep kinetic then, you could keep your sample sensor, and you'd be looking to take out point two.",0,
+meeting_010.txt,Suzy Davies AM,And it's ingrained in the early years training.,0,
+meeting_030.txt,User Interface,Stick to the colours yeah.,0,
+meeting_007.txt,Project Manager,I'm the Project Manager.,0,
+meeting_003.txt,Grad F,"If you're if you're desperate, I have some space on my drive.",0,
+meeting_048.txt,Marketing,Um somehow would be good to have it related to fruit and vegetables with a spongy feel.,0,
+meeting_020.txt,Postdoc A,"Well it it well, it'd be preceded by "" I'm reading transcript so - and - so ""?",0,
+meeting_008.txt,PhD F,You have to make a different type.,1,need_to
+meeting_012.txt,Industrial Designer,"I think we should take that as an action item for after the meeting,",1,assign
+meeting_045.txt,Project Manager,Try the power button.,0,
+meeting_039.txt,User Interface,I was in charge of the numbers.,0,
+meeting_008.txt,Grad C,Or does it even have a concept of features?,0,
+meeting_005.txt,Industrial Designer,Keep the other buttons but hide them away.,0,
+meeting_024.txt,Grad C,"And then they call this computer system that works perfectly, and understands everything.",0,
+meeting_033.txt,Industrial Designer,They they just need to be very very dependable because people sort of take them for granted and then if your remote control breaks it's God forbid you actually get up and manually change the channel,0,
+meeting_009.txt,Project Manager,So I will now ask you which is very important for the design of a new remote control for to uh each of us to to draw uh your favourite animal on the white board.,1,commit
+meeting_056.txt,Industrial Designer,"Okay um, I guess, since you're the marketing guy.",0,
+meeting_010.txt,Suzy Davies AM,"Well, having established that, we have fairly recent research here that a third of children living in poverty in Wales are already falling behind at the age of five—that suggests that two thirds of them aren't, but it's still a very worrying statistic.",0,
+meeting_041.txt,Marketing,"It kinda does make sense, doesn't it, because when we get into the end of meeting we're kind of talking about action and design as opposed to background.",0,
+meeting_000.txt,User Interface,"And then to access the more complicated functions you'd you sorta go, you press that and go through the menus.",0,
+meeting_023.txt,Project Manager,do you need to add anything?,1,need_to
+meeting_054.txt,Industrial Designer,"Yeah, I guess we'll have a shared folder uh with documents that we can share.",1,commit
+meeting_031.txt,Industrial Designer,Would you like to make any comments about next uh,1,request
+meeting_028.txt,Industrial Designer,"Um, so uh we need to I dunno exactly what That's the design of the the the layout of the uh electronic design, um obviously there'll be more details once we've decided what we're putting on the user interface.",1,need_to
+meeting_043.txt,Kirsty Williams AM,We can't see the educational attainment of looked-after children just being a job of education.,0,
+meeting_058.txt,Marketing,Whatever name it popped up under.,0,
+meeting_003.txt,Grad F,So I didn't send out agenda items because until five minutes ago we only had one agenda item and now we have two.,1,assign
+meeting_046.txt,Project Manager,Okay so you we have to make it uh more ergonomic yeah.,1,need_to
+meeting_038.txt,Project Manager,but you can't you cannot take into consideration all the different brands of T_V_s.,0,
+meeting_032.txt,Project Manager,"But we clearly only need th the main buttons, although, uh if clearly only need the main functions.",0,
+meeting_056.txt,Marketing,No it ca y a,0,
+meeting_006.txt,Project Manager,And we're gonna do this all in about forty minutes.,0,
+meeting_014.txt,Project Manager,"And and what people just think about, well, I'll never have to buy any r batteries again, so y b because it's very annoying when your battery is empty.",1,commit
+meeting_046.txt,Project Manager,we have to take care of that point of view I think or so.,1,assign|need_to
+meeting_003.txt,Postdoc A,"Description with th the transcriber has "" X as an advance "".",0,
+meeting_004.txt,Project Manager,"I don't know, just um your opinion on those four those four points really and how we used them.",0,
+meeting_018.txt,Project Manager,"Well, originally, I thought there would just be uh one in there because it was the one red apple.",0,
+meeting_022.txt,PhD F,And we know Di - did I send you some results without adaptation?,1,assign
+meeting_046.txt,User Interface,Christine here said uh you have a,0,
+meeting_001.txt,Project Manager,Si it's got a curve to it.,0,
+meeting_002.txt,Hefin David AM,"—potentially institutions going bankrupt, and there don't seem to be many steps in between that.",0,
+meeting_035.txt,Project Manager,"Our production cost um can be maximal twelve and a half Euros, so that's also a point we have to keep in mind, that we won't make remote controls with small televisions inside, and stuff like that.",1,need_to
+meeting_003.txt,Professor B,"no big deal "".",0,
+meeting_005.txt,Project Manager,"What was that, sixteen?",0,
+meeting_014.txt,Marketing,I think I think that'll be too big tha too big then.,0,
+meeting_055.txt,PhD D,The m the right model will be easier to see that way.,0,
+meeting_008.txt,Grad C,"Um, you would have another structure lower down than this that would be saying they're all belonging to this ID.",0,
+meeting_048.txt,Project Manager,"but using how many batteries, for example?",0,
+meeting_050.txt,Marketing,"Okay, I'll take my file down so you can bring it up.'Kay should be able to get it now.'Kay, why don't you move just to the next slide right away.",1,commit
+meeting_003.txt,Postdoc A,This is the first cycle.,0,
+meeting_003.txt,Professor B,"just say "" oh yeah, a hundred gig,",0,
+meeting_011.txt,Professor C,There the first the first half.,0,
+meeting_011.txt,Postdoc B,"And I'm and these people might they they are, s most of them are trained with IPA.",0,
+meeting_037.txt,Professor B,"Um And then if I summarize somebody can tell me if I'm wrong, which will also be possibly helpful.",0,
+meeting_043.txt,Kirsty Williams AM,"When we announce our new accountability measures, I will be in a position to address how we'll measure the Government's performance, and national performance, going forward.",1,commit
+meeting_027.txt,Project Manager,It's hard to miss it.,0,
+meeting_036.txt,Industrial Designer,"It's uh it's The the pen is more intuitive,'cause we're all used to writing with pen.",0,
+meeting_055.txt,PhD D,"S I mean, who cares.",0,
+meeting_031.txt,Industrial Designer,Is it possible to make,0,
+meeting_020.txt,Professor D,"I mean, you know, they they will find boundaries a little differently, though You know, all th all that sort of thing is actually slightly different.",0,
+meeting_051.txt,Professor B,"It was just, you know, yet another piece of research and it seemed like we had enough troubles just",0,
+meeting_006.txt,Industrial Designer,"'cause they're saying they only use ten per cent of them,",0,
+meeting_021.txt,Industrial Designer,f go to findings.,0,
+meeting_036.txt,Marketing,"Yeah, uh I would go for the six too.",0,
+meeting_013.txt,Industrial Designer,like uh a a list of function,0,
+meeting_004.txt,User Interface,Reckon that probably counts as a special form for the buttons.,0,
+meeting_038.txt,Industrial Designer,I like the covers.,0,
+meeting_000.txt,Project Manager,"And then we'll have to check with the main boss whether we can, what goes on after that.",1,commit
+meeting_022.txt,PhD A,It's probably cuz the recognition's just bad en at a point where it's bad enough that that you don't lose anything.,0,
+meeting_051.txt,Professor B,"But anyway, he might be interested in this stuff.",0,
+meeting_001.txt,Project Manager,but at a cost of,0,
+meeting_005.txt,Industrial Designer,We can send out a flier with the device saying that you shouldn't leave it on stand-by.,1,assign
+meeting_032.txt,User Interface,"This one um this is the user centred, it has uh quite a few mm uh um fewer buttons",0,
+meeting_008.txt,Grad C,"And then somewhere la further down you might have something like an utterance tag which has "" start equals T - seventeen, end equals T - eighteen "".",0,
+meeting_019.txt,Industrial Designer,For a certain percentage at least.,0,
+meeting_041.txt,Marketing,Okay so that tells me that we have to find a way to be innovative without a adding just unnecessary um sort of functional bits to it.,1,need_to
+meeting_031.txt,User Interface,A chat would also be uh,0,
+meeting_000.txt,User Interface,"where it is, obviously it wouldn't be that floppy'cause this would be hard plastic.",0,
+meeting_051.txt,Postdoc G,"And, um, that's, uh You know, I need to get back to him and and, uh, you know, explore that a little bit more and see what they'll be giving us in specific,",1,assign|need_to
+meeting_045.txt,Project Manager,the technical functions design.,0,
+meeting_039.txt,Project Manager,I would give it a two still though.,0,
+meeting_007.txt,Project Manager,My name is uh Danny Wolfs.,0,
+meeting_055.txt,Postdoc B,I can do that.,0,
+meeting_003.txt,Grad F,If you wanna do a quick,0,
+meeting_010.txt,Suzy Davies AM,How are you ensuring it's used for this?,0,
+meeting_030.txt,Project Manager,it could be an ape or a fruit bowl.,0,
+meeting_003.txt,Grad F,"Well, but you have to copy the whole file.",1,need_to
+meeting_001.txt,Marketing,I mean can you get the entire thing printed with a design um?,1,request
+meeting_011.txt,Grad F,"And inc increase it by one or two percent, yeah.",0,
+meeting_056.txt,Marketing,"I will show you, in shared documents.",1,commit
+meeting_023.txt,User Interface,I guess it's possible.,0,
+meeting_048.txt,Industrial Designer,It's like more more expensive to have shape like that.,0,
+meeting_025.txt,User Interface,Now we can forget this ever happened.,0,
+meeting_052.txt,Professor B,"Because we we you know, we we haven't used it at all.",0,
+meeting_004.txt,Project Manager,could you just list all the things that it does s so I can write them in the report.,1,request
+meeting_031.txt,User Interface,"Yeah, but if you would i it is a new feature, it it's something special.",0,
+meeting_036.txt,User Interface,Yeah but only the the financial parts uh,0,
+meeting_055.txt,PhD D,"so I can Well, I can wait for the digits but I can't stay for the discussion",0,
+meeting_006.txt,Project Manager,A finding kind of device or,0,
+meeting_006.txt,Project Manager,"And then lastly we're going to determine its working design, how exactly will it perform its functions, that's the whole technical side of'Kay I'll just give you a minute,'cause it looks like you're making some notes.",1,commit|going_to
+meeting_009.txt,Project Manager,So so I will ask the Industrial Designer to find out more about this industrial design so any working any working function we have discussed.,1,commit
+meeting_045.txt,User Interface,"Yeah, it's uh the most simple uh animal I know, I think.",0,
+meeting_049.txt,Dr Frank Atherton,So we need to think about our governance system for this and how we drive it forward.,1,need_to
+meeting_034.txt,Project Manager,Press the little presentation.,0,
+meeting_016.txt,Industrial Designer,"So Project Manager, it's participant one at A_M_I_.",0,
+meeting_000.txt,Marketing,But how many remotes do you see like this?,0,
+meeting_057.txt,Professor C,"And the only thing, you know, consistent that we know about is that you want to get rid of the very low frequency component.",0,
+meeting_032.txt,Industrial Designer,'Cause I only remember to charge my cell phone uh when battery dies.,0,
+meeting_038.txt,Project Manager,"uh we need to put some research into that if if we can open the menu, I think it's possible, just the way how to.",1,need_to
+meeting_055.txt,Professor C,"He was he he was taking everything over two hundred milliseconds uh, and uh he's going to vary that number and also look at moving windows, as we discussed before.",0,
+meeting_001.txt,Marketing,"And uh the criteria based on Real Reactions' kinda goals and policies, marketing strategies, and also those I put together from the user requirements phase.'Kay.",1,assign
+meeting_026.txt,Industrial Designer,I think that that's the main factor.,0,
+meeting_011.txt,Professor C,"Well I think what I mean I'm I'm a l little behind in what they're doing, now, and, uh, the stuff they're doing on Switchboard now.",0,
+meeting_028.txt,Industrial Designer,"I just used the it was a mess, uh I was just putting adding it together at the end there.",0,
+meeting_036.txt,Marketing,So do you think,0,
+meeting_020.txt,Grad F,The - they they wear out.,0,
+meeting_059.txt,Project Manager,"so uh um you know the if if if the management expect us to be techno again fail again technologically innovative um that they they have to accept that we we can't operate absolutely within uh the constraints that they give,",0,
+meeting_018.txt,Project Manager,"The other option if we're planning on just going for something cheap and cheerful, would be to um make it originally, we're gonna make it a simple product.",0,
+meeting_043.txt,Kirsty Williams AM,"So, we're absolutely determined.",0,
+meeting_036.txt,Industrial Designer,"Yeah because the the batteries, those thingies last forever.",0,
+meeting_002.txt,Kirsty Williams AM,I think it's still—.,0,
+meeting_057.txt,PhD D,"Uh, so I have to test it.",1,need_to
+meeting_041.txt,Project Manager,"Just for in closing just the next meeting's gonna be in thirty minutes, and so you can see in the screen here what each of you are gonna hopefully be doing, uh I know that the designers are gonna be working with Play-doh on that.",0,
+meeting_016.txt,User Interface,"Yeah, that would be my guess as well.",0,
+meeting_013.txt,Project Manager,Just you have uh in the beginning you have uh t you have to train you have to create the vocabulary by yourself.,1,need_to
+meeting_032.txt,Marketing,Do you want the cable?,0,
+meeting_015.txt,Marketing,But I'd have to look into that a little more.,1,assign
+meeting_006.txt,User Interface,"Well, that could be No you could just double up with like the channel or the volume buttons.",0,
+meeting_049.txt,Lynne Neagle AM,We're going to move on now to talk about how we create healthy settings.,1,going_to
+meeting_020.txt,Professor D,Whereas everything that we talked about them doing at at UW and so forth really does.,0,
+meeting_012.txt,User Interface,"So, the problems that people have expressed is that there's too many buttons on remote controls, in general.",0,
+meeting_014.txt,Project Manager,"I think it's very impor because we're gonna make such a basic remote control, we have to do something to make it special.",1,need_to
+meeting_029.txt,Industrial Designer,Um well the kinetic energy source is rather fancy.,0,
+meeting_035.txt,Marketing,"Nope, don't think so.",0,
+meeting_006.txt,Marketing,"So what exactly we are looking at, is this like the front of the remote?",0,
+meeting_003.txt,Professor B,And how long of an opportunity did you tell them?,0,
+meeting_011.txt,Grad F,"Yep, go for it.",0,
+meeting_032.txt,Industrial Designer,"Um also send signals to the um infrared bulb, which will be the part that actually what?",0,
+meeting_051.txt,Professor B,"Well, I mean it doesn't hurt to have a few extra microphones around,",0,
+meeting_021.txt,Project Manager,For uh this meeting the main agenda okay uh to discuss about the conceptual design meeting.,0,
+meeting_031.txt,Marketing,"True is one, false is seven.",0,
+meeting_038.txt,Project Manager,Um well you should you should look into the in into the materials that are real durable.,1,assign
+meeting_044.txt,Grad D,"Like, a user has like, a query, and then, also has, you know um, reference slots to its preferences, um, the special needs and, you know, money, and the user interest.",0,
+meeting_000.txt,Project Manager,Um so there will probably be another questionnaire coming up.,0,
+meeting_003.txt,Postdoc A,And we can impose,0,
+meeting_036.txt,Marketing,F I don't know where.,0,
+meeting_048.txt,Industrial Designer,"I Most of the things I have to write myself on the board, but",1,need_to
+meeting_030.txt,Project Manager,Um Um Ryan you'll be working on the user interface design.,0,
+meeting_047.txt,Professor B,"So we're doing that also, I guess.",0,
+meeting_028.txt,Project Manager,Feel free to email me if you think that uh we've screwed something up and wanna get it rectified as soon as possible.,0,
+meeting_020.txt,Grad F,"Um, if we could really get one percent on",0,
+meeting_008.txt,PhD D,"or does that just sort of, uh a nice thing to have?",0,
+meeting_016.txt,Marketing,like if it had a symbol on it.,0,
+meeting_011.txt,Grad F,"And then, hand off to Jane, and the transcribers to do the actual extraction of the digits.",0,
+meeting_046.txt,Marketing,"F not many buttons, and uh and uh uh u useable buttons.",0,
+meeting_004.txt,Project Manager,What does anybody else think?,0,
+meeting_039.txt,Industrial Designer,more settled cream instead of the others are all a bit garish.,0,
+meeting_011.txt,PhD G,"so we're, I dunno a coup a week or two away I would say from, uh, if if that process is automatic once we get your post - process, transcript.",0,
+meeting_047.txt,PhD C,"But we have to decide I mean we have to fix the system on this d on this data, to choose the best",1,need_to
+meeting_012.txt,Project Manager,"Okay, because uh especially today, you know, you have the family and the kids,",0,
+meeting_022.txt,Postdoc C,I sent email when I finished the that one.,0,
+meeting_031.txt,Marketing,"Yeah, I think two.",0,
+meeting_058.txt,Project Manager,"Yes, that uh So I'll come back to the So evaluation criteria, I think uh that will be good, so then let's come to the finance uh, I have some uh calculations which I made uh as for uh the budget.",1,commit
+meeting_001.txt,User Interface,and we just we could just put our branding on any other remote control.,0,
+meeting_013.txt,Industrial Designer,"So for my part I will check the prices the um the prices difference uh of what to use, where to use, and s uh and so on.",1,commit
+meeting_008.txt,PhD F,But you do have to keep them in there.,0,
+meeting_053.txt,PhD B,w What is the effect of that?,0,
+meeting_011.txt,Grad F,"Yeah, I thought they were.",0,
+meeting_010.txt,Jo-Anne Daniels,"The committee will have seen the various evaluation reports that have been published, and I know that you’re familiar with the work that, as I say, we’ve been doing with SAIL.",0,
+meeting_021.txt,Marketing,"Okay Because I've seen mostly the standard ones,",0,
+meeting_007.txt,Project Manager,"He's happy with us, so uh he's smiling.",0,
+meeting_038.txt,Project Manager,uh we just have to see what it looks like.,0,
+meeting_052.txt,Grad H,So that it understands that they're different speakers and that it's one big audio file instead of a bunch of little ones and just sorta things like that.,0,
+meeting_029.txt,Project Manager,I think that's a good uh good option.,0,
+meeting_011.txt,PhD A,"And, eh, I tested it on on three or four meetings and it seems to work, well yeah, fairly well, I I would say.",0,
+meeting_034.txt,Project Manager,"Under sixty five, okay,",0,
+meeting_055.txt,Professor C,You you want it around the overlapping part.,0,
+meeting_055.txt,Professor C,There's cool graphic things people have had sometimes to put together three or four in some funny funny way.,1,assign
+meeting_049.txt,Dr Frank Atherton,There may be things that we could think about and we want to get those ideas through the consultation.,0,
+meeting_036.txt,Project Manager,"Because if you d lose the L_C_D_ screen, we need a lot of",0,
+meeting_008.txt,PhD A,"But, you know, it had lots of errors and things would end up in the wrong order, and so forth.",0,
+meeting_001.txt,Project Manager,We can I can bring the excel up sheet up and uh show you if you wish um.,0,
+meeting_013.txt,User Interface,And uh mm yeah yeah.,0,
+meeting_005.txt,User Interface,Um so my personal preference would be the right remote.,0,
+meeting_014.txt,Project Manager,"Well I think, yeah.",0,
+meeting_046.txt,Project Manager,There's no We have a technical problem.,0,
+meeting_024.txt,Grad C,"No, not at all.",0,
+meeting_021.txt,User Interface,"Despite working in interface design, I'm not the greatest artist in the world, so you'll have to forgive me.",0,
+meeting_019.txt,Marketing,So people wanna be able to turn on the T_V_ with the remote control.,0,
+meeting_047.txt,Professor B,"Alright, that's six in the morning here.",0,
+meeting_002.txt,Dawn Bowden AM,Just the fact that they've got the power doesn't necessarily mean that that's what they're going to do.,0,
+meeting_019.txt,Marketing,This is the most important button.,0,
+meeting_015.txt,Marketing,Which would tell you what it does.,0,
+meeting_014.txt,Marketing,"Well, I use it very regularly, the action.",0,
+meeting_043.txt,Hefin David AM,"So, to what extent would exam boards be responsible for lack of grade stability?",0,
+meeting_019.txt,Project Manager,"Um, so we'll have to investigate how much that will cost us, cost the company,",1,commit
+meeting_016.txt,Project Manager,"I just have to there's a few little bits and pieces I have to write down, but Take your headsets off, kick back, smoke'em if you got'em.",1,need_to
+meeting_043.txt,Kirsty Williams AM,I have to make decisions in the envelope of resources that are available to me.,1,need_to
+meeting_033.txt,Project Manager,"um I'll just go round th the table, Andrew, marketing, um m Kendra with the uh um designing the the the User Interface uh uh and Kate with the the industrial design.",1,commit
+meeting_031.txt,Marketing,"No, but we're going to th make this f for a all kind of people,",1,going_to
+meeting_038.txt,Project Manager,"I think the p yeah, the beep is a very simple thing to imple implement, just make a button on your T_V_",0,
+meeting_004.txt,User Interface,I'm not sure if that counts but,0,
+meeting_011.txt,Postdoc B,And you could tell that,0,
+meeting_030.txt,Project Manager,"Um then each of you will have your presentation, um and then we will need to make a decision on the concept for the remote control.",1,commit
+meeting_008.txt,PhD F,"And just, I mean we have to use some we have to make some decision about what to do.",1,need_to
+meeting_018.txt,User Interface,I think the voice recognition.,0,
+meeting_058.txt,Marketing,"Now, the company must evaluate the feasibility of being able to take enough of the market to justify in production.",0,
+meeting_005.txt,Project Manager,so these are the sort of three um extra parameters that have been put on this uh project.,0,
+meeting_055.txt,Grad A,I don't know what those are.,0,
+meeting_034.txt,Project Manager,Um and so who are we aiming this at?,0,
+meeting_025.txt,Project Manager,So apparently we need to um be very at um very open to what's currently hot in the market.,1,need_to
+meeting_035.txt,Marketing,So I think you can take minutes again.,0,
+meeting_055.txt,Professor C,We could always ask them if they're from,0,
+meeting_001.txt,User Interface,but you see it in a lot of other places.,0,
+meeting_056.txt,Marketing,"Yeah, not not the upper side.",0,
+meeting_003.txt,Grad F,All I really know is that the signal level is OK.,0,
+meeting_053.txt,Professor A,"Can I ask a, I mean a sort of top - level question, which is um "" if if most of what the OGI folk are working with is trying to integrate this other other uh spectral subtraction, why are we worrying about it?",0,
+meeting_008.txt,Grad C,"Well, no, no, no.",0,
+meeting_008.txt,PhD F,Cuz we actually can start,0,
+meeting_020.txt,PhD I,"Actually actually, w w the the We do this I dunno who came up with it, but I think it's a really clever idea.",0,
+meeting_039.txt,Marketing,"But yeah, it'll be there.",0,
+meeting_026.txt,Project Manager,"What, just like in terms of like the wealth of the country?",0,
+meeting_005.txt,Project Manager,"But at the moment it's not, so it seems to me that you have to have a device that caters,'cause otherwise it would make it uh your device would become inoperable, or only operable in certain circumstances",1,need_to
+meeting_010.txt,Julie Morgan AM,It's in the process at the moment.,0,
+meeting_043.txt,Mark Reckless AM,"I was to come in first, I think.",0,
+meeting_041.txt,Project Manager,Um is there anything anybody's unsure about?,0,
+meeting_029.txt,Project Manager,So now for the next meeting uh we'll have to look at the look-and-feel design.,1,commit
+meeting_051.txt,Postdoc G,It's well in the range.,0,
+meeting_056.txt,Industrial Designer,"Uh or sponge, I guess, isn't on there, right.",0,
+meeting_043.txt,Kirsty Williams AM,"If they don't want to divulge that, it wouldn't be my job to tell a family,'You have to let us know if your child is adopted.'",1,need_to
+meeting_016.txt,User Interface,Uh I'm just gonna use the PowerPoint uh.,0,
+meeting_004.txt,Industrial Designer,"So there's one more dimension to the thing which we need to to add,",1,need_to
+meeting_052.txt,Professor B,"not just the, you know, microphone stuff but also summarization and so forth and the question is if you were going to go to some gold standard of what wa what was it that happened in the meeting you know, where would it come from?",0,
+meeting_043.txt,Kirsty Williams AM,I'll be making a statement shortly to the Assembly around a new performance measure for schools.,1,commit
+meeting_023.txt,Marketing,"You know the pear, is like that and it's it's easy to to have in in hand",0,
+meeting_047.txt,Professor B,"so they splitting up between the TI - digits and everything else, I see.",0,
+meeting_052.txt,Postdoc A,"On the other hand, I the down side for me was that I think the pen is really noisy.",0,
+meeting_005.txt,User Interface,"Okay, so is everyone happy with that?",0,
+meeting_031.txt,User Interface,"I I don't really like the board, it doesn't really work great.",0,
+meeting_013.txt,User Interface,Yeah because everything is programmed inside.,0,
+meeting_046.txt,Project Manager,Yeah but in fact we it it seems that we are going to make a T_V_ remote control according to new requirements I received from the management,1,going_to
+meeting_032.txt,Industrial Designer,but they are quite important when they're used.,0,
+meeting_019.txt,User Interface,And with this we'll have more room in the budget probably to make a more original design.,1,commit
+meeting_052.txt,Grad H,The Windows system isn't any harder because it it looks like a BSD system.,0,
+meeting_009.txt,Project Manager,"So I will first start with a warm welcome opening stuff,",1,commit
+meeting_001.txt,Project Manager,"um if we can look at the criteria you're gonna evaluate, and then we'll come back to the product evaluation if that's alright.",1,commit
+meeting_012.txt,Project Manager,"So thanks for coming and uh I'll send you minutes of meeting, and uh please put your all information in the sharing folder so everybody can share the information.",1,assign|commit|request
+meeting_014.txt,Industrial Designer,"'Kay, we're going to um uh talk about working design.",1,going_to
+meeting_041.txt,Project Manager,I d I d any thoughts on that at all?,0,
+meeting_005.txt,Project Manager,But we have to make the decisions on uh the remote control functions,1,need_to
+meeting_057.txt,PhD B,When you add the negative to the positive value which is the true estimate.,0,
+meeting_042.txt,Project Manager,"Course, we'll have to go into a bit more um detail than that, but uh personally I think that the original is gonna be a very key aspect to this design.",1,commit
+meeting_046.txt,User Interface,I don't remember the name actually must be something like messenger AMI or something.,0,
+meeting_053.txt,Professor A,So if you have uh ten percent error and you get five percent absolute uh improvement then that's fifty percent.,0,
+meeting_052.txt,PhD G,We could do simultaneous.,0,
+meeting_002.txt,Sian Gwenllian AM,Will the new Bill address these issues?,0,
+meeting_008.txt,PhD A,y So for instance @ @ sup,0,
+meeting_058.txt,Project Manager,I think it's a good figure.,0,
+meeting_043.txt,Steve Davies,"One of the other key additional factors was the extent to which there had been recent appointment of a new headteacher to that school just before the programme had started, because—",0,
+meeting_022.txt,PhD H,"And I'm sorry by the result of overlapping, because, eh, I haven't good results, eh, yet but, eh, I I pretend to to continuing out to Spain, eh, during the the following months,",0,
+meeting_056.txt,Industrial Designer,"So the more features we add the fancier chips we need to buy and put in,",1,need_to
+meeting_002.txt,Kirsty Williams AM,And that's the balance that we need to try and strike as we go forward with the new commission proposals.,1,need_to
+meeting_018.txt,Project Manager,"Well, we decided that the blue ones were the um the standard colour.",0,
+meeting_055.txt,Grad A,You know am I speaking with German accent,0,
+meeting_027.txt,Project Manager,We will then look at the evaluation criteria of the prototype presented by uh our two colleagues that make good work.,1,commit
+meeting_052.txt,Professor B,"S so when we here were having this demo meeting, what we're sort of coming up with is that we wanna have all these pieces together, to first order, by the end of the month",1,deadline
+meeting_019.txt,Marketing,"Um, hence our motto, we put the fashion in electronics.",0,
+meeting_031.txt,User Interface,Could you copy it?,1,request
+meeting_039.txt,Industrial Designer,You don't have to look down to find them.,0,
+meeting_014.txt,Marketing,"Um, three out of four users uh zaps a lot, as I uh quoted here from the uh results.",0,
+meeting_025.txt,Project Manager,"Anyway, we'll take this project in three steps, three pha uh three phase of design.",1,commit
+meeting_031.txt,Industrial Designer,where you have to uh find out what which sign or icon means on uh every button.,1,need_to
+meeting_019.txt,Marketing,"And actually to go with that, I'm gonna give you some statistics on the uh relevancy of the buttons, how much they're used.",0,
+meeting_041.txt,Industrial Designer,"So I guess three things, um cost, um complexity, and the size.",0,
+meeting_002.txt,Hefin David AM,"And I'm aware that there are a small number of private institutions in Wales, but are you concerned that in the future the landscape may change, particularly with the opportunity to recruit more part-time students?",0,
+meeting_026.txt,Project Manager,I imagine it probably is our sale actually,0,
+meeting_007.txt,Project Manager,"Okay, who wants to go next?",0,
+meeting_033.txt,Project Manager,"Uh in fact I'd I'd I'd welcome anybody to uh say something briefly about themselves, in fact we will do that by by going round the table quickly and and saying what what contribution you you're looking to make.",1,commit
+meeting_028.txt,Marketing,"Most buttons are not used any more, like you said, teletext is outdated now.",0,
+meeting_014.txt,Project Manager,"But, it's like like a statue or something",0,
+meeting_002.txt,Kirsty Williams AM,"That's one of the reasons why we are going to introduce the new PCET reforms—to create collaboration, not just between different higher education institutes but actually across the sector.",1,going_to
+meeting_053.txt,PhD B,"So it's very, very few parameters compared to how much training data.",0,
+meeting_000.txt,User Interface,There is our remo the banana.,0,
+meeting_022.txt,PhD H,I will come back to home to Spain.,1,commit
+meeting_036.txt,Marketing,Yeah what's the next uh phase?,0,
+meeting_031.txt,Project Manager,because uh I have to write the final report now.,1,need_to
+meeting_052.txt,Grad H,"And so the work to get the front - end to work would be porting it well uh to get it to work on the UNIX systems, our side is just rewriting them and modifying them to work for meetings.",0,
+meeting_022.txt,PhD F,so I can't be having a conference call while driving.,0,
+meeting_004.txt,Marketing,"and then invert that, it's",0,
+meeting_020.txt,Grad F,"Um, so it's not a meeting.",0,
+meeting_043.txt,Kirsty Williams AM,"So, I think what's important is that we can't draw broad-brush conclusions.",0,
+meeting_031.txt,Marketing,"Yeah, two colours it.",0,
+meeting_022.txt,PhD A,So we have spurts and we have spurt - ify dot shell and spurt - ify,0,
+meeting_015.txt,Project Manager,"We've got uh plenty of time,",0,
+meeting_038.txt,Project Manager,"It's not a mature technology, I think it takes a lot of memory and everything in in a remote control,",0,
+meeting_018.txt,User Interface,But then what colour would you make the R_s?,1,request
+meeting_055.txt,Professor C,"doing casual looking and can get the sense, "" Hey, there's something there.",0,
+meeting_050.txt,Marketing,And she was challenged on that point,0,
+meeting_034.txt,Project Manager,"So our target group, we're saying, fifteen to thirty five?",0,
+meeting_056.txt,Project Manager,I just dele I just accidentally deleted what I was supposed to say next.,0,
+meeting_013.txt,Project Manager,Um so in the last meeting we have discussed the functional design and now we will talk about the conceptual design.,1,commit
+meeting_022.txt,PhD F,"Um, but it turned out for for to get accurate alignments it was really important to open up the pruning significantly.",0,
+meeting_057.txt,PhD A,"I mean, couldn't, uh I Couldn't you just also I mean, i if you know that the l the largest latency in the system is two hundred milliseconds, don't you couldn't you just buffer up that number of frames and then everything uses that buffer?",0,
+meeting_043.txt,Kirsty Williams AM,"I'm sure we all want to, because I want to, have a discussion about why children on free school meals were less resilient in the exam system last year.",0,
+meeting_037.txt,PhD E,"So, we, uh actually I did the first experiment.",0,
+meeting_022.txt,PhD A,They're might say one word and then another word far away if they were doing just backchannels?,0,
+meeting_031.txt,User Interface,I thought it would be handy there.,0,
+meeting_001.txt,Project Manager,"It blows a lot of our really good ideas kind of slightly to one side, for example the possibility of having a U_S_B_ connection is definitely not viable now.",0,
+meeting_015.txt,Project Manager,"Because I think what we're going to design now is for people above sixty, maybe.",1,going_to
+meeting_031.txt,User Interface,I didn't find the didn't look but uh,0,
+meeting_036.txt,Project Manager,That's not very easy to use.,0,
+meeting_034.txt,User Interface,I think the product appeals across a quite a broad range of ages.,0,
+meeting_046.txt,User Interface,"So will you add with the channel keys, right?",0,
+meeting_055.txt,PhD D,Anyway So that'd be great.,0,
+meeting_027.txt,User Interface,"it's much more complex, but",0,
+meeting_024.txt,Professor D,"So, we'll take care of David Johnson.",1,assign|commit
+meeting_037.txt,PhD E,It's just one percent off of the best proposal.,0,
+meeting_038.txt,User Interface,"'Cause that means that we have to implement rechargeable batteries, a docking station",1,need_to
+meeting_039.txt,User Interface,It's in the middle of one of the little R_s.,0,
+meeting_030.txt,Project Manager,"Um for our components concept we need to come up with the energy source, um the chip-on-print, and the case.",1,need_to
+meeting_029.txt,Marketing,Yeah that is true.,0,
+meeting_046.txt,Industrial Designer,Yeah but how many yeah.,0,
+meeting_034.txt,Project Manager,"Um I'll talk about the new project requirements I've just received, and then we have to make a decision on our remote control functions.",1,commit|need_to
+meeting_031.txt,Marketing,"Yeah, but the rubbers alls original black.",0,
+meeting_027.txt,Project Manager,"Okay, let's say that seven is the best.",0,
+meeting_018.txt,Industrial Designer,"Um, whether they would figure the the s uh sample senor and the sample speaker, voice recognition be sort of a worthwhile thing to have.",0,
+meeting_014.txt,Project Manager,We'll just uh open a new one.,1,commit
+meeting_049.txt,Nathan Cook,"So, we'll be looking probably early autumn for them to report back on that.",1,assign|commit
+meeting_010.txt,Jo-Anne Daniels,"It will always be quite difficult to definitively provide answers to that, because many parents will be taking these things up in combination.",0,
+meeting_020.txt,PhD E,"I'll can make an can, like, make a c comparison of of the old system to the to the new one, and then",1,commit
+meeting_022.txt,Professor B,"So we have to equip him with a with a with a head - mounted, uh, cell phone",1,need_to
+meeting_031.txt,User Interface,"So you just make the back of this part a bit bigger,",0,
+meeting_048.txt,Marketing,"So, what's the size of the device?",0,
+meeting_053.txt,PhD F,"Um yeah, so yeah, I think if we try to develop a second stream well, there would be one stream that is the envelope and the second, it could be interesting to have that's something that's more related to the fine structure of the spectrum.",0,
+meeting_010.txt,Nicola Edwards,So I'll have a look and see if we can send you through the last term.,1,assign|commit
+meeting_022.txt,PhD A,"Oh, well maybe we'll submit to s Actually",1,commit
+meeting_032.txt,User Interface,I would think that people might forget,0,
+meeting_017.txt,John Griffiths AM,"So, would you be able to give the committee an idea of the level of resource you would estimate that the sector requires to achieve that priority, and—?",1,request
+meeting_018.txt,Industrial Designer,"Yeah, so it's just like the same products, but just put together in a different way.",1,assign
+meeting_019.txt,User Interface,We'll have more money to go into the design side of it.,1,commit
+meeting_046.txt,User Interface,I'll go and check.,1,commit
+meeting_032.txt,Project Manager,"When it yeah, wh when it's died is a problem.",0,
+meeting_056.txt,Marketing,I will send new.,1,commit
+meeting_012.txt,Project Manager,"So for anybody need uh any help, for time being, on this uh subjects, okay, so please come back to me,",1,request
+meeting_049.txt,Sian Gwenllian AM,Could you confirm that that's what your advice was and tell us why you don't think that a target is needed?,1,request
+meeting_055.txt,Postdoc B,"So, but it you know it's like it sounds like you also have uh something in that direction.",0,
+meeting_058.txt,Project Manager,"Uh it's optional, somewhat optional and Ed wants the chip on print, that's what uh we were talking about that.",0,
+meeting_007.txt,User Interface,we must first agree on uh what we're going to m going to make.,1,going_to|need_to
+meeting_008.txt,PhD F,"I mean, that sounds good to me.",0,
+meeting_031.txt,User Interface,"Yea uh so tha actually you could make an L_C_D_ screen but no mic, or it could make mic but no L_C_D_ screen, when you look at that.",0,
+meeting_005.txt,Marketing,"Okay, so My personal preferences from the marketing is that we need to come up with some sort of sleek sort of good looking high high-tech A design which looks high-tech, basically.",1,need_to
+meeting_000.txt,User Interface,Some people might say it.,0,
+meeting_044.txt,Grad C,"Now, what you uh need to do here is you need to provide some context information which is more elaborate than "" I'm looking for this and this and this keyword.",1,need_to
+meeting_057.txt,Professor C,"And it's typically a mean square sense, uh uh uh, i in in in some way.",0,
+meeting_034.txt,Marketing,and then I'm like wait it won't let me google.,0,
+meeting_059.txt,Marketing,Uh is it complicated?,0,
+meeting_032.txt,Project Manager,Do you want to just carry on with,0,
+meeting_056.txt,User Interface,"y yellow incorporated, yeah.",0,
+meeting_027.txt,User Interface,D are we including the voice are you glu are we including the voice in the end or not?,0,
+meeting_051.txt,Postdoc G,"Of course, of course, of course.",0,
+meeting_012.txt,Marketing,then it w it could possibly sell.,0,
+meeting_034.txt,Industrial Designer,They could have a crap remote,0,
+meeting_034.txt,Project Manager,I don't know what summarisation.,0,
+meeting_042.txt,Marketing,"Also, elephants have a very good memory, much like myself,",0,
+meeting_018.txt,Project Manager,"um Okay, um, if we just had all the buttons as standard, except for the one red apple, then that would take care of that, I guess.",1,assign
+meeting_034.txt,Project Manager,So while we're gonna make it look pretty we need to use our colour and our slogan i in the new design.,1,need_to
+meeting_026.txt,Project Manager,"Okay, uh we now need to discuss the project finance.",0,
+meeting_040.txt,Project Manager,"Kate, why don't you try it first, if you can either bring your things with you, I guess",0,
+meeting_051.txt,PhD A,"disfluency tagging, um, things that are in the speech that are actually something we're y working on for language modeling.",0,
+meeting_006.txt,Project Manager,After this meeting we're gonna be sent a questionnaire and summary again which we need to reply to that e-mail.,1,need_to
+meeting_002.txt,Kirsty Williams AM,"Yes, but also, what's incumbent upon me as the Minister is to ensure that the commission is set up in a way where it can have that relationship with the sector, because what's really important to remember is that HEFCW will be replaced.",0,
+meeting_029.txt,Project Manager,Uh but maybe we have to make it a l a bit more fancy.,1,need_to
+meeting_010.txt,Julie Morgan AM,"Based on the current levels of take-up and looking at the rates of increase each month, we expect to spend in the region of £50 million to £55 million in this financial year.",0,
+meeting_022.txt,Professor B,It's always Morgan's fault.,0,
+meeting_003.txt,Grad F,"Well, what my s expectation is, is that we'll send out one of these emails every time a meeting has been checked and is ready.",1,assign|commit
+meeting_044.txt,Professor F,"Um, so the You you didn't look at all yet to see if there's anybody has a implementation.",0,
+meeting_039.txt,Marketing,"We can give it a one, because compared to every other remote ever m ever made, this one will be easier to find.",0,
+meeting_056.txt,User Interface,"Yeah, it does look kind of dangerous.",0,
+meeting_037.txt,Professor B,"Oh, that's a real good point.",0,
+meeting_017.txt,Suzy Davies AM,"Can you tell me a little bit about the European transition team, which I think is about building resilience within the Welsh Government to deal with the impacts of Brexit?",1,request
+meeting_041.txt,Marketing,Well L_C_ well I'd when you used to mention the L_C_D_ I'd think I wonder what that would be about.,0,
+meeting_010.txt,Dawn Bowden AM,"So, can you say a little more about that, bearing in mind that I'm also conscious that you've told Hefin you're going to be making an announcement shortly?",1,request
+meeting_049.txt,Dr Frank Atherton,"The second point of your question about what are the essential elements, I mean, they are already there; we need to tweak them and we need to make sure that they're properly delivered.",1,need_to
+meeting_019.txt,Marketing,"Um, biggest frustrations of uh the people that we interviewed.",0,
+meeting_004.txt,Project Manager,"Well yeah, I mean compared to most remote controls you see that's pretty good.",0,
+meeting_026.txt,Project Manager,"Um for user interface, technical functions, I guess that's you know like what we've been talking about, what it'll actually do.",0,
+meeting_043.txt,Kirsty Williams AM,"Sometimes as well—this is not to make an excuse because, as I've said in my paper, it's extremely disappointing, but sometimes it can be really difficult.",0,
+meeting_052.txt,Professor B,So we can get more disk.,0,
+meeting_050.txt,Marketing,"I really like all those nice bright, warm colours.",0,
+meeting_022.txt,Postdoc C,"but jus just a couple of places,",0,
+meeting_053.txt,Professor A,"um but uh that actually that makes for a perfectly good demo because that's a real obvious thing, that you hear two voices.",0,
+meeting_023.txt,Project Manager,"And moreover, th the button ar are lighted so you you immediately identify the right side, because you have light on buttons.",0,
+meeting_051.txt,PhD A,"And then the issue of like global processing of some signal and then, you know, before we chop it up is is yet another way we can improve things in that.",0,
+meeting_003.txt,PhD H,"You reverse the signal,",0,
+meeting_022.txt,PhD F,"but we So we're taking these, uh, alignments from the individual channels.",0,
+meeting_038.txt,Project Manager,"Yeah, like that's gonna work.",0,
+meeting_042.txt,Marketing,"They they've recently brought out this new remote control, for people to set their favourite channels, or um to record things.",0,
+meeting_038.txt,Industrial Designer,That might be an option.,0,
+meeting_002.txt,Hefin David AM,"I've seen those private institutions and how they operate; I've seen them at first-hand—they don't operate to the same rigour as public institutions, and they're less regulated.",0,
+meeting_039.txt,Marketing,Oh is it locked'cause I'm in it?,0,
+meeting_024.txt,Grad C,How much will he is he willing to spend?,0,
+meeting_052.txt,Grad H,Because you have to copy it down to the PC and then burn it and that's a multi - step procedure.,1,need_to
+meeting_019.txt,Project Manager,Because we need to investigate the financial implications.,1,need_to
+meeting_009.txt,Marketing,The name is Caramel.,0,
+meeting_008.txt,PhD D,"What about what about, um, the idea of using a relational database to, uh, store the information from the XML?",0,
+meeting_041.txt,Marketing,We're gonna need to put in a really good battery so people don't have to charge their r remote control every few days.,0,
+meeting_001.txt,Project Manager,"As long as so are we gonna say w we have to keep an eye on the time as well, but we're gonna say um single curved design",1,need_to
+meeting_055.txt,Postdoc B,"Well, or use the one that crawls.",0,
+meeting_000.txt,Project Manager,Our leadership was quite weak in the beginning.,0,
+meeting_005.txt,Project Manager,"And then we can report back at the next meeting and say right okay yes, we've achieved this or we haven't achieved this, this is how far we've progressed.",1,assign
+meeting_003.txt,Grad F,"W uh, could you email out the brand?",1,request
+meeting_054.txt,User Interface,Ah we have to make we have to sell at least four million to make our own profit.,1,need_to
+meeting_017.txt,John Griffiths AM,"So, would you commit to introducing multi-year funding settlements for HE, and indeed for FE, moving forward beyond Brexit?",1,request
+meeting_053.txt,PhD B,"Well I could at least Well, I'm going to be out next week but I could try to look into like this uh CVS over the web.",1,going_to
+meeting_017.txt,Eluned Morgan AM,"These have been built, largely, with European funding.",0,
+meeting_003.txt,Postdoc A,It doesn't have a time limit.,0,
+meeting_037.txt,Professor B,"I mean, and th the joke there was that each of them had specialized in one of them.",0,
+meeting_021.txt,Project Manager,"Yeah, is it means it's on the yeah is it on a micro-proc micro-processor based or uh",0,
+meeting_043.txt,Kirsty Williams AM,"In fact, we'll be having a discussion later on today about decisions, going forward, for the next two years.",1,commit
+meeting_043.txt,Kirsty Williams AM,"So, for instance, if I give you an example, in Carmarthenshire, there's been a big emphasis on attachment disorder and training teachers with regard to the impact of attachment disorder.",0,
+meeting_059.txt,Project Manager,"We're we're all happy that it it meets all the criteria, um",0,
+meeting_056.txt,Project Manager,"Uh no, I think that's us our discussion over unless anybody's got questions or confusions,",0,
+meeting_056.txt,Marketing,"So whatever people want, like if somebody want it in banana shape, we will put that casing onto that mobile phone, okay,",1,commit
+meeting_020.txt,PhD I,You you're not booting from initial models.,0,
+meeting_036.txt,Industrial Designer,We still have the fruit and vegetable print.,0,
+meeting_051.txt,Postdoc G,He expressed a lot of interest in reliability.,0,
+meeting_019.txt,Industrial Designer,But it would be our responsibility to get that done and to dispose of the products that we made.,0,
+meeting_021.txt,Industrial Designer,"Right, my hand is uh different size than yours for example.",0,
+meeting_011.txt,Postdoc B,"also we discussed some adaptational things,",0,
+meeting_014.txt,Project Manager,"Well, I I I have to say, I have this uh can opening remote control in my head most of all,",1,need_to
+meeting_003.txt,Postdoc A,So they'll be doing that.,0,
+meeting_003.txt,Postdoc A,"I I agree with that part, but I think that it would it, uh we need to have, uh, a a a message to them very clearly that beyond this date, you can't make additional changes.",1,need_to
+meeting_004.txt,Industrial Designer,"um it it doesn't have a, you know, a messenger will go.",0,
+meeting_019.txt,Project Manager,Anyone else have anything more to say before we close?,0,
+meeting_018.txt,Project Manager,"Whereas it would be the special colour would be for the So you would only have the one special button that was rubber, whereas the rest would be hard plastic.",0,
+meeting_031.txt,Marketing,But w d wha,0,
+meeting_021.txt,Project Manager,"Then they can show you how it looks like, and then we can uh submit to the I will submit to the management.",1,commit
+meeting_020.txt,Professor D,"It's scenario - based, it's it's human - computer interface it's really pretty different.",0,
+meeting_038.txt,Project Manager,But I think most modern T_V_s have it in their menu.,0,
+meeting_037.txt,Professor B,"uh, some people are lobbying lobbying to make it shorter.",0,
+meeting_057.txt,PhD A,"Yeah, it seems like for your I mean, in normal situations you would never get twelve seconds of speech, right?",0,
+meeting_057.txt,PhD D,"And this tile Uh, in this tile appears, like, the harmonics if you have a voiced sound, because it's it's the FTT bins.",0,
+meeting_036.txt,Project Manager,Well I think I have to make a p an issue called finance.,1,need_to
+meeting_030.txt,Industrial Designer,Um rubber that is used in these anti-stress balls.,0,
+meeting_054.txt,Project Manager,This looks likes a cat who has been driven over.,0,
+meeting_058.txt,Project Manager,So here you can uh look like uh the energy and uh dynamo and uh kinetic and solar cells.,0,
+meeting_016.txt,User Interface,"Not one colour, but the pattern needs to be recognisable.",0,
+meeting_039.txt,Project Manager,"Well, yeah the colours are yellow and grey.",0,
+meeting_056.txt,User Interface,"F_, what is it?",0,
+meeting_034.txt,Project Manager,"Uh we need to keep in mind the user requirement specification, what needs and desires are to be fulfilled, the functions design, what effects the apparatus should have, and the working design, how the apparatus actually works to fulfil its function.",1,need_to
+meeting_036.txt,Project Manager,"Uh well basically what that says, we discuss it and um",0,
+meeting_050.txt,Project Manager,"Okay, yeah just wanted make sure of that mm-hmm.",0,
+meeting_011.txt,PhD G,"With Don, as well.",0,
+meeting_030.txt,Industrial Designer,The chip senses the connection and knows what button you pressed.,0,
+meeting_002.txt,Kirsty Williams AM,That's a very HEFCW thing to say.,0,
+meeting_022.txt,Grad G,Is that what you're talking about?,0,
+meeting_016.txt,Marketing,I don't think so.,0,
+meeting_055.txt,PhD D,"I mean, there might be something there.",0,
+meeting_052.txt,PhD F,"and we get the transcript back and we find out that hopefully there are no problems matching up the transcript with what we gave them, then uh we'll be ready to go and we'll just send them the next four as a big batch,",1,assign|commit
+meeting_031.txt,Marketing,"Oh, okay I understand, I understand.",0,
+meeting_044.txt,Grad D,That was r actually Robert's idea.,0,
+meeting_038.txt,Project Manager,That's like a button on your T_V_?,0,
+meeting_056.txt,User Interface,And we've got some pictures of some uh new remote controls to show you.,0,
+meeting_039.txt,Industrial Designer,And project manager of course.,0,
+meeting_045.txt,Project Manager,Or we can leave already I guess.,0,
+meeting_041.txt,Marketing,So anyway it's just just an idea.,0,
+meeting_018.txt,User Interface,"Y no, it's a slightly curved around the sides.",0,
+meeting_029.txt,Project Manager,"So you have a but button on your docking station which you can push, and then it starts beeping.",0,
+meeting_044.txt,Grad C,"Uh, but they're two uh fields that are um, more interesting.",0,
+meeting_016.txt,Project Manager,or are y or are y or are you are you just are you just uh doing some Internet shopping there?,0,
+meeting_050.txt,Marketing,And this brings the menu up on the screen?,0,
+meeting_039.txt,Marketing,Oh sorry the mango the mango look.,0,
+meeting_014.txt,Project Manager,"Uh, I think um in uh we have to do it in uh in right order.",1,need_to
+meeting_038.txt,Industrial Designer,That must be possible.,0,
+meeting_004.txt,User Interface,"If we could just go up to somebody outside the meeting and have a quick talk with them, that would've been a lot easier.",0,
+meeting_032.txt,Project Manager,"Well that's right, and and I I don't I don't even know whether the I don't even know whether the s the signal lasts as long as you actually keep the button pressed,",0,
+meeting_039.txt,Industrial Designer,"I mean watermelon, you know, m probably appealing to the",0,
+meeting_024.txt,Professor D,Whatever it is we'll we'll deal with it.,1,commit
+meeting_014.txt,Project Manager,"Yeah, but it is it's is a dif it's a fact that the th th that bigger market you're talking about, we already cover that.",0,
+meeting_036.txt,Marketing,"The the target group has a weak spot for fruit and vegetables, like primary colours, spongy shape.",0,
+meeting_020.txt,Professor D,"It d if you if you remember some years ago Bill Byrne did a thing where he was he was looking at that,",0,
+meeting_021.txt,Industrial Designer,"And you could you could sell oils with it, to take care of it.",1,assign|request
+meeting_032.txt,Marketing,"May be incrementally emitting, but yeah.",0,
+meeting_034.txt,Industrial Designer,"And personal preferences, besides the fact that I can't spell, we need a long-lasting energy source, people don't wanna be changing it a lot.",0,
+meeting_051.txt,Professor B,"Um, so it was only for that reason.",0,
+meeting_037.txt,PhD A,Compared to the last evaluation numbers?,0,
+meeting_058.txt,Marketing,Can the company sell two million units?,0,
+meeting_051.txt,Postdoc G,"He, um, um, he in indicated to me that they've that he's been, uh, looking, uh, uh, spending a lot of time with I'm not quite sure the connection, but spending a lot of time with the ATLAS system.",0,
+meeting_050.txt,Industrial Designer,This is a model of the remote control which we are going to build.,1,going_to
+meeting_045.txt,Marketing,"Oh, it's better than your bird.",0,
+meeting_048.txt,Industrial Designer,"Uh first thing is uh this will be the overall shape, no uh I'm not speaking about the real shape of the device, but the shape of the inside of the device.",0,
+meeting_005.txt,User Interface,Um I like the use of the kind of um symbols like the triangles and the squares and the arrows as well as the words on the um kind of play functions and all that.,0,
+meeting_025.txt,Project Manager,So that's what you need to do to bring us the latest info and what people want.,1,need_to
+meeting_025.txt,User Interface,"Do that in my spare time, so that's basically an",0,
+meeting_053.txt,PhD B,"But I just thought that was a little odd, that there were no two or three long Sorry.",0,
+meeting_022.txt,Postdoc C,"Oh, and the groupings are important,",0,
+meeting_048.txt,Marketing,how big is it in reality?,0,
+meeting_037.txt,Professor B,So that's that's really not not bad.,0,
+meeting_010.txt,Julie Morgan AM,"I refer to this pilot in Flint, which is trying to test paying the same rate for foundation phase and childcare.",0,
+meeting_020.txt,Grad F,"So, uh uh, IBM transcription status,",0,
+meeting_051.txt,PhD A,"Especially as you get, en more voices.",0,
+meeting_027.txt,Project Manager,Then uh I've I will also take notes during this meeting and I will send you uh a summary then as usual.,1,assign|commit
+meeting_008.txt,Grad C,For Perl if you want to just do Perl.,0,
+meeting_006.txt,User Interface,"I don't well, I don't know.",0,
+meeting_031.txt,Project Manager,"Um and we're going to calculate the production costs, and if they are uh under or at twelve Euro fifty,",1,going_to
+meeting_009.txt,User Interface,I thought these things did not exist.,0,
+meeting_014.txt,Project Manager,"Volume and programme, yeah.",0,
+meeting_034.txt,Industrial Designer,That's a good point.,0,
+meeting_024.txt,Undergrad E,Take care of him.,1,assign
+meeting_041.txt,Project Manager,Okay I'm gonna have to I'm gonna have to call this to a close'cause we're way over time.,0,
+meeting_015.txt,Marketing,We would have to look into that.,1,assign
+meeting_037.txt,PhD E,"Um, the second sheet is abo uh, about the same.",0,
+meeting_037.txt,Professor B,He's he's he's dropped into the US.,0,
+meeting_046.txt,User Interface,One is the voice command part and on one is the actual buttons part.,0,
+meeting_031.txt,User Interface,"Alright, it's a one.",0,
+meeting_046.txt,Industrial Designer,Yeah of course of course.,0,
+meeting_002.txt,Kirsty Williams AM,"As I've said, it's a bit difficult to place myself in the mind of the previous Minister when this legislation was first envisaged and then taken through.",0,
+meeting_053.txt,Professor A,uh But I also have to pick a different picture to show the effects of reverberation.,0,
+meeting_057.txt,Professor C,What if you just look into the past?,1,assign
+meeting_010.txt,Dawn Bowden AM,"So, that's when all the current commitments expire, basically.",0,
+meeting_025.txt,User Interface,I'm going to uh look at the technical design from the uh user point of view.,1,going_to
+meeting_022.txt,Grad E,"When you listen to it, uh, the PZM and the PDA Yeah, th the PDA has higher sound floor but not by a lot.",0,
+meeting_007.txt,Project Manager,So we must focus on things who are really uh really add something to uh to,1,need_to
+meeting_049.txt,Dr Frank Atherton,That's our main source of information.,0,
+meeting_032.txt,Project Manager,"Yeah, I must say that um the uh I c can't remember what um f you know phone service I was using the other day, but that had sorta speech recognition which worked uh remarkably well, so that is indeed a uh um a thought",1,need_to
+meeting_057.txt,Professor C,"Well, none of these systems, by the way, have I mean, y you both are are working with, um, our system that does not have the neural net,",0,
+meeting_052.txt,Grad H,So I it might be a little easier but it's not gonna be a lot easier.,0,
+meeting_034.txt,Project Manager,That was that was great.,0,
+meeting_004.txt,Industrial Designer,and I think that m um is also does you know hinder us and things I think.,0,
+meeting_032.txt,Marketing,If it was uh I mean th my behaviour is to use multiple things at the same time and multiple remotes aren't really matched well to my behaviour.,0,
+meeting_006.txt,Project Manager,"Yeah, just black with just text.",0,
+meeting_049.txt,Dr Frank Atherton,"I think it's the quality of the food that kids are getting, whether that comes from home or through school, and whether it's free or whether it's paid for.",0,
+meeting_030.txt,Project Manager,We all know they've got nothing to do all day.,0,
+meeting_002.txt,Hefin David AM,Those were the words used by Universities Wales—,0,
+meeting_003.txt,PhD H,"A And, then, you know, say very clearly that if they don't if we don't hear from them, you know, as Morgan suggested, by a certain time or after a certain period after we contact them that is implicitly giving their agreement.",0,
+meeting_055.txt,PhD D,But - We went back to that.,0,
+meeting_020.txt,Grad F,"I mean, I think, Chuck was the one who added out the agenda item.",0,
+meeting_031.txt,User Interface,You can touch it.,0,
+meeting_056.txt,Marketing,"If somebody wanted in apple shape we will design that, we will put we will put apple shape casing on that.",1,commit
+meeting_022.txt,PhD F,"Actually this this, um So, there's another paper.",0,
+meeting_011.txt,Grad F,And so One particular test set of TI - digits.,0,
+meeting_014.txt,Marketing,We put the fashion in electronics.,0,
+meeting_048.txt,Industrial Designer,But I don't care.,0,
+meeting_003.txt,PhD H,"This um, I've seen this recently.",0,
+meeting_002.txt,Sian Gwenllian AM,"You're talking about the remit letter; maybe you need to have that discussion there, but, in terms of the Bill itself, you can't make them fulfil any national outcomes.",1,need_to
+meeting_007.txt,Project Manager,"Well, th that's that's really a step further.",0,
+meeting_029.txt,Project Manager,"Black and grey, other colours as well.",0,
+meeting_022.txt,PhD F,It's just it'll just require more,0,
+meeting_041.txt,Industrial Designer,but not for channels right.,0,
+meeting_005.txt,Project Manager,and how we were planning to proceed so that at the next uh meeting each person that's got a a a task to do is clear from this meeting what that task is.,0,
+meeting_055.txt,PhD D,And and wouldn't Yeah.,0,
+meeting_038.txt,User Interface,where's the remote control?,0,
+meeting_008.txt,Grad C,And that's exactly what this stuff is based on.,0,
+meeting_012.txt,Project Manager,"Okay, and uh if you want, I can coordinate, okay, to get some information, okay, and uh you can uh let me know, okay, so what kind of uh the details you require okay, to add this feature in this project.",0,
+meeting_038.txt,Project Manager,Well if it if it's,0,
+meeting_032.txt,Project Manager,Um now this doesn't necessarily mean that we have to give up some of our ideas about making it attractive to the t to the market.,1,need_to
+meeting_043.txt,Kirsty Williams AM,"We need to make sure that those parents feel that they can discuss this with school leaders and classroom teachers and explore how best those individual children can be supported, and how best we can support parents.",1,need_to
+meeting_038.txt,User Interface,"So you have the up channel the down channel the volume, do we want that horizontal or vertical?",0,
+meeting_044.txt,Grad B,"but, I I'll volunteer to put it right back in by stating that I am n uh among some other things in the process of writing up stuff that we have been discussing at our daily meetings,",1,commit
+meeting_052.txt,Grad H,Um and then just we'll have to remember to delete them once the corrections are made.,1,commit
+meeting_053.txt,Professor A,it's you can't work on everything.,0,
+meeting_015.txt,Marketing,If we're able to really bring an innovative product.,0,
+meeting_047.txt,Professor B,OK so that's that's this bottom one.,0,
+meeting_037.txt,Professor B,"Uh, maybe you have to weight the estimate from the first - teen fifteen frames more heavily than than was done in your first attempt.",1,need_to
+meeting_000.txt,Project Manager,If we eliminate the fact that you know it's impossible to guarantee that it's not gonna be lost then,0,
+meeting_018.txt,Marketing,"But think like it was a bit restrictive just to say that you have to design a television remote control, in a way.",1,need_to
+meeting_020.txt,Grad F,But of course they don't know that it's the same person both times.,0,
+meeting_056.txt,Project Manager,"Um I l I su I mean for the specific functions, you know, up and down, uh play, stop.",0,
+meeting_014.txt,Project Manager,"Yeah, but but when you when it gets lost, how can you press the button to make it",1,request
+meeting_056.txt,Marketing,"Uh I'll put it in shared documents, again.",1,commit
+meeting_019.txt,Project Manager,"But with the same thing, I mean.",0,
+meeting_019.txt,Project Manager,We'll still have to investigate the financial implications.,1,commit
+meeting_022.txt,PhD A,"And uh, that's all, I I'll stop there, cuz I I think what you say makes a lot of sense.",1,commit
+meeting_057.txt,Grad E,"But this is, um, w where, um, even if I train on the, uh, model, and mean subtracted it with the same length of time as in the test, it the word error rate is around, um, ten percent or nine percent.",0,
+meeting_034.txt,Marketing,but the rest of them like went in.,0,
+meeting_036.txt,Project Manager,"Uh, I just took one for every step and then a conclusion.",0,
+meeting_040.txt,Marketing,Well I mean there's also the cachet that um uh the Japanese make great products.,0,
+meeting_020.txt,Grad F,"I mean, if we need to we can buy a disk, hang it off a s uh, workstation.",1,need_to
+meeting_028.txt,Project Manager,Um now I mean I don't,0,
+meeting_030.txt,Project Manager,It would look like a banana just sitting on their table.,0,
+meeting_053.txt,PhD F,I uh My baseline is the submitted system.,0,
+meeting_055.txt,Grad A,you'll see I've already filled in the date but not the time.,0,
+meeting_043.txt,Kirsty Williams AM,"So, if you look at it—with the usual caveats about whether you can make direct comparisons on level 2 plus between the exams the year before and the exams that we had last summer—on the face of it, the gap has increased.",0,
+meeting_003.txt,PhD H,That's what I thought too.,0,
+meeting_032.txt,User Interface,Um and so we have to decide what's gonna make our product different.,1,need_to
+meeting_003.txt,Grad F,"So my feeling is if someone after the fifteenth says, "" wow I suddenly found something "", we'll delete it from our record.",1,commit
+meeting_052.txt,Grad H,I'll check at that,1,commit
+meeting_053.txt,PhD B,For the P D,0,
+meeting_014.txt,Project Manager,Do you suggest design or the shape or some gadget f f kind of feature or,0,
+meeting_050.txt,User Interface,"And at the end, it this remote has inbuilt voice recogniser which c which will recognise the user's voice and then it'll act accordingly.",0,
+meeting_036.txt,Industrial Designer,It looks like candle wax.,0,
+meeting_022.txt,Professor B,"The lapel is typically worse on the on clothes rustling, but if no one's rustling their clothes,",0,
+meeting_015.txt,Marketing,I think probably elderly people would be a little bit more careful with their remote controls than youngsters.,0,
+meeting_019.txt,Marketing,That's a huge amount.,0,
+meeting_052.txt,Postdoc A,"But it's also, it has this problem of having to go from an analog to a d a digital record too,",0,
+meeting_025.txt,Project Manager,Yay I introduce to the world the amazing ant.,0,
+meeting_054.txt,User Interface,"Oh in that case you can you always hook up with uh someone who is providing that and you know, you you sell their product as well as your product with them, you know.",1,request
+meeting_027.txt,Project Manager,"We also have the rubber material,",0,
+meeting_044.txt,Grad A,So it seems like a lot of some of the issues are the same.,0,
+meeting_056.txt,Project Manager,I rounded it up far too fast.,0,
+meeting_025.txt,Marketing,Experience with the tiger.,0,
+meeting_011.txt,Professor C,"Uh, he didn't know what to say, about, what is the sequence of phones there.",0,
+meeting_031.txt,Industrial Designer,The microphone could be just a minor uh hole uh on the left uh button.,0,
+meeting_053.txt,Professor A,This this really distorted it quite a bit.,0,
+meeting_041.txt,Project Manager,Uh does anybody disagree with that?,0,
+meeting_010.txt,Julie Morgan AM,"I think that, historically, that is definitely true, and when you look at the take-up of the childcare offer, it's certainly taken up in some areas with a very high take-up rate.",0,
+meeting_049.txt,Dr Frank Atherton,"Well, of course, there are some consequentials that are coming to the Welsh Government as part of the levy on sugary soft drinks.",0,
+meeting_057.txt,Professor C,And so you may may just want to think of it as a filter.,0,
+meeting_020.txt,PhD I,I'll j I'll just let's make sure everything works on the females.,1,commit
+meeting_019.txt,Project Manager,"Yeah, you'll have to",0,
+meeting_029.txt,Marketing,"'Cause in our earlier um market research, if you'd allow me to go to the flat board, SMARTboard.",0,
+meeting_010.txt,Julie Morgan AM,"So it was absolutely what we would have expected, and that will continue.",0,
+meeting_041.txt,Marketing,do you know what I mean?,0,
+meeting_022.txt,PhD F,And the second column is the channel.,0,
+meeting_035.txt,User Interface,"Um I'm just gonna draw its uh head, but mm Let's see.",0,
+meeting_021.txt,Industrial Designer,"Do you he liked the display in one of the concepts that you showed, um, do you know how much it costs, um, to to add a little display like this uh?",0,
+meeting_013.txt,Industrial Designer,"I take care, it's all right.",0,
+meeting_031.txt,Marketing,No then we have to scrap everything we got because how many colours we gonna make?,1,need_to
+meeting_056.txt,Industrial Designer,"I guess there are a lot of options that we're gonna have to choose from among,",0,
+meeting_055.txt,PhD E,And if you put,0,
+meeting_001.txt,Marketing,"Is that gonna be a button, or",0,
+meeting_043.txt,Hefin David AM,"If we take your argument that 2017 was an unusual year and the trends up to 2016 were positive, in a few years' time, when we will be looking back in two years' time, how are we going to measure this progress, say, in 2019?",1,commit
+meeting_022.txt,Grad E,It it like this.,0,

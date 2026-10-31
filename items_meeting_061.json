@@ -1,0 +1,155 @@
+{
+  "source": "meeting_061.txt",
+  "sentences_scored": 558,
+  "threshold": 0.8,
+  "filtered_non_commitments": 6,
+  "action_items": [
+    {
+      "task": "We have to make one design I th I I think.",
+      "owner": "team",
+      "due": null,
+      "confidence": 0.982,
+      "said_by": "Industrial Designer"
+    },
+    {
+      "task": "Yeah uh no, for su for sure because I'm will now type them out.",
+      "owner": "Project Manager",
+      "due": null,
+      "confidence": 0.98,
+      "said_by": "Project Manager"
+    },
+    {
+      "task": "I will make one in the next uh twenty minutes.",
+      "owner": "Industrial Designer",
+      "due": "in the next uh twenty minutes",
+      "confidence": 0.977,
+      "said_by": "Industrial Designer"
+    },
+    {
+      "task": "I'll again be the secretary and make minutes, take minutes, uh and it will be three presentations, just like the last meeting.",
+      "owner": "Project Manager",
+      "due": null,
+      "confidence": 0.971,
+      "said_by": "Project Manager"
+    },
+    {
+      "task": "But our des design experts will uh work that out.",
+      "owner": "Project Manager",
+      "due": null,
+      "confidence": 0.971,
+      "said_by": "Project Manager"
+    },
+    {
+      "task": "It has to be developed,",
+      "owner": "Project Manager",
+      "due": null,
+      "confidence": 0.966,
+      "said_by": "Project Manager"
+    },
+    {
+      "task": "Yes, because we have to uh we have to we have to bring the logo and all the stuff uh back into it.",
+      "owner": "team",
+      "due": null,
+      "confidence": 0.965,
+      "said_by": "Industrial Designer"
+    },
+    {
+      "task": "But then we also uh w need to bring out a line of T_V_s which we were planning to,",
+      "owner": "Marketing",
+      "due": null,
+      "confidence": 0.964,
+      "said_by": "Marketing"
+    },
+    {
+      "task": "Okay, you can you open the conceptual design presentation?",
+      "owner": null,
+      "due": null,
+      "confidence": 0.962,
+      "said_by": "Project Manager"
+    },
+    {
+      "task": "And we will make it spongy and and uh and uh well, the fruity thing is just the shape should be fru i did I think this is kind of fruity, you know.",
+      "owner": "team",
+      "due": null,
+      "confidence": 0.958,
+      "said_by": "Project Manager"
+    },
+    {
+      "task": "So we will wrap up.",
+      "owner": "team",
+      "due": null,
+      "confidence": 0.95,
+      "said_by": "Project Manager"
+    },
+    {
+      "task": "Um uh they're telling me that um when we build uh a remote control of um of plastic or rubber, the uh buttons have to be uh rubber too.",
+      "owner": "Industrial Designer",
+      "due": null,
+      "confidence": 0.941,
+      "said_by": "Industrial Designer"
+    },
+    {
+      "task": "but you gotta uh implement it in the T_V_s, and I don't think everyone's gonna buy a Real Reaction T_V_ within a month after the release of our uh remote control.",
+      "owner": "Marketing",
+      "due": "within a month",
+      "confidence": 0.929,
+      "said_by": "Marketing"
+    },
+    {
+      "task": "Yeah, we're gonna develop our own r n docking station.",
+      "owner": "Project Manager",
+      "due": null,
+      "confidence": 0.925,
+      "said_by": "Project Manager"
+    },
+    {
+      "task": "Just bring more designs on the market.",
+      "owner": "Marketing",
+      "due": null,
+      "confidence": 0.925,
+      "said_by": "Marketing"
+    },
+    {
+      "task": "But uh I've got a the email with uh with the possibilities.",
+      "owner": "Industrial Designer",
+      "due": null,
+      "confidence": 0.916,
+      "said_by": "Industrial Designer"
+    },
+    {
+      "task": "We can make this as a style too.",
+      "owner": "Industrial Designer",
+      "due": null,
+      "confidence": 0.915,
+      "said_by": "Industrial Designer"
+    },
+    {
+      "task": "Also, the speaker in the remote control, when we want to retrieve it.",
+      "owner": "Industrial Designer",
+      "due": null,
+      "confidence": 0.872,
+      "said_by": "Industrial Designer"
+    },
+    {
+      "task": "We can put the logo on our uh on our base station.",
+      "owner": "Marketing",
+      "due": null,
+      "confidence": 0.859,
+      "said_by": "Marketing"
+    },
+    {
+      "task": "And uh, we could bring one line with a dark colour uh to um uh p uh yeah",
+      "owner": "Marketing",
+      "due": null,
+      "confidence": 0.821,
+      "said_by": "Marketing"
+    },
+    {
+      "task": "and uh I also have to think about new functions, maybe buttons or something like that to control it.",
+      "owner": "User Interface",
+      "due": null,
+      "confidence": 0.815,
+      "said_by": "User Interface"
+    }
+  ]
+}

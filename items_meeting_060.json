@@ -1,0 +1,113 @@
+{
+  "source": "meeting_060.txt",
+  "sentences_scored": 370,
+  "threshold": 0.8,
+  "filtered_non_commitments": 0,
+  "action_items": [
+    {
+      "task": "I think we I I can come up with a a code for a module that we call the \" cognitive dispatcher \", which does nothing,",
+      "owner": "Grad D",
+      "due": null,
+      "confidence": 0.971,
+      "said_by": "Grad D"
+    },
+    {
+      "task": "And um I told her that we gonna um figure out a meeting time in the near future to refine the tasks and s look for the potential sources to find people.",
+      "owner": "Grad D",
+      "due": null,
+      "confidence": 0.969,
+      "said_by": "Grad D"
+    },
+    {
+      "task": "OK, I'll let you know.",
+      "owner": "Grad D",
+      "due": null,
+      "confidence": 0.958,
+      "said_by": "Grad D"
+    },
+    {
+      "task": "Right and then, once we've made the decision, how do we put that into the content?",
+      "owner": "Grad A",
+      "due": null,
+      "confidence": 0.933,
+      "said_by": "Grad A"
+    },
+    {
+      "task": "This will um be um a job to find ways of writing down Image schema, X - schema, constructions, in some some form, and have this be in a in a in the content, loosely called \" Constructicon \".",
+      "owner": "Grad D",
+      "due": null,
+      "confidence": 0.929,
+      "said_by": "Grad D"
+    },
+    {
+      "task": "So let me see if I can ask",
+      "owner": "Professor B",
+      "due": null,
+      "confidence": 0.918,
+      "said_by": "Professor B"
+    },
+    {
+      "task": "So we'd have to get rid of this and connect these things directly to the Mode.",
+      "owner": "Grad A",
+      "due": null,
+      "confidence": 0.893,
+      "said_by": "Grad A"
+    },
+    {
+      "task": "We're gonna have to work with it some.",
+      "owner": "Professor B",
+      "due": null,
+      "confidence": 0.891,
+      "said_by": "Professor B"
+    },
+    {
+      "task": "So I'm gonna hafta think about it some more.",
+      "owner": "Professor B",
+      "due": null,
+      "confidence": 0.873,
+      "said_by": "Professor B"
+    },
+    {
+      "task": "So maybe this is actually some some useful tool that we can use to rewrite it, and uh get this part,",
+      "owner": "Grad D",
+      "due": null,
+      "confidence": 0.866,
+      "said_by": "Grad D"
+    },
+    {
+      "task": "we didn't We didn't need to know beforehand, uh how long the bus trip takes or whatever, but but now that we know that's the way it's coming out then we gotta go find out more.",
+      "owner": "Professor B",
+      "due": null,
+      "confidence": 0.836,
+      "said_by": "Professor B"
+    },
+    {
+      "task": "So first of all, I agree that um we should hire Fey, and start paying her.",
+      "owner": "Professor B",
+      "due": null,
+      "confidence": 0.826,
+      "said_by": "Professor B"
+    },
+    {
+      "task": "There will be rules, but they aren't rules that come to final decisions, they're rules that gather information for a decision process.",
+      "owner": "Professor B",
+      "due": null,
+      "confidence": 0.813,
+      "said_by": "Professor B"
+    },
+    {
+      "task": "The uh other two things is um we've can have Johno tell us a little about this",
+      "owner": "Grad D",
+      "due": null,
+      "confidence": 0.806,
+      "said_by": "Grad D"
+    },
+    {
+      "task": "So what I kind of need to do is to take this one and the old one and merge them together?",
+      "owner": "Grad A",
+      "due": null,
+      "confidence": 0.8,
+      "said_by": "Grad A"
+    }
+  ]
+}

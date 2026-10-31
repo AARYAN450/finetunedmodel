@@ -1,0 +1,14 @@
+# Pinned from the first successful run (Python 3.13, CPU).
+# CPU-only torch: the dataset is ~1.4k sentences, so the GPU buys nothing here
+# and the CPU wheel is ~250 MB instead of ~2.5 GB. Training took 474s on an i7.
+# Install torch first -- it needs its own index:
+#   pip install torch==2.15.0+cpu --index-url https://download.pytorch.org/whl/cpu
+torch==2.15.0+cpu
+transformers==5.22.1
+tokenizers==0.23.3
+safetensors==0.8.0
+datasets==5.1.0
+accelerate==1.15.0
+scikit-learn==1.9.1
+pandas==3.1.0
+numpy==2.5.4

@@ -1,0 +1,22 @@
+{
+  "model": "roberta-base",
+  "epochs": 3,
+  "batch_size": 16,
+  "max_len": 64,
+  "lr": 2e-05,
+  "device": "cpu",
+  "train_seconds": 474.4,
+  "at_0.5": {
+    "precision": 0.8696,
+    "recall": 0.9231,
+    "f1": 0.8955
+  },
+  "best_threshold": {
+    "threshold": 0.5,
+    "precision": 0.8696,
+    "recall": 0.9231,
+    "f1": 0.8955
+  },
+  "test_rows": 285,
+  "test_positives": 65
+}

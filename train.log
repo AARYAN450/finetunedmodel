@@ -1,0 +1,72 @@
+device: cpu
+train 1341 rows (301 pos)
+test  336 rows (76 pos)
+
+Loading weights:   0%|          | 0/197 [00:00<?, ?it/s]Loading weights:  15%|#5        | 30/197 [00:00<00:00, 266.31it/s]Loading weights:  29%|##8       | 57/197 [00:00<00:00, 198.50it/s]Loading weights: 100%|##########| 197/197 [00:00<00:00, 695.45it/s]
+[transformers] [1mRobertaForSequenceClassification LOAD REPORT[0m from: roberta-base
+Key                        | Status     | 
+---------------------------+------------+-
+lm_head.layer_norm.bias    | UNEXPECTED | 
+lm_head.dense.bias         | UNEXPECTED | 
+lm_head.dense.weight       | UNEXPECTED | 
+lm_head.bias               | UNEXPECTED | 
+lm_head.layer_norm.weight  | UNEXPECTED | 
+classifier.out_proj.bias   | MISSING    | 
+classifier.out_proj.weight | MISSING    | 
+classifier.dense.bias      | MISSING    | 
+classifier.dense.weight    | MISSING    | 
+
+Notes:
+- UNEXPECTED:	can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+- MISSING:	those params were newly initialized because missing from the checkpoint. Consider training on your downstream task.
+class weights: [0.6447115540504456, 2.2275748252868652]
+  epoch 1 step 20/84 loss 0.6998
+  epoch 1 step 40/84 loss 0.6958
+  epoch 1 step 60/84 loss 0.6918
+  epoch 1 step 80/84 loss 0.6724
+epoch 1 done, mean loss 0.6645, 195s elapsed
+  epoch 2 step 20/84 loss 0.5191
+  epoch 2 step 40/84 loss 0.5275
+  epoch 2 step 60/84 loss 0.4826
+  epoch 2 step 80/84 loss 0.4638
+epoch 2 done, mean loss 0.4629, 412s elapsed
+  epoch 3 step 20/84 loss 0.3229
+  epoch 3 step 40/84 loss 0.3180
+  epoch 3 step 60/84 loss 0.3003
+  epoch 3 step 80/84 loss 0.3003
+epoch 3 done, mean loss 0.3031, 615s elapsed
+
+              precision    recall  f1-score   support
+
+           0      0.930     0.812     0.867       260
+           1      0.550     0.789     0.649        76
+
+    accuracy                          0.807       336
+   macro avg      0.740     0.801     0.758       336
+weighted avg      0.844     0.807     0.817       336
+
+confusion matrix [[tn fp] [fn tp]]:
+[[211  49]
+ [ 16  60]]
+
+ACTION-ITEM CLASS @0.50  precision=0.550 recall=0.789 f1=0.649
+
+threshold sweep:
+  0.20  p=0.482 r=0.882 f1=0.623
+  0.25  p=0.511 r=0.882 f1=0.647
+  0.30  p=0.512 r=0.829 f1=0.633
+  0.35  p=0.525 r=0.829 f1=0.643
+  0.40  p=0.538 r=0.829 f1=0.653  <- best so far
+  0.45  p=0.540 r=0.803 f1=0.646
+  0.50  p=0.550 r=0.789 f1=0.649
+  0.55  p=0.566 r=0.789 f1=0.659  <- best so far
+  0.60  p=0.570 r=0.750 f1=0.648
+  0.65  p=0.577 r=0.737 f1=0.647
+  0.70  p=0.598 r=0.724 f1=0.655
+  0.75  p=0.598 r=0.724 f1=0.655
+  0.80  p=0.625 r=0.724 f1=0.671  <- best so far
+
+best f1=0.671 at threshold 0.80 (p=0.625 r=0.724)
+Writing model shards:   0%|          | 0/1 [00:00<?, ?it/s]Writing model shards: 100%|##########| 1/1 [00:00<00:00,  3.36it/s]Writing model shards: 100%|##########| 1/1 [00:00<00:00,  3.36it/s]
+
+saved action_item_model/ and results_roberta.json
